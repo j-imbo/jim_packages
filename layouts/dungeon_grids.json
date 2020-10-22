@@ -16,7 +16,7 @@
             "cistern",
             "sandship",
             "sanc",
-            "skykeep"
+            "tri"
           ]
         ]
       },
@@ -231,16 +231,7 @@
                 "type": "item",
                 "item": "skykeepsk",
                 "canvas_depth": 1,
-                "canvas_left": 0,
-                "canvas_top": 16,
-                "width": 16,
-                "height": 16
-              },
-              {
-                "type": "item",
-                "item": "tri",
-                "canvas_depth": 1,
-                "canvas_left": 16,
+                "canvas_left": 8,
                 "canvas_top": 16,
                 "width": 16,
                 "height": 16
