@@ -60,7 +60,7 @@ end
 
 function volcano()
   local e2 = eldin2()
-  local fire = has("fe")
+  local fire = has("fse")
 
   return (e2 and fire)
 end

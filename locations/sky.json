@@ -382,7 +382,7 @@
                 "name": "Kina Crystals",
                 "item_count": 1,
                 "access_rules": [
-                  "sanc,$bottle,harp,eldin1,earth"
+                  "sanc,$bottle,harp,$eldin1,earth"
                 ]
               }
             ],

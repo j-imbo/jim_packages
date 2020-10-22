@@ -23,7 +23,7 @@
       },
       {
         "name": "Hook Beetle",
-        "codes": "beetle,hookbeetle,hb",
+        "codes": "beetle,hookbeetle,hb,hook",
         "img": "images/beetle_hook.png"
       }
     ]
@@ -38,7 +38,7 @@
     "name": "Clawshots",
     "type": "toggle",
     "img": "images/clawshots.png",
-    "codes": "cs,clawshots"
+    "codes": "cs,clawshots,claw"
   },
   {
     "name": "Whip",
@@ -72,7 +72,7 @@
   {
     "name": "Bomb Bag",
     "type": "toggle",
-    "codes": "bombs",
+    "codes": "bombs,bomb",
     "img": "images/bombs.png"
   },
   {

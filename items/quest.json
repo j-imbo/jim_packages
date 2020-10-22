@@ -68,7 +68,7 @@
     "name": "Adventure Pouch",
     "type": "toggle",
     "img": "images/adventure.png",
-    "codes": "pouch"
+    "codes": "adventure,pouch,ap"
   },
   {
     "name": "Baby Rattle",
@@ -173,7 +173,7 @@
     "type": "consumable",
     "max_quantity": 80,
     "img": "images/gratitude.png",
-    "codes": "grat",
+    "codes": "grat,gratitude",
     "increment": 5
   },
   {
