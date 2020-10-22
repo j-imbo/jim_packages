@@ -1,0 +1,224 @@
+{
+  "item_grid_mini": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,10",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "h_alignment": "center",
+        "content": [
+          {
+            "type": "array",
+            "orientation": "vertical",
+            "margin": "5,0",
+            "content": [
+              {
+                "type": "item",
+                "item": "shadow",
+                "margin": "1,2",
+                "width": 32,
+                "height": 32
+              },
+              {
+                "type": "canvas",
+                "width": 32,
+                "height": 12,
+                "margin": "1,2",
+                "content": [
+                  {
+                    "type": "item",
+                    "item": "shadow1label",
+                    "canvas_depth": 1,
+                    "width": 32,
+                    "height": 12
+                  }
+                ]
+              },
+              {
+                "type": "canvas",
+                "width": 32,
+                "height": 12,
+                "margin": "1,2",
+                "content": [
+                  {
+                    "type": "item",
+                    "item": "shadow2label",
+                    "canvas_depth": 1,
+                    "width": 32,
+                    "height": 12
+                  }
+                ]
+              },
+              {
+                "type": "canvas",
+                "width": 32,
+                "height": 12,
+                "margin": "1,2",
+                "content": [
+                  {
+                    "type": "item",
+                    "item": "shadow3label",
+                    "canvas_depth": 1,
+                    "width": 32,
+                    "height": 12
+                  }
+                ]
+              }   
+            ]
+          },
+          {
+            "type": "array",
+            "orientation": "vertical",
+            "margin": "5,0",
+            "content": [
+              {
+                "type": "item",
+                "item": "grounds",
+                "canvas_depth": 1,
+                "width": 32,
+                "height": 32
+              },
+              {
+                "type": "canvas",
+                "width": 32,
+                "height": 12,
+                "margin": "1,2",
+                "content": [
+                  {
+                    "type": "item",
+                    "item": "grounds_label",
+                    "canvas_depth": 1,
+                    "width": 32,
+                    "height": 12
+                  }
+                ]
+              },
+              {
+                "type": "canvas",
+                "width": 32,
+                "height": 12,
+                "margin": "1,2",
+                "content": [
+                  {
+                    "type": "item",
+                    "item": "palace_label",
+                    "canvas_depth": 1,
+                    "width": 32,
+                    "height": 12
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "item": "palace",
+                "canvas_depth": 1,
+                "width": 32,
+                "height": 32
+              }
+            ]
+          },
+          {
+            "type": "array",
+            "orientation": "vertical",
+            "margin": "5,0",
+            "content": [
+              {
+                "type": "item",
+                "item": "mirror",
+                "margin": "1,2",
+                "width": 32,
+                "height": 32
+              },
+              {
+                "type": "canvas",
+                "width": 32,
+                "height": 12,
+                "margin": "1,2",
+                "content": [
+                  {
+                    "type": "item",
+                    "item": "mirror1label",
+                    "canvas_depth": 1,
+                    "width": 32,
+                    "height": 12
+                  }
+                ]
+              },
+              {
+                "type": "canvas",
+                "width": 32,
+                "height": 12,
+                "margin": "1,2",
+                "content": [
+                  {
+                    "type": "item",
+                    "item": "mirror2label",
+                    "canvas_depth": 1,
+                    "width": 32,
+                    "height": 12
+                  }
+                ]
+              },
+              {
+                "type": "canvas",
+                "width": 32,
+                "height": 12,
+                "margin": "1,2",
+                "content": [
+                  {
+                    "type": "item",
+                    "item": "mirror3label",
+                    "canvas_depth": 1,
+                    "width": 32,
+                    "height": 12
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "itemgrid",
+        "h_alignment": "left",
+        "item_margin": "1,2",
+        "rows": [
+          [
+            "osword",
+            "ms",
+            "shield2",
+            "zarmor",
+            "bombbags",
+            "bombswater"
+          ],
+          [
+            "bow",
+            "sling",
+            "clawshot",
+            "boomerang",
+            "lantern",
+            "coral"
+          ],
+          [
+            "spinner",
+            "ballandchain",
+            "dominion",
+            "ironboots",
+            "skybook",
+            "skychar"
+          ],
+          [
+            "memosketch",
+            "letterstatue",
+            "invoicecharm",
+            "hiddenskills",
+            "poes",
+            "bugs"
+          ]
+        ]
+      }
+    ]
+  }
+}

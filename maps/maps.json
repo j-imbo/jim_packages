@@ -1,0 +1,14 @@
+﻿[
+  {
+    "name": "overworld",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/overworld.png"
+  },
+  {
+    "name": "sky",
+    "location_size": 30,
+    "location_border_thickness": 5,
+    "img": "images/sky.png"
+  }
+]

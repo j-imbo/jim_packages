@@ -1,0 +1,57 @@
+{
+  "tracker_capture_item": {
+    "type": "container",
+    "content": {
+      "type": "itemgrid",
+      "h_alignment": "center",
+      "item_margin": "1,2",
+      "rows": [
+        [
+          "sword0",
+          "shield1",
+          "shield2",
+          "beetle",
+          "mitts",
+          "amber",
+          "emerald"
+        ],
+        [
+          "slingshot",
+          "bombs",
+          "bellows",
+          "whip",
+          "bow",
+          "harp",
+          "ruby"
+        ],
+        [
+          "wds",
+          "fe",
+          "cs",
+          "stone",
+          "chart",
+          "bog",
+          "soh"
+        ],
+        [
+          "rattle",
+          "letter",
+          "hbc",
+          "pouch",
+          "bottle",
+          "fc",
+          "nw"
+        ],
+        [
+          "gratitude",
+          "keypiece",
+          "wallet",
+          "map",
+          "smallkey",
+          "rupee",
+          "dp"
+        ]
+      ]
+    }
+  }
+}

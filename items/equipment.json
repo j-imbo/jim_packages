@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Master Sword",
+    "type": "progressive",
+    "loop": false,
+    "stages":[
+      {
+        "img": "images/sword_practice.png",
+        "codes": "sword0,practicesword,ps"
+      },
+      {
+        "img": "images/sword_goddess.png",
+        "codes": "sword1,goddesssword,gs"
+      },
+      {
+        "img":"images/sword_long.png",
+        "codes":"sword2,longsword,ls"
+      },
+      {
+        "img": "images/sword_white.png",
+        "codes": "sword3,whitesword,ws"
+      },
+      {
+        "img": "images/sword_master.png",
+        "codes": "sword4,mastersword,ms"
+      },
+      {
+        "img": "images/sword_true.png",
+        "codes": "sword5,truesword,ts"
+      }
+    ]
+  },
+  {
+    "name": "Wooden Shield",
+    "type": "toggle",
+    "img": "images/shield_wooden.png",
+    "codes": "shield1,woodenshield,wshield"
+  },
+  {
+    "name": "Hylian Shield",
+    "type": "toggle",
+    "img": "images/shield_hylian.png",
+    "codes": "shield2,hylianshield,hshield"
+  },
+  {
+    "name": "Fireshield Earrings",
+    "type": "toggle",
+    "img": "images/earring.png",
+    "codes": "earrings,fireshield,fse"
+  },
+  {
+    "name": "Water Dragon's Scale",
+    "type": "toggle",
+    "img": "images/scale.png",
+    "codes": "waterdragon,scale,wds"
+  }
+]

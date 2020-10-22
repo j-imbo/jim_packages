@@ -1,0 +1,760 @@
+[
+  {
+    "name": "Sky",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_gray.png",
+    "chest_opened_img_mods": "dim",
+    "children": [
+      {
+        "name": "Skyloft",
+        "color": "#cc00cc",
+        "children": [
+          {
+            "name": "Academy",
+            "sections": [
+              {
+                "name": "Fledge",
+                "item_count": 1
+              },
+              {
+                "name": "Owlan",
+                "item_count": 1
+              },
+              {
+                "name": "Sword Chest",
+                "item_count": 1
+              },
+              {
+                "name": "Pumpkin Archer",
+                "item_count": 1,
+                "access_rules": [
+                  "mine,$bottle,bow"
+                ]
+              },
+              {
+                "name": "Zelda HP",
+                "item_count": 1,
+                "access_rules": [
+                  "claw"
+                ]
+              },
+              {
+                "name": "Cawlin's Letter",
+                "item_count": 1,
+                "access_rules": [
+                  "harp"
+                ]
+              },
+              {
+                "name": "Fledge Crystals",
+                "item_count": 1,
+                "access_rules": [
+                  "mine,$bottle"
+                ]
+              },
+              {
+                "name": "Ghost/Pipit Crystals",
+                "item_count": 1,
+                "access_rules": [
+                  "letter"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "sky",
+                "x": 970,
+                "y": 690
+              }
+            ]
+          },
+          {
+            "name": "Bazaar",
+            "sections": [
+              {
+                "name": "Potion Lady",
+                "item_count": 1
+              },
+              {
+                "name": "Bazaar Goddess Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "cube_AH"
+                ]
+              },
+              {
+                "name": "Sparrot Crystals",
+                "item_count": 1,
+                "access_rules": [
+                  "$past,$eldin2,cs"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "sky",
+                "x": 1000,
+                "y": 730
+              }
+            ]
+          },
+          {
+            "name": "Waterfall",
+            "sections": [
+              {
+                "name": "Cave First Chest",
+                "item_count": 1
+              },
+              {
+                "name": "Cave Second Chest",
+                "item_count": 1
+              },
+              {
+                "name": "Floating Island Goddess Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "cs,cube_Fl"
+                ]
+              },
+              {
+                "name": "Waterfall Goddess Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "cs,cube_PS"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "sky",
+                "x": 1070,
+                "y": 730
+              }
+            ]
+          },
+          {
+            "name": "Goddess Statue",
+            "sections": [
+              {
+                "name": "Goddess Sword",
+                "item_count": 1
+              },
+              {
+                "name": "Chest near Statue",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "sky",
+                "x": 1005,
+                "y": 645
+              }
+            ]
+          },
+          {
+            "name": "Lonely Floating Island",
+            "sections": [
+              {
+                "name": "Lonely Goddess Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "cube_WGT"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "sky",
+                "x": 965,
+                "y": 795
+              }
+            ]
+          },
+          {
+            "name": "Central Skyloft",
+            "sections": [
+              {
+                "name": "Shed Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "wds"
+                ]
+              },
+              {
+                "name": "Baby Rattle",
+                "item_count": 1,
+                "access_rules": [
+                  "gust,claw",
+                  "gust,$beedle"
+                ]
+              },
+              {
+                "name": "Shed Goddess Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "wds,cube_ES"
+                ]
+              },
+              {
+                "name": "Wyrna Crystals",
+                "item_count": 1
+              },
+              {
+                "name": "Peater/Peatrice Crystals",
+                "item_count": 1
+              },
+              {
+                "name": "Baby Crystals",
+                "item_count": 1,
+                "access_rules": [
+                  "rattle"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "sky",
+                "x": 1035,
+                "y": 730
+              }
+            ]
+          },
+          {
+            "name": "Southern Plaza",
+            "sections": [
+              {
+                "name": "Parrow Bottle",
+                "item_count": 1
+              },
+              {
+                "name": "Parrow Crystals",
+                "item_count": 1,
+                "access_rules": [
+                  "$bottle"
+                ]
+              },
+              {
+                "name": "Skyloft Silent Realm",
+                "item_count": 1,
+                "access_rules": [
+                  "soh,harp"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "sky",
+                "x": 1010,
+                "y": 775
+              }
+            ]
+          },
+          {
+            "name": "Eastern Skyloft",
+            "sections": [
+              {
+                "name": "Mallara Crystals",
+                "item_count": 1,
+                "access_rules": [
+                  "gust"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "sky",
+                "x": 1055,
+                "y": 760
+              }
+            ]
+          },
+          {
+            "name": "Batreaux",
+            "sections": [
+              {
+                "name": "5 Reward",
+                "item_count": 1,
+                "access_rules": [
+                  "gratitude:5"
+                ]
+              },
+              {
+                "name": "10 Reward",
+                "item_count": 1,
+                "access_rules": [
+                  "gratitude:10"
+                ]
+              },
+              {
+                "name": "30 Reward",
+                "item_count": 1,
+                "access_rules": [
+                  "gratitude:30"
+                ]
+              },
+              {
+                "name": "30 Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "gratitude:30"
+                ]
+              },
+              {
+                "name": "40 Reward",
+                "item_count": 1,
+                "access_rules": [
+                  "gratitude:40"
+                ]
+              },
+              {
+                "name": "50 Reward",
+                "item_count": 1,
+                "access_rules": [
+                  "gratitude:50"
+                ]
+              },
+              {
+                "name": "70 Reward",
+                "item_count": 1,
+                "access_rules": [
+                  "gratitude:70"
+                ]
+              },
+              {
+                "name": "70 Reward 2",
+                "item_count": 1,
+                "access_rules": [
+                  "gratitude:70"
+                ]
+              },
+              {
+                "name": "80 Reward",
+                "item_count": 1,
+                "access_rules": [
+                  "gratitude:80"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "sky",
+                "x": 1050,
+                "y": 785
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Outer Skies",
+        "color": "#00cccc",
+        "children": [
+          {
+            "name": "Lumpy Pumpkin",
+            "sections": [
+              {
+                "name": "Room Goddess Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "cube_SVS"
+                ]
+              },
+              {
+                "name": "Lumpy Pumpkin Goddess Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "cube_Initial"
+                ]
+              },
+              {
+                "name": "Chandelier",
+                "item_count": 1
+              },
+              {
+                "name": "Harp Minigame",
+                "item_count": 1,
+                "access_rules": [
+                  "harp,$bottle,earth"
+                ]
+              },
+              {
+                "name": "Kina Crystals",
+                "item_count": 1,
+                "access_rules": [
+                  "sanc,$bottle,harp,eldin1,earth"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "sky",
+                "x": 1450,
+                "y": 950
+              }
+            ]
+          },
+          {
+            "name": "Beedle's Island",
+            "sections": [
+              {
+                "name": "Bug Net",
+                "hosted_item": "bugnet",
+                "access_rules": [
+                  "$beedle"
+                ]
+              },
+              {
+                "name": "Beedle Goddess Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "cube_ToT"
+                ]
+              },
+              {
+                "name": "Caged Goddess Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "$beedle,cube_SV"
+                ]
+              },
+              {
+                "name": "Nearby Island Goddess Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "cube_MTE"
+                ]
+              },
+              {
+                "name": "Beedle Crystals",
+                "access_rules": [
+                  "$beedle,hcb"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "sky",
+                "x": 1580,
+                "y": 265
+              }
+            ]
+          },
+          {
+            "name": "Fun Fun Island",
+            "sections": [
+              {
+                "name": "Fun Fun Minigame",
+                "item_count": 1,
+                "access_rules": [
+                  "$wheel"
+                ]
+              },
+              {
+                "name": "Dodoh Crystals",
+                "item_count": 1,
+                "access_rules": [
+                  "$wheel"
+                ]
+              },
+              {
+                "name": "Fun Fun Goddess Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "cube_FW"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "sky",
+                "x": 475,
+                "y": 970
+              }
+            ]
+          },
+          {
+            "name": "Bamboo Island",
+            "sections": [
+              {
+                "name": "Bamboo Goddess Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "cube_ETW"
+                ]
+              },
+              {
+                "name": "Nearby Island Goddess Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "wds,cube_SP"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "sky",
+                "x": 1175,
+                "y": 245
+              }
+            ]
+          },
+          {
+            "name": "NE Island",
+            "sections": [
+              {
+                "name": "Vines Goddess Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "cube_ETE"
+                ]
+              },
+              {
+                "name": "Rocky Goddess Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "cube_LME,bombs"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "sky",
+                "x": 1710,
+                "y": 385
+              }
+            ]
+          },
+          {
+            "name": "Volcanic Island",
+            "sections": [
+              {
+                "name": "Inside Goddess Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "cube_EGTcs"
+                ]
+              },
+              {
+                "name": "Outside Goddess Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "cube_SO"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "sky",
+                "x": 875,
+                "y": 1045
+              }
+            ]
+          },
+          {
+            "name": "Faron Pillar Island",
+            "sections": [
+              {
+                "name": "Pillar Goddess Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "cube_DW"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "sky",
+                "x": 1025,
+                "y": 1170
+              }
+            ]
+          },
+          {
+            "name": "South of Thunderhead",
+            "sections": [
+              {
+                "name": "Exposed Goddess Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "cube_EE"
+                ]
+              },
+              {
+                "name": "Vines Goddess Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "cube_HBF"
+                ]
+              },
+              {
+                "name": "Caged Goddess Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "claw,cube_SR"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "sky",
+                "x": 365,
+                "y": 880
+              }
+            ]
+          },
+          {
+            "name": "Orielle's Island",
+            "sections": [
+              {
+                "name": "Orielle Crystals",
+                "item_count": 1,
+                "access_rules": [
+                  "$bottle"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "sky",
+                "x": 645,
+                "y": 870
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Thunderhead",
+        "color": "#",
+        "access_rules": [
+          "$thunderhead"
+        ],
+        "children": [
+          {
+            "name": "Isle of Song",
+            "sections": [
+              {
+                "name": "Farore's Courage",
+                "item_count": 1,
+                "access_rules": [
+                  "gs"
+                ]
+              },
+              {
+                "name": "Nayru's Wisdom",
+                "item_count": 1,
+                "access_rules": [
+                  "ls"
+                ]
+              },
+              {
+                "name": "Din's Power",
+                "item_count": 1,
+                "access_rules": [
+                  "ws"
+                ]
+              },
+              {
+                "name": "Outside Goddess Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "cube_MT"
+                ]
+              },
+              {
+                "name": "Top Goddess Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "cube_FSE"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "sky",
+                "x": 370,
+                "y": 280
+              }
+            ]
+          },
+          {
+            "name": "East Thunderhead Island",
+            "sections": [
+              {
+                "name": "East Chest",
+                "item_count": 1
+              },
+              {
+                "name": "East Goddess Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "cube_EGTr"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "sky",
+                "x": 520,
+                "y": 205
+              }
+            ]
+          },
+          {
+            "name": "Bug Rock",
+            "sections": [
+              {
+                "name": "Bug Minigame",
+                "item_count": 0,
+                "access_rules": [
+                  "bugnet"
+                ]
+              },
+              {
+                "name": "Bug Goddess Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "cube_SW"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "sky",
+                "x": 250,
+                "y": 510
+              }
+            ]
+          },
+          {
+            "name": "Mogma Mitts Island",
+            "sections": [
+              {
+                "name": "First Goddess Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "mogma,cube_VS"
+                ]
+              },
+              {
+                "name": "Second Goddess Chest",
+                "item_count": 0,
+                "access_rules": [
+                  "mitts,cube_LG"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "sky",
+                "x": 260,
+                "y": 360
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

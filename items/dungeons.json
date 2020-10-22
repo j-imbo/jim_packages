@@ -1,0 +1,228 @@
+[
+   {
+    "name": "Skyview Temple Label",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/label_skyview.png",
+        "codes": "skyview_label"
+      },
+      {
+        "img": "images/label_skyviewO.png"
+      }
+    ]
+  },
+  {
+    "name": "Skyview Temple Small Keys",
+    "type": "consumable",
+    "img": "images/smallkey.png",
+    "codes": "skyviewsk",
+    "max_quantity": 2
+  },
+  {
+    "name": "Golden Carving",
+    "type": "toggle",
+    "img": "images/bk-st.png",
+    "codes": "skyviewbk"
+  },
+  {
+    "name": "Earth Temple Label",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/label_earth.png",
+        "codes": "earth_label"
+      },
+      {
+        "img": "images/label_earthO.png"
+      }
+    ]
+  },
+  {
+    "name": "Earth Temple Small Keys",
+    "type": "consumable",
+    "img": "images/smallkey.png",
+    "codes": "earthsk",
+    "max_quantity": 0
+  },
+  {
+    "name": "Dragon Sculpture",
+    "type": "toggle",
+    "img": "images/bk-et.png",
+    "codes": "earthbk"
+  },
+  {
+    "name": "Lanayru Mining Facility Label",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/label_mine.png",
+        "codes": "mine_label"
+      },
+      {
+        "img": "images/label_mineO.png"
+      }
+    ]
+  },
+  {
+    "name": "Lanayru Mining Facility Small Keys",
+    "type": "consumable",
+    "img": "images/smallkey.png",
+    "codes": "minesk",
+    "max_quantity": 2
+  },
+  {
+    "name": "Ancient Circuit",
+    "type": "toggle",
+    "img": "images/bk-lmf.png",
+    "codes": "minebk"
+  },
+  {
+    "name": "Ancient Cistern Label",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/label_cistern.png",
+        "codes": "cistern_label"
+      },
+      {
+        "img": "images/label_cisternO.png"
+      }
+    ]
+  },
+  {
+    "name": "Ancient Cistern Small Keys",
+    "type": "consumable",
+    "img": "images/smallkey.png",
+    "codes": "cisternsk",
+    "max_quantity": 3
+  },
+  {
+    "name": "Blessed Idol",
+    "type": "toggle",
+    "img": "images/bk-ac.png",
+    "codes": "cisternbk"
+  },
+  {
+    "name": "Sandship Label",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/label_ship.png",
+        "codes": "sandship_label"
+      },
+      {
+        "img": "images/label_shipO.png"
+      }
+    ]
+  },
+  {
+    "name": "Sandship Small Keys",
+    "type": "consumable",
+    "img": "images/smallkey.png",
+    "codes": "sandshipsk",
+    "max_quantity": 2
+  },
+  {
+    "name": "Squid Carving",
+    "type": "toggle",
+    "img": "images/bk-ss.png",
+    "codes": "sandshipbk"
+  },
+  {
+    "name": "Fire Sanctuary Label",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/label_sanc.png",
+        "codes": "sanc_label"
+      },
+      {
+        "img": "images/label_sancO.png"
+      }
+    ]
+  },
+  {
+    "name": "Fire Sanctuary Small Keys",
+    "type": "consumable",
+    "img": "images/smallkey.png",
+    "codes": "sancsk",
+    "max_quantity": 3
+  },
+  {
+    "name": "Mysterious Crystals",
+    "type": "toggle",
+    "img": "images/bk-fs.png",
+    "codes": "sancbk"
+  },
+  {
+    "name": "Sky Keep Label",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/label_keep.png",
+        "codes": "skykeep_label"
+      },
+      {
+        "img": "images/label_keepO.png"
+      }
+    ]
+  },
+  {
+    "name": "Sky Keep Small Keys",
+    "type": "toggle",
+    "img": "images/smallkey.png",
+    "codes": "skykeepsk"
+  },
+  {
+    "name": "Triforce Pieces",
+    "type": "consumable",
+    "max_quantity": 3,
+    "img": "images/triforcePiece.png",
+    "codes": "tri"
+  },
+  {
+    "name": "Sky Keep Required",
+    "type": "toggle",
+    "img": "images/triforce.png",
+    "codes": "skykeep"
+  },
+  {
+    "name": "Lanayru Caves Label",
+    "type": "static",
+    "img": "images/label_cave.png",
+    "codes": "cave_label"
+  },
+  {
+    "name": "Lanayru Caves Small Key",
+    "type": "toggle",
+    "img": "images/smallkey.png",
+    "codes": "cavesk"
+  },
+  {
+    "name": "Map Capture",
+    "type": "toggle",
+    "img": "images/map.png",
+    "codes": "map"
+  },
+  {
+    "name": "Small Key Capture",
+    "type": "toggle",
+    "img": "images/smallkey.png",
+    "codes": "smallkey"
+  }
+]

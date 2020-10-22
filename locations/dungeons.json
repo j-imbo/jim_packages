@@ -1,0 +1,633 @@
+[
+  {
+    "name": "World",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_gray.png",
+    "location_size": 15,
+    "chest_opened_img_mods": "@disabled",
+    "children": [
+      {
+        "name": "Skyview Temple",
+        "access_rules": [
+          "$skyview_acc"
+        ],
+        "parent": "Faron",
+        "sections": [
+          {
+            "name": "Map Chest",
+            "item_count": 1,
+            "access_rules": [
+              "$skyview0"
+            ]
+          },
+          {
+            "name": "Small Key Digspot",
+            "item_count": 1,
+            "access_rules": [
+              "$skyview1,mitts,wds"
+            ]
+          },
+          {
+            "name": "Behind Two Eyes",
+            "item_count": 1,
+            "access_rules": [
+              "$skyview1"
+            ]
+          },
+          {
+            "name": "Beetle",
+            "item_count": 1,
+            "access_rules": [
+              "skyviewsk:1,sling",
+              "skyviewsk:1,cs",
+              "skyviewsk:1,beetle",
+              "skyviewsk:1,bow"
+            ]
+          },
+          {
+            "name": "Behind Bars in Hub",
+            "item_count": 1,
+            "access_rules": [
+              "beetle,skyviewsk:1"
+            ]
+          },
+          {
+            "name": "Behind Three Eyes",
+            "item_count": 1,
+            "access_rules": [
+              "beetle,skyviewsk:1"
+            ]
+          },
+          {
+            "name": "Near Boss Door",
+            "item_count": 1,
+            "access_rules": [
+              "skyviewsk:2,bombs",
+              "skyviewsk:2,beetle",
+              "skyviewsk:2,bow",
+              "skyviewsk:2,wds"
+            ]
+          },
+          {
+            "name": "Puzzle Key",
+            "item_count": 1,
+            "access_rules": [
+              "skyviewsk:2,bombs",
+              "skyviewsk:2,beetle",
+              "skyviewsk:2,bow",
+              "skyviewsk:2,wds"
+            ]
+          },
+          {
+            "name": "Skyview Heart Container",
+            "item_count": 1,
+            "access_rules": [
+              "skyviewbk,skyviewsk:2,bombs",
+              "skyviewbk,skyviewsk:2,beetle",
+              "skyviewbk,skyviewsk:2,bow",
+              "skyviewbk,skyviewsk:2,wds"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 390,
+            "y": 110
+          }
+        ]
+      },
+      {
+        "name": "Skyview Spring",
+        "parent": "Skyview Temple",
+        "access_rules": [
+          "skyviewbk,skyviewsk:2,bombs",
+          "skyviewbk,skyviewsk:2,beetle",
+          "skyviewbk,skyviewsk:2,bow",
+          "skyviewbk,skyviewsk:2,wds"
+        ],
+        "sections": [
+          {
+            "name": "Ruby Tablet",
+            "item_counts": 1
+          },
+          {
+            "name": "Cube: Skyview Spring",
+            "hosted_item": "cube_SVS",
+            "access_rules": [
+              "$cube_svs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 410,
+            "y": 90
+          }
+        ]
+      },
+      {
+        "name": "Earth Temple",
+        "parent": "Volcano Ascent",
+        "access_rules": [
+          "$earth_acc"
+        ],
+        "sections": [
+          {
+            "name": "First Chest",
+            "item_count": 1,
+            "access_rules": [
+              "mitts"
+            ]
+          },
+          {
+            "name": "Behind Boulder",
+            "item_count": 1,
+            "access_rules": [
+              "bow",
+              "beetle"
+            ]
+          },
+          {
+            "name": "After Boulder",
+            "item_count": 1,
+            "access_rules": [
+              "bow",
+              "beetle"
+            ]
+          },
+          {
+            "name": "Map Chest",
+            "item_count": 1,
+            "access_rules": [
+              "bow,bombs",
+              "beetle,bombs",
+              "hook"
+            ]
+          },
+          {
+            "name": "Bomb Bag",
+            "item_count": 1,
+            "access_rules": [
+              "bow",
+              "beetle"
+            ]
+          },
+          {
+            "name": "Ledd Bombs",
+            "item_count": 1,
+            "access_rules": [
+              "bow",
+              "beetle"
+            ]
+          },
+          {
+            "name": "Lizalfos Chest",
+            "item_count": 1,
+            "access_rules": [
+              "hook",
+              "bombs,beetle"
+            ]
+          },
+          {
+            "name": "Puzzle Key",
+            "item_count": 1,
+            "access_rules": [
+              "hook",
+              "bombs,beetle,mitts"
+            ]
+          },
+          {
+            "name": "Earth Heart Container",
+            "item_count": 1,
+            "access_rules": [
+              "bombs,hook,earthbk",
+              "bombs,beetle,mitts,earthbk"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 255,
+            "y": 60
+          }
+        ]
+      },
+      {
+        "name": "Earth Spring",
+        "parent": "Earth Temple",
+        "access_rules": [
+          "bombs,hook,earthbk",
+          "bombs,beetle,mitts,earthbk"
+        ],
+        "sections": [
+          {
+            "name": "Amber Tablet",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 240,
+            "y": 50
+          }
+        ]
+      },
+      {
+        "name": "Lanayru Mining Facility",
+        "parent": "Lanayru Desert",
+        "access_rules": [
+          "$mine_acc"
+        ],
+        "sections": [
+          {
+            "name": "Behind Bars",
+            "item_count": 1
+          },
+          {
+            "name": "First Hub Chest",
+            "item_count": 1,
+            "access_rules": [
+              "hook"
+            ]
+          },
+          {
+            "name": "Chest Behind Locked Door",
+            "item_count": 1,
+            "access_rules": [
+              "minesk:1,hook"
+            ]
+          },
+          {
+            "name": "Gust Bellows",
+            "item_count": 1,
+            "access_rules": [
+              "minesk:1,hook"
+            ]
+          },
+          {
+            "name": "Chest in Bellows Room",
+            "item_count": 1,
+            "access_rules": [
+              "minesk:1,hook"
+            ]
+          },
+          {
+            "name": "First West Room",
+            "item_count": 1,
+            "access_rules": [
+              "hook,bellows"
+            ]
+          },
+          {
+            "name": "Map Chest",
+            "item_count": 1,
+            "access_rules": [
+              "hook,bellows"
+            ]
+          },
+          {
+            "name": "First Crawlspace",
+            "item_count": 1,
+            "access_rules": [
+              "hook,bellows"
+            ]
+          },
+          {
+            "name": "Second Crawlspace",
+            "item_count": 1,
+            "access_rules": [
+              "hook,bellows"
+            ]
+          },
+          {
+            "name": "Puzzle Key",
+            "item_count": 1,
+            "access_rules": [
+              "hook,bellows,bombs"
+            ]
+          },
+          {
+            "name": "Chest After Puzzle Chest",
+            "item_count": 1,
+            "access_rules": [
+              "hook,bellows,bombs"
+            ]
+          },
+          {
+            "name": "Facility Heart Container",
+            "item_count": 1,
+            "access_rules": [
+              "hook,bellows,minebk"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 170,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Ancient Cistern",
+        "parent": "Lake Floria",
+        "access_rules": [
+          "$cistern_acc"
+        ],
+        "sections": [
+          {
+            "name": "Small Key Chest",
+            "item_count": 1,
+            "access_rules": [
+              "wds"
+            ]
+          },
+          {
+            "name": "Whip",
+            "item_count": 1,
+            "access_rules": [
+              "cisternsk:2"
+            ]
+          },
+          {
+            "name": "Map Chest",
+            "item_count": 1,
+            "access_rules": [
+              "whip"
+            ]
+          },
+          {
+            "name": "Vines Chest",
+            "item_count": 1,
+            "access_rules": [
+              "whip,cs",
+              "whip,wds,bow,cisternsk:2",
+              "whip,wds,beetle,cisternsk:2"
+            ]
+          },
+          {
+            "name": "Behind Waterfall",
+            "item_count": 1,
+            "access_rules": [
+              "wds,whip"
+            ]
+          },
+          {
+            "name": "Bokoblin",
+            "item_count": 1,
+            "access_rules": [
+              "wds,whip,bow",
+              "wds,whip,beetle"
+            ]
+          },
+          {
+            "name": "Puzzle Key Chest",
+            "item_count": 1,
+            "access_rules": [
+              "whip,cs",
+              "whip,wds,cisternsk:2,hook"
+            ]
+          },
+          {
+            "name": "Cistern Heart Container",
+            "item_count": 1,
+            "access_rules": [
+              "whip,cisternbk,cs",
+              "whip,cisternbk,cisternsk:2"
+            ]
+          },
+          {
+            "name": "Farore's Flame",
+            "item_count": 1,
+            "access_rules": [
+              "whip,cisternbk,cs",
+              "whip,cisternbk,cisternsk:2"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 350,
+            "y": 220
+          }
+        ]
+      },
+      {
+        "name": "Sandship",
+        "parent": "Sand Sea",
+        "access_rules": [
+          "$sandship_acc"
+        ],
+        "sections": [
+          {
+            "name": "Behind Combination Lock",
+            "item_count": 1
+          },
+          {
+            "name": "Bow",
+            "item_count": 1,
+            "access_rules": [
+              "shipsk:2"
+            ]
+          },
+          {
+            "name": "Heart Piece Chest",
+            "item_count": 1,
+            "access_rules": [
+              "bow,cs"
+            ]
+          },
+          {
+            "name": "Map Chest",
+            "item_count": 1,
+            "access_rules": [
+              "bow"
+            ]
+          },
+          {
+            "name": "Treasure Room",
+            "item_count": 5,
+            "access_rules": [
+              "bow,whip"
+            ]
+          },
+          {
+            "name": "Brig Robot",
+            "item_count": 1,
+            "access_rules": [
+              "bow,whip"
+            ]
+          },
+          {
+            "name": "Puzzle Key Chest",
+            "item_count": 1,
+            "access_rules": [
+              "bow,shipsk:2"
+            ]
+          },
+          {
+            "name": "Sandship Heart Container",
+            "item_count": 1,
+            "access_rules": [
+              "bow,shipbk"
+            ]
+          },
+          {
+            "name": "Nayru's Flame",
+            "item_count": 1,
+            "access_rules": [
+              "bow,shipbk"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 60,
+            "y": 170
+          }
+        ]
+      },
+      {
+        "name": "Fire Sanctuary",
+        "parent": "Volcano Summit",
+        "access_rules": [
+          "$sanc_acc"
+        ],
+        "sections": [
+          {
+            "name": "First Room",
+            "item_count": 1,
+            "access_rules": [
+              "$waterpod"
+            ]
+          },
+          {
+            "name": "After Outside Section",
+            "item_count": 1,
+            "access_rules": [
+              "$waterpod,sancsk:1"
+            ]
+          },
+          {
+            "name": "Second Small Key",
+            "item_count": 1,
+            "access_rules": [
+              "hook,bellows,sancsk:1"
+            ]
+          },
+          {
+            "name": "Water Pod Room",
+            "item_count": 2,
+            "access_rules": [
+              "hook,sancsk:2"
+            ]
+          },
+          {
+            "name": "Mogma Mitts",
+            "item_count": 2,
+            "access_rules": [
+              "hook,sancsk:2"
+            ]
+          },
+          {
+            "name": "Sanc Bottle",
+            "item_count": 1,
+            "access_rules": [
+              "$waterpod,sancsk:1,mogma"
+            ]
+          },
+          {
+            "name": "Map Chest",
+            "item_count": 1,
+            "access_rules": [
+              "hook,cs,sancsk:2,mogma,bellows"
+            ]
+          },
+          {
+            "name": "Third Small Key",
+            "item_count": 1,
+            "access_rules": [
+              "hook,cs,sancsk:2,mogma,bellows,bombs"
+            ]
+          },
+          {
+            "name": "Plats Chest",
+            "item_count": 1,
+            "access_rules": [
+              "hook,sancsk:3,mogma"
+            ]
+          },
+          {
+            "name": "Staircase Room",
+            "item_count": 1,
+            "access_rules": [
+              "hook,cs,sancsk:3,mogma"
+            ]
+          },
+          {
+            "name": "Puzzle Key Chest",
+            "item_count": 1,
+            "access_rules": [
+              "hook,cs,sancsk:3,mogma"
+            ]
+          },
+          {
+            "name": "Sanctuary Heart Container",
+            "item_count": 1,
+            "access_rules": [
+              "hook,sancsk:3,mogma,sancbk"
+            ]
+          },
+          {
+            "name": "Din's Flame",
+            "item_count": 1,
+            "access_rules": [
+              "hook,sancsk:3,mogma,sancbk"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 325,
+            "y": 35
+          }
+        ]
+      },
+      {
+        "name": "Skykeep",
+        "parent": "Skyloft",
+        "access_rules": [
+          "$skykeep_acc"
+        ],
+        "sections": [
+          {
+            "name": "Map Chest",
+            "item_count": 1
+          },
+          {
+            "name": "Small Key Chest",
+            "item_count": 1,
+            "access_rules": [
+              "bellows,whip,bow,cs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sky",
+            "x": 1000,
+            "y": 600
+          }
+        ]
+      }
+    ]
+  }
+]

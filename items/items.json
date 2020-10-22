@@ -1,0 +1,91 @@
+[
+  {
+    "name": "Bow",
+    "type": "toggle",
+    "codes": "bow",
+    "img": "images/bow.png"
+  },
+  {
+    "name": "Slingshot",
+    "type": "toggle",
+    "img": "images/slingshot.png",
+    "codes": "slingshot,sling"
+  },
+  {
+    "name": "Beetle",
+    "type": "progressive",
+    "codes": "beetle",
+    "stages": [
+      {
+        "name": "Beetle",
+        "codes": "beetle",
+        "img": "images/beetle.png"
+      },
+      {
+        "name": "Hook Beetle",
+        "codes": "beetle,hookbeetle,hb",
+        "img": "images/beetle_hook.png"
+      }
+    ]
+  },
+  {
+    "name": "Gust Bellows",
+    "type": "toggle",
+    "img": "images/bellows.png",
+    "codes": "bellows,gust"
+  },
+  {
+    "name": "Clawshots",
+    "type": "toggle",
+    "img": "images/clawshots.png",
+    "codes": "cs,clawshots"
+  },
+  {
+    "name": "Whip",
+    "type": "toggle",
+    "img": "images/whip.png",
+    "codes": "whip"
+  },
+  {
+    "name": "Bug Net",
+    "type": "toggle",
+    "codes": "bugnet",
+    "img": "images/bugnet.png"
+  },
+  {
+    "name": "Mitts",
+    "type": "progressive",
+    "codes": "mitts",
+    "stages": [
+      {
+        "name": "Digging Mitts",
+        "img": "images/mitts_digging.png",
+        "codes": "digging,mitts"
+      },
+      {
+        "name": "Mogma Mitts",
+        "img": "images/mitts_mogma.png",
+        "codes": "mogma,mitts"
+      }
+    ]
+  },
+  {
+    "name": "Bomb Bag",
+    "type": "toggle",
+    "codes": "bombs",
+    "img": "images/bombs.png"
+  },
+  {
+    "name": "Bottle",
+    "type": "consumable",
+    "img": "images/bottle.png",
+    "codes": "bottle",
+    "max_quantity": 5
+  },
+  {
+    "name": "Bottle",
+    "type": "toggle",
+    "img": "images/bottle.png",
+    "codes": "bottlecapture"
+  }
+]

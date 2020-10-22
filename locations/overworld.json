@@ -1,0 +1,850 @@
+[
+  {
+    "name": "World",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_gray.png",
+    "chest_opened_img_mods": "@disabled",
+    "children": [
+      {
+        "name": "Faron",
+        "color": "#00cc00",
+        "children": [
+          {
+            "name": "Sealed Grounds",
+            "children": [
+              {
+                "name": "Sealed Temple",
+                "access_rules": [
+                  "$sealedtemple"
+                ],
+                "sections": [
+                  {
+                    "name": "Inside Temple",
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Ballad of the Goddess",
+                    "item_count": 1,
+                    "access_rules": [
+                      "harp"
+                    ]
+                  },
+                  {
+                    "name": "Gorko Goddess Wall Reward",
+                    "item_count": 1,
+                    "access_rules": [
+                      "$walls"
+                    ]
+                  },
+                  {
+                    "name": "Behind Triforce on Wall",
+                    "item_count": 0,
+                    "access_rules": [
+                      "$walls,bow,bombs,$levias"
+                    ]
+                  },
+                  {
+                    "name": "True Master Sword",
+                    "item_count": 1,
+                    "access_rules": [
+                      "$past"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "overworld",
+                    "x": 265,
+                    "y": 200
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Faron Woods",
+            "access_rules": [
+              "$sealedtemple"
+            ],
+            "sections": [
+              {
+                "name": "Tree HP",
+                "item_count": 1
+              },
+              {
+                "name": "Slingshot",
+                "item_count": 1
+              },
+              {
+                "name": "HP behind Boulder",
+                "item_count": 1,
+                "access_rules": [
+                  "bombs"
+                ]
+              },
+              {
+                "name": "Faron Treasure",
+                "item_count": 1,
+                "access_rules": [
+                  "bombs"
+                ]
+              },
+              {
+                "name": "Great Tree Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "bellows,wds",
+                  "cs"
+                ]
+              },
+              {
+                "name": "Faron Silent Realm",
+                "item_count": 1,
+                "access_rules": [
+                  "fc,harp"
+                ]
+              },
+              {
+                "name": "Cube: West Great Tree",
+                "hosted_item": "cube_WGT",
+                "access_rules": [
+                  "$cube_wgt"
+                ]
+              },
+              {
+                "name": "Cube: East Great Tree w/ Rope",
+                "hosted_item": "cube_EGTr",
+                "access_rules": [
+                  "$cube_egtr"
+                ]
+              },
+              {
+                "name": "Cube: East Great Tree w/ Clawshot",
+                "hosted_item": "cube_EGTcs",
+                "access_rules": [
+                  "$cube_egtcs"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 370,
+                "y": 185
+              }
+            ]
+          },
+          {
+            "name": "Deep Woods",
+            "access_rules": [
+              "$deepwoods"
+            ],
+            "sections": [
+              {
+                "name": "Deep Woods Chest",
+                "item_count": 1
+              },
+              {
+                "name": "Cube: Initial",
+                "hosted_item": "cube_Initial",
+                "access_rules": [
+                  "$cube_initial"
+                ]
+              },
+              {
+                "name": "Cube: Deep Woods",
+                "hosted_item": "cube_DW",
+                "access_rules": [
+                  "$cube_dw"
+                ]
+              },
+              {
+                "name": "Cube: Atop Skyview",
+                "hosted_item": "cube_SV",
+                "access_rules": [
+                  "$cube_sv"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 380,
+                "y": 130
+              }
+            ]
+          },
+          {
+            "name": "Lake Floria",
+            "access_rules": [
+              "$sealedtemple,$floria"
+            ],
+            "sections": [
+              {
+                "name": "Outside Cistern Chest",
+                "item_count": 0,
+                "access_rules": [
+                  "beetle"
+                ]
+              },
+              {
+                "name": "Dragon Lair Chests",
+                "item_count": 2
+              },
+              {
+                "name": "Lake Floria Chest",
+                "item_count": 1
+              },
+              {
+                "name": "Cube: Lake Floria",
+                "hosted_item": "cube_Fl",
+                "access_rules": [
+                  "$cube_fl"
+                ]
+              },
+              {
+                "name": "Cube: Floria Waterfall",
+                "hosted_item": "cube_FW",
+                "access_rules": [
+                  "$cube_fw"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 400,
+                "y": 240
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Eldin",
+        "access_rules": [
+          "$eldin1"
+        ],
+        "color": "#cc0000",
+        "children": [
+          {
+            "name": "Lower Volcano",
+            "sections": [
+              {
+                "name": "Behind Bombable Wall",
+                "item_count": 1
+              },
+              {
+                "name": "Crawlspace Chest",
+                "item_count": 1
+              },
+              {
+                "name": "Cliff Behind Bombable Wall",
+                "item_count": 1
+              },
+              {
+                "name": "Cliff HP",
+                "item_count": 1
+              },
+              {
+                "name": "Cube: Eldin Entrance",
+                "hosted_item": "cube_EE",
+                "access_rules": [
+                  "$cube_ee"
+                ]
+              },
+              {
+                "name": "Cube: Mogma Turf Entrance",
+                "hosted_item": "cube_MTE",
+                "access_rules": [
+                  "$cube_mte"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 260,
+                "y": 90
+              }
+            ]
+          },
+          {
+            "name": "Volcano Ascent",
+            "sections": [
+              {
+                "name": "Ascent Bombable Wall",
+                "access_rules": [
+                  "$eldin2"
+                ],
+                "item_count": 1
+              },
+              {
+                "name": "Digging Spot near ET",
+                "item_count": 1,
+                "access_rules": [
+                  "mitts"
+                ]
+              },
+              {
+                "name": "Digging Spot under Tower",
+                "item_count": 1,
+                "access_rules": [
+                  "mitts"
+                ]
+              },
+              {
+                "name": "Digging Spot on Sandy Slopes",
+                "item_count": 1,
+                "access_rules": [
+                  "mitts"
+                ]
+              },
+              {
+                "name": "Digging Spot after Vents",
+                "item_count": 1,
+                "access_rules": [
+                  "mitts"
+                ]
+              },
+              {
+                "name": "Digging Spot after Draining Cave",
+                "item_count": 1,
+                "access_rules": [
+                  "mitts"
+                ]
+              },
+              {
+                "name": "Eldin Silent Realm",
+                "item_count": 1,
+                "access_rules": [
+                  "dp,harp"
+                ]
+              },
+              {
+                "name": "Cube: West of Temple Entrance",
+                "hosted_item": "cube_ETW",
+                "access_rules": [
+                  "$cube_etw"
+                ]
+              },
+              {
+                "name": "Cube: East of Temple Entrance",
+                "hosted_item": "cube_ETE",
+                "access_rules": [
+                  "$cube_ete"
+                ]
+              },
+              {
+                "name": "Cube: Eldin Slide",
+                "hosted_item": "cube_ES",
+                "access_rules": [
+                  "$cube_es"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 255,
+                "y": 75
+              }
+            ]
+          },
+          {
+            "name": "Mogma Turf",
+            "sections": [
+              {
+                "name": "Free Fall Chest",
+                "item_count": 1
+              },
+              {
+                "name": "Behind Bomb Wall",
+                "item_count": 1
+              },
+              {
+                "name": "Sand Slide Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "mitts"
+                ]
+              },
+              {
+                "name": "Digging Mitts",
+                "item_count": 1
+              },
+              {
+                "name": "Lava Maze Bomb Wall",
+                "item_count": 1,
+                "access_rules": [
+                  "mitts"
+                ]
+              },
+              {
+                "name": "Cube: Mogma Turf",
+                "hosted_item": "cube_MT",
+                "access_rules": [
+                  "$cube_mt"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 280,
+                "y": 90
+              }
+            ]
+          },
+          {
+            "name": "Volcano Summit",
+            "access_rules": [
+              "$volcano"
+            ],
+            "sections": [
+              {
+                "name": "Digging HP",
+                "item_count": 1,
+                "access_rules": [
+                  "bottle,mogma"
+                ]
+              },
+              {
+                "name": "Bombable Wall Waterfall",
+                "item_count": 1,
+                "access_rules": [
+                  "cs"
+                ]
+              },
+              {
+                "name": "Cube: Volcano Summit",
+                "hosted_item": "cube_VS",
+                "access_rules": [
+                  "$cube_vs"
+                ]
+              },
+              {
+                "name": "Cube: Summit Waterfall",
+                "hosted_item": "cube_SW",
+                "access_rules": [
+                  "$cube_sw"
+                ]
+              },
+              {
+                "name": "Cube: Fire Sanctuary Entrance",
+                "hosted_item": "cube_FSE",
+                "access_rules": [
+                  "$cube_fse"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 300,
+                "y": 40
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Lanayru",
+        "access_rules": [
+          "$lanayru1"
+        ],
+        "color": "#cccc00",
+        "children": [
+          {
+            "name": "Mines Entrance",
+            "sections": [
+              {
+                "name": "Landing Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "cs"
+                ]
+              },
+              {
+                "name": "First Timeshift Chest",
+                "item_count": 1
+              },
+              {
+                "name": "Statue Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "bomb",
+                  "hook"
+                ]
+              },
+              {
+                "name": "End of Mines Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "bomb",
+                  "hook"
+                ]
+              },
+              {
+                "name": "Cube: Mine Entrance",
+                "hosted_item": "cube_LME",
+                "access_rules": [
+                  "$cube_lme"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 200,
+                "y": 190
+              }
+            ]
+          },
+          {
+            "name": "Lanayru Desert",
+            "sections": [
+              {
+                "name": "Party Wheel Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "bombs"
+                ]
+              },
+              {
+                "name": "Chest before Hook Beetle",
+                "item_count": 1,
+                "access_rules": [
+                  "cs",
+                  "bombs",
+                  "hook"
+                ]
+              },
+              {
+                "name": "Hook Beetle",
+                "item_count": 1,
+                "access_rules": [
+                  "bombs",
+                  "hook"
+                ]
+              },
+              {
+                "name": "NE Desert Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "$lanayru2,bombs"
+                ]
+              },
+              {
+                "name": "Chest atop LMF",
+                "item_count": 1,
+                "access_rules": [
+                  "$dungeon_ld"
+                ]
+              },
+              {
+                "name": "Chest near Trial",
+                "item_count": 1,
+                "access_rules": [
+                  "$lanayru2,cs"
+                ]
+              },
+              {
+                "name": "Chest Near Fire Node",
+                "item_count": 1,
+                "access_rules": [
+                  "cs"
+                ]
+              },
+              {
+                "name": "Sand Oasis Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "cs"
+                ]
+              },
+              {
+                "name": "Lanayru Silent Realm",
+                "item_count": 1,
+                "access_rules": [
+                  "$lanayru2,nw,harp"
+                ]
+              },
+              {
+                "name": "Cube: Sand Oasis",
+                "hosted_item": "cube_SO",
+                "access_rules": [
+                  "$cube_so"
+                ]
+              },
+              {
+                "name": "Cube: Secret Passageway",
+                "hosted_item": "cube_SP",
+                "access_rules": [
+                  "$cube_sp"
+                ]
+              },
+              {
+                "name": "Cube: Hook Beetle Flight",
+                "hosted_item": "cube_HBF",
+                "access_rules": [
+                  "$cube_hbf"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 170,
+                "y": 160
+              }
+            ]
+          },
+          {
+            "name": "Lightning Node",
+            "access_rules": [
+              "$lanayru2,bombs"
+            ],
+            "sections": [
+              {
+                "name": "Beginning Chest",
+                "item_count": 1
+              },
+              {
+                "name": "Middle Chest",
+                "item_count": 1
+              },
+              {
+                "name": "End Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "beetle"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 170,
+                "y": 120
+              }
+            ]
+          },
+          {
+            "name": "Fire Node",
+            "access_rules": [
+              "$lanayru2"
+            ],
+            "sections": [
+              {
+                "name": "Shortcut Chest",
+                "item_count": 1
+              },
+              {
+                "name": "Beginning Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "bombs"
+                ]
+              },
+              {
+                "name": "Middle Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "bombs"
+                ]
+              },
+              {
+                "name": "End Chests",
+                "item_count": 2,
+                "access_rules": [
+                  "bombs,hook"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 190,
+                "y": 150
+              }
+            ]
+          },
+          {
+            "name": "Temple of Time",
+            "access_rules": [
+              "mine"
+            ],
+            "sections": [
+              {
+                "name": "Goddess Harp",
+                "item_count": 1
+              },
+              {
+                "name": "Cube: Temple of Time",
+                "hosted_item": "cube_ToT",
+                "access_rules": [
+                  "$cube_tot"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 115,
+                "y": 135
+              }
+            ]
+          },
+          {
+            "name": "Lanayru Caves",
+            "access_rules": [
+              "$lanayru1,cs"
+            ],
+            "sections": [
+              {
+                "name": "Caves Chest",
+                "item_count": 1
+              },
+              {
+                "name": "Golo",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 140,
+                "y": 170
+              }
+            ]
+          },
+          {
+            "name": "Sand Sea",
+            "access_rules": [
+              "$sea"
+            ],
+            "children": [
+              {
+                "name": "Ancient Harbour",
+                "sections": [
+                  {
+                    "name": "Cube: Ancient Harbour",
+                    "hosted_item": "cube_AH",
+                    "access_rules": [
+                      "$cube_ah"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "overworld",
+                    "x": 100,
+                    "y": 180
+                  }
+                ]
+              },
+              {
+                "name": "Skipper's Retreat",
+                "sections": [
+                  {
+                    "name": "Skipper's Retreat Skydive",
+                    "item_count": 1,
+                    "access_rules": [
+                      "whip,bow",
+                      "whip,beetle",
+                      "whip,sling"
+                    ]
+                  },
+                  {
+                    "name": "Skipper's Retreat Moblin Chest",
+                    "item_count": 1,
+                    "access_rules": [
+                      "bombs",
+                      "hook",
+                      "whip"
+                    ]
+                  },
+                  {
+                    "name": "Outside Shack",
+                    "item_count": 1,
+                    "access_rules": [
+                      "whip,bow",
+                      "whip,beetle",
+                      "whip,sling"
+                    ]
+                  },
+                  {
+                    "name": "Skipper's Shack",
+                    "item_count": 1,
+                    "access_rules": [
+                      "whip,bow,bellows",
+                      "whip,beetle,bellows",
+                      "whip,sling,bellows"
+                    ]
+                  },
+                  {
+                    "name": "Cube: Skipper's Retreat",
+                    "hosted_item": "cube_SR",
+                    "access_rules": [
+                      "$cube_sr"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "overworld",
+                    "x": 50,
+                    "y": 200
+                  }
+                ]
+              },
+              {
+                "name": "Shipyard",
+                "sections": [
+                  {
+                    "name": "Rollercoaster Minigame",
+                    "item_count": 1,
+                    "access_rules": [
+                      "bellows"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "overworld",
+                    "x": 35,
+                    "y": 185
+                  }
+                ]
+              },
+              {
+                "name": "Pirate Stronghold",
+                "sections": [
+                  {
+                    "name": "Pirates' Chests",
+                    "item_count": 3
+                  },
+                  {
+                    "name": "Cube: Pirate Stronghold",
+                    "hosted_item": "cube_PS",
+                    "access_rules": [
+                      "$cube_ps"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "overworld",
+                    "x": 40,
+                    "y": 120
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
