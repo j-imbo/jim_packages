@@ -70,31 +70,75 @@
         "margin": "5,0",
         "content": [
           {
-            "type": "itemgrid",
-            "h_alignment": "left",
-            "item_margin": "1, 2",
-            "rows": [
-              [
-                "wds",
-                "fse",
-                "cs",
-                "stone",
-                "chart"
-              ],
-              [
-                "rattle",
-                "letter",
-                "hcb",
-                "pouch",
-                "bottle"
-              ],
-              [
-                "bugnet",
-                "grat",
-                "kp",
-                "wallet",
-                ""
-              ]
+            "type": "array",
+            "orientation": "vertical",
+            "margin": "5,0",
+            "content": [
+              {
+                "type": "itemgrid",
+                "h_alignment": "left",
+                "item_margin": "1, 2",
+                "rows": [
+                  [
+                    "wds",
+                    "fse",
+                    "cs",
+                    "stone",
+                    "chart"
+                  ],
+                  [
+                    "rattle",
+                    "letter",
+                    "hcb",
+                    "pouch",
+                    "bottle"
+                  ]    
+                ]
+              },
+              {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                  {
+                      "type": "itemgrid",
+                      "h_alignment": "left",
+                      "item_margin": "1,2",
+                      "rows": [
+                        [
+                          "bugnet",
+                          "grat",
+                          "kp",
+                          "wallet"
+                        ]  
+                      ]              
+                  },
+                  {
+                    "type": "canvas",
+                    "width": 32,
+                    "height": 32,
+                    "margin": "1,2",
+                    "content": [
+                      {
+                        "type": "item",
+                        "item": "cave_label",
+                        "canvas_depth": 1,
+                        "width": 32,
+                        "height": 12
+                      },
+                      {
+                        "type": "item",
+                        "item": "cavesk",
+                        "canvas_depth": 1,
+                        "canvas_left": 8,
+                        "canvas_top": 16,
+                        "width": 16,
+                        "height": 16
+                      }
+                    ]
+                  }
+                ]
+              }
             ]
           },
           {

@@ -196,12 +196,6 @@
     "codes": "tri"
   },
   {
-    "name": "Sky Keep Required",
-    "type": "toggle",
-    "img": "images/triforce.png",
-    "codes": "skykeep"
-  },
-  {
     "name": "Lanayru Caves Label",
     "type": "static",
     "img": "images/label_cave.png",
@@ -224,5 +218,54 @@
     "type": "toggle",
     "img": "images/smallkey.png",
     "codes": "smallkey"
+  },
+  {
+    "name": "Skyview Complete",
+    "type": "toggle",
+    "img": "images/c_sv.png",
+    "codes": "skyview",
+    "disabled_img_mods": "dim,halfdim,grayscale"
+  },
+  {
+    "name": "Earth Temple Complete",
+    "type": "toggle",
+    "img": "images/c_et.png",
+    "codes": "earth",
+    "disabled_img_mods": "dim,halfdim,grayscale"
+  },
+  {
+    "name": "Mining Facility Complete",
+    "type": "toggle",
+    "img": "images/c_lmf.png",
+    "codes": "mine",
+    "disabled_img_mods": "dim,halfdim,grayscale"
+  },
+  {
+    "name": "Ancient Cistern Complete",
+    "type": "toggle",
+    "img": "images/c_ac.png",
+    "codes": "cistern",
+    "disabled_img_mods": "dim,halfdim,grayscale"
+  },
+  {
+    "name": "Sanship Complete",
+    "type": "toggle",
+    "img": "images/c_ss.png",
+    "codes": "sandship",
+    "disabled_img_mods": "dim,halfdim,grayscale"
+  },
+  {
+    "name": "Fire Sanctuary Complete",
+    "type": "toggle",
+    "img": "images/c_fs.png",
+    "codes": "sanc",
+    "disabled_img_mods": "dim,halfdim,grayscale"
+  },
+  {
+    "name": "Skykeep Complete",
+    "type": "toggle",
+    "img": "images/c_sk.png",
+    "codes": "skykeep",
+    "disabled_img_mods": "dim,halfdim,grayscale"
   }
 ]

@@ -5,3 +5,5 @@ An EmoTracker tracker package for [Skyward Sword Randomizer](https://github.com/
 Download EmoTracker [here](emotracker.net)
 
 Usage: put zip or folder into ../Emotracker/packs
+
+To mark a dungeon as required, you can click on its label to change the color.
