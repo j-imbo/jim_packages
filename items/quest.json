@@ -173,7 +173,8 @@
     "type": "consumable",
     "max_quantity": 80,
     "img": "images/gratitude.png",
-    "codes": "grat"
+    "codes": "grat",
+    "increment": 5
   },
   {
     "name": "Goddess Cube Initial",
