@@ -162,6 +162,7 @@
                 "canvas_depth": 1,
                 "width": 28,
                 "height": 28,
+                "canvas_top": 4,
                 "canvas_left": 32
               },
               {
