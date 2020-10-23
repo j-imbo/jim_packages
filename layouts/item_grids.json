@@ -9,67 +9,6 @@
         "margin": "5,0",
         "content": [
           {
-            "type": "itemgrid",
-            "h_alignment": "left",
-            "item_margin": "1,2",
-            "rows": [
-              [
-                "sword0",
-                "shield1",
-                "shield2",
-                "beetle",
-                "mitts"
-              ],
-              [
-                "sling",
-                "bombs",
-                "bellows",
-                "whip",
-                "bow"
-              ]
-            ]
-          },
-          {
-            "type": "canvas",
-            "height": 64,
-            "width": 98,
-            "margin": "1,2",
-            "content": [
-              {
-                "type": "item",
-                "item": "amber",
-                "canvas_depth": 1,
-                "canvas_left": 6,
-                "height": 64,
-                "width": 46
-              },
-              {
-                "type": "item",
-                "item": "ruby",
-                "canvas_depth": 1,
-                "canvas_left": 33,
-                "height": 31,
-                "width": 60
-              },
-              {
-                "type": "item",
-                "item": "emerald",
-                "canvas_depth": 1,
-                "canvas_left": 48,
-                "canvas_top": 27,
-                "height": 50,
-                "width": 45
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "type": "array",
-        "orientation": "horizontal",
-        "margin": "5,0",
-        "content": [
-          {
             "type": "array",
             "orientation": "vertical",
             "margin": "0",
@@ -77,8 +16,22 @@
               {
                 "type": "itemgrid",
                 "h_alignment": "left",
-                "item_margin": "1, 2",
+                "item_margin": "1,2",
                 "rows": [
+                  [
+                    "sword0",
+                    "shield1",
+                    "shield2",
+                    "beetle",
+                    "mitts"
+                  ],
+                  [
+                    "sling",
+                    "bombs",
+                    "bellows",
+                    "whip",
+                    "bow"
+                  ],
                   [
                     "wds",
                     "fse",
@@ -92,13 +45,13 @@
                     "hcb",
                     "pouch",
                     "bottle"
-                  ]    
+                  ]
                 ]
-              },
+              }, 
               {
                 "type": "array",
                 "orientation": "horizontal",
-                "margin": "0,0",
+                "margin": "0,-10",
                 "content": [
                   {
                       "type": "itemgrid",
@@ -117,7 +70,7 @@
                     "type": "canvas",
                     "width": 32,
                     "height": 32,
-                    "margin": "1,2",
+                    "margin": "0",
                     "content": [
                       {
                         "type": "item",
@@ -142,71 +95,111 @@
             ]
           },
           {
-            "type": "canvas",
-            "width": 98,
-            "height": 98,
-            "margin": "0",
+            "type": "array",
+            "orientation": "vertical",
             "content": [
               {
-                "type": "item",
-                "item": "harp",
-                "canvas_depth": 1,
-                "width": 32,
-                "height": 32,
-                "canvas_left": 30,
-                "canvas_top": 42
+                "type": "canvas",
+                "height": 64,
+                "width": 98,
+                "margin": "1,2",
+                "content": [
+                  {
+                    "type": "item",
+                    "item": "amber",
+                    "canvas_depth": 1,
+                    "canvas_left": 6,
+                    "height": 64,
+                    "width": 46
+                  },
+                  {
+                    "type": "item",
+                    "item": "ruby",
+                    "canvas_depth": 1,
+                    "canvas_left": 33,
+                    "height": 31,
+                    "width": 60
+                  },
+                  {
+                    "type": "item",
+                    "item": "emerald",
+                    "canvas_depth": 1,
+                    "canvas_left": 48,
+                    "canvas_top": 27,
+                    "height": 50,
+                    "width": 45
+                  }
+                ]
               },
               {
-                "type": "item",
-                "item": "soh",
-                "canvas_depth": 1,
-                "width": 28,
-                "height": 28,
-                "canvas_top": 4,
-                "canvas_left": 32
-              },
-              {
-                "type": "item",
-                "item": "bog",
-                "canvas_depth": 1,
-                "width": 28,
-                "height": 28,
-                "canvas_top": 32
-              },
-              {
-                "type": "item",
-                "item": "fc",
-                "canvas_depth": 1,
-                "width": 28,
-                "height": 28,
-                "canvas_top": 32,
-                "canvas_left": 64
-              },
-              {
-                "type": "item",
-                "item": "nw",
-                "canvas_depth": 1,
-                "width": 28,
-                "height": 28,
-                "canvas_left": 12,
-                "canvas_top": 74
-              },
-              {
-                "type": "item",
-                "item": "dp",
-                "canvas_depth": 1,
-                "width": 28,
-                "height": 28,
-                "canvas_left": 52,
-                "canvas_top": 74
+                "type": "canvas",
+                "width": 98,
+                "height": 128,
+                "margin": "0",
+                "content": [
+                  {
+                    "type": "item",
+                    "item": "harp",
+                    "canvas_depth": 1,
+                    "width": 32,
+                    "height": 32,
+                    "canvas_left": 30,
+                    "canvas_top": 48
+                  },
+                  {
+                    "type": "item",
+                    "item": "soh",
+                    "canvas_depth": 1,
+                    "width": 28,
+                    "height": 28,
+                    "canvas_top": 14,
+                    "canvas_left": 32
+                  },
+                  {
+                    "type": "item",
+                    "item": "bog",
+                    "canvas_depth": 1,
+                    "width": 28,
+                    "height": 28,
+                    "canvas_top": 40
+                  },
+                  {
+                    "type": "item",
+                    "item": "fc",
+                    "canvas_depth": 1,
+                    "width": 28,
+                    "height": 28,
+                    "canvas_top": 40,
+                    "canvas_left": 64
+                  },
+                  {
+                    "type": "item",
+                    "item": "nw",
+                    "canvas_depth": 1,
+                    "width": 28,
+                    "height": 28,
+                    "canvas_left": 12,
+                    "canvas_top": 80
+                  },
+                  {
+                    "type": "item",
+                    "item": "dp",
+                    "canvas_depth": 1,
+                    "width": 28,
+                    "height": 28,
+                    "canvas_left": 52,
+                    "canvas_top": 80
+                  }
+                ]
               }
             ]
           }
-        ]
+        ] 
       },
       {
         "type": "layout",
-        "key": "dungeon_grid"
+        "key": "dungeon_grid",
+        "margin": "0,-10,0,0"
       }
     ]
   },
@@ -219,7 +212,7 @@
         "h_alignment": "center",
         "item_margin": "5",
         "rows": [
-          ["op_th"]
+          ["op_thc"]
         ]
       }
     ]

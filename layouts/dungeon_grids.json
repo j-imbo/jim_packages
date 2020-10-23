@@ -23,7 +23,7 @@
       {
         "type": "array",
         "orientation": "horizontal",
-        "margin": "5,0",
+        "margin": "5,-5",
         "content": [
           {
             "type": "canvas",
