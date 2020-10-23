@@ -72,7 +72,7 @@
           {
             "type": "array",
             "orientation": "vertical",
-            "margin": "5,0",
+            "margin": "0",
             "content": [
               {
                 "type": "itemgrid",
@@ -145,7 +145,7 @@
             "type": "canvas",
             "width": 98,
             "height": 98,
-            "margin": "5,0",
+            "margin": "0",
             "content": [
               {
                 "type": "item",
@@ -206,6 +206,20 @@
       {
         "type": "layout",
         "key": "dungeon_grid"
+      }
+    ]
+  },
+  "options": {
+    "type": "array",
+    "orientation": "vertical",
+    "content": [
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "5",
+        "rows": [
+          ["op_th"]
+        ]
       }
     ]
   }
