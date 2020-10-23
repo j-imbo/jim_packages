@@ -3,7 +3,6 @@
     "name": "World",
     "chest_unopened_img": "images/chest.png",
     "chest_opened_img": "images/chest_gray.png",
-    "location_size": 15,
     "chest_opened_img_mods": "@disabled",
     "children": [
       {
@@ -92,6 +91,7 @@
         "map_locations": [
           {
             "map": "overworld",
+            "size": 15,
             "x": 390,
             "y": 110
           }
@@ -210,6 +210,7 @@
         "map_locations": [
           {
             "map": "overworld",
+            "size": 15,
             "x": 255,
             "y": 60
           }
@@ -328,6 +329,7 @@
         "map_locations": [
           {
             "map": "overworld",
+            "size": 15,
             "x": 170,
             "y": 140
           }
@@ -413,6 +415,7 @@
         "map_locations": [
           {
             "map": "overworld",
+            "size": 15,
             "x": 350,
             "y": 220
           }
@@ -489,6 +492,7 @@
         "map_locations": [
           {
             "map": "overworld",
+            "size": 15,
             "x": 60,
             "y": 170
           }
@@ -596,6 +600,7 @@
         "map_locations": [
           {
             "map": "overworld",
+            "size": 15,
             "x": 325,
             "y": 35
           }
@@ -623,6 +628,7 @@
         "map_locations": [
           {
             "map": "sky",
+            "size": 40,
             "x": 1000,
             "y": 600
           }
