@@ -25,7 +25,14 @@ function bottle()
 end
 
 function thunderhead()
-  return 1
+  local thc = has("op_thc")
+  local bog = has("bog")
+
+  if thc then
+    return bog
+  else
+    return 1
+  end
 end
 
 function beedle()
