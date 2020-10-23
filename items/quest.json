@@ -180,162 +180,162 @@
     "name": "Goddess Cube Initial",
     "type": "toggle",
     "img": "images/cube.png",
-    "codes": "gc1,cube_Initial"
+    "codes": "cube_Initial"
   },
   {
     "name": "Goddess Cube West Great Tree",
     "type": "toggle",
     "img": "images/cube.png",
-    "codes": "gc2,cube_WGT"
+    "codes": "cube_WGT"
   },
   {
     "name": "Goddess Cube East Great Tree Rope",
     "type": "toggle",
     "img": "images/cube.png",
-    "codes": "gc3,cube_EGTr"
+    "codes": "cube_EGTr"
   },
   {
     "name": "Goddess Cube East Great Tree Clawshot",
     "type": "toggle",
     "img": "images/cube.png",
-    "codes": "gc4,cube_EGTcs"
+    "codes": "cube_EGTcs"
   },
   {
     "name": "Goddess Cube Deep Woods",
     "type": "toggle",
     "img": "images/cube.png",
-    "codes": "gc5,cube_DW"
+    "codes": "cube_DW"
   },
   {
     "name": "Goddess Cube atop Skyview",
     "type": "toggle",
     "img": "images/cube.png",
-    "codes": "gc6,cube_SV"
+    "codes": "cube_SV"
   },
   {
     "name": "Goddess Cube Skyview Spring",
     "type": "toggle",
     "img": "images/cube.png",
-    "codes": "gc7,cube_SVS"
+    "codes": "cube_SVS"
   },
   {
     "name": "Goddess Cube Lake Floria",
     "type": "toggle",
     "img": "images/cube.png",
-    "codes": "gc8,cube_Fl"
+    "codes": "cube_Fl"
   },
   {
     "name": "Goddess Cube Floria Waterfall",
     "type": "toggle",
     "img": "images/cube.png",
-    "codes": "gc9,cube_FW"
+    "codes": "cube_FW"
   },
   {
     "name": "Goddess Cube Eldin Entrance",
     "type": "toggle",
     "img": "images/cube.png",
-    "codes": "gc10,cube_EE"
+    "codes": "cube_EE"
   },
   {
     "name": "Goddess Cube Mogma Turf Entrance",
     "type": "toggle",
     "img": "images/cube.png",
-    "codes": "gc11,cube_MTE"
+    "codes": "cube_MTE"
   },
   {
     "name": "Goddess Cube Mogma Turf",
     "type": "toggle",
     "img": "images/cube.png",
-    "codes": "gc12,cube_MT"
+    "codes": "cube_MT"
   },
   {
     "name": "Goddess Cube West of Earth Temple",
     "type": "toggle",
     "img": "images/cube.png",
-    "codes": "gc13,cube_ETW"
+    "codes": "cube_ETW"
   },
   {
     "name": "Goddess Cube East of Earth Temple",
     "type": "toggle",
     "img": "images/cube.png",
-    "codes": "gc14,cube_ETE"
+    "codes": "cube_ETE"
   },
   {
     "name": "Goddess Cube Eldin Slides",
     "type": "toggle",
     "img": "images/cube.png",
-    "codes": "gc15,cube_ES"
+    "codes": "cube_ES"
   },
   {
     "name": "Goddess Cube Volcano Summit",
     "type": "toggle",
     "img": "images/cube.png",
-    "codes": "gc16,cube_VS"
+    "codes": "cube_VS"
   },
   {
     "name": "Goddess Cube Summit Waterfall",
     "type": "toggle",
     "img": "images/cube.png",
-    "codes": "gc17,cube_SW"
+    "codes": "cube_SW"
   },
   {
     "name": "Goddess Cube Fire Sanc Entrance",
     "type": "toggle",
     "img": "images/cube.png",
-    "codes": "gc18,cube_FSE"
+    "codes": "cube_FSE"
   },
   {
     "name": "Goddess Cube Lanayru Mines Entrance",
     "type": "toggle",
     "img": "images/cube.png",
-    "codes": "gc19,cube_LME"
+    "codes": "cube_LME"
   },
   {
     "name": "Goddess Cube Sand Oasis",
     "type": "toggle",
     "img": "images/cube.png",
-    "codes": "gc20,cube_SO"
+    "codes": "cube_SO"
   },
   {
     "name": "Goddess Cube Temple of Time",
     "type": "toggle",
     "img": "images/cube.png",
-    "codes": "gc21,cube_ToT"
+    "codes": "cube_ToT"
   },
   {
     "name": "Goddess Cube Secret Passageway",
     "type": "toggle",
     "img": "images/cube.png",
-    "codes": "gc22,cube_SP"
+    "codes": "cube_SP"
   },
   {
     "name": "Goddess Cube Hook Beetle Flight",
     "type": "toggle",
     "img": "images/cube.png",
-    "codes": "gc23,cube_HBF"
+    "codes": "cube_HBF"
   },
   {
     "name": "Goddess Cube Ancient Harbour",
     "type": "toggle",
     "img": "images/cube.png",
-    "codes": "gc24,cube_AH"
+    "codes": "cube_AH"
   },
   {
     "name": "Goddess Cube Skipper's Retreat",
     "type": "toggle",
     "img": "images/cube.png",
-    "codes": "gc25,cube_SR"
+    "codes": "cube_SR"
   },
   {
     "name": "Goddess Cube Pirate Stronghold",
     "type": "toggle",
     "img": "images/cube.png",
-    "codes": "gc26,cube_PS"
+    "codes": "cube_PS"
   },
   {
     "name": "Goddess Cube Lanayru Gorge",
     "type": "toggle",
     "img": "images/cube.png",
-    "codes": "gc27,cube_LG"
+    "codes": "cube_LG"
   }
 ]
