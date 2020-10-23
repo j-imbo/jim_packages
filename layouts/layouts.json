@@ -85,7 +85,6 @@
         {
           "type": "dock",
           "dock": "bottom",
-          "width": 320,
           "content": [
             {
               "type": "dock",
