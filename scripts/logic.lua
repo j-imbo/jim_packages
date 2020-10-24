@@ -331,7 +331,7 @@ end
 
 --framework for dungeon rando
 function skyview_acc()
-  if (Tracker.ActiveVariantUID == "var_dungshuf")
+  if (Tracker.ActiveVariantUID == "var_dungshuf") then
     return ((dungeon_dw() and has("sv_dw")) or (dungeon_ev() and has("sv_ev"))
       or (dungeon_ld() and has("sv_ld")) or (dungeon_lf() and has("sv_lf"))
       or (dungeon_ss() and has("sv_ss")) or (dungeon_vs() and has("sv_vs"))
@@ -342,7 +342,7 @@ function skyview_acc()
 end
 
 function earth_acc()
-  if (Tracker.ActiveVariantUID == "var_dungshuf")
+  if (Tracker.ActiveVariantUID == "var_dungshuf") then
     return ((dungeon_dw() and has("et_dw")) or (dungeon_ev() and has("et_ev"))
       or (dungeon_ld() and has("et_ld")) or (dungeon_lf() and has("et_lf"))
       or (dungeon_ss() and has("et_ss")) or (dungeon_vs() and has("et_vs"))
@@ -353,7 +353,7 @@ function earth_acc()
 end
 
 function mine_acc()
-  if (Tracker.ActiveVariantUID == "var_dungshuf")
+  if (Tracker.ActiveVariantUID == "var_dungshuf") then
     return ((dungeon_dw() and has("lmf_dw")) or (dungeon_ev() and has("lmf_ev"))
       or (dungeon_ld() and has("lmf_ld")) or (dungeon_lf() and has("lmf_lf"))
       or (dungeon_ss() and has("lmf_ss")) or (dungeon_vs() and has("lmf_vs"))
@@ -364,7 +364,7 @@ function mine_acc()
 end
 
 function cistern_acc()
-  if (Tracker.ActiveVariantUID == "var_dungshuf")
+  if (Tracker.ActiveVariantUID == "var_dungshuf") then
     return ((dungeon_dw() and has("ac_dw")) or (dungeon_ev() and has("ac_ev"))
       or (dungeon_ld() and has("ac_ld")) or (dungeon_lf() and has("ac_lf"))
       or (dungeon_ss() and has("ac_ss")) or (dungeon_vs() and has("ac_vs"))
@@ -375,7 +375,7 @@ function cistern_acc()
 end
 
 function sandship_acc()
-  if (Tracker.ActiveVariantUID == "var_dungshuf")
+  if (Tracker.ActiveVariantUID == "var_dungshuf") then
     return ((dungeon_dw() and has("ss_dw")) or (dungeon_ev() and has("ss_ev"))
       or (dungeon_ld() and has("ss_ld")) or (dungeon_lf() and has("ss_lf"))
       or (dungeon_ss() and has("ss_ss")) or (dungeon_vs() and has("ss_vs"))
@@ -386,7 +386,7 @@ function sandship_acc()
 end
 
 function sanc_acc()
-  if (Tracker.ActiveVariantUID == "var_dungshuf")
+  if (Tracker.ActiveVariantUID == "var_dungshuf") then
     return ((dungeon_dw() and has("fs_dw")) or (dungeon_ev() and has("fs_ev"))
       or (dungeon_ld() and has("fs_ld")) or (dungeon_lf() and has("fs_lf"))
       or (dungeon_ss() and has("fs_ss")) or (dungeon_vs() and has("fs_vs"))
@@ -397,7 +397,7 @@ function sanc_acc()
 end
 
 function skykeep_acc()
-  if (Tracker.ActiveVariantUID == "var_dungshuf")
+  if (Tracker.ActiveVariantUID == "var_dungshuf") then
     return ((dungeon_dw() and has("sk_dw")) or (dungeon_ev() and has("sk_ev"))
       or (dungeon_ld() and has("sk_ld")) or (dungeon_lf() and has("sk_lf"))
       or (dungeon_ss() and has("sk_ss")) or (dungeon_vs() and has("sk_vs"))
