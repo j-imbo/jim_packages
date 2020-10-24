@@ -10,7 +10,6 @@
         "access_rules": [
           "$skyview_acc"
         ],
-        "parent": "Faron",
         "sections": [
           {
             "name": "Map Chest",
@@ -129,7 +128,6 @@
       },
       {
         "name": "Earth Temple",
-        "parent": "Volcano Ascent",
         "access_rules": [
           "$earth_acc"
         ],
@@ -239,7 +237,6 @@
       },
       {
         "name": "Lanayru Mining Facility",
-        "parent": "Lanayru Desert",
         "access_rules": [
           "$mine_acc"
         ],
@@ -337,7 +334,6 @@
       },
       {
         "name": "Ancient Cistern",
-        "parent": "Lake Floria",
         "access_rules": [
           "$cistern_acc"
         ],
@@ -423,7 +419,6 @@
       },
       {
         "name": "Sandship",
-        "parent": "Sand Sea",
         "access_rules": [
           "$sandship_acc"
         ],
@@ -500,7 +495,6 @@
       },
       {
         "name": "Fire Sanctuary",
-        "parent": "Volcano Summit",
         "access_rules": [
           "$sanc_acc"
         ],
@@ -608,7 +602,6 @@
       },
       {
         "name": "Skykeep",
-        "parent": "Skyloft",
         "access_rules": [
           "$skykeep_acc"
         ],
