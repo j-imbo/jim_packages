@@ -246,7 +246,7 @@
                 "name": "Skyloft Silent Realm",
                 "item_count": 1,
                 "access_rules": [
-                  "soh,harp"
+                  "$soth,harp"
                 ]
               }
             ],
