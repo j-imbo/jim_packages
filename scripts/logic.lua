@@ -8,9 +8,9 @@ function has(item, amount)
   end
 end
 
--- item functions to make file cleaner
+-- item functions to make file cleaner/more readable
 
-function bmb()
+function bomb()
   return has("bombs")
 end
 
@@ -18,7 +18,7 @@ function bow()
   return has("bow")
 end
 
-function slng()
+function sling()
   return has("sling")
 end
 
@@ -54,8 +54,16 @@ function harp()
   return has("harp")
 end
 
+function sword()
+  return has("ps")
+end
+
+function goddess()
+  return has("gs")
+end
+
 function ranged()
-  return (slng() or cs() or btl() or bow() or bmb())
+  return (sling() or cs() or btl() or bow() or bomb())
 end
 
 function soth() -- song of the hero
@@ -66,6 +74,50 @@ function bottle() -- can use bottles
   return (has("adventure") and has("bottle"))
 end
 
+function walls() -- goddess walls
+  return (skyview2_acc() and has("bog") and harp() and (sword() or bomb()))
+end
+
+-- enemy macros
+
+function bokoblin()
+  return (sword() or bow() or bomb())
+end
+
+function moblin()
+  return (sword() or bow() or bomb())
+end
+
+function keese()
+  return (sword() or ranged() or whip())
+end
+
+function lizalfos()
+  return (sword() or bomb())
+end
+
+function ampilus()
+  return (sword() or bow() or bomb())
+end
+
+function molderach()
+  return (gust() and sword())
+end
+
+function armos()
+  return (gust() and sword())
+end
+
+function beamos()
+  return (sword() or bow())
+end
+
+function koloktos()
+  return (whip() and (sword() or bomb() or bow()))
+end
+
+-- area macros
+
 function thunderhead() -- open/closed thunderhead
   if has("op_thc") then
     return has("bog")
@@ -74,22 +126,20 @@ function thunderhead() -- open/closed thunderhead
   end
 end
 
-function walls() -- goddess walls
-  return (skyview2_acc() and has("bog") and harp())
-end
-
--- area macros
-
 function sealedtemple()
   return has("emerald")
 end
 
+function faron()
+  return (sealedtemple() and (cs() or sword() or bombs()))
+end
+
 function deepwoods()
-  return (sealedtemple() and ranged())
+  return (faron() and ranged())
 end
 
 function floria()
-  return (sealedtemple() and wds() and yerbal())
+  return (faron() and wds() and yerbal())
 end
 
 function eldin1()
@@ -97,7 +147,7 @@ function eldin1()
 end
 
 function eldin2()
-  return (eldin1() and (bmb() or hook() or dig()))
+  return (eldin1() and (bomb() or hook() or dig()))
 end
 
 function volcano()
@@ -118,22 +168,40 @@ end
 
 -- dungeon macros
 
-function skyview0() -- entrance of skyview
+function skyview_high() -- entrance of skyview
   return ranged()
 end
 
-function skyview1() -- first room of skyview
-  return (skyview0() or wds())
+function skyview_left() -- digspot in skyview
+  return (skyview_high() or goddess() or wds())
 end
 
-function waterpod() -- water pods in fire sanc
+function skyview_first() -- first room of skyview
+  return ((sword() and (skyview_high() or wds())) or bomb())
+end
+
+function earth_bridge() -- drawbridge in earth
+  return (bow() or (btl() and lizalfos() or sling() or cs()))
+end
+
+function mine_crystal() -- crystal in map room
+  return (goddess() or whip() or sling() or bow())
+end
+
+function cistern_statue() -- lower statue
+  return (whip() and
+    (cs() or (wds() and (bow() or btl()) and has("cisternsk",2))))
+end
+
+function sanc_pods() -- water pods in fire sanc
   return ranged()
 end
 
 -- dungeon beatable macros
 
 function skyview()
-  return (skyview_acc() and (bmb() or btl() or bow() or wds()) and has("skyviewsk",2) and has("skyviewbk"))
+  return (skyview_acc() and (bomb() or btl() or bow() or wds())
+    and has("skyviewsk",2) and has("skyviewbk") and goddess())
 end
 
 function skyview2()
@@ -141,27 +209,32 @@ function skyview2()
 end
 
 function earth()
-  return (earth_acc() and bmb() and (hook() or (btl() and mitts())) and has("earthbk"))
+  return (earth_acc() and bomb() and (hook() or (btl() and mitts()))
+    and has("earthbk") and goddess())
 end
 
 function mine()
-  return (mine_acc() and hook() and gust() and has("minebk"))
+  return (mine_acc() and hook() and gust() and has("minebk")
+    and sword() and mine_crystal())
 end
 
 function cistern()
-  return (cistern_acc() and whip() and (has("cisternsk",2) or cs()) and has("cisternbk"))
+  return (cistern_acc() and whip() and (has("cisternsk",2) or cs())
+    and has("cisternbk") and goddess())
 end
 
 function sandship()
-  return (sandship_acc() and bow() and has("sandshipbk"))
+  return (sandship_acc() and bow() and has("sandshipbk") and goddess())
 end
 
 function sanc()
-  return (sanc_acc() and hook() and has("mogma") and has("sancsk",3) and has("sancbk"))
+  return (sanc_acc() and hook() and has("mogma") and has("sancsk",3)
+    and has("sancbk") and goddess())
 end
 
 function skykeep()
-  return (skykeep_acc() and cs() and bow() and gust() and whip() and has("skykeepsk"))
+  return (skykeep_acc() and cs() and bow() and gust() and whip()
+    and has("skykeepsk") and sword())
 end
 
 -- story/npc macros
@@ -170,8 +243,12 @@ function beedle()
   return ranged()
 end
 
+function batreaux()
+  return sword()
+end
+
 function yerbal()
-  return ((slng() or btl()) and ((gust() and wds()) or cs()))
+  return (faron() and (sling() or btl()) and ((gust() and wds()) or cs()))
 end
 
 function skyview2_acc()
@@ -183,7 +260,7 @@ function sacredwater()
 end
 
 function gate()
-  return (has("bog") and harp() and sealedtemple())
+  return (harp() and sealedtemple())
 end
 
 function past()
@@ -195,7 +272,7 @@ function levias()
 end
 
 function wheel()
-  return (lanayru1() and bmb())
+  return (lanayru1() and bomb())
 end
 
 function floodedfaron()
@@ -211,7 +288,7 @@ function gorge()
 end
 
 function thunder()
-  return (gorge() and bmb() and cs() and hook() and whip() and past())
+  return (gorge() and bomb() and cs() and hook() and whip() and past())
 end
 
 function demise()
@@ -221,111 +298,111 @@ end
 --goddess cubes macros
 
 function cube_initial() -- initial cube
-  return deepwoods()
+  return (deepwoods() and goddess())
 end
 
 function cube_wgt() --west great tree
-  return (sealedtemple() and (cs() or (gust() and wds())))
+  return (faron() and (cs() or (gust() and wds())) and goddess())
 end
 
 function cube_egtr() --east great tree rope
-  return (sealedtemple() and (cs() or (gust() and wds())))
+  return (faron() and (cs() or (gust() and wds())) and goddess())
 end
 
 function cube_egtcs() --east great tree claw
-  return (sealedtemple() and (cs() or (gust() and wds())))
+  return (faron() and (cs() or (gust() and wds())) and goddess())
 end
 
 function cube_dw() -- deepwoods
-  return deepwoods()
+  return (deepwoods() and goddess())
 end
 
 function cube_sv() --skyview
-  return (deepwoods() and cs())
+  return (deepwoods() and cs() and goddess())
 end
 
 function cube_svs() --skyview spring
-  return skyview()
+  return (skyview() and goddess())
 end
 
 function cube_fl() --floria
-  return floria()
+  return (floria() and goddess())
 end
 
 function cube_fw() --floria waterfall
-  return (floria() and cs())
+  return (floria() and cs() and goddess())
 end
 
 function cube_ee() --eldin entrance
-  return eldin1()
+  return (eldin1() and goddess())
 end
 
 function cube_mte() --mogma turf entrance
-  return eldin1()
+  return (eldin1() and goddess())
 end
 
 function cube_mt() --mogma turf
-  return eldin1()
+  return (eldin1() and goddess())
 end
 
 function cube_etw() --west of et
-  return (eldin2() and dig())
+  return (eldin2() and dig() and goddess())
 end
 
 function cube_ete() --east of et
-  return eldin2()
+  return (eldin2() and goddess())
 end
 
 function cube_es() --eldin slide
-  return eldin2()
+  return (eldin2() and goddess())
 end
 
 function cube_vs() --volcano summit
-  return volcano()
+  return (volcano() and goddess())
 end
 
 function cube_sw() --summit waterfall
-  return volcano()
+  return (volcano() and goddess())
 end
 
 function cube_fse() --sanc entrance
-  return (volcano() and bottle() and cs())
+  return (volcano() and bottle() and cs()) and goddess()
 end
 
 function cube_lme() --mine entrance
-  return lanayru1()
+  return (lanayru1() and goddess())
 end
 
 function cube_so() --sand oasis
-  return lanayru2()
+  return (lanayru2() and goddess())
 end
 
 function cube_tot() --ride in tot
-  return (lanayru2() and hook())
+  return (lanayru2() and hook() and goddess())
 end
 
 function cube_sp() --desert secret passageway
-  return (lanayru2() and bmb() and cs())
+  return (lanayru2() and bomb() and cs()) and goddess()
 end
 
 function cube_hbf() --hook beetle flight
-  return (lanayru1() and (cs() or bmb() or hook()))
+  return (lanayru1() and (cs() or bomb() or hook()) and goddess())
 end
 
 function cube_ah() --ancient harbour
-  return sea()
+  return (sea() and goddess())
 end
 
 function cube_sr() --skipper's retreat
-  return (sea() and (bmb() or hook() or whip()))
+  return (sea() and (bomb() or hook() or whip()) and goddess())
 end
 
 function cube_ps() --pirate stronghold
-  return (sea() and gust())
+  return (sea() and gust() and goddess())
 end
 
 function cube_lg() --gorge
-  return (gorge() and cs() and whip() and hook())
+  return (gorge() and cs() and whip() and hook() and goddess())
 end
 
 
@@ -416,7 +493,7 @@ function dungeon_ev() -- dungeon entrance in eldin volcano
 end
 
 function dungeon_ld() -- dungeon entrance in lanayru desert
-  return (lanayru1() and bmb())
+  return (lanayru1() and bomb() and hook() and sword())
 end
 
 function dungeon_lf() -- dungeon entrance in lake floria

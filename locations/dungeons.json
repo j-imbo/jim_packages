@@ -15,75 +15,97 @@
             "name": "Map Chest",
             "item_count": 1,
             "access_rules": [
-              "$skyview0"
+              "$skyview_high"
             ]
           },
           {
             "name": "Small Key Digspot",
             "item_count": 1,
             "access_rules": [
-              "$skyview1,mitts,wds"
+              "$skyview_left,$skyview_first,mitts,wds"
             ]
           },
           {
             "name": "Behind Two Eyes",
             "item_count": 1,
             "access_rules": [
-              "$skyview1"
+              "$skyview_first,$skyview_high,ps"
             ]
           },
           {
             "name": "Beetle",
             "item_count": 1,
             "access_rules": [
-              "skyviewsk:1,sling",
-              "skyviewsk:1,cs",
-              "skyviewsk:1,beetle",
-              "skyviewsk:1,bow"
+              "skyviewsk:1,ps,sling",
+              "skyviewsk:1,ps,cs",
+              "skyviewsk:1,ps,beetle",
+              "skyviewsk:1,ps,bow",
+              "skyviewsk:1,wds,bombs,sling",
+              "skyviewsk:1,wds,bombs,cs",
+              "skyviewsk:1,wds,bombs,beetle",
+              "skyviewsk:1,wds,bombs,bow"
             ]
           },
           {
             "name": "Behind Bars in Hub",
             "item_count": 1,
             "access_rules": [
-              "beetle,skyviewsk:1"
+              "$skyview_first,beetle,skyviewsk:1"
             ]
           },
           {
             "name": "Behind Three Eyes",
             "item_count": 1,
             "access_rules": [
-              "beetle,skyviewsk:1"
+              "$skyview_first,beetle,skyviewsk:1,ps"
             ]
           },
           {
             "name": "Near Boss Door",
             "item_count": 1,
             "access_rules": [
-              "skyviewsk:2,bombs",
-              "skyviewsk:2,beetle",
-              "skyviewsk:2,bow",
-              "skyviewsk:2,wds"
+              "$skyview_first,skyviewsk:2,bombs,gs",
+              "$skyview_first,skyviewsk:2,bombs,hook",
+              "$skyview_first,skyviewsk:2,bombs,bow",
+              "$skyview_first,skyviewsk:2,beetle,gs",
+              "$skyview_first,skyviewsk:2,hook",
+              "$skyview_first,skyviewsk:2,beetle,bow",
+              "$skyview_first,skyviewsk:2,bow",
+              "$skyview_first,skyviewsk:2,wds,gs",
+              "$skyview_first,skyviewsk:2,wds,hook",
+              "$skyview_first,skyviewsk:2,wds,bow"
             ]
           },
           {
-            "name": "Puzzle Key",
+            "name": "Boss Key Chest",
             "item_count": 1,
             "access_rules": [
-              "skyviewsk:2,bombs",
-              "skyviewsk:2,beetle",
-              "skyviewsk:2,bow",
-              "skyviewsk:2,wds"
+              "$skyview_first,skyviewsk:2,bombs,gs",
+              "$skyview_first,skyviewsk:2,bombs,hook",
+              "$skyview_first,skyviewsk:2,bombs,bow",
+              "$skyview_first,skyviewsk:2,beetle,gs",
+              "$skyview_first,skyviewsk:2,hook",
+              "$skyview_first,skyviewsk:2,beetle,bow",
+              "$skyview_first,skyviewsk:2,bow",
+              "$skyview_first,skyviewsk:2,wds,gs",
+              "$skyview_first,skyviewsk:2,wds,hook",
+              "$skyview_first,skyviewsk:2,wds,bow"
             ]
           },
           {
             "name": "Skyview Heart Container",
             "item_count": 1,
             "access_rules": [
-              "skyviewbk,skyviewsk:2,bombs",
-              "skyviewbk,skyviewsk:2,beetle",
-              "skyviewbk,skyviewsk:2,bow",
-              "skyviewbk,skyviewsk:2,wds"
+              "$skyview_first,skyviewbk,skyviewsk:2,bombs,gs",
+              "$skyview_first,skyviewbk,skyviewsk:2,bombs,hook",
+              "$skyview_first,skyviewbk,skyviewsk:2,bombs,bow",
+              "$skyview_first,skyviewbk,skyviewsk:2,beetle,gs",
+              "$skyview_first,skyviewbk,skyviewsk:2,hook",
+              "$skyview_first,skyviewbk,skyviewsk:2,beetle,bow",
+              "$skyview_first,skyviewbk,skyviewsk:2,bow",
+              "$skyview_first,skyviewbk,skyviewsk:2,wds,gs",
+              "$skyview_first,skyviewbk,skyviewsk:2,wds,hook",
+              "$skyview_first,skyviewbk,skyviewsk:2,wds,bow"
             ]
           }
         ],
@@ -100,10 +122,10 @@
         "name": "Skyview Spring",
         "parent": "Skyview Temple",
         "access_rules": [
-          "skyviewbk,skyviewsk:2,bombs",
-          "skyviewbk,skyviewsk:2,beetle",
-          "skyviewbk,skyviewsk:2,bow",
-          "skyviewbk,skyviewsk:2,wds"
+          "$skyview_first,skyviewbk,skyviewsk:2,bombs,gs",
+          "$skyview_first,skyviewbk,skyviewsk:2,beetle,gs",
+          "$skyview_first,skyviewbk,skyviewsk:2,bow,gs",
+          "$skyview_first,skyviewbk,skyviewsk:2,wds,gs"
         ],
         "sections": [
           {
@@ -143,65 +165,60 @@
             "name": "Behind Boulder",
             "item_count": 1,
             "access_rules": [
-              "bow",
-              "beetle"
+              "$earth_bridge"
             ]
           },
           {
             "name": "After Boulder",
             "item_count": 1,
             "access_rules": [
-              "bow",
-              "beetle"
+              "$earth_bridge"
             ]
           },
           {
             "name": "Map Chest",
             "item_count": 1,
             "access_rules": [
-              "bow,bombs",
-              "beetle,bombs",
-              "hook"
+              "$earth_bridge,bombs",
+              "$earth_bridge,hook"
             ]
           },
           {
             "name": "Bomb Bag",
             "item_count": 1,
             "access_rules": [
-              "bow",
-              "beetle"
+              "$earth_bridge,$lizalfos"
             ]
           },
           {
             "name": "Ledd Bombs",
             "item_count": 1,
             "access_rules": [
-              "bow",
-              "beetle"
+              "$earth_bridge,$lizalfos"
             ]
           },
           {
             "name": "Lizalfos Chest",
             "item_count": 1,
             "access_rules": [
-              "hook",
-              "bombs,beetle"
+              "$earth_bridge,hook",
+              "$earth_bridge,bombs,beetle"
             ]
           },
           {
-            "name": "Puzzle Key",
+            "name": "Boss Key Chest",
             "item_count": 1,
             "access_rules": [
-              "hook",
-              "bombs,beetle,mitts"
+              "$earth_bridge,hook",
+              "$earth_bridge,bombs,beetle,mitts"
             ]
           },
           {
             "name": "Earth Heart Container",
             "item_count": 1,
             "access_rules": [
-              "bombs,hook,earthbk",
-              "bombs,beetle,mitts,earthbk"
+              "bombs,hook,earthbk,ps",
+              "bombs,beetle,mitts,earthbk,ps"
             ]
           }
         ],
@@ -218,8 +235,8 @@
         "name": "Earth Spring",
         "parent": "Earth Temple",
         "access_rules": [
-          "bombs,hook,earthbk",
-          "bombs,beetle,mitts,earthbk"
+          "bombs,hook,earthbk,gs",
+          "bombs,beetle,mitts,earthbk,gs"
         ],
         "sections": [
           {
@@ -284,42 +301,42 @@
             "name": "Map Chest",
             "item_count": 1,
             "access_rules": [
-              "hook,bellows"
+              "hook,bellows,ps,$mine_crystal"
             ]
           },
           {
             "name": "First Crawlspace",
             "item_count": 1,
             "access_rules": [
-              "hook,bellows"
+              "hook,bellows,ps,$mine_crystal"
             ]
           },
           {
             "name": "Second Crawlspace",
             "item_count": 1,
             "access_rules": [
-              "hook,bellows"
+              "hook,bellows,ps,$mine_crystal"
             ]
           },
           {
-            "name": "Puzzle Key",
+            "name": "Boss Key Chest",
             "item_count": 1,
             "access_rules": [
-              "hook,bellows,bombs"
+              "hook,bellows,bombs,ps,$mine_crystal"
             ]
           },
           {
-            "name": "Chest After Puzzle Chest",
+            "name": "Chest After Boss Key Chest",
             "item_count": 1,
             "access_rules": [
-              "hook,bellows,bombs"
+              "hook,bellows,bombs,ps,$mine_crystal"
             ]
           },
           {
             "name": "Facility Heart Container",
             "item_count": 1,
             "access_rules": [
-              "hook,bellows,minebk"
+              "hook,bellows,minebk,ps,$mine_crystal"
             ]
           }
         ],
@@ -342,14 +359,15 @@
             "name": "Small Key Chest",
             "item_count": 1,
             "access_rules": [
-              "wds"
+              "wds,ps"
             ]
           },
           {
             "name": "Whip",
             "item_count": 1,
             "access_rules": [
-              "cisternsk:2"
+              "cisternsk:2,ps",
+              "cisternsk:2,$cistern_statue"
             ]
           },
           {
@@ -363,9 +381,7 @@
             "name": "Vines Chest",
             "item_count": 1,
             "access_rules": [
-              "whip,cs",
-              "whip,wds,bow,cisternsk:2",
-              "whip,wds,beetle,cisternsk:2"
+              "$cistern_statue"
             ]
           },
           {
@@ -384,27 +400,27 @@
             ]
           },
           {
-            "name": "Puzzle Key Chest",
+            "name": "Boss Key Chest Chest",
             "item_count": 1,
             "access_rules": [
-              "whip,cs",
-              "whip,wds,cisternsk:2,hook"
+              "$cistern_statue,cs",
+              "$cistern_statue,hook"
             ]
           },
           {
             "name": "Cistern Heart Container",
             "item_count": 1,
             "access_rules": [
-              "whip,cisternbk,cs",
-              "whip,cisternbk,cisternsk:2"
+              "whip,cisternbk,cs,$koloktos",
+              "whip,cisternbk,cisternsk:2,$koloktos"
             ]
           },
           {
             "name": "Farore's Flame",
             "item_count": 1,
             "access_rules": [
-              "whip,cisternbk,cs",
-              "whip,cisternbk,cisternsk:2"
+              "whip,cisternbk,cs,gs",
+              "whip,cisternbk,cisternsk:2,gs"
             ]
           }
         ],
@@ -425,13 +441,19 @@
         "sections": [
           {
             "name": "Behind Combination Lock",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "gs",
+              "ps,bow",
+              "ps,bombs",
+              "ps,sling"
+            ]
           },
           {
             "name": "Bow",
             "item_count": 1,
             "access_rules": [
-              "shipsk:2"
+              "shipsk:2,ps"
             ]
           },
           {
@@ -445,25 +467,26 @@
             "name": "Map Chest",
             "item_count": 1,
             "access_rules": [
-              "bow"
+              "bow,ps",
+              "bow,shipsk:2"
             ]
           },
           {
             "name": "Treasure Room",
             "item_count": 5,
             "access_rules": [
-              "bow,whip"
+              "bow,whip,ps"
             ]
           },
           {
             "name": "Brig Robot",
             "item_count": 1,
             "access_rules": [
-              "bow,whip"
+              "bow,whip,ps"
             ]
           },
           {
-            "name": "Puzzle Key Chest",
+            "name": "Boss Key Chest Chest",
             "item_count": 1,
             "access_rules": [
               "bow,shipsk:2"
@@ -473,14 +496,15 @@
             "name": "Sandship Heart Container",
             "item_count": 1,
             "access_rules": [
-              "bow,shipbk"
+              "bow,shipbk,ps",
+              "bow,shipbk,shipsk:2"
             ]
           },
           {
             "name": "Nayru's Flame",
             "item_count": 1,
             "access_rules": [
-              "bow,shipbk"
+              "bow,shipbk,gs"
             ]
           }
         ],
@@ -503,91 +527,92 @@
             "name": "First Room",
             "item_count": 1,
             "access_rules": [
-              "$waterpod"
+              "$sanc_pods,$bokoblin"
             ]
           },
           {
             "name": "After Outside Section",
             "item_count": 1,
             "access_rules": [
-              "$waterpod,sancsk:1"
+              "$sanc_pods,sancsk:1,$bokoblin"
             ]
           },
           {
             "name": "Second Small Key",
             "item_count": 1,
             "access_rules": [
-              "hook,bellows,sancsk:1"
+              "hook,bellows,sancsk:1,$lizalfos",
+              "hook,cs,sancsk:1,$lizalfos"
             ]
           },
           {
             "name": "Water Pod Room",
             "item_count": 2,
             "access_rules": [
-              "hook,sancsk:2"
+              "hook,sancsk:2,$lizalfos"
             ]
           },
           {
             "name": "Mogma Mitts",
             "item_count": 2,
             "access_rules": [
-              "hook,sancsk:2"
+              "hook,sancsk:2,ps"
             ]
           },
           {
             "name": "Sanc Bottle",
             "item_count": 1,
             "access_rules": [
-              "$waterpod,sancsk:1,mogma"
+              "$sanc_pods,sancsk:1,mogma,ps"
             ]
           },
           {
             "name": "Map Chest",
             "item_count": 1,
             "access_rules": [
-              "hook,cs,sancsk:2,mogma,bellows"
+              "hook,cs,sancsk:2,mogma,bellows,ps"
             ]
           },
           {
             "name": "Third Small Key",
             "item_count": 1,
             "access_rules": [
-              "hook,cs,sancsk:2,mogma,bellows,bombs"
+              "hook,cs,sancsk:2,mogma,bellows,bombs,ps"
             ]
           },
           {
             "name": "Plats Chest",
             "item_count": 1,
             "access_rules": [
-              "hook,sancsk:3,mogma"
+              "hook,sancsk:3,mogma,ps"
             ]
           },
           {
             "name": "Staircase Room",
             "item_count": 1,
             "access_rules": [
-              "hook,cs,sancsk:3,mogma"
+              "hook,cs,sancsk:3,mogma,ps"
             ]
           },
           {
-            "name": "Puzzle Key Chest",
+            "name": "Boss Key Chest Chest",
             "item_count": 1,
             "access_rules": [
-              "hook,cs,sancsk:3,mogma"
+              "hook,cs,sancsk:3,mogma,ps"
             ]
           },
           {
             "name": "Sanctuary Heart Container",
             "item_count": 1,
             "access_rules": [
-              "hook,sancsk:3,mogma,sancbk"
+              "hook,sancsk:3,mogma,sancbk,ps"
             ]
           },
           {
             "name": "Din's Flame",
             "item_count": 1,
             "access_rules": [
-              "hook,sancsk:3,mogma,sancbk"
+              "hook,sancsk:3,mogma,sancbk,gs"
             ]
           }
         ],
@@ -614,7 +639,7 @@
             "name": "Small Key Chest",
             "item_count": 1,
             "access_rules": [
-              "bellows,whip,bow,cs"
+              "bellows,whip,bow,cs,ps"
             ]
           }
         ],

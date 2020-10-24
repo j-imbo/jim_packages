@@ -33,7 +33,7 @@
                     "name": "Gorko Goddess Wall Reward",
                     "item_count": 1,
                     "access_rules": [
-                      "$walls"
+                      "$walls,gs"
                     ]
                   },
                   {
@@ -64,7 +64,7 @@
           {
             "name": "Faron Woods",
             "access_rules": [
-              "$sealedtemple"
+              "$faron"
             ],
             "sections": [
               {
@@ -94,7 +94,7 @@
                 "item_count": 1,
                 "access_rules": [
                   "bellows,wds",
-                  "cs"
+                  "cs,$moblin"
                 ]
               },
               {
@@ -177,7 +177,7 @@
           {
             "name": "Lake Floria",
             "access_rules": [
-              "$sealedtemple,$floria"
+              "$floria"
             ],
             "sections": [
               {
@@ -371,6 +371,9 @@
               },
               {
                 "name": "Digging Mitts",
+                "access_rules": [
+                  "$bokoblin"
+                ],
                 "item_count": 1
               },
               {
@@ -616,10 +619,7 @@
               },
               {
                 "name": "End Chest",
-                "item_count": 1,
-                "access_rules": [
-                  "beetle"
-                ]
+                "item_count": 1
               }
             ],
             "map_locations": [
@@ -638,7 +638,10 @@
             "sections": [
               {
                 "name": "Shortcut Chest",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                  "$ampilus"
+                ]
               },
               {
                 "name": "Beginning Chest",
@@ -806,7 +809,7 @@
                     "name": "Rollercoaster Minigame",
                     "item_count": 1,
                     "access_rules": [
-                      "bellows"
+                      "$molderach"
                     ]
                   }
                 ],

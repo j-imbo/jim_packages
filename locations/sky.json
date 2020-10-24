@@ -103,10 +103,18 @@
             "sections": [
               {
                 "name": "Cave First Chest",
+                "access_rules": [
+                  "ps",
+                  "bombs"
+                ],
                 "item_count": 1
               },
               {
                 "name": "Cave Second Chest",
+                "access_rules": [
+                  "ps",
+                  "bombs"
+                ],
                 "item_count": 1
               },
               {
@@ -271,6 +279,9 @@
           },
           {
             "name": "Batreaux",
+            "access_rules": [
+              "$batreaux"
+            ],
             "sections": [
               {
                 "name": "5 Reward",
