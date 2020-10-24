@@ -59,7 +59,7 @@ function ranged()
 end
 
 function soth() -- song of the hero
-  return (has("sohf") and has("sohe") and has("sohl")) or has("soh",3)
+  return ((has("sohf") and has("sohe") and has("sohl")) or has("soh",3))
 end
 
 function bottle() -- can use bottles
@@ -167,7 +167,7 @@ end
 -- story/npc macros
 
 function beedle()
-  return (slng() or btl() or bow() or cs() or bmb())
+  return ranged()
 end
 
 function yerbal()
@@ -215,8 +215,6 @@ function thunder()
 end
 
 function demise()
-  local p = past()
-  local s = skykeep()
   return (past() and skykeep())
 end
 
@@ -410,8 +408,7 @@ function skykeep_acc()
 end
 
 function dungeon_dw() -- dungeon entrance in deep woods
-  local dw = deepwoods()
-  return dw
+  return deepwoods()
 end
 
 function dungeon_ev() -- dungeon entrance in eldin volcano
