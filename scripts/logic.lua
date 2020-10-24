@@ -335,7 +335,7 @@ function skyview_acc()
     return ((dungeon_dw() and has("sv_dw")) or (dungeon_ev() and has("sv_ev"))
       or (dungeon_ld() and has("sv_ld")) or (dungeon_lf() and has("sv_lf"))
       or (dungeon_ss() and has("sv_ss")) or (dungeon_vs() and has("sv_vs"))
-      or (dungeon_sl() has has("sv_sl")))
+      or (dungeon_sl() and has("sv_sl")))
   else
     return dungeon_dw()
   end
@@ -346,7 +346,7 @@ function earth_acc()
     return ((dungeon_dw() and has("et_dw")) or (dungeon_ev() and has("et_ev"))
       or (dungeon_ld() and has("et_ld")) or (dungeon_lf() and has("et_lf"))
       or (dungeon_ss() and has("et_ss")) or (dungeon_vs() and has("et_vs"))
-      or (dungeon_sl() has has("et_sl")))
+      or (dungeon_sl() and has("et_sl")))
   else
     return dungeon_ev()
   end
@@ -357,7 +357,7 @@ function mine_acc()
     return ((dungeon_dw() and has("lmf_dw")) or (dungeon_ev() and has("lmf_ev"))
       or (dungeon_ld() and has("lmf_ld")) or (dungeon_lf() and has("lmf_lf"))
       or (dungeon_ss() and has("lmf_ss")) or (dungeon_vs() and has("lmf_vs"))
-      or (dungeon_sl() has has("lmf_sl")))
+      or (dungeon_sl() and has("lmf_sl")))
   else
     return dungeon_ld()
   end
@@ -368,7 +368,7 @@ function cistern_acc()
     return ((dungeon_dw() and has("ac_dw")) or (dungeon_ev() and has("ac_ev"))
       or (dungeon_ld() and has("ac_ld")) or (dungeon_lf() and has("ac_lf"))
       or (dungeon_ss() and has("ac_ss")) or (dungeon_vs() and has("ac_vs"))
-      or (dungeon_sl() has has("ac_sl")))
+      or (dungeon_sl() and has("ac_sl")))
   else
     return dungeon_lf()
   end
@@ -379,7 +379,7 @@ function sandship_acc()
     return ((dungeon_dw() and has("ss_dw")) or (dungeon_ev() and has("ss_ev"))
       or (dungeon_ld() and has("ss_ld")) or (dungeon_lf() and has("ss_lf"))
       or (dungeon_ss() and has("ss_ss")) or (dungeon_vs() and has("ss_vs"))
-      or (dungeon_sl() has has("ss_sl")))
+      or (dungeon_sl() and has("ss_sl")))
   else
     return dungeon_ss()
   end
@@ -390,7 +390,7 @@ function sanc_acc()
     return ((dungeon_dw() and has("fs_dw")) or (dungeon_ev() and has("fs_ev"))
       or (dungeon_ld() and has("fs_ld")) or (dungeon_lf() and has("fs_lf"))
       or (dungeon_ss() and has("fs_ss")) or (dungeon_vs() and has("fs_vs"))
-      or (dungeon_sl() has has("fs_sl")))
+      or (dungeon_sl() and has("fs_sl")))
   else
     return dungeon_vs()
   end
@@ -401,7 +401,7 @@ function skykeep_acc()
     return ((dungeon_dw() and has("sk_dw")) or (dungeon_ev() and has("sk_ev"))
       or (dungeon_ld() and has("sk_ld")) or (dungeon_lf() and has("sk_lf"))
       or (dungeon_ss() and has("sk_ss")) or (dungeon_vs() and has("sk_vs"))
-      or (dungeon_sl() has has("sk_sl")))
+      or (dungeon_sl() and has("sk_sl")))
   else
     return dungeon_sl()
   end
