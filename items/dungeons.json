@@ -43,13 +43,6 @@
     ]
   },
   {
-    "name": "Earth Temple Small Keys",
-    "type": "consumable",
-    "img": "images/smallkey.png",
-    "codes": "earthsk",
-    "max_quantity": 0
-  },
-  {
     "name": "Dragon Sculpture",
     "type": "toggle",
     "img": "images/bk-et.png",
@@ -72,10 +65,9 @@
   },
   {
     "name": "Lanayru Mining Facility Small Keys",
-    "type": "consumable",
+    "type": "toggle",
     "img": "images/smallkey.png",
-    "codes": "minesk",
-    "max_quantity": 2
+    "codes": "minesk"
   },
   {
     "name": "Ancient Circuit",
@@ -103,7 +95,7 @@
     "type": "consumable",
     "img": "images/smallkey.png",
     "codes": "cisternsk",
-    "max_quantity": 3
+    "max_quantity": 2
   },
   {
     "name": "Blessed Idol",
