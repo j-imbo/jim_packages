@@ -1,0 +1,10 @@
+{
+  "tracker_default": {
+    "type": "layout",
+    "key": "tracker_right_map_dungshuf"
+  },
+  "tracker_horizontal": {
+    "type": "layout",
+    "key": "tracker_top_map_dungshuf"
+  }
+}

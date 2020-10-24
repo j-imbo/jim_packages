@@ -259,5 +259,285 @@
     "img": "images/c_sk.png",
     "codes": "skykeep",
     "disabled_img_mods": "dim,halfdim,grayscale"
+  },
+  {
+    "name": "Skyview Entrance",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/ent_unknown.png",
+        "codes": "sv"
+      },
+      {
+        "img": "images/ent_dw.png",
+        "codes": "sv,sv_dw"
+      },
+      {
+        "img": "images/ent_ev.png",
+        "codes": "sv,sv_ev"
+      },
+      {
+        "img": "images/ent_ld.png",
+        "codes": "sv,sv_ld"
+      },
+      {
+        "img": "images/ent_lf.png",
+        "codes": "sv,sv_lf"
+      },
+      {
+        "img": "images/ent_ss.png",
+        "codes": "sv,sv_ss"
+      },
+      {
+        "img": "images/ent_vs.png",
+        "codes": "sv,sv_vs"
+      },
+      {
+        "img": "images/ent_sl.png",
+        "codes": "sv,sv_sl"
+      }
+    ]
+  },
+  {
+    "name": "Earth Temple Entrance",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/ent_unknown.png",
+        "codes": "et"
+      },
+      {
+        "img": "images/ent_dw.png",
+        "codes": "et,et_dw"
+      },
+      {
+        "img": "images/ent_ev.png",
+        "codes": "et,et_ev"
+      },
+      {
+        "img": "images/ent_ld.png",
+        "codes": "et,et_ld"
+      },
+      {
+        "img": "images/ent_lf.png",
+        "codes": "et,et_lf"
+      },
+      {
+        "img": "images/ent_ss.png",
+        "codes": "et,et_ss"
+      },
+      {
+        "img": "images/ent_vs.png",
+        "codes": "et,et_vs"
+      },
+      {
+        "img": "images/ent_sl.png",
+        "codes": "et,et_sl"
+      }
+    ]
+  },
+  {
+    "name": "Mining Facility Entrance",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/ent_unknown.png",
+        "codes": "lmf"
+      },
+      {
+        "img": "images/ent_dw.png",
+        "codes": "lmf,lmf_dw"
+      },
+      {
+        "img": "images/ent_ev.png",
+        "codes": "lmf,lmf_ev"
+      },
+      {
+        "img": "images/ent_ld.png",
+        "codes": "lmf,lmf_ld"
+      },
+      {
+        "img": "images/ent_lf.png",
+        "codes": "lmf,lmf_lf"
+      },
+      {
+        "img": "images/ent_ss.png",
+        "codes": "lmf,lmf_ss"
+      },
+      {
+        "img": "images/ent_vs.png",
+        "codes": "lmf,lmf_vs"
+      },
+      {
+        "img": "images/ent_sl.png",
+        "codes": "lmf,lmf_sl"
+      }
+    ]
+  },
+  {
+    "name": "Ancient Cistern Entrance",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/ent_unknown.png",
+        "codes": "ac"
+      },
+      {
+        "img": "images/ent_dw.png",
+        "codes": "ac,ac_dw"
+      },
+      {
+        "img": "images/ent_ev.png",
+        "codes": "ac,ac_ev"
+      },
+      {
+        "img": "images/ent_ld.png",
+        "codes": "ac,ac_ld"
+      },
+      {
+        "img": "images/ent_lf.png",
+        "codes": "ac,ac_lf"
+      },
+      {
+        "img": "images/ent_ss.png",
+        "codes": "ac,ac_ss"
+      },
+      {
+        "img": "images/ent_vs.png",
+        "codes": "ac,ac_vs"
+      },
+      {
+        "img": "images/ent_sl.png",
+        "codes": "ac,ac_sl"
+      }
+    ]
+  },
+  {
+    "name": "Sandship Entrance",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/ent_unknown.png",
+        "codes": "ss"
+      },
+      {
+        "img": "images/ent_dw.png",
+        "codes": "ss,ss_dw"
+      },
+      {
+        "img": "images/ent_ev.png",
+        "codes": "ss,ss_ev"
+      },
+      {
+        "img": "images/ent_ld.png",
+        "codes": "ss,ss_ld"
+      },
+      {
+        "img": "images/ent_lf.png",
+        "codes": "ss,ss_lf"
+      },
+      {
+        "img": "images/ent_ss.png",
+        "codes": "ss,ss_ss"
+      },
+      {
+        "img": "images/ent_vs.png",
+        "codes": "ss,ss_vs"
+      },
+      {
+        "img": "images/ent_sl.png",
+        "codes": "ss,ss_sl"
+      }
+    ]
+  },
+  {
+    "name": "Fire Sanc Entrance",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/ent_unknown.png",
+        "codes": "fs"
+      },
+      {
+        "img": "images/ent_dw.png",
+        "codes": "fs,fs_dw"
+      },
+      {
+        "img": "images/ent_ev.png",
+        "codes": "fs,fs_ev"
+      },
+      {
+        "img": "images/ent_ld.png",
+        "codes": "fs,fs_ld"
+      },
+      {
+        "img": "images/ent_lf.png",
+        "codes": "fs,fs_lf"
+      },
+      {
+        "img": "images/ent_ss.png",
+        "codes": "fs,fs_ss"
+      },
+      {
+        "img": "images/ent_vs.png",
+        "codes": "fs,fs_vs"
+      },
+      {
+        "img": "images/ent_sl.png",
+        "codes": "fs,fs_sl"
+      }
+    ]
+  },
+  {
+    "name": "Skykeep Entrance",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/ent_unknown.png",
+        "codes": "sk"
+      },
+      {
+        "img": "images/ent_dw.png",
+        "codes": "sk,sk_dw"
+      },
+      {
+        "img": "images/ent_ev.png",
+        "codes": "sk,sk_ev"
+      },
+      {
+        "img": "images/ent_ld.png",
+        "codes": "sk,sk_ld"
+      },
+      {
+        "img": "images/ent_lf.png",
+        "codes": "sk,sk_lf"
+      },
+      {
+        "img": "images/ent_ss.png",
+        "codes": "sk,sk_ss"
+      },
+      {
+        "img": "images/ent_vs.png",
+        "codes": "sk,sk_vs"
+      },
+      {
+        "img": "images/ent_sl.png",
+        "codes": "sk,sk_sl"
+      }
+    ]
   }
 ]
