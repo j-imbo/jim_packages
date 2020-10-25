@@ -86,7 +86,7 @@
                 "name": "Sparrot Crystals",
                 "item_count": 1,
                 "access_rules": [
-                  "$past,$eldin2,cs"
+                  "$eldin2,cs"
                 ]
               }
             ],
@@ -386,14 +386,14 @@
                 "name": "Harp Minigame",
                 "item_count": 1,
                 "access_rules": [
-                  "harp,$bottle,earth"
+                  "harp,$bottle"
                 ]
               },
               {
                 "name": "Kina Crystals",
                 "item_count": 1,
                 "access_rules": [
-                  "sanc,$bottle,harp,$eldin1,earth"
+                  "$bottle,harp,$eldin1"
                 ]
               }
             ],
