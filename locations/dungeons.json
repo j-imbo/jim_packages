@@ -651,6 +651,26 @@
             "y": 600
           }
         ]
+      },
+      {
+        "name": "Sealed Grounds",
+        "access_rules": [
+          "$demise"
+        ],
+        "sections": [
+          {
+            "name": "Defeat Demise",
+            "hosted_item": "demise"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "size": 17,
+            "x": 265,
+            "y": 200
+          }
+        ]
       }
     ]
   }

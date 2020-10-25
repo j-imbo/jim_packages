@@ -10,7 +10,8 @@
         "codes": "skyview_label"
       },
       {
-        "img": "images/label_skyviewO.png"
+        "img": "images/label_skyviewO.png",
+        "codes": "sv_r"
       }
     ]
   },
@@ -38,7 +39,8 @@
         "codes": "earth_label"
       },
       {
-        "img": "images/label_earthO.png"
+        "img": "images/label_earthO.png",
+        "codes": "et_r"
       }
     ]
   },
@@ -59,7 +61,8 @@
         "codes": "mine_label"
       },
       {
-        "img": "images/label_mineO.png"
+        "img": "images/label_mineO.png",
+        "codes": "lmf_r"
       }
     ]
   },
@@ -86,7 +89,8 @@
         "codes": "cistern_label"
       },
       {
-        "img": "images/label_cisternO.png"
+        "img": "images/label_cisternO.png",
+        "codes": "ac_r"
       }
     ]
   },
@@ -114,7 +118,8 @@
         "codes": "sandship_label"
       },
       {
-        "img": "images/label_shipO.png"
+        "img": "images/label_shipO.png",
+        "codes": "ss_r"
       }
     ]
   },
@@ -142,7 +147,8 @@
         "codes": "sanc_label"
       },
       {
-        "img": "images/label_sancO.png"
+        "img": "images/label_sancO.png",
+        "codes": "fs_r"
       }
     ]
   },
@@ -170,7 +176,8 @@
         "codes": "skykeep_label"
       },
       {
-        "img": "images/label_keepO.png"
+        "img": "images/label_keepO.png",
+        "codes": "sk_r"
       }
     ]
   },
@@ -272,30 +279,37 @@
       },
       {
         "img": "images/ent_dw.png",
+        "inherit_codes": false,
         "codes": "sv,sv_dw"
       },
       {
         "img": "images/ent_ev.png",
+        "inherit_codes": false,
         "codes": "sv,sv_ev"
       },
       {
         "img": "images/ent_ld.png",
+        "inherit_codes": false,
         "codes": "sv,sv_ld"
       },
       {
         "img": "images/ent_lf.png",
+        "inherit_codes": false,
         "codes": "sv,sv_lf"
       },
       {
         "img": "images/ent_ss.png",
+        "inherit_codes": false,
         "codes": "sv,sv_ss"
       },
       {
         "img": "images/ent_vs.png",
+        "inherit_codes": false,
         "codes": "sv,sv_vs"
       },
       {
         "img": "images/ent_sl.png",
+        "inherit_codes": false,
         "codes": "sv,sv_sl"
       }
     ]
@@ -312,30 +326,37 @@
       },
       {
         "img": "images/ent_dw.png",
+        "inherit_codes": false,
         "codes": "et,et_dw"
       },
       {
         "img": "images/ent_ev.png",
+        "inherit_codes": false,
         "codes": "et,et_ev"
       },
       {
         "img": "images/ent_ld.png",
+        "inherit_codes": false,
         "codes": "et,et_ld"
       },
       {
         "img": "images/ent_lf.png",
+        "inherit_codes": false,
         "codes": "et,et_lf"
       },
       {
         "img": "images/ent_ss.png",
+        "inherit_codes": false,
         "codes": "et,et_ss"
       },
       {
         "img": "images/ent_vs.png",
+        "inherit_codes": false,
         "codes": "et,et_vs"
       },
       {
         "img": "images/ent_sl.png",
+        "inherit_codes": false,
         "codes": "et,et_sl"
       }
     ]
@@ -345,6 +366,7 @@
     "type": "progressive",
     "loop": true,
     "allow_disabled": false,
+    "inherit_codes": false,
     "stages": [
       {
         "img": "images/ent_unknown.png",
@@ -352,30 +374,37 @@
       },
       {
         "img": "images/ent_dw.png",
+        "inherit_codes": false,
         "codes": "lmf,lmf_dw"
       },
       {
         "img": "images/ent_ev.png",
+        "inherit_codes": false,
         "codes": "lmf,lmf_ev"
       },
       {
         "img": "images/ent_ld.png",
+        "inherit_codes": false,
         "codes": "lmf,lmf_ld"
       },
       {
         "img": "images/ent_lf.png",
+        "inherit_codes": false,
         "codes": "lmf,lmf_lf"
       },
       {
         "img": "images/ent_ss.png",
+        "inherit_codes": false,
         "codes": "lmf,lmf_ss"
       },
       {
         "img": "images/ent_vs.png",
+        "inherit_codes": false,
         "codes": "lmf,lmf_vs"
       },
       {
         "img": "images/ent_sl.png",
+        "inherit_codes": false,
         "codes": "lmf,lmf_sl"
       }
     ]
@@ -385,6 +414,7 @@
     "type": "progressive",
     "loop": true,
     "allow_disabled": false,
+    "inherit_codes": false,
     "stages": [
       {
         "img": "images/ent_unknown.png",
@@ -392,30 +422,37 @@
       },
       {
         "img": "images/ent_dw.png",
+        "inherit_codes": false,
         "codes": "ac,ac_dw"
       },
       {
         "img": "images/ent_ev.png",
+        "inherit_codes": false,
         "codes": "ac,ac_ev"
       },
       {
         "img": "images/ent_ld.png",
+        "inherit_codes": false,
         "codes": "ac,ac_ld"
       },
       {
         "img": "images/ent_lf.png",
+        "inherit_codes": false,
         "codes": "ac,ac_lf"
       },
       {
         "img": "images/ent_ss.png",
+        "inherit_codes": false,
         "codes": "ac,ac_ss"
       },
       {
         "img": "images/ent_vs.png",
+        "inherit_codes": false,
         "codes": "ac,ac_vs"
       },
       {
         "img": "images/ent_sl.png",
+        "inherit_codes": false,
         "codes": "ac,ac_sl"
       }
     ]
@@ -425,6 +462,7 @@
     "type": "progressive",
     "loop": true,
     "allow_disabled": false,
+    "inherit_codes": false,
     "stages": [
       {
         "img": "images/ent_unknown.png",
@@ -432,30 +470,37 @@
       },
       {
         "img": "images/ent_dw.png",
+        "inherit_codes": false,
         "codes": "ss,ss_dw"
       },
       {
         "img": "images/ent_ev.png",
+        "inherit_codes": false,
         "codes": "ss,ss_ev"
       },
       {
         "img": "images/ent_ld.png",
+        "inherit_codes": false,
         "codes": "ss,ss_ld"
       },
       {
         "img": "images/ent_lf.png",
+        "inherit_codes": false,
         "codes": "ss,ss_lf"
       },
       {
         "img": "images/ent_ss.png",
+        "inherit_codes": false,
         "codes": "ss,ss_ss"
       },
       {
         "img": "images/ent_vs.png",
+        "inherit_codes": false,
         "codes": "ss,ss_vs"
       },
       {
         "img": "images/ent_sl.png",
+        "inherit_codes": false,
         "codes": "ss,ss_sl"
       }
     ]
@@ -465,6 +510,7 @@
     "type": "progressive",
     "loop": true,
     "allow_disabled": false,
+    "inherit_codes": false,
     "stages": [
       {
         "img": "images/ent_unknown.png",
@@ -472,30 +518,37 @@
       },
       {
         "img": "images/ent_dw.png",
+        "inherit_codes": false,
         "codes": "fs,fs_dw"
       },
       {
         "img": "images/ent_ev.png",
+        "inherit_codes": false,
         "codes": "fs,fs_ev"
       },
       {
         "img": "images/ent_ld.png",
+        "inherit_codes": false,
         "codes": "fs,fs_ld"
       },
       {
         "img": "images/ent_lf.png",
+        "inherit_codes": false,
         "codes": "fs,fs_lf"
       },
       {
         "img": "images/ent_ss.png",
+        "inherit_codes": false,
         "codes": "fs,fs_ss"
       },
       {
         "img": "images/ent_vs.png",
+        "inherit_codes": false,
         "codes": "fs,fs_vs"
       },
       {
         "img": "images/ent_sl.png",
+        "inherit_codes": false,
         "codes": "fs,fs_sl"
       }
     ]
@@ -505,6 +558,7 @@
     "type": "progressive",
     "loop": true,
     "allow_disabled": false,
+    "inherit_codes": false,
     "stages": [
       {
         "img": "images/ent_unknown.png",
@@ -512,32 +566,45 @@
       },
       {
         "img": "images/ent_dw.png",
+        "inherit_codes": false,
         "codes": "sk,sk_dw"
       },
       {
         "img": "images/ent_ev.png",
+        "inherit_codes": false,
         "codes": "sk,sk_ev"
       },
       {
         "img": "images/ent_ld.png",
+        "inherit_codes": false,
         "codes": "sk,sk_ld"
       },
       {
         "img": "images/ent_lf.png",
+        "inherit_codes": false,
         "codes": "sk,sk_lf"
       },
       {
         "img": "images/ent_ss.png",
+        "inherit_codes": false,
         "codes": "sk,sk_ss"
       },
       {
         "img": "images/ent_vs.png",
+        "inherit_codes": false,
         "codes": "sk,sk_vs"
       },
       {
         "img": "images/ent_sl.png",
+        "inherit_codes": false,
         "codes": "sk,sk_sl"
       }
     ]
+  },
+  {
+    "name": "Demise",
+    "type": "toggle",
+    "img": "images/demise.png",
+    "codes": "demise"
   }
 ]

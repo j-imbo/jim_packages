@@ -181,7 +181,7 @@ function skyview_first() -- first room of skyview
 end
 
 function earth_bridge() -- drawbridge in earth
-  return (bow() or (btl() and lizalfos() or sling() or cs()))
+  return (bow() or (btl() and (lizalfos() or sling() or cs())))
 end
 
 function mine_crystal() -- crystal in map room
@@ -264,7 +264,15 @@ function gate()
 end
 
 function past()
-  return (has("ms") and has("sanc") and has("cistern"))
+  return (has("ms") and sealedtemple()
+    and (has("sv_r") or has("et_r") or has("lmf_r")
+      or has("ac_r") or has("ss_r") or has("fs_r"))
+    and not (has("sv_r") and not has("skyview"))
+    and not (has("et_r") and not has("earth"))
+    and not (has("lmf_r") and not has("mine"))
+    and not (has("ac_r") and not has("cistern"))
+    and not (has("ss_r") and not has("skyship"))
+    and not (has("fs_r") and not has("sanc")))
 end
 
 function levias()
@@ -275,20 +283,20 @@ function wheel()
   return (lanayru1() and bomb())
 end
 
-function floodedfaron()
+function floodedfaron() -- unused
   return (levias() and wds())
 end
 
-function bokobase()
+function bokobase() -- unused
   return levias()
 end
 
-function gorge()
+function gorge() -- unused
   return (lanayru1() and levias() and cs())
 end
 
-function thunder()
-  return (gorge() and bomb() and cs() and hook() and whip() and past())
+function thunder() -- unused
+  return (gorge() and bomb() and cs() and hook() and whip())
 end
 
 function demise()
@@ -401,7 +409,7 @@ function cube_ps() --pirate stronghold
   return (sea() and gust() and goddess())
 end
 
-function cube_lg() --gorge
+function cube_lg() --gorge, unused
   return (gorge() and cs() and whip() and hook() and goddess())
 end
 
