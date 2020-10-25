@@ -300,7 +300,7 @@ function thunder() -- unused
 end
 
 function demise()
-  return (past() and skykeep())
+  return (past() and has("tri",3))
 end
 
 --goddess cubes macros

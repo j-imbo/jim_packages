@@ -3,7 +3,6 @@
     "name": "Sky",
     "chest_unopened_img": "images/chest.png",
     "chest_opened_img": "images/chest_gray.png",
-    "chest_opened_img_mods": "dim",
     "children": [
       {
         "name": "Skyloft",
@@ -14,50 +13,88 @@
             "sections": [
               {
                 "name": "Fledge",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "op_mq_on"
+                ],
+                "chest_unopened_img": "images/adventure.png",
+                "chest_opened_img": "images/adventure_gray.png"
               },
               {
                 "name": "Owlan",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "op_mq_on"
+                ],
+                "chest_unopened_img": "images/shield_wooden.png",
+                "chest_opened_img": "images/shield_wooden_gray.png"
               },
               {
                 "name": "Sword Chest",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "op_ow_on"
+                ]
               },
               {
-                "name": "Pumpkin Archer",
+                "name": "Pumpkin Archery",
                 "item_count": 1,
                 "access_rules": [
                   "mine,$bottle,bow"
-                ]
+                ],
+                "visibility_rules": [
+                  "op_mini_on"
+                ],
+                "chest_unopened_img": "images/hp.png",
+                "chest_opened_img": "images/hp_gray.png"
               },
               {
                 "name": "Zelda HP",
                 "item_count": 1,
                 "access_rules": [
                   "claw"
-                ]
+                ],
+                "visibility_rules": [
+                  "op_ow_on"
+                ],
+                "chest_unopened_img": "images/hp.png",
+                "chest_opened_img": "images/hp_gray.png"
               },
               {
                 "name": "Cawlin's Letter",
                 "item_count": 1,
                 "access_rules": [
                   "harp"
-                ]
+                ],
+                "visibility_rules": [
+                  "op_sq_on"
+                ],
+                "chest_unopened_img": "images/letter.png",
+                "chest_opened_img": "images/letter_gray.png"
               },
               {
                 "name": "Fledge Crystals",
                 "item_count": 1,
                 "access_rules": [
                   "mine,$bottle"
-                ]
+                ],
+                "visibility_rules": [
+                  "op_sq_on"
+                ],
+                "chest_unopened_img": "images/gratitude.png",
+                "chest_opened_img": "images/gratitude_gray.png"
               },
               {
                 "name": "Ghost/Pipit Crystals",
                 "item_count": 1,
                 "access_rules": [
                   "letter"
-                ]
+                ],
+                "visibility_rules": [
+                  "op_sq_on"
+                ],
+                "chest_unopened_img": "images/gratitude.png",
+                "chest_opened_img": "images/gratitude_gray.png"
               }
             ],
             "map_locations": [
@@ -73,13 +110,21 @@
             "sections": [
               {
                 "name": "Potion Lady",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "op_mq_on"
+                ],
+                "chest_unopened_img": "images/bottle.png",
+                "chest_opened_img": "images/bottle_gray.png"
               },
               {
                 "name": "Bazaar Goddess Chest",
                 "item_count": 1,
                 "access_rules": [
                   "cube_AH"
+                ],
+                "visibility_rules": [
+                  "op_gc_on"
                 ]
               },
               {
@@ -87,7 +132,12 @@
                 "item_count": 1,
                 "access_rules": [
                   "$eldin2,cs"
-                ]
+                ],
+                "visibility_rules": [
+                  "op_sq_on"
+                ],
+                "chest_unopened_img": "images/gratitude.png",
+                "chest_opened_img": "images/gratitude_gray.png"
               }
             ],
             "map_locations": [
@@ -102,26 +152,24 @@
             "name": "Waterfall",
             "sections": [
               {
-                "name": "Cave First Chest",
+                "name": "Cave Chests",
                 "access_rules": [
                   "ps",
                   "bombs"
                 ],
-                "item_count": 1
-              },
-              {
-                "name": "Cave Second Chest",
-                "access_rules": [
-                  "ps",
-                  "bombs"
-                ],
-                "item_count": 1
+                "item_count": 2,
+                "visibility_rules": [
+                  "op_ow_on"
+                ]
               },
               {
                 "name": "Floating Island Goddess Chest",
                 "item_count": 1,
                 "access_rules": [
                   "cs,cube_Fl"
+                ],
+                "visibility_rules": [
+                  "op_gc_on"
                 ]
               },
               {
@@ -129,6 +177,9 @@
                 "item_count": 1,
                 "access_rules": [
                   "cs,cube_PS"
+                ],
+                "visibility_rules": [
+                  "op_gc_on"
                 ]
               }
             ],
@@ -145,11 +196,17 @@
             "sections": [
               {
                 "name": "Goddess Sword",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "op_ow_on"
+                ]
               },
               {
                 "name": "Chest near Statue",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "op_ow_on"
+                ]
               }
             ],
             "map_locations": [
@@ -161,13 +218,16 @@
             ]
           },
           {
-            "name": "Lonely Floating Island",
+            "name": "Western Cliff Island",
             "sections": [
               {
-                "name": "Lonely Goddess Chest",
+                "name": "West Cliff Goddess Chest",
                 "item_count": 1,
                 "access_rules": [
                   "cube_WGT"
+                ],
+                "visibility_rules": [
+                  "op_gc_on"
                 ]
               }
             ],
@@ -187,6 +247,9 @@
                 "item_count": 1,
                 "access_rules": [
                   "wds"
+                ],
+                "visibility_rules": [
+                  "op_ow_on"
                 ]
               },
               {
@@ -194,30 +257,53 @@
                 "item_count": 1,
                 "access_rules": [
                   "gust,claw",
-                  "gust,$beedle"
-                ]
+                  "gust,$beedle,[claw]"
+                ],
+                "visibility_rules": [
+                  "op_ow_on"
+                ],
+                "chest_unopened_img": "images/rattle.png",
+                "chest_opened_img": "images/rattle_gray.png"
               },
               {
                 "name": "Shed Goddess Chest",
                 "item_count": 1,
                 "access_rules": [
                   "wds,cube_ES"
+                ],
+                "visibility_rules": [
+                  "op_gc_on"
                 ]
               },
               {
                 "name": "Wyrna Crystals",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "op_sq_on"
+                ],
+                "chest_unopened_img": "images/gratitude.png",
+                "chest_opened_img": "images/gratitude_gray.png"
               },
               {
                 "name": "Peater/Peatrice Crystals",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "op_sq_on"
+                ],
+                "chest_unopened_img": "images/gratitude.png",
+                "chest_opened_img": "images/gratitude_gray.png"
               },
               {
                 "name": "Baby Crystals",
                 "item_count": 1,
                 "access_rules": [
                   "rattle"
-                ]
+                ],
+                "visibility_rules": [
+                  "op_sq_on"
+                ],
+                "chest_unopened_img": "images/gratitude.png",
+                "chest_opened_img": "images/gratitude_gray.png"
               }
             ],
             "map_locations": [
@@ -233,21 +319,36 @@
             "sections": [
               {
                 "name": "Parrow Bottle",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "op_sq_on"
+                ],
+                "chest_unopened_img": "images/bottle.png",
+                "chest_opened_img": "images/bottle_gray.png"
               },
               {
                 "name": "Parrow Crystals",
                 "item_count": 1,
                 "access_rules": [
                   "$bottle"
-                ]
+                ],
+                "visibility_rules": [
+                  "op_sq_on"
+                ],
+                "chest_unopened_img": "images/gratitude.png",
+                "chest_opened_img": "images/gratitude_gray.png"
               },
               {
                 "name": "Skyloft Silent Realm",
                 "item_count": 1,
                 "access_rules": [
                   "$soth,harp"
-                ]
+                ],
+                "visibility_rules": [
+                  "op_sr_on"
+                ],
+                "chest_unopened_img": "images/stone.png",
+                "chest_opened_img": "images/stone_gray.png"
               }
             ],
             "map_locations": [
@@ -266,7 +367,12 @@
                 "item_count": 1,
                 "access_rules": [
                   "gust"
-                ]
+                ],
+                "visibility_rules": [
+                  "op_sq_on"
+                ],
+                "chest_unopened_img": "images/gratitude.png",
+                "chest_opened_img": "images/gratitude_gray.png"
               }
             ],
             "map_locations": [
@@ -288,27 +394,45 @@
                 "item_count": 1,
                 "access_rules": [
                   "gratitude:5"
-                ]
+                ],
+                "visibility_rules": [
+                  "op_bat_on"
+                ],
+                "chest_unopened_img": "images/wallet_medium.png",
+                "chest_opened_img": "images/wallet_medium_gray.png"
               },
               {
                 "name": "10 Reward",
                 "item_count": 1,
                 "access_rules": [
                   "gratitude:10"
-                ]
+                ],
+                "visibility_rules": [
+                  "op_bat_on"
+                ],
+                "chest_unopened_img": "images/hp.png",
+                "chest_opened_img": "images/hp_gray.png"
               },
               {
                 "name": "30 Reward",
                 "item_count": 1,
                 "access_rules": [
                   "gratitude:30"
-                ]
+                ],
+                "visibility_rules": [
+                  "op_bat_on"
+                ],
+                "chest_unopened_img": "images/wallet_big.png",
+                "chest_opened_img": "images/wallet_big_gray.png"
               },
               {
                 "name": "30 Chest",
                 "item_count": 1,
                 "access_rules": [
                   "gratitude:30"
+                ],
+                "visibility_rules": [
+                  "op_bat_on"
                 ]
               },
               {
@@ -316,35 +440,60 @@
                 "item_count": 1,
                 "access_rules": [
                   "gratitude:40"
-                ]
+                ],
+                "visibility_rules": [
+                  "op_bat_on"
+                ],
+                "chest_unopened_img": "images/rupee.png",
+                "chest_opened_img": "images/rupee_gray.png"
               },
               {
                 "name": "50 Reward",
                 "item_count": 1,
                 "access_rules": [
                   "gratitude:50"
-                ]
+                ],
+                "visibility_rules": [
+                  "op_bat_on"
+                ],
+                "chest_unopened_img": "images/wallet_giant.png",
+                "chest_opened_img": "images/wallet_giant_gray.png"
               },
               {
                 "name": "70 Reward",
                 "item_count": 1,
                 "access_rules": [
                   "gratitude:70"
-                ]
+                ],
+                "visibility_rules": [
+                  "op_bat_on"
+                ],
+                "chest_unopened_img": "images/rupee.png",
+                "chest_opened_img": "images/rupee_gray.png"
               },
               {
                 "name": "70 Reward 2",
                 "item_count": 1,
                 "access_rules": [
                   "gratitude:70"
-                ]
+                ],
+                "visibility_rules": [
+                  "op_bat_on"
+                ],
+                "chest_unopened_img": "images/rupee.png",
+                "chest_opened_img": "images/rupee_gray.png"
               },
               {
                 "name": "80 Reward",
                 "item_count": 1,
                 "access_rules": [
                   "gratitude:80"
-                ]
+                ],
+                "visibility_rules": [
+                  "op_bat_on"
+                ],
+                "chest_unopened_img": "images/wallet_tycoon.png",
+                "chest_opened_img": "images/wallet_tycoon_gray.png"
               }
             ],
             "map_locations": [
@@ -369,6 +518,9 @@
                 "item_count": 1,
                 "access_rules": [
                   "cube_SVS"
+                ],
+                "visibility_rules": [
+                  "op_gc_on,op_dung_on"
                 ]
               },
               {
@@ -376,25 +528,43 @@
                 "item_count": 1,
                 "access_rules": [
                   "cube_Initial"
+                ],
+                "visibility_rules": [
+                  "op_gc_on"
                 ]
               },
               {
                 "name": "Chandelier",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "op_ow_on"
+                ],
+                "chest_unopened_img": "images/hp.png",
+                "chest_opened_img": "images/hp_gray.png"
               },
               {
                 "name": "Harp Minigame",
                 "item_count": 1,
                 "access_rules": [
                   "harp,$bottle"
-                ]
+                ],
+                "visibility_rules": [
+                  "op_mini_on"
+                ],
+                "chest_unopened_img": "images/hp.png",
+                "chest_opened_img": "images/hp_gray.png"
               },
               {
                 "name": "Kina Crystals",
                 "item_count": 1,
                 "access_rules": [
                   "$bottle,harp,$eldin1"
-                ]
+                ],
+                "visibility_rules": [
+                  "op_sq_on,op_mini_on"
+                ],
+                "chest_unopened_img": "images/gratitude.png",
+                "chest_opened_img": "images/gratitude_gray.png"
               }
             ],
             "map_locations": [
@@ -420,6 +590,9 @@
                 "item_count": 1,
                 "access_rules": [
                   "cube_ToT"
+                ],
+                "visibility_rules": [
+                  "op_gc_on,op_dung_on"
                 ]
               },
               {
@@ -427,6 +600,9 @@
                 "item_count": 1,
                 "access_rules": [
                   "$beedle,cube_SV"
+                ],
+                "visibility_rules": [
+                  "op_gc_on"
                 ]
               },
               {
@@ -434,13 +610,21 @@
                 "item_count": 1,
                 "access_rules": [
                   "cube_MTE"
+                ],
+                "visibility_rules": [
+                  "op_gc_on"
                 ]
               },
               {
                 "name": "Beedle Crystals",
                 "access_rules": [
                   "$beedle,hcb"
-                ]
+                ],
+                "visibility_rules": [
+                  "op_sq_on"
+                ],
+                "chest_unopened_img": "images/gratitude.png",
+                "chest_opened_img": "images/gratitude_gray.png"
               }
             ],
             "map_locations": [
@@ -459,20 +643,33 @@
                 "item_count": 1,
                 "access_rules": [
                   "$wheel"
-                ]
+                ],
+                "visibility_rules": [
+                  "op_mini_on"
+                ],
+                "chest_unopened_img": "images/hp.png",
+                "chest_opened_img": "images/hp_gray.png"
               },
               {
                 "name": "Dodoh Crystals",
                 "item_count": 1,
                 "access_rules": [
                   "$wheel"
-                ]
+                ],
+                "visibility_rules": [
+                  "op_sq_on"
+                ],
+                "chest_unopened_img": "images/gratitude.png",
+                "chest_opened_img": "images/gratitude_gray.png"
               },
               {
                 "name": "Fun Fun Goddess Chest",
                 "item_count": 1,
                 "access_rules": [
                   "cube_FW"
+                ],
+                "visibility_rules": [
+                  "op_gc_on"
                 ]
               }
             ],
@@ -492,6 +689,9 @@
                 "item_count": 1,
                 "access_rules": [
                   "cube_ETW"
+                ],
+                "visibility_rules": [
+                  "op_gc_on"
                 ]
               },
               {
@@ -499,6 +699,9 @@
                 "item_count": 1,
                 "access_rules": [
                   "wds,cube_SP"
+                ],
+                "visibility_rules": [
+                  "op_gc_on"
                 ]
               }
             ],
@@ -518,6 +721,9 @@
                 "item_count": 1,
                 "access_rules": [
                   "cube_ETE"
+                ],
+                "visibility_rules": [
+                  "op_gc_on"
                 ]
               },
               {
@@ -525,6 +731,9 @@
                 "item_count": 1,
                 "access_rules": [
                   "cube_LME,bombs"
+                ],
+                "visibility_rules": [
+                  "op_gc_on"
                 ]
               }
             ],
@@ -544,6 +753,9 @@
                 "item_count": 1,
                 "access_rules": [
                   "cube_EGTcs"
+                ],
+                "visibility_rules": [
+                  "op_gc_on"
                 ]
               },
               {
@@ -551,6 +763,9 @@
                 "item_count": 1,
                 "access_rules": [
                   "cube_SO"
+                ],
+                "visibility_rules": [
+                  "op_gc_on"
                 ]
               }
             ],
@@ -570,6 +785,9 @@
                 "item_count": 1,
                 "access_rules": [
                   "cube_DW"
+                ],
+                "visibility_rules": [
+                  "op_gc_on"
                 ]
               }
             ],
@@ -589,6 +807,9 @@
                 "item_count": 1,
                 "access_rules": [
                   "cube_EE"
+                ],
+                "visibility_rules": [
+                  "op_gc_on"
                 ]
               },
               {
@@ -596,6 +817,9 @@
                 "item_count": 1,
                 "access_rules": [
                   "cube_HBF"
+                ],
+                "visibility_rules": [
+                  "op_gc_on"
                 ]
               },
               {
@@ -603,6 +827,9 @@
                 "item_count": 1,
                 "access_rules": [
                   "claw,cube_SR"
+                ],
+                "visibility_rules": [
+                  "op_gc_on"
                 ]
               }
             ],
@@ -622,7 +849,12 @@
                 "item_count": 1,
                 "access_rules": [
                   "$bottle"
-                ]
+                ],
+                "visibility_rules": [
+                  "op_sq_on"
+                ],
+                "chest_unopened_img": "images/gratitude.png",
+                "chest_opened_img": "images/gratitude_gray.png"
               }
             ],
             "map_locations": [
@@ -637,7 +869,7 @@
       },
       {
         "name": "Thunderhead",
-        "color": "#",
+        "color": "#bb33ff",
         "access_rules": [
           "$thunderhead"
         ],
@@ -650,6 +882,9 @@
                 "item_count": 1,
                 "access_rules": [
                   "gs"
+                ],
+                "visibility_rules": [
+                  "op_ow_on"
                 ]
               },
               {
@@ -657,6 +892,9 @@
                 "item_count": 1,
                 "access_rules": [
                   "ls"
+                ],
+                "visibility_rules": [
+                  "op_ow_on"
                 ]
               },
               {
@@ -664,6 +902,9 @@
                 "item_count": 1,
                 "access_rules": [
                   "ws"
+                ],
+                "visibility_rules": [
+                  "op_ow_on"
                 ]
               },
               {
@@ -671,6 +912,9 @@
                 "item_count": 1,
                 "access_rules": [
                   "cube_MT"
+                ],
+                "visibility_rules": [
+                  "op_gc_on"
                 ]
               },
               {
@@ -678,6 +922,9 @@
                 "item_count": 1,
                 "access_rules": [
                   "cube_FSE"
+                ],
+                "visibility_rules": [
+                  "op_gc_on"
                 ]
               }
             ],
@@ -694,13 +941,19 @@
             "sections": [
               {
                 "name": "East Chest",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "op_ow_on"
+                ]
               },
               {
                 "name": "East Goddess Chest",
                 "item_count": 1,
                 "access_rules": [
                   "cube_EGTr"
+                ],
+                "visibility_rules": [
+                  "op_gc_on"
                 ]
               }
             ],
@@ -720,13 +973,21 @@
                 "item_count": 0,
                 "access_rules": [
                   "bugnet"
-                ]
+                ],
+                "visibility_rules": [
+                  "op_mini_on"
+                ],
+                "chest_unopened_img": "images/hcb.png",
+                "chest_opened_img": "images/hcb_gray.png"
               },
               {
                 "name": "Bug Goddess Chest",
                 "item_count": 1,
                 "access_rules": [
                   "cube_SW"
+                ],
+                "visibility_rules": [
+                  "op_gc_on"
                 ]
               }
             ],
@@ -742,17 +1003,23 @@
             "name": "Mogma Mitts Island",
             "sections": [
               {
-                "name": "First Goddess Chest",
+                "name": "Vines Goddess Chest",
                 "item_count": 1,
                 "access_rules": [
                   "mogma,cube_VS"
+                ],
+                "visibility_rules": [
+                  "op_gc_on"
                 ]
               },
               {
-                "name": "Second Goddess Chest",
+                "name": "Caged Goddess Chest",
                 "item_count": 0,
                 "access_rules": [
                   "mitts,cube_LG"
+                ],
+                "visibility_rules": [
+                  "op_gc_on"
                 ]
               }
             ],

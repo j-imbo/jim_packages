@@ -3,7 +3,6 @@
     "name": "World",
     "chest_unopened_img": "images/chest.png",
     "chest_opened_img": "images/chest_gray.png",
-    "chest_opened_img_mods": "@disabled",
     "children": [
       {
         "name": "Faron",
@@ -20,35 +19,58 @@
                 "sections": [
                   {
                     "name": "Inside Temple",
-                    "item_count": 1
+                    "item_count": 1,
+                    "visibility_rules": [
+                      "op_ow_on"
+                    ]
                   },
                   {
                     "name": "Ballad of the Goddess",
                     "item_count": 1,
                     "access_rules": [
                       "harp"
-                    ]
+                    ],
+                    "visibility_rules": [
+                      "op_mq_on"
+                    ],
+                    "chest_unopened_img": "images/harp_bog.png",
+                    "chest_opened_img": "images/harp_bog_gray.png"
                   },
                   {
                     "name": "Gorko Goddess Wall Reward",
                     "item_count": 1,
                     "access_rules": [
                       "$walls,gs"
-                    ]
+                    ],
+                    "visibility_rules": [
+                      "op_mq_on,op_dung_on"
+                    ],
+                    "chest_unopened_img": "images/hp.png",
+                    "chest_opened_img": "images/hp_gray.png"
                   },
                   {
                     "name": "Behind Triforce on Wall",
                     "item_count": 0,
                     "access_rules": [
                       "$walls,bow,bombs,$levias"
-                    ]
+                    ],
+                    "visibility_rules": [
+                      "op_mq_on,op_dung_on"
+                    ],
+                    "chest_unopened_img": "images/rupee.png",
+                    "chest_opened_img": "images/rupee_gray.png"
                   },
                   {
                     "name": "True Master Sword",
                     "item_count": 1,
                     "access_rules": [
                       "$past"
-                    ]
+                    ],
+                    "visibility_rules": [
+                      "op_mq_on"
+                    ],
+                    "chest_unopened_img": "images/sword_true_.png",
+                    "chest_opened_img": "images/sword_true__gray.png"
                   }
                 ],
                 "map_locations": [
@@ -69,24 +91,42 @@
             "sections": [
               {
                 "name": "Tree HP",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "op_ow_on"
+                ],
+                "chest_unopened_img": "images/hp.png",
+                "chest_opened_img": "images/hp_gray.png"
               },
               {
                 "name": "Slingshot",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "op_mq_on"
+                ],
+                "chest_unopened_img": "images/slingshot.png",
+                "chest_opened_img": "images/slingshot_gray.png"
               },
               {
                 "name": "HP behind Boulder",
                 "item_count": 1,
                 "access_rules": [
                   "bombs"
-                ]
+                ],
+                "visibility_rules": [
+                  "op_ow_on"
+                ],
+                "chest_unopened_img": "images/hp.png",
+                "chest_opened_img": "images/hp_gray.png"
               },
               {
                 "name": "Faron Treasure",
                 "item_count": 1,
                 "access_rules": [
                   "bombs"
+                ],
+                "visibility_rules": [
+                  "op_ow_on"
                 ]
               },
               {
@@ -95,6 +135,9 @@
                 "access_rules": [
                   "bellows,wds",
                   "cs,$moblin"
+                ],
+                "visibility_rules": [
+                  "op_ow_on"
                 ]
               },
               {
@@ -102,13 +145,21 @@
                 "item_count": 1,
                 "access_rules": [
                   "fc,harp"
-                ]
+                ],
+                "visibility_rules": [
+                  "op_sr_on"
+                ],
+                "chest_unopened_img": "images/scale.png",
+                "chest_opened_img": "images/scale_gray.png"
               },
               {
                 "name": "Cube: West Great Tree",
                 "hosted_item": "cube_WGT",
                 "access_rules": [
                   "$cube_wgt"
+                ],
+                "visibility_rules": [
+                  "op_gc_on"
                 ]
               },
               {
@@ -116,6 +167,9 @@
                 "hosted_item": "cube_EGTr",
                 "access_rules": [
                   "$cube_egtr"
+                ],
+                "visibility_rules": [
+                  "op_gc_on"
                 ]
               },
               {
@@ -123,6 +177,9 @@
                 "hosted_item": "cube_EGTcs",
                 "access_rules": [
                   "$cube_egtcs"
+                ],
+                "visibility_rules": [
+                  "op_gc_on"
                 ]
               }
             ],
@@ -142,13 +199,19 @@
             "sections": [
               {
                 "name": "Deep Woods Chest",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "op_ow_on"
+                ]
               },
               {
                 "name": "Cube: Initial",
                 "hosted_item": "cube_Initial",
                 "access_rules": [
                   "$cube_initial"
+                ],
+                "visibility_rules": [
+                  "op_gc_on"
                 ]
               },
               {
@@ -156,6 +219,9 @@
                 "hosted_item": "cube_DW",
                 "access_rules": [
                   "$cube_dw"
+                ],
+                "visibility_rules": [
+                  "op_gc_on"
                 ]
               },
               {
@@ -163,6 +229,9 @@
                 "hosted_item": "cube_SV",
                 "access_rules": [
                   "$cube_sv"
+                ],
+                "visibility_rules": [
+                  "op_gc_on"
                 ]
               }
             ],
@@ -185,21 +254,33 @@
                 "item_count": 0,
                 "access_rules": [
                   "beetle"
+                ],
+                "visibility_rules": [
+                  "op_ow_on"
                 ]
               },
               {
                 "name": "Dragon Lair Chests",
-                "item_count": 2
+                "item_count": 2,
+                "visibility_rules": [
+                  "op_ow_on"
+                ]
               },
               {
                 "name": "Lake Floria Chest",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "op_ow_on"
+                ]
               },
               {
                 "name": "Cube: Lake Floria",
                 "hosted_item": "cube_Fl",
                 "access_rules": [
                   "$cube_fl"
+                ],
+                "visibility_rules": [
+                  "op_gc_on"
                 ]
               },
               {
@@ -207,6 +288,9 @@
                 "hosted_item": "cube_FW",
                 "access_rules": [
                   "$cube_fw"
+                ],
+                "visibility_rules": [
+                  "op_gc_on"
                 ]
               }
             ],
@@ -232,25 +316,42 @@
             "sections": [
               {
                 "name": "Behind Bombable Wall",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "op_ow_on"
+                ]
               },
               {
                 "name": "Crawlspace Chest",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "op_ow_on"
+                ]
               },
               {
                 "name": "Cliff Behind Bombable Wall",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "op_ow_on"
+                ]
               },
               {
                 "name": "Cliff HP",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "op_ow_on"
+                ],
+                "chest_unopened_img": "images/hp.png",
+                "chest_opened_img": "images/hp_gray.png"
               },
               {
                 "name": "Cube: Eldin Entrance",
                 "hosted_item": "cube_EE",
                 "access_rules": [
                   "$cube_ee"
+                ],
+                "visibility_rules": [
+                  "op_gc_on"
                 ]
               },
               {
@@ -258,6 +359,9 @@
                 "hosted_item": "cube_MTE",
                 "access_rules": [
                   "$cube_mte"
+                ],
+                "visibility_rules": [
+                  "op_gc_on"
                 ]
               }
             ],
@@ -277,55 +381,91 @@
                 "access_rules": [
                   "$eldin2"
                 ],
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "op_ow_on"
+                ]
               },
               {
                 "name": "Digging Spot near ET",
                 "item_count": 1,
                 "access_rules": [
                   "mitts"
-                ]
+                ],
+                "visibility_rules": [
+                  "op_ow_on"
+                ],
+                "chest_unopened_img": "images/keypiece.png",
+                "chest_opened_img": "images/keypiece_gray.png"
               },
               {
                 "name": "Digging Spot under Tower",
                 "item_count": 1,
                 "access_rules": [
                   "mitts"
-                ]
+                ],
+                "visibility_rules": [
+                  "op_ow_on"
+                ],
+                "chest_unopened_img": "images/keypiece.png",
+                "chest_opened_img": "images/keypiece_gray.png"
               },
               {
                 "name": "Digging Spot on Sandy Slopes",
                 "item_count": 1,
                 "access_rules": [
                   "mitts"
-                ]
+                ],
+                "visibility_rules": [
+                  "op_ow_on"
+                ],
+                "chest_unopened_img": "images/keypiece.png",
+                "chest_opened_img": "images/keypiece_gray.png"
               },
               {
                 "name": "Digging Spot after Vents",
                 "item_count": 1,
                 "access_rules": [
                   "mitts"
-                ]
+                ],
+                "visibility_rules": [
+                  "op_ow_on"
+                ],
+                "chest_unopened_img": "images/keypiece.png",
+                "chest_opened_img": "images/keypiece_gray.png"
               },
               {
                 "name": "Digging Spot after Draining Cave",
                 "item_count": 1,
                 "access_rules": [
                   "mitts"
-                ]
+                ],
+                "visibility_rules": [
+                  "op_ow_on"
+                ],
+                "chest_unopened_img": "images/keypiece.png",
+                "chest_opened_img": "images/keypiece_gray.png"
               },
               {
                 "name": "Eldin Silent Realm",
                 "item_count": 1,
                 "access_rules": [
                   "dp,harp"
-                ]
+                ],
+                "visibility_rules": [
+                  "op_sr_on"
+                ],
+                "chest_unopened_img": "images/earring.png",
+                "chest_opened_img": "images/earring_gray.png"
               },
               {
                 "name": "Cube: West of Temple Entrance",
                 "hosted_item": "cube_ETW",
                 "access_rules": [
                   "$cube_etw"
+                ],
+                "visibility_rules": [
+                  "op_gc_on"
                 ]
               },
               {
@@ -333,6 +473,9 @@
                 "hosted_item": "cube_ETE",
                 "access_rules": [
                   "$cube_ete"
+                ],
+                "visibility_rules": [
+                  "op_gc_on"
                 ]
               },
               {
@@ -340,6 +483,9 @@
                 "hosted_item": "cube_ES",
                 "access_rules": [
                   "$cube_es"
+                ],
+                "visibility_rules": [
+                  "op_gc_on"
                 ]
               }
             ],
@@ -356,17 +502,26 @@
             "sections": [
               {
                 "name": "Free Fall Chest",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "op_ow_on"
+                ]
               },
               {
                 "name": "Behind Bomb Wall",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "op_ow_on"
+                ]
               },
               {
                 "name": "Sand Slide Chest",
                 "item_count": 1,
                 "access_rules": [
                   "mitts"
+                ],
+                "visibility_rules": [
+                  "op_ow_on"
                 ]
               },
               {
@@ -374,13 +529,21 @@
                 "access_rules": [
                   "$bokoblin"
                 ],
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "op_quest_on"
+                ],
+                "chest_unopened_img": "images/mitts_digging.png",
+                "chest_opened_img": "images/mitts_digging_gray.png"
               },
               {
                 "name": "Lava Maze Bomb Wall",
                 "item_count": 1,
                 "access_rules": [
                   "mitts"
+                ],
+                "visibility_rules": [
+                  "op_ow_on"
                 ]
               },
               {
@@ -388,6 +551,9 @@
                 "hosted_item": "cube_MT",
                 "access_rules": [
                   "$cube_mt"
+                ],
+                "visibility_rules": [
+                  "op_gc_on"
                 ]
               }
             ],
@@ -410,13 +576,21 @@
                 "item_count": 1,
                 "access_rules": [
                   "bottle,mogma"
-                ]
+                ],
+                "visibility_rules": [
+                  "op_ow_on"
+                ],
+                "chest_unopened_img": "images/hp.png",
+                "chest_opened_img": "images/hp_gray.png"
               },
               {
                 "name": "Bombable Wall Waterfall",
                 "item_count": 1,
                 "access_rules": [
                   "cs"
+                ],
+                "visibility_rules": [
+                  "op_ow_on"
                 ]
               },
               {
@@ -424,6 +598,9 @@
                 "hosted_item": "cube_VS",
                 "access_rules": [
                   "$cube_vs"
+                ],
+                "visibility_rules": [
+                  "op_gc_on"
                 ]
               },
               {
@@ -431,6 +608,9 @@
                 "hosted_item": "cube_SW",
                 "access_rules": [
                   "$cube_sw"
+                ],
+                "visibility_rules": [
+                  "op_gc_on"
                 ]
               },
               {
@@ -438,6 +618,9 @@
                 "hosted_item": "cube_FSE",
                 "access_rules": [
                   "$cube_fse"
+                ],
+                "visibility_rules": [
+                  "op_gc_on"
                 ]
               }
             ],
@@ -466,11 +649,17 @@
                 "item_count": 1,
                 "access_rules": [
                   "cs"
+                ],
+                "visibility_rules": [
+                  "op_ow_on"
                 ]
               },
               {
                 "name": "First Timeshift Chest",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "op_ow_on"
+                ]
               },
               {
                 "name": "Statue Chest",
@@ -478,6 +667,9 @@
                 "access_rules": [
                   "bomb",
                   "hook"
+                ],
+                "visibility_rules": [
+                  "op_ow_on"
                 ]
               },
               {
@@ -486,6 +678,9 @@
                 "access_rules": [
                   "bomb",
                   "hook"
+                ],
+                "visibility_rules": [
+                  "op_ow_on"
                 ]
               },
               {
@@ -493,6 +688,9 @@
                 "hosted_item": "cube_LME",
                 "access_rules": [
                   "$cube_lme"
+                ],
+                "visibility_rules": [
+                  "op_gc_on"
                 ]
               }
             ],
@@ -512,6 +710,9 @@
                 "item_count": 1,
                 "access_rules": [
                   "bombs"
+                ],
+                "visibility_rules": [
+                  "op_ow_on"
                 ]
               },
               {
@@ -521,6 +722,9 @@
                   "cs",
                   "bombs",
                   "hook"
+                ],
+                "visibility_rules": [
+                  "op_ow_on"
                 ]
               },
               {
@@ -529,13 +733,21 @@
                 "access_rules": [
                   "bombs",
                   "hook"
-                ]
+                ],
+                "visibility_rules": [
+                  "op_quest_on"
+                ],
+                "chest_unopened_img": "images/beetle_hook.png",
+                "chest_opened_img": "images/beetle_hook_gray.png"
               },
               {
                 "name": "NE Desert Chest",
                 "item_count": 1,
                 "access_rules": [
                   "$lanayru2,bombs"
+                ],
+                "visibility_rules": [
+                  "op_ow_on"
                 ]
               },
               {
@@ -543,6 +755,9 @@
                 "item_count": 1,
                 "access_rules": [
                   "$dungeon_ld"
+                ],
+                "visibility_rules": [
+                  "op_ow_on"
                 ]
               },
               {
@@ -550,6 +765,9 @@
                 "item_count": 1,
                 "access_rules": [
                   "$lanayru2,cs"
+                ],
+                "visibility_rules": [
+                  "op_ow_on"
                 ]
               },
               {
@@ -557,6 +775,9 @@
                 "item_count": 1,
                 "access_rules": [
                   "cs"
+                ],
+                "visibility_rules": [
+                  "op_ow_on"
                 ]
               },
               {
@@ -564,6 +785,9 @@
                 "item_count": 1,
                 "access_rules": [
                   "cs"
+                ],
+                "visibility_rules": [
+                  "op_ow_on"
                 ]
               },
               {
@@ -571,13 +795,21 @@
                 "item_count": 1,
                 "access_rules": [
                   "$lanayru2,nw,harp"
-                ]
+                ],
+                "visibility_rules": [
+                  "op_sr_on"
+                ],
+                "chest_unopened_img": "images/clawshots.png",
+                "chest_opened_img": "images/clawshots_gray.png"
               },
               {
                 "name": "Cube: Sand Oasis",
                 "hosted_item": "cube_SO",
                 "access_rules": [
                   "$cube_so"
+                ],
+                "visibility_rules": [
+                  "op_gc_on"
                 ]
               },
               {
@@ -585,6 +817,9 @@
                 "hosted_item": "cube_SP",
                 "access_rules": [
                   "$cube_sp"
+                ],
+                "visibility_rules": [
+                  "op_gc_on"
                 ]
               },
               {
@@ -592,6 +827,9 @@
                 "hosted_item": "cube_HBF",
                 "access_rules": [
                   "$cube_hbf"
+                ],
+                "visibility_rules": [
+                  "op_gc_on"
                 ]
               }
             ],
@@ -611,15 +849,24 @@
             "sections": [
               {
                 "name": "Beginning Chest",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "op_ow_on"
+                ]
               },
               {
                 "name": "Middle Chest",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "op_ow_on"
+                ]
               },
               {
                 "name": "End Chest",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "op_ow_on"
+                ]
               }
             ],
             "map_locations": [
@@ -641,6 +888,9 @@
                 "item_count": 1,
                 "access_rules": [
                   "$ampilus"
+                ],
+                "visibility_rules": [
+                  "op_ow_on"
                 ]
               },
               {
@@ -648,6 +898,9 @@
                 "item_count": 1,
                 "access_rules": [
                   "bombs"
+                ],
+                "visibility_rules": [
+                  "op_ow_on"
                 ]
               },
               {
@@ -655,6 +908,9 @@
                 "item_count": 1,
                 "access_rules": [
                   "bombs"
+                ],
+                "visibility_rules": [
+                  "op_ow_on"
                 ]
               },
               {
@@ -662,6 +918,9 @@
                 "item_count": 2,
                 "access_rules": [
                   "bombs,hook"
+                ],
+                "visibility_rules": [
+                  "op_ow_on"
                 ]
               }
             ],
@@ -674,32 +933,6 @@
             ]
           },
           {
-            "name": "Temple of Time",
-            "access_rules": [
-              "mine"
-            ],
-            "sections": [
-              {
-                "name": "Goddess Harp",
-                "item_count": 1
-              },
-              {
-                "name": "Cube: Temple of Time",
-                "hosted_item": "cube_ToT",
-                "access_rules": [
-                  "$cube_tot"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "overworld",
-                "x": 115,
-                "y": 135
-              }
-            ]
-          },
-          {
             "name": "Lanayru Caves",
             "access_rules": [
               "$lanayru1,cs"
@@ -707,11 +940,19 @@
             "sections": [
               {
                 "name": "Caves Chest",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "op_ow_on"
+                ]
               },
               {
                 "name": "Golo",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "op_mq_on"
+                ],
+                "chest_unopened_img": "images/smallkey.png",
+                "chest_opened_img": "images/smallkey_gray.png"
               }
             ],
             "map_locations": [
@@ -736,6 +977,9 @@
                     "hosted_item": "cube_AH",
                     "access_rules": [
                       "$cube_ah"
+                    ],
+                    "visibility_rules": [
+                      "op_gc_on"
                     ]
                   }
                 ],
@@ -751,39 +995,51 @@
                 "name": "Skipper's Retreat",
                 "sections": [
                   {
-                    "name": "Skipper's Retreat Skydive",
+                    "name": "Skydive Chest",
                     "item_count": 1,
                     "access_rules": [
                       "whip,bow",
                       "whip,beetle",
                       "whip,sling"
+                    ],
+                    "visibility_rules": [
+                      "op_ow_on"
                     ]
                   },
                   {
-                    "name": "Skipper's Retreat Moblin Chest",
+                    "name": "Moblin Chest",
                     "item_count": 1,
                     "access_rules": [
                       "bombs",
                       "hook",
                       "whip"
+                    ],
+                    "visibility_rules": [
+                      "op_ow_on"
                     ]
                   },
                   {
-                    "name": "Outside Shack",
+                    "name": "Chest Outside Shack",
                     "item_count": 1,
                     "access_rules": [
                       "whip,bow",
                       "whip,beetle",
                       "whip,sling"
+                    ],
+                    "visibility_rules": [
+                      "op_ow_on"
                     ]
                   },
                   {
-                    "name": "Skipper's Shack",
+                    "name": "Skipper's Shack Chest",
                     "item_count": 1,
                     "access_rules": [
                       "whip,bow,bellows",
                       "whip,beetle,bellows",
                       "whip,sling,bellows"
+                    ],
+                    "visibility_rules": [
+                      "op_ow_on"
                     ]
                   },
                   {
@@ -791,6 +1047,9 @@
                     "hosted_item": "cube_SR",
                     "access_rules": [
                       "$cube_sr"
+                    ],
+                    "visibility_rules": [
+                      "op_gc_on"
                     ]
                   }
                 ],
@@ -810,7 +1069,12 @@
                     "item_count": 1,
                     "access_rules": [
                       "$molderach"
-                    ]
+                    ],
+                    "visibility_rules": [
+                      "op_mini_on"
+                    ],
+                    "chest_unopened_img": "images/hp.png",
+                    "chest_opened_img": "images/hp_gray.png"
                   }
                 ],
                 "map_locations": [
@@ -826,13 +1090,19 @@
                 "sections": [
                   {
                     "name": "Pirates' Chests",
-                    "item_count": 3
+                    "item_count": 3,
+                    "visibility_rules": [
+                      "op_ow_on"
+                    ]
                   },
                   {
                     "name": "Cube: Pirate Stronghold",
                     "hosted_item": "cube_PS",
                     "access_rules": [
                       "$cube_ps"
+                    ],
+                    "visibility_rules": [
+                      "op_gc_on"
                     ]
                   }
                 ],
