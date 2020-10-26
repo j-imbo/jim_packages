@@ -189,8 +189,14 @@ function mine_crystal() -- crystal in map room
 end
 
 function cistern_statue() -- lower statue
-  return (whip() and
-    (cs() or (wds() and (bow() or btl()) and has("cisternsk",2))))
+  if (whip() and
+  (cs() or (wds() and (bow() or btl()) and has("cisternsk",2)))) then
+    return true
+  else if (whip() and (wds() and (bow() or btl()) and has("cisternsk",1))) then
+    return true, AccessibilityLevel.SequenceBreak
+  else 
+    return false
+  end
 end
 
 function sanc_pods() -- water pods in fire sanc

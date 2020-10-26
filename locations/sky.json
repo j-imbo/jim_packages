@@ -9,6 +9,144 @@
         "color": "#696969",
         "children": [
           {
+            "name": "Skyloft Single Gratitudes",
+            "sections": [
+              {
+                "name": "Link's Room",
+                "item_count": 1,
+                "visibility_rules": [
+                  "op_bat_on"
+                ],
+                "chest_unopened_img": "images/gratitude.png",
+                "chest_opened_img": "images/gratitude_gray.png"
+              },
+              {
+                "name": "Zelda's Room",
+                "item_count": 1,
+                "access_rules": [
+                  "cs"
+                ],
+                "visibility_rules": [
+                  "op_bat_on"
+                ],
+                "chest_unopened_img": "images/gratitude.png",
+                "chest_opened_img": "images/gratitude_gray.png"
+              },
+              {
+                "name": "Sparring Hall",
+                "item_count": 1,
+                "access_rules": [
+                  "beetle"
+                ],
+                "visibility_rules": [
+                  "op_bat_on"
+                ],
+                "chest_unopened_img": "images/gratitude.png",
+                "chest_opened_img": "images/gratitude_gray.png"
+              },
+              {
+                "name": "Academy Plant",
+                "item_count": 1,
+                "visibility_rules": [
+                  "op_bat_on"
+                ],
+                "chest_unopened_img": "images/gratitude.png",
+                "chest_opened_img": "images/gratitude_gray.png"
+              },
+              {
+                "name": "West Cliff",
+                "item_count": 1,
+                "visibility_rules": [
+                  "op_bat_on"
+                ],
+                "chest_unopened_img": "images/gratitude.png",
+                "chest_opened_img": "images/gratitude_gray.png"
+              },
+              {
+                "name": "Light Tower",
+                "item_count": 1,
+                "visibility_rules": [
+                  "op_bat_on"
+                ],
+                "chest_unopened_img": "images/gratitude.png",
+                "chest_opened_img": "images/gratitude_gray.png"
+              },
+              {
+                "name": "Pumpkin Patch",
+                "item_count": 1,
+                "visibility_rules": [
+                  "op_bat_on"
+                ],
+                "chest_unopened_img": "images/gratitude.png",
+                "chest_opened_img": "images/gratitude_gray.png"
+              },
+              {
+                "name": "Between Planks",
+                "item_count": 1,
+                "visibility_rules": [
+                  "op_bat_on"
+                ],
+                "chest_unopened_img": "images/gratitude.png",
+                "chest_opened_img": "images/gratitude_gray.png"
+              },
+              {
+                "name": "Waterfall Island",
+                "item_count": 1,
+                "access_rules": [
+                  "cs"
+                ],
+                "visibility_rules": [
+                  "op_bat_on"
+                ],
+                "chest_unopened_img": "images/gratitude.png",
+                "chest_opened_img": "images/gratitude_gray.png"
+              },
+              {
+                "name": "Waterfall Cave",
+                "item_count": 1,
+                "access_rules": [
+                  "ps", "bombs", "beetle"
+                ],
+                "visibility_rules": [
+                  "op_bat_on"
+                ],
+                "chest_unopened_img": "images/gratitude.png",
+                "chest_opened_img": "images/gratitude_gray.png"
+              },
+              {
+                "name": "Loftwing Prison",
+                "item_count": 1,
+                "access_rules": [
+                  "ps", "bombs", "beetle"
+                ],
+                "visibility_rules": [
+                  "op_bat_on"
+                ],
+                "chest_unopened_img": "images/gratitude.png",
+                "chest_opened_img": "images/gratitude_gray.png"
+              },
+              {
+                "name": "Beedle's Ship",
+                "item_count": 1,
+                "access_rules": [
+                  "beetle"
+                ],
+                "visibility_rules": [
+                  "op_bat_on"
+                ],
+                "chest_unopened_img": "images/gratitude.png",
+                "chest_opened_img": "images/gratitude_gray.png"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "sky",
+                "x": 1075,
+                "y": 780
+              }
+            ]
+          },
+          {
             "name": "Academy",
             "sections": [
               {
@@ -40,7 +178,7 @@
                 "name": "Pumpkin Archery",
                 "item_count": 1,
                 "access_rules": [
-                  "mine,$bottle,bow"
+                  "$bottle,bow"
                 ],
                 "visibility_rules": [
                   "op_mini_on"
@@ -534,13 +672,14 @@
                 ]
               },
               {
-                "name": "Chandelier",
+                "name": "Chandelier HP",
                 "item_count": 1,
                 "visibility_rules": [
                   "op_ow_on"
                 ],
                 "chest_unopened_img": "images/hp.png",
-                "chest_opened_img": "images/hp_gray.png"
+                "chest_opened_img": "images/hp_gray.png",
+                "capture_item": true
               },
               {
                 "name": "Harp Minigame",
@@ -576,6 +715,36 @@
             ]
           },
           {
+            "name": "Lumpy Pumpkin Crystals",
+            "sections": [
+              {
+                "name": "Outside",
+                "item_count": 1,
+                "visibility_rules": [
+                  "op_bat_on"
+                ],
+                "chest_unopened_img": "images/gratitude.png",
+                "chest_opened_img": "images/gratitude_gray.png"
+              },
+              {
+                "name": "Inside",
+                "item_count": 1,
+                "visibility_rules": [
+                  "op_bat_on"
+                ],
+                "chest_unopened_img": "images/gratitude.png",
+                "chest_opened_img": "images/gratitude_gray.png"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "sky",
+                "x": 1500,
+                "y": 900
+              }
+            ]
+          },
+          {
             "name": "Beedle's Island",
             "sections": [
               {
@@ -606,17 +775,8 @@
                 ]
               },
               {
-                "name": "Nearby Island Goddess Chest",
-                "item_count": 1,
-                "access_rules": [
-                  "cube_MTE"
-                ],
-                "visibility_rules": [
-                  "op_gc_on"
-                ]
-              },
-              {
                 "name": "Beedle Crystals",
+                "item_count": 1,
                 "access_rules": [
                   "$beedle,hcb"
                 ],
@@ -693,9 +853,31 @@
                 "visibility_rules": [
                   "op_gc_on"
                 ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "sky",
+                "x": 1175,
+                "y": 245
+              }
+            ]
+          },
+          {
+            "name": "Nearby Island",
+            "sections": [
+              {
+                "name": "Nearby Island Goddess Chest 1",
+                "item_count": 1,
+                "access_rules": [
+                  "cube_MTE"
+                ],
+                "visibility_rules": [
+                  "op_gc_on"
+                ]
               },
               {
-                "name": "Nearby Island Goddess Chest",
+                "name": "Nearby Island Goddess Chest 2",
                 "item_count": 1,
                 "access_rules": [
                   "wds,cube_SP"
@@ -708,8 +890,8 @@
             "map_locations": [
               {
                 "map": "sky",
-                "x": 1175,
-                "y": 245
+                "x": 1455,
+                "y": 205
               }
             ]
           },
@@ -970,7 +1152,7 @@
             "sections": [
               {
                 "name": "Bug Minigame",
-                "item_count": 0,
+                "item_count": 1,
                 "access_rules": [
                   "bugnet"
                 ],

@@ -97,7 +97,8 @@
                   "op_ow_on"
                 ],
                 "chest_unopened_img": "images/hp.png",
-                "chest_opened_img": "images/hp_gray.png"
+                "chest_opened_img": "images/hp_gray.png",
+                "capture_item": true
               },
               {
                 "name": "Slingshot",
@@ -344,7 +345,8 @@
                   "op_ow_on"
                 ],
                 "chest_unopened_img": "images/hp.png",
-                "chest_opened_img": "images/hp_gray.png"
+                "chest_opened_img": "images/hp_gray.png",
+                "capture_item": true
               },
               {
                 "name": "Cube: Eldin Entrance",
@@ -533,7 +535,7 @@
                 ],
                 "item_count": 1,
                 "visibility_rules": [
-                  "op_quest_on"
+                  "op_mq_on"
                 ],
                 "chest_unopened_img": "images/mitts_digging.png",
                 "chest_opened_img": "images/mitts_digging_gray.png"
@@ -738,7 +740,7 @@
                   "hook"
                 ],
                 "visibility_rules": [
-                  "op_quest_on"
+                  "op_mq_on"
                 ],
                 "chest_unopened_img": "images/beetle_hook.png",
                 "chest_opened_img": "images/beetle_hook_gray.png"
@@ -1024,7 +1026,7 @@
                     ]
                   },
                   {
-                    "name": "Chest Outside Shack",
+                    "name": "Ruin Pillar",
                     "item_count": 1,
                     "access_rules": [
                       "whip,bow",

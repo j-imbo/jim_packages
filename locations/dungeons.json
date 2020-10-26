@@ -73,7 +73,8 @@
             "visibility_rules": [
               "op_dung_on,op_race_off",
               "op_dung_on,op_race_on,sv_r"
-            ]
+            ],
+            "capture_item": true
           },
           {
             "name": "Behind Three Eyes",
@@ -528,8 +529,7 @@
                "$cube_tot"
             ],
             "visibility_rules": [
-              "op_gc_on,op_dung_on,op_race_off",
-              "op_gc_on,op_dung_on,op_race_on,lmf_r"
+              "op_gc_on"
             ]
           }
         ],
@@ -563,8 +563,8 @@
             "name": "Whip",
             "item_count": 1,
             "access_rules": [
-              "cisternsk:2,ps",
-              "cisternsk:2,$cistern_statue"
+              "cisternsk:1,[cisternsk:2],ps",
+              "cisternsk:1,[cisternsk:2],$cistern_statue"
             ],
             "visibility_rules": [
               "op_dung_on,op_race_off",
@@ -633,7 +633,7 @@
             "item_count": 1,
             "access_rules": [
               "whip,cisternbk,cs,$koloktos",
-              "whip,cisternbk,cisternsk:2,$koloktos"
+              "whip,cisternbk,cisternsk:1,[cisternsk:2],$koloktos"
             ],
             "visibility_rules": [
               "op_dung_on,op_race_off",
@@ -647,7 +647,7 @@
             "item_count": 1,
             "access_rules": [
               "whip,cisternbk,cs,gs",
-              "whip,cisternbk,cisternsk:2,gs"
+              "whip,cisternbk,cisternsk:1,[cisternsk:2],gs"
             ],
             "visibility_rules": [
               "op_dung_on,op_race_off",
@@ -677,10 +677,10 @@
             "name": "Behind Combination Lock",
             "item_count": 1,
             "access_rules": [
-              "gs",
+              "ps,bombs,bellows",
+              "ps,sling,bellows",
               "ps,bow",
-              "ps,bombs",
-              "ps,sling"
+              "gs,bellows"
             ],
             "visibility_rules": [
               "op_dung_on,op_race_off",
@@ -845,7 +845,7 @@
           },
           {
             "name": "Mogma Mitts",
-            "item_count": 2,
+            "item_count": 1,
             "access_rules": [
               "hook,sancsk:2,ps"
             ],
