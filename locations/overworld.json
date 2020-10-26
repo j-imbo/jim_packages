@@ -6,10 +6,11 @@
     "children": [
       {
         "name": "Faron",
-        "color": "#00cc00",
+        "color": "#32cd32",
         "children": [
           {
             "name": "Sealed Grounds",
+            "color": "#800080",
             "children": [
               {
                 "name": "Sealed Temple",
@@ -248,6 +249,7 @@
             "access_rules": [
               "$floria"
             ],
+            "color": "#6495ed",
             "sections": [
               {
                 "name": "Outside Cistern Chest",
@@ -309,7 +311,7 @@
         "access_rules": [
           "$eldin1"
         ],
-        "color": "#cc0000",
+        "color": "#8b0000",
         "children": [
           {
             "name": "Lower Volcano",
@@ -570,6 +572,7 @@
             "access_rules": [
               "$volcano"
             ],
+            "color": "#a52a2a",
             "sections": [
               {
                 "name": "Digging HP",
@@ -639,7 +642,7 @@
         "access_rules": [
           "$lanayru1"
         ],
-        "color": "#cccc00",
+        "color": "#daa520",
         "children": [
           {
             "name": "Mines Entrance",
@@ -937,6 +940,7 @@
             "access_rules": [
               "$lanayru1,cs"
             ],
+            "color": "#d2961e",
             "sections": [
               {
                 "name": "Caves Chest",
@@ -968,6 +972,7 @@
             "access_rules": [
               "$sea"
             ],
+            "color": "#ff8c00",
             "children": [
               {
                 "name": "Ancient Harbour",

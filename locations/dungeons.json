@@ -9,6 +9,7 @@
         "access_rules": [
           "$skyview_acc"
         ],
+        "color": "#006400",
         "sections": [
           {
             "name": "Map Chest",
@@ -160,6 +161,7 @@
       {
         "name": "Skyview Spring",
         "parent": "Skyview Temple",
+        "color": "006400",
         "access_rules": [
           "$skyview_first,skyviewbk,skyviewsk:2,bombs,gs",
           "$skyview_first,skyviewbk,skyviewsk:2,beetle,gs",
@@ -206,6 +208,7 @@
         "access_rules": [
           "$earth_acc"
         ],
+        "color": "#dc143c",
         "sections": [
           {
             "name": "First Chest",
@@ -331,6 +334,7 @@
           "bombs,hook,earthbk,gs",
           "bombs,beetle,mitts,earthbk,gs"
         ],
+        "color": "#dc143c",
         "sections": [
           {
             "name": "Amber Tablet",
@@ -356,6 +360,7 @@
         "access_rules": [
           "$mine_acc"
         ],
+        "color": "#cd853f",
         "sections": [
           {
             "name": "Behind Bars",
@@ -504,6 +509,7 @@
         "access_rules": [
           "hook,bellows,minebk,ps,$mine_crystal"
         ],
+        "color": "#cd853f",
         "sections": [
           {
             "name": "Goddess Harp",
@@ -540,6 +546,7 @@
         "access_rules": [
           "$cistern_acc"
         ],
+        "color": "#c71585",
         "sections": [
           {
             "name": "Small Key Chest",
@@ -664,6 +671,7 @@
         "access_rules": [
           "$sandship_acc"
         ],
+        "color": "#f4a460",
         "sections": [
           {
             "name": "Behind Combination Lock",
@@ -788,6 +796,7 @@
         "access_rules": [
           "$sanc_acc"
         ],
+        "color": "#cd5c5c",
         "sections": [
           {
             "name": "First Room",
@@ -952,6 +961,7 @@
         "access_rules": [
           "$skykeep_acc"
         ],
+        "color": "#00008b",
         "sections": [
           {
             "name": "Map Chest",
@@ -985,6 +995,7 @@
         "access_rules": [
           "$demise"
         ],
+        "color": "#800080",
         "sections": [
           {
             "name": "Defeat Demise",
