@@ -189,10 +189,9 @@ function mine_crystal() -- crystal in map room
 end
 
 function cistern_statue() -- lower statue
-  if (whip() and
-  (cs() or (wds() and (bow() or btl()) and has("cisternsk",2)))) then
+  if (whip() and (cs() or (wds() and (bow() or btl()) and has("cisternsk",2)))) then
     return true
-  else if (whip() and (wds() and (bow() or btl()) and has("cisternsk",1))) then
+  elseif (whip() and (wds() and (bow() or btl()) and has("cisternsk",1))) then
     return true, AccessibilityLevel.SequenceBreak
   else 
     return false
