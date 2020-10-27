@@ -1,8 +1,8 @@
 [
   {
     "name": "World",
-    "chest_unopened_img": "images/chest.png",
-    "chest_opened_img": "images/chest_gray.png",
+    "chest_unopened_img": "images/chestb.png",
+    "chest_opened_img": "images/chestb_gray.png",
     "children": [
       {
         "name": "Faron",
@@ -129,7 +129,9 @@
                 ],
                 "visibility_rules": [
                   "op_ow_on"
-                ]
+                ],
+                "chest_unopened_img": "images/chestw.png",
+                "chest_opened_img": "images/chestw_gray.png"
               },
               {
                 "name": "Great Tree Chest",
@@ -204,7 +206,9 @@
                 "item_count": 1,
                 "visibility_rules": [
                   "op_ow_on"
-                ]
+                ],
+                "chest_unopened_img": "images/chestw.png",
+                "chest_opened_img": "images/chestw_gray.png"
               },
               {
                 "name": "Cube: Initial",
@@ -329,7 +333,9 @@
                 "item_count": 1,
                 "visibility_rules": [
                   "op_ow_on"
-                ]
+                ],
+                "chest_unopened_img": "images/chestw.png",
+                "chest_opened_img": "images/chestw_gray.png"
               },
               {
                 "name": "Cliff Behind Bombable Wall",
@@ -388,7 +394,9 @@
                 "item_count": 1,
                 "visibility_rules": [
                   "op_ow_on"
-                ]
+                ],
+                "chest_unopened_img": "images/chestw.png",
+                "chest_opened_img": "images/chestw_gray.png"
               },
               {
                 "name": "Digging Spot near ET",
@@ -541,7 +549,7 @@
                 "chest_opened_img": "images/mitts_digging_gray.png"
               },
               {
-                "name": "Lava Maze Bomb Wall",
+                "name": "Pyrup Maze Bomb Wall",
                 "item_count": 1,
                 "access_rules": [
                   "mitts"
@@ -664,7 +672,9 @@
                 "item_count": 1,
                 "visibility_rules": [
                   "op_ow_on"
-                ]
+                ],
+                "chest_unopened_img": "images/chestw.png",
+                "chest_opened_img": "images/chestw_gray.png"
               },
               {
                 "name": "Statue Chest",
@@ -793,7 +803,9 @@
                 ],
                 "visibility_rules": [
                   "op_ow_on"
-                ]
+                ],
+                "chest_unopened_img": "images/chestw.png",
+                "chest_opened_img": "images/chestw_gray.png"
               },
               {
                 "name": "Lanayru Silent Realm",
@@ -857,14 +869,18 @@
                 "item_count": 1,
                 "visibility_rules": [
                   "op_ow_on"
-                ]
+                ],
+                "chest_unopened_img": "images/chestw.png",
+                "chest_opened_img": "images/chestw_gray.png"
               },
               {
                 "name": "Middle Chest",
                 "item_count": 1,
                 "visibility_rules": [
                   "op_ow_on"
-                ]
+                ],
+                "chest_unopened_img": "images/chestw.png",
+                "chest_opened_img": "images/chestw_gray.png"
               },
               {
                 "name": "End Chest",
@@ -899,24 +915,16 @@
                 ]
               },
               {
-                "name": "Beginning Chest",
-                "item_count": 1,
+                "name": "Maze Chests",
+                "item_count": 2,
                 "access_rules": [
                   "bombs"
                 ],
                 "visibility_rules": [
                   "op_ow_on"
-                ]
-              },
-              {
-                "name": "Middle Chest",
-                "item_count": 1,
-                "access_rules": [
-                  "bombs"
                 ],
-                "visibility_rules": [
-                  "op_ow_on"
-                ]
+                "chest_unopened_img": "images/chestw.png",
+                "chest_opened_img": "images/chestw_gray.png"
               },
               {
                 "name": "End Chests",
@@ -1023,7 +1031,9 @@
                     ],
                     "visibility_rules": [
                       "op_ow_on"
-                    ]
+                    ],
+                    "chest_unopened_img": "images/chestw.png",
+                    "chest_opened_img": "images/chestw_gray.png"
                   },
                   {
                     "name": "Ruin Pillar",

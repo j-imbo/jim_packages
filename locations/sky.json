@@ -181,7 +181,9 @@
                 "item_count": 1,
                 "visibility_rules": [
                   "op_ow_on"
-                ]
+                ],
+                "chest_unopened_img": "images/chestb.png",
+                "chest_opened_img": "images/chestb_gray.png"
               },
               {
                 "name": "Pumpkin Archery",
@@ -307,7 +309,9 @@
                 "item_count": 2,
                 "visibility_rules": [
                   "op_ow_on"
-                ]
+                ],
+                "chest_unopened_img": "images/chestb.png",
+                "chest_opened_img": "images/chestb_gray.png"
               },
               {
                 "name": "Floating Island Goddess Chest",
@@ -346,14 +350,18 @@
                 "item_count": 1,
                 "visibility_rules": [
                   "op_ow_on"
-                ]
+                ],
+                "chest_unopened_img": "images/chestb.png",
+                "chest_opened_img": "images/chestb_gray.png"
               },
               {
                 "name": "Chest near Statue",
                 "item_count": 1,
                 "visibility_rules": [
                   "op_ow_on"
-                ]
+                ],
+                "chest_unopened_img": "images/chestb.png",
+                "chest_opened_img": "images/chestb_gray.png"
               }
             ],
             "map_locations": [
@@ -397,7 +405,9 @@
                 ],
                 "visibility_rules": [
                   "op_ow_on"
-                ]
+                ],
+                "chest_unopened_img": "images/chestb.png",
+                "chest_opened_img": "images/chestb_gray.png"
               },
               {
                 "name": "Baby Rattle",
@@ -580,7 +590,9 @@
                 ],
                 "visibility_rules": [
                   "op_bat_on"
-                ]
+                ],
+                "chest_unopened_img": "images/chestb.png",
+                "chest_opened_img": "images/chestb_gray.png"
               },
               {
                 "name": "40 Reward",
@@ -1135,7 +1147,9 @@
                 "item_count": 1,
                 "visibility_rules": [
                   "op_ow_on"
-                ]
+                ],
+                "chest_unopened_img": "images/chestb.png",
+                "chest_opened_img": "images/chestb_gray.png"
               },
               {
                 "name": "East Goddess Chest",

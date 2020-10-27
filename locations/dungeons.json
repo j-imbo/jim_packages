@@ -1,8 +1,8 @@
 [
   {
     "name": "World",
-    "chest_unopened_img": "images/chest.png",
-    "chest_opened_img": "images/chest_gray.png",
+    "chest_unopened_img": "images/chestb.png",
+    "chest_opened_img": "images/chestb_gray.png",
     "children": [
       {
         "name": "Skyview Temple",
@@ -74,7 +74,9 @@
               "op_dung_on,op_race_off",
               "op_dung_on,op_race_on,sv_r"
             ],
-            "capture_item": true
+            "capture_item": true,
+            "chest_unopened_img": "images/hp.png",
+            "chest_opened_img": "images/hp_gray.png"
           },
           {
             "name": "Behind Three Eyes",
@@ -105,7 +107,9 @@
             "visibility_rules": [
               "op_dung_on,op_race_off",
               "op_dung_on,op_race_on,sv_r"
-            ]
+            ],
+            "chest_unopened_img": "images/chestw.png",
+            "chest_opened_img": "images/chestw_gray.png"
           },
           {
             "name": "Boss Key Chest",
@@ -125,7 +129,9 @@
             "visibility_rules": [
               "op_dung_on,op_race_off",
               "op_dung_on,op_race_on,sv_r"
-            ]
+            ],
+            "chest_unopened_img": "images/chestbk.png",
+            "chest_opened_img": "images/chestbk_gray.png"
           },
           {
             "name": "Skyview Heart Container",
@@ -231,7 +237,9 @@
             "visibility_rules": [
               "op_dung_on,op_race_off",
               "op_dung_on,op_race_on,et_r"
-            ]
+            ],
+            "chest_unopened_img": "images/chestw.png",
+            "chest_opened_img": "images/chestw_gray.png"
           },
           {
             "name": "After Boulder",
@@ -242,7 +250,9 @@
             "visibility_rules": [
               "op_dung_on,op_race_off",
               "op_dung_on,op_race_on,et_r"
-            ]
+            ],
+            "chest_unopened_img": "images/chestw.png",
+            "chest_opened_img": "images/chestw_gray.png"
           },
           {
             "name": "Map Chest",
@@ -302,7 +312,9 @@
             "visibility_rules": [
               "op_dung_on,op_race_off",
               "op_dung_on,op_race_on,et_r"
-            ]
+            ],
+            "chest_unopened_img": "images/chestbk.png",
+            "chest_opened_img": "images/chestbk_gray.png"
           },
           {
             "name": "Earth Heart Container",
@@ -369,7 +381,9 @@
             "visibility_rules": [
               "op_dung_on,op_race_off",
               "op_dung_on,op_race_on,lmf_r"
-            ]
+            ],
+            "chest_unopened_img": "images/chestw.png",
+            "chest_opened_img": "images/chestw_gray.png"
           },
           {
             "name": "First Hub Chest",
@@ -391,7 +405,9 @@
             "visibility_rules": [
               "op_dung_on,op_race_off",
               "op_dung_on,op_race_on,lmf_r"
-            ]
+            ],
+            "chest_unopened_img": "images/chestw.png",
+            "chest_opened_img": "images/chestw_gray.png"
           },
           {
             "name": "Gust Bellows",
@@ -446,10 +462,12 @@
             "visibility_rules": [
               "op_dung_on,op_race_off",
               "op_dung_on,op_race_on,lmf_r"
-            ]
+            ],
+            "chest_unopened_img": "images/chestw.png",
+            "chest_opened_img": "images/chestw_gray.png"
           },
           {
-            "name": "Second Crawlspace",
+            "name": "Dust Maze Chest",
             "item_count": 1,
             "access_rules": [
               "hook,bellows,ps,$mine_crystal"
@@ -457,7 +475,9 @@
             "visibility_rules": [
               "op_dung_on,op_race_off",
               "op_dung_on,op_race_on,lmf_r"
-            ]
+            ],
+            "chest_unopened_img": "images/chestw.png",
+            "chest_opened_img": "images/chestw_gray.png"
           },
           {
             "name": "Boss Key Chest",
@@ -468,7 +488,9 @@
             "visibility_rules": [
               "op_dung_on,op_race_off",
               "op_dung_on,op_race_on,lmf_r"
-            ]
+            ],
+            "chest_unopened_img": "images/chestbk.png",
+            "chest_opened_img": "images/chestbk_gray.png"
           },
           {
             "name": "Chest After Boss Key Chest",
@@ -479,7 +501,9 @@
             "visibility_rules": [
               "op_dung_on,op_race_off",
               "op_dung_on,op_race_on,lmf_r"
-            ]
+            ],
+            "chest_unopened_img": "images/chestw.png",
+            "chest_opened_img": "images/chestw_gray.png"
           },
           {
             "name": "Facility Heart Container",
@@ -591,7 +615,9 @@
             "visibility_rules": [
               "op_dung_on,op_race_off",
               "op_dung_on,op_race_on,ac_r"
-            ]
+            ],
+            "chest_unopened_img": "images/chestw.png",
+            "chest_opened_img": "images/chestw_gray.png"
           },
           {
             "name": "Behind Waterfall",
@@ -602,7 +628,9 @@
             "visibility_rules": [
               "op_dung_on,op_race_off",
               "op_dung_on,op_race_on,ac_r"
-            ]
+            ],
+            "chest_unopened_img": "images/chestw.png",
+            "chest_opened_img": "images/chestw_gray.png"
           },
           {
             "name": "Bokoblin",
@@ -614,7 +642,9 @@
             "visibility_rules": [
               "op_dung_on,op_race_off",
               "op_dung_on,op_race_on,ac_r"
-            ]
+            ],
+            "chest_unopened_img": "images/smallkey.png",
+            "chest_opened_img": "images/smallkey_gray.png"
           },
           {
             "name": "Boss Key Chest",
@@ -626,7 +656,9 @@
             "visibility_rules": [
               "op_dung_on,op_race_off",
               "op_dung_on,op_race_on,ac_r"
-            ]
+            ],
+            "chest_unopened_img": "images/chestbk.png",
+            "chest_opened_img": "images/chestbk_gray.png"
           },
           {
             "name": "Cistern Heart Container",
@@ -677,10 +709,10 @@
             "name": "Behind Combination Lock",
             "item_count": 1,
             "access_rules": [
-              "ps,bombs,bellows",
-              "ps,sling,bellows",
+              "ps,bombs,[bellows]",
+              "ps,sling,[bellows]",
               "ps,bow",
-              "gs,bellows"
+              "gs,[bellows]"
             ],
             "visibility_rules": [
               "op_dung_on,op_race_off",
@@ -691,7 +723,7 @@
             "name": "Bow",
             "item_count": 1,
             "access_rules": [
-              "shipsk:2,ps"
+              "shipsk:1,[shipsk:2],ps"
             ],
             "visibility_rules": [
               "op_dung_on,op_race_off",
@@ -714,7 +746,7 @@
             "item_count": 1,
             "access_rules": [
               "bow,ps",
-              "bow,shipsk:2"
+              "bow,shipsk:1,[shipsk:2]"
             ],
             "visibility_rules": [
               "op_dung_on,op_race_off",
@@ -747,19 +779,21 @@
             "name": "Boss Key Chest",
             "item_count": 1,
             "access_rules": [
-              "bow,shipsk:2"
+              "bow,shipsk:1,[shipsk:2]"
             ],
             "visibility_rules": [
               "op_dung_on,op_race_off",
               "op_dung_on,op_race_on,ss_r"
-            ]
+            ],
+            "chest_unopened_img": "images/chestbk.png",
+            "chest_opened_img": "images/chestbk_gray.png"
           },
           {
             "name": "Sandship Heart Container",
             "item_count": 1,
             "access_rules": [
               "bow,shipbk,ps",
-              "bow,shipbk,shipsk:2"
+              "bow,shipbk,shipsk:1,[shipsk:2]"
             ],
             "visibility_rules": [
               "op_dung_on,op_race_off",
@@ -818,7 +852,9 @@
             "visibility_rules": [
               "op_dung_on,op_race_off",
               "op_dung_on,op_race_on,fs_r"
-            ]
+            ],
+            "chest_unopened_img": "images/chestw.png",
+            "chest_opened_img": "images/chestw_gray.png"
           },
           {
             "name": "Second Small Key",
@@ -852,7 +888,9 @@
             "visibility_rules": [
               "op_dung_on,op_race_off",
               "op_dung_on,op_race_on,fs_r"
-            ]
+            ],
+            "chest_unopened_img": "images/mitts_mogma.png",
+            "chest_opened_img": "images/mitts_mogma_gray.png"
           },
           {
             "name": "Sanc Bottle",
@@ -918,7 +956,9 @@
             "visibility_rules": [
               "op_dung_on,op_race_off",
               "op_dung_on,op_race_on,fs_r"
-            ]
+            ],
+            "chest_unopened_img": "images/chestbk.png",
+            "chest_opened_img": "images/chestbk_gray.png"
           },
           {
             "name": "Sanctuary Heart Container",
