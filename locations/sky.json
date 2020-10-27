@@ -661,7 +661,7 @@
             "name": "Lumpy Pumpkin",
             "sections": [
               {
-                "name": "Room Goddess Chest",
+                "name": "Awning Goddess Chest",
                 "item_count": 1,
                 "access_rules": [
                   "cube_SVS"
