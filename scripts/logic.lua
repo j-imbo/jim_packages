@@ -205,8 +205,7 @@ end
 -- dungeon beatable macros
 
 function skyview()
-  return (skyview_acc() and (bomb() or btl() or bow() or wds())
-    and has("skyviewsk",2) and has("skyviewbk") and goddess())
+  return (skyview_acc() and goddess() and has("skyviewsk",2) and has("skyviewbk"))
 end
 
 function skyview2()
