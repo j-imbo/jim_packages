@@ -131,7 +131,7 @@ function sealedtemple()
 end
 
 function faron()
-  return (sealedtemple() and (cs() or sword() or bombs()))
+  return (sealedtemple() and (cs() or sword() or bomb()))
 end
 
 function deepwoods()
