@@ -63,6 +63,15 @@
                 "chest_opened_img": "images/gratitude_gray.png"
               },
               {
+                "name": "Parrow and Orielle's House",
+                "item_count": 1,
+                "visibility_rules": [
+                  "op_bat_on"
+                ],
+                "chest_unopened_img": "images/gratitude.png",
+                "chest_opened_img": "images/gratitude_gray.png"
+              },
+              {
                 "name": "Light Tower",
                 "item_count": 1,
                 "visibility_rules": [
@@ -141,8 +150,8 @@
             "map_locations": [
               {
                 "map": "sky",
-                "x": 1075,
-                "y": 780
+                "x": 1085,
+                "y": 790
               }
             ]
           },
