@@ -228,7 +228,7 @@
                   "mine,$bottle"
                 ],
                 "visibility_rules": [
-                  "op_sq_on"
+                  "op_sq_on,op_dung_on"
                 ],
                 "chest_unopened_img": "images/gratitude.png",
                 "chest_opened_img": "images/gratitude_gray.png"
@@ -709,7 +709,7 @@
                   "harp,$bottle"
                 ],
                 "visibility_rules": [
-                  "op_mini_on"
+                  "op_mini_on,op_sq_on"
                 ],
                 "chest_unopened_img": "images/hp.png",
                 "chest_opened_img": "images/hp_gray.png"
