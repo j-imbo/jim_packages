@@ -46,7 +46,8 @@
                       "$walls,gs"
                     ],
                     "visibility_rules": [
-                      "op_mq_on,op_dung_on"
+                      "op_mq_on,op_dung_on,op_race_off",
+                      "op_mq_on,op_dung_on,op_race_on,sv_r"
                     ],
                     "chest_unopened_img": "images/hp.png",
                     "chest_opened_img": "images/hp_gray.png"

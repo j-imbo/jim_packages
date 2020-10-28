@@ -228,7 +228,8 @@
                   "mine,$bottle"
                 ],
                 "visibility_rules": [
-                  "op_sq_on,op_dung_on"
+                  "op_sq_on,op_dung_on,op_race_off",
+                  "op_sq_on,op_dung_on,op_race_on,lmf_r"
                 ],
                 "chest_unopened_img": "images/gratitude.png",
                 "chest_opened_img": "images/gratitude_gray.png"
@@ -679,7 +680,8 @@
                   "cube_SVS"
                 ],
                 "visibility_rules": [
-                  "op_gc_on,op_dung_on"
+                  "op_gc_on,op_dung_on,op_race_off",
+                  "op_gc_on,op_dung_on,op_race_on,sv_r"
                 ]
               },
               {
