@@ -248,7 +248,7 @@ function beedle()
 end
 
 function batreaux()
-  if sword()
+  if sword() then
     return true
   else 
     return true, AccessibilityLevel.SequenceBreak
