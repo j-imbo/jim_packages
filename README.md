@@ -4,8 +4,7 @@ An EmoTracker tracker package for [Skyward Sword Randomizer](https://github.com/
 
 Download EmoTracker [here](https://emotracker.net)
 
-Usage: put ssrando_jim.zip or a folder called /ssrando_jim/ into ../Documents/EmoTracker/packs/
-Rename, removing "-master" if necessary.
+Usage: download from [Releases](https://github.com/j-imbo/ssrando_jim/releases/latest) and put into ../Documents/EmoTracker/packs/
 
 To mark a dungeon as required, you can click on its label to change the color. Note: you MUST mark at least one dungeon as required for tracking anything that requires entering the past.
 
