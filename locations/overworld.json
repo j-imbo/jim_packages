@@ -23,7 +23,9 @@
                     "item_count": 1,
                     "visibility_rules": [
                       "op_ow_on"
-                    ]
+                    ],
+                    "chest_unopened_img": "images/chestw.png",
+                    "chest_opened_img": "images/chestw_gray.png"
                   },
                   {
                     "name": "Ballad of the Goddess",
@@ -685,7 +687,9 @@
                 ],
                 "visibility_rules": [
                   "op_ow_on"
-                ]
+                ],
+                "chest_unopened_img": "images/chestw.png",
+                "chest_opened_img": "images/chestw_gray.png"
               },
               {
                 "name": "End of Mines Chest",
@@ -756,7 +760,7 @@
                 "chest_opened_img": "images/beetle_hook_gray.png"
               },
               {
-                "name": "NE Desert Chest",
+                "name": "Secret Passage Chest",
                 "item_count": 1,
                 "access_rules": [
                   "$lanayru2,bombs"
@@ -793,7 +797,9 @@
                 ],
                 "visibility_rules": [
                   "op_ow_on"
-                ]
+                ],
+                "chest_unopened_img": "images/chestw.png",
+                "chest_opened_img": "images/chestw_gray.png"
               },
               {
                 "name": "Sand Oasis Chest",
@@ -865,17 +871,8 @@
             ],
             "sections": [
               {
-                "name": "Beginning Chest",
-                "item_count": 1,
-                "visibility_rules": [
-                  "op_ow_on"
-                ],
-                "chest_unopened_img": "images/chestw.png",
-                "chest_opened_img": "images/chestw_gray.png"
-              },
-              {
-                "name": "Middle Chest",
-                "item_count": 1,
+                "name": "Maze Chests",
+                "item_count": 2,
                 "visibility_rules": [
                   "op_ow_on"
                 ],

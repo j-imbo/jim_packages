@@ -99,7 +99,7 @@
                 "chest_opened_img": "images/gratitude_gray.png"
               },
               {
-                "name": "Waterfall Island",
+                "name": "Waterfall Top",
                 "item_count": 1,
                 "access_rules": [
                   "cs"
@@ -111,7 +111,7 @@
                 "chest_opened_img": "images/gratitude_gray.png"
               },
               {
-                "name": "Waterfall Cave",
+                "name": "Waterfall Cave Exit",
                 "item_count": 1,
                 "access_rules": [
                   "ps", "bombs", "beetle"
@@ -310,8 +310,8 @@
                 "visibility_rules": [
                   "op_ow_on"
                 ],
-                "chest_unopened_img": "images/chestb.png",
-                "chest_opened_img": "images/chestb_gray.png"
+                "chest_unopened_img": "images/chestw.png",
+                "chest_opened_img": "images/chestw_gray.png"
               },
               {
                 "name": "Floating Island Goddess Chest",
@@ -351,8 +351,8 @@
                 "visibility_rules": [
                   "op_ow_on"
                 ],
-                "chest_unopened_img": "images/chestb.png",
-                "chest_opened_img": "images/chestb_gray.png"
+                "chest_unopened_img": "images/chestw.png",
+                "chest_opened_img": "images/chestw_gray.png"
               },
               {
                 "name": "Chest near Statue",
@@ -360,8 +360,8 @@
                 "visibility_rules": [
                   "op_ow_on"
                 ],
-                "chest_unopened_img": "images/chestb.png",
-                "chest_opened_img": "images/chestb_gray.png"
+                "chest_unopened_img": "images/chestw.png",
+                "chest_opened_img": "images/chestw_gray.png"
               }
             ],
             "map_locations": [
@@ -449,18 +449,6 @@
                 ],
                 "chest_unopened_img": "images/gratitude.png",
                 "chest_opened_img": "images/gratitude_gray.png"
-              },
-              {
-                "name": "Baby Crystals",
-                "item_count": 1,
-                "access_rules": [
-                  "rattle"
-                ],
-                "visibility_rules": [
-                  "op_sq_on"
-                ],
-                "chest_unopened_img": "images/gratitude.png",
-                "chest_opened_img": "images/gratitude_gray.png"
               }
             ],
             "map_locations": [
@@ -524,6 +512,18 @@
                 "item_count": 1,
                 "access_rules": [
                   "gust"
+                ],
+                "visibility_rules": [
+                  "op_sq_on"
+                ],
+                "chest_unopened_img": "images/gratitude.png",
+                "chest_opened_img": "images/gratitude_gray.png"
+              },
+              {
+                "name": "Baby Crystals",
+                "item_count": 1,
+                "access_rules": [
+                  "rattle"
                 ],
                 "visibility_rules": [
                   "op_sq_on"
