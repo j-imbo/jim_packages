@@ -248,11 +248,7 @@ function beedle()
 end
 
 function batreaux()
-  if sword() then
-    return true
-  else 
-    return true, AccessibilityLevel.SequenceBreak
-  end
+  return true
 end
 
 function yerbal()
