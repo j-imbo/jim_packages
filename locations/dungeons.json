@@ -531,14 +531,14 @@
       {
         "name": "Temple of Time",
         "parent": "Lanayru Mining Facility",
-        "access_rules": [
-          "hook,bellows,minebk,ps,$mine_crystal"
-        ],
         "color": "#cd853f",
         "sections": [
           {
             "name": "Goddess Harp",
             "item_count": 1,
+            "access_rules": [
+              "hook,bellows,minebk,ps,$mine_crystal"
+            ],
             "visibility_rules": [
               "op_dung_on,op_race_off",
               "op_dung_on,op_race_on,lmf_r"
