@@ -530,7 +530,6 @@
       },
       {
         "name": "Temple of Time",
-        "parent": "Lanayru Mining Facility",
         "color": "#cd853f",
         "sections": [
           {
