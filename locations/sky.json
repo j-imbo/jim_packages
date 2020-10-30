@@ -189,7 +189,7 @@
                 "name": "Pumpkin Archery",
                 "item_count": 1,
                 "access_rules": [
-                  "$bottle,bow"
+                  "bow"
                 ],
                 "visibility_rules": [
                   "op_mini_on"
