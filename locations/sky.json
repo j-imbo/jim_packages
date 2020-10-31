@@ -1145,7 +1145,7 @@
             "name": "East Thunderhead Island",
             "sections": [
               {
-                "name": "East Chest",
+                "name": "Arch Chest",
                 "item_count": 1,
                 "visibility_rules": [
                   "op_ow_on"
@@ -1154,7 +1154,7 @@
                 "chest_opened_img": "images/chestb_gray.png"
               },
               {
-                "name": "East Goddess Chest",
+                "name": "Arch Goddess Chest",
                 "item_count": 1,
                 "access_rules": [
                   "cube_EGTr"

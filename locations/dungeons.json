@@ -68,7 +68,8 @@
             "name": "Behind Bars in Hub",
             "item_count": 1,
             "access_rules": [
-              "$skyview_first,beetle,skyviewsk:1"
+              "$skyview_first,beetle,skyviewsk:1",
+              "$skyview_first,whip,[beetle],skyviewsk:1"
             ],
             "visibility_rules": [
               "op_dung_on,op_race_off",
@@ -410,19 +411,8 @@
             "chest_opened_img": "images/chestw_gray.png"
           },
           {
-            "name": "Gust Bellows",
-            "item_count": 1,
-            "access_rules": [
-              "minesk:1,hook"
-            ],
-            "visibility_rules": [
-              "op_dung_on,op_race_off",
-              "op_dung_on,op_race_on,lmf_r"
-            ]
-          },
-          {
-            "name": "Chest in Bellows Room",
-            "item_count": 1,
+            "name": "Bellows Room Chests",
+            "item_count": 2,
             "access_rules": [
               "minesk:1,hook"
             ],
