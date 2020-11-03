@@ -1,0 +1,33 @@
+{
+    "name": "j_im Tracker Packages",
+    "packages": [
+      {
+        "name": "Skyward Sword Randomizer Map and Items Tracker",
+        "author": "j_im",
+        "game_name": "The Legend of Zelda: Skyward Sword Randomizer",
+        "version": "1.0.0",
+        "flags": [ "map", "pins" ],
+        "required_app_version": "2.3.8.11",
+        "uid": "ssrando_jim",
+        "link": "https://github.com/j-imbo/ssrando_jim/ssrando_jim.zip",
+        "variants": [
+          {
+            "name": "Map Tracker",
+            "flags": [ "map", "pins" ]
+          },
+          {
+            "name": "Map Tracker (Dungeon Shuffle)",
+            "flags": [ "map", "pins" ]
+          },
+          {
+            "name": "Item Tracker",
+            "flags": [ "map" ]
+          },
+          {
+            "name": "Item Tracker (Dungeon Shuffle)",
+            "flags": [ "map" ]
+          }
+        ]
+      }
+    ]
+  }
