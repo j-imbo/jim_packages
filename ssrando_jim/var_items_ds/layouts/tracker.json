@@ -2,7 +2,7 @@
   "tracker_default": {
     "type": "container",
     "background": "#212121",
-    "width": 320,
+    "width": 300,
     "content": {
       "type": "layout",
       "key": "item_grid_dungshuf"

@@ -1,7 +1,463 @@
 {
   "tracker_broadcast": {
-    "type": "layout",
-    "key": "item_grid_dungshuf",
-    "margin": "5,5,5,5"
+    "type": "array",
+    "orientation": "vertical",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "5,0",
+        "content": [
+          {
+            "type": "array",
+            "orientation": "vertical",
+            "margin": "0",
+            "content": [
+              {
+                "type": "itemgrid",
+                "h_alignment": "left",
+                "item_margin": "1,2",
+                "rows": [
+                  [
+                    "sword0",
+                    "shield1",
+                    "shield2",
+                    "beetle",
+                    "mitts"
+                  ],
+                  [
+                    "sling",
+                    "bombs",
+                    "bellows",
+                    "whip",
+                    "bow"
+                  ],
+                  [
+                    "wds",
+                    "fse",
+                    "cs",
+                    "stone",
+                    "chart"
+                  ],
+                  [
+                    "rattle",
+                    "letter",
+                    "hcb",
+                    "pouch",
+                    "bottle"
+                  ]
+                ]
+              },
+              {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,-10",
+                "content": [
+                  {
+                    "type": "itemgrid",
+                    "h_alignment": "left",
+                    "item_margin": "1,2",
+                    "rows": [
+                      [
+                        "bugnet",
+                        "grat",
+                        "kp",
+                        "wallet"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "canvas",
+                    "width": 32,
+                    "height": 32,
+                    "margin": "0",
+                    "content": [
+                      {
+                        "type": "item",
+                        "item": "cave_label",
+                        "canvas_depth": 1,
+                        "width": 32,
+                        "height": 12
+                      },
+                      {
+                        "type": "item",
+                        "item": "cavesk",
+                        "canvas_depth": 1,
+                        "canvas_left": 8,
+                        "canvas_top": 16,
+                        "width": 16,
+                        "height": 16
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "array",
+            "orientation": "vertical",
+            "content": [
+              {
+                "type": "canvas",
+                "height": 70,
+                "width": 98,
+                "margin": "1,2",
+                "content": [
+                  {
+                    "type": "item",
+                    "item": "amber",
+                    "canvas_depth": 1,
+                    "canvas_left": 6,
+                    "canvas_top": 6,
+                    "height": 64,
+                    "width": 46
+                  },
+                  {
+                    "type": "item",
+                    "item": "ruby",
+                    "canvas_depth": 1,
+                    "canvas_left": 33,
+                    "canvas_top": 6,
+                    "height": 31,
+                    "width": 60
+                  },
+                  {
+                    "type": "item",
+                    "item": "emerald",
+                    "canvas_depth": 1,
+                    "canvas_left": 48,
+                    "canvas_top": 33,
+                    "height": 50,
+                    "width": 45
+                  }
+                ]
+              },
+              {
+                "type": "canvas",
+                "width": 98,
+                "height": 128,
+                "margin": "0",
+                "content": [
+                  {
+                    "type": "item",
+                    "item": "harp",
+                    "canvas_depth": 1,
+                    "width": 32,
+                    "height": 32,
+                    "canvas_left": 30,
+                    "canvas_top": 48
+                  },
+                  {
+                    "type": "item",
+                    "item": "soh",
+                    "canvas_depth": 1,
+                    "width": 28,
+                    "height": 28,
+                    "canvas_top": 14,
+                    "canvas_left": 32
+                  },
+                  {
+                    "type": "item",
+                    "item": "bog",
+                    "canvas_depth": 1,
+                    "width": 28,
+                    "height": 28,
+                    "canvas_top": 40
+                  },
+                  {
+                    "type": "item",
+                    "item": "fc",
+                    "canvas_depth": 1,
+                    "width": 28,
+                    "height": 28,
+                    "canvas_top": 40,
+                    "canvas_left": 64
+                  },
+                  {
+                    "type": "item",
+                    "item": "nw",
+                    "canvas_depth": 1,
+                    "width": 28,
+                    "height": 28,
+                    "canvas_left": 12,
+                    "canvas_top": 80
+                  },
+                  {
+                    "type": "item",
+                    "item": "dp",
+                    "canvas_depth": 1,
+                    "width": 28,
+                    "height": 28,
+                    "canvas_left": 52,
+                    "canvas_top": 80
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "array",
+        "orientation": "vertical",
+        "h_alignment": "center",
+        "margin": "0,-15,0,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "h_alignment": "left",
+            "item_margin": "1,2",
+            "rows": [
+              [
+                "skyview",
+                "earth",
+                "mine",
+                "cistern",
+                "sandship",
+                "sanc",
+                "tri"
+              ]
+            ]
+          },
+          {
+            "type": "array",
+            "orientation": "horizontal",
+            "margin": "5,-5",
+            "content": [
+              {
+                "type": "canvas",
+                "width": 32,
+                "height": 32,
+                "margin": "1,2",
+                "content": [
+                  {
+                    "type": "item",
+                    "item": "skyview_label",
+                    "canvas_depth": 1,
+                    "width": 32,
+                    "height": 12
+                  },
+                  {
+                    "type": "item",
+                    "item": "skyviewsk",
+                    "canvas_depth": 1,
+                    "canvas_left": 0,
+                    "canvas_top": 16,
+                    "width": 16,
+                    "height": 16
+                  },
+                  {
+                    "type": "item",
+                    "item": "skyviewbk",
+                    "canvas_depth": 1,
+                    "canvas_left": 16,
+                    "canvas_top": 16,
+                    "width": 16,
+                    "height": 16
+                  }
+                ]
+              },
+              {
+                "type": "canvas",
+                "width": 32,
+                "height": 32,
+                "margin": "1,2",
+                "content": [
+                  {
+                    "type": "item",
+                    "item": "earth_label",
+                    "canvas_depth": 1,
+                    "width": 32,
+                    "height": 12
+                  },
+                  {
+                    "type": "item",
+                    "item": "earthbk",
+                    "canvas_depth": 1,
+                    "canvas_left": 16,
+                    "canvas_top": 16,
+                    "width": 16,
+                    "height": 16
+                  }
+                ]
+              },
+              {
+                "type": "canvas",
+                "width": 32,
+                "height": 32,
+                "margin": "1,2",
+                "content": [
+                  {
+                    "type": "item",
+                    "item": "mine_label",
+                    "canvas_depth": 1,
+                    "width": 32,
+                    "height": 12
+                  },
+                  {
+                    "type": "item",
+                    "item": "minesk",
+                    "canvas_depth": 1,
+                    "canvas_left": 0,
+                    "canvas_top": 16,
+                    "width": 16,
+                    "height": 16
+                  },
+                  {
+                    "type": "item",
+                    "item": "minebk",
+                    "canvas_depth": 1,
+                    "canvas_left": 16,
+                    "canvas_top": 16,
+                    "width": 16,
+                    "height": 16
+                  }
+                ]
+              },
+              {
+                "type": "canvas",
+                "width": 32,
+                "height": 32,
+                "margin": "1,2",
+                "content": [
+                  {
+                    "type": "item",
+                    "item": "cistern_label",
+                    "canvas_depth": 1,
+                    "width": 32,
+                    "height": 12
+                  },
+                  {
+                    "type": "item",
+                    "item": "cisternsk",
+                    "canvas_depth": 1,
+                    "canvas_left": 0,
+                    "canvas_top": 16,
+                    "width": 16,
+                    "height": 16
+                  },
+                  {
+                    "type": "item",
+                    "item": "cisternbk",
+                    "canvas_depth": 1,
+                    "canvas_left": 16,
+                    "canvas_top": 16,
+                    "width": 16,
+                    "height": 16
+                  }
+                ]
+              },
+              {
+                "type": "canvas",
+                "width": 32,
+                "height": 32,
+                "margin": "1,2",
+                "content": [
+                  {
+                    "type": "item",
+                    "item": "sandship_label",
+                    "canvas_depth": 1,
+                    "width": 32,
+                    "height": 12
+                  },
+                  {
+                    "type": "item",
+                    "item": "sandshipsk",
+                    "canvas_depth": 1,
+                    "canvas_left": 0,
+                    "canvas_top": 16,
+                    "width": 16,
+                    "height": 16
+                  },
+                  {
+                    "type": "item",
+                    "item": "sandshipbk",
+                    "canvas_depth": 1,
+                    "canvas_left": 16,
+                    "canvas_top": 16,
+                    "width": 16,
+                    "height": 16
+                  }
+                ]
+              },
+              {
+                "type": "canvas",
+                "width": 32,
+                "height": 32,
+                "margin": "1,2",
+                "content": [
+                  {
+                    "type": "item",
+                    "item": "sanc_label",
+                    "canvas_depth": 1,
+                    "width": 32,
+                    "height": 12
+                  },
+                  {
+                    "type": "item",
+                    "item": "sancsk",
+                    "canvas_depth": 1,
+                    "canvas_left": 0,
+                    "canvas_top": 16,
+                    "width": 16,
+                    "height": 16
+                  },
+                  {
+                    "type": "item",
+                    "item": "sancbk",
+                    "canvas_depth": 1,
+                    "canvas_left": 16,
+                    "canvas_top": 16,
+                    "width": 16,
+                    "height": 16
+                  }
+                ]
+              },
+              {
+                "type": "canvas",
+                "width": 32,
+                "height": 32,
+                "margin": "1,2",
+                "content": [
+                  {
+                    "type": "item",
+                    "item": "skykeep_label",
+                    "canvas_depth": 1,
+                    "width": 32,
+                    "height": 12
+                  },
+                  {
+                    "type": "item",
+                    "item": "skykeepsk",
+                    "canvas_depth": 1,
+                    "canvas_left": 8,
+                    "canvas_top": 16,
+                    "width": 16,
+                    "height": 16
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "itemgrid",
+            "h_alignment": "left",
+            "item_margin": "1,2",
+            "rows": [
+              [
+                "sv",
+                "et",
+                "lmf",
+                "ac",
+                "ss",
+                "fs",
+                "sk"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
   }
 }
