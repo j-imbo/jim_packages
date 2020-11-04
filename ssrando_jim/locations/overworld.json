@@ -589,7 +589,7 @@
                 "name": "Digging HP",
                 "item_count": 1,
                 "access_rules": [
-                  "bottle,mogma"
+                  "$bottle,mogma"
                 ],
                 "visibility_rules": [
                   "op_ow_on"
