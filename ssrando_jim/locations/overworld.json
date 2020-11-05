@@ -327,7 +327,9 @@
                 "item_count": 1,
                 "visibility_rules": [
                   "op_ow_on"
-                ]
+                ],
+                "chest_unopened_img": "images/chestw.png",
+                "chest_opened_img": "images/chestw_gray.png"
               },
               {
                 "name": "Crawlspace Chest",
@@ -343,7 +345,9 @@
                 "item_count": 1,
                 "visibility_rules": [
                   "op_ow_on"
-                ]
+                ],
+                "chest_unopened_img": "images/chestw.png",
+                "chest_opened_img": "images/chestw_gray.png"
               },
               {
                 "name": "Cliff HP",
