@@ -302,7 +302,7 @@ function thunder() -- unused
 end
 
 function demise()
-  return (past() and has("tri",3))
+  return (past() and (not has("sk_r") or has("tri",3)))
 end
 
 --goddess cubes macros
