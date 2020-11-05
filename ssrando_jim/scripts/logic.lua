@@ -269,8 +269,6 @@ end
 
 function past()
   return (has("ms") and sealedtemple()
-    and (has("sv_r") or has("et_r") or has("lmf_r")
-      or has("ac_r") or has("ss_r") or has("fs_r"))
     and not (has("sv_r") and not has("skyview"))
     and not (has("et_r") and not has("earth"))
     and not (has("lmf_r") and not has("mine"))

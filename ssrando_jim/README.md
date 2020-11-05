@@ -6,7 +6,7 @@ Download EmoTracker [here](https://emotracker.net)
 
 Usage: download from [Releases](https://github.com/j-imbo/ssrando_jim/releases/latest) and put into ../Documents/EmoTracker/packs/
 
-To mark a dungeon as required, you can click on its label to change the color. Note: you MUST mark at least one dungeon as required for tracking anything that requires entering the past.
+To mark a dungeon as required, you can click on its label to change the color.
 
 For options, click the gear cog at the top right of the items box.
 
