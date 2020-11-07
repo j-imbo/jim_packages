@@ -203,40 +203,15 @@
             "visibility_rules": [
               "op_dung_on,op_race_off",
               "op_dung_on,op_race_on,et_r"
-            ]
-          },
-          {
-            "name": "Behind Boulder",
-            "item_count": 1,
-            "access_rules": [
-              "$earth_bridge"
-            ],
-            "visibility_rules": [
-              "op_dung_on,op_race_off",
-              "op_dung_on,op_race_on,et_r"
             ],
             "chest_unopened_img": "images/chestw.png",
             "chest_opened_img": "images/chestw_gray.png"
           },
           {
-            "name": "After Boulder",
-            "item_count": 1,
+            "name": "Boulder Room",
+            "item_count": 2,
             "access_rules": [
               "$earth_bridge"
-            ],
-            "visibility_rules": [
-              "op_dung_on,op_race_off",
-              "op_dung_on,op_race_on,et_r"
-            ],
-            "chest_unopened_img": "images/chestw.png",
-            "chest_opened_img": "images/chestw_gray.png"
-          },
-          {
-            "name": "Map Chest",
-            "item_count": 1,
-            "access_rules": [
-              "$earth_bridge,bombs",
-              "$earth_bridge,hook"
             ],
             "visibility_rules": [
               "op_dung_on,op_race_off",
@@ -268,6 +243,18 @@
             "chest_opened_img": "images/bombs_gray.png"
           },
           {
+            "name": "Map Chest",
+            "item_count": 1,
+            "access_rules": [
+              "$earth_bridge,bombs",
+              "$earth_bridge,hook"
+            ],
+            "visibility_rules": [
+              "op_dung_on,op_race_off",
+              "op_dung_on,op_race_on,et_r"
+            ]
+          },
+          {
             "name": "Lizalfos Chest",
             "item_count": 1,
             "access_rules": [
@@ -277,7 +264,9 @@
             "visibility_rules": [
               "op_dung_on,op_race_off",
               "op_dung_on,op_race_on,et_r"
-            ]
+            ],
+            "chest_unopened_img": "images/chestw.png",
+            "chest_opened_img": "images/chestw_gray.png"
           },
           {
             "name": "Boss Key Chest",
