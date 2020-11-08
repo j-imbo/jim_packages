@@ -512,6 +512,7 @@ end
 
 function dungeon_ss() -- dungeon entrance in sand sea
   return (sea() and has("chart"))
+  --return (sea() and has("chart") and goddess())
 end
 
 function dungeon_vs() -- dungeon entrance in volcano summit
