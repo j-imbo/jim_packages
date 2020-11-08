@@ -245,6 +245,18 @@
                 ],
                 "chest_unopened_img": "images/gratitude.png",
                 "chest_opened_img": "images/gratitude_gray.png"
+              },
+              {
+                "name": "Owlan Crystals",
+                "item_count": 0,
+                "access_rules": [
+                  "$faron,bombs"
+                ],
+                "visibility_rules": [
+                  "op_sq_on"
+                ],
+                "chest_unopened_img": "images/gratitude.png",
+                "chest_opened_img": "images/gratitude_gray.png"
               }
             ],
             "map_locations": [
