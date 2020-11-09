@@ -1081,6 +1081,54 @@
                 "y": 870
               }
             ]
+          },
+          {
+            "name": "SW Boulder",
+            "sections": [
+              {
+                "name": "Boulder Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "spiral"
+                ],
+                "visibility_rules": [
+                  "op_ow_on"
+                ],
+                "chest_unopened_img": "images/chestb.png",
+                "chest_opened_img": "images/chestb_gray.png"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "sky",
+                "x": 330,
+                "y": 940
+              }
+            ]
+          },
+          {
+            "name": "SE Boulder",
+            "sections": [
+              {
+                "name": "Boulder Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "spiral"
+                ],
+                "visibility_rules": [
+                  "op_ow_on"
+                ],
+                "chest_unopened_img": "images/chestb.png",
+                "chest_opened_img": "images/chestb_gray.png"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "sky",
+                "x": 1600,
+                "y": 1080
+              }
+            ]
           }
         ]
       },

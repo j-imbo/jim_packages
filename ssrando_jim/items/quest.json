@@ -177,6 +177,12 @@
     "increment": 5
   },
   {
+    "name": "Spiral Charge",
+    "type": "toggle",
+    "img": "images/bird_statuette.png",
+    "codes": "spiral"
+  },
+  {
     "name": "Goddess Cube Initial",
     "type": "toggle",
     "img": "images/cube.png",

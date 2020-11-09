@@ -5,7 +5,7 @@
         "name": "Skyward Sword Randomizer Map and Items Tracker",
         "author": "j_im",
         "game_name": "The Legend of Zelda: Skyward Sword",
-        "version": "1.0.2.2",
+        "version": "1.0.2.3",
         "flags": [ "map", "pins" ],
         "required_app_version": "2.3.8.10",
         "uid": "ssrando_jim",
@@ -22,11 +22,11 @@
           },
           {
             "name": "Item Tracker",
-            "flags": [ "map" ]
+            "flags": [ ]
           },
           {
             "name": "Item Tracker (Dungeon Shuffle)",
-            "flags": [ "map" ]
+            "flags": [ ]
           }
         ]
       }
