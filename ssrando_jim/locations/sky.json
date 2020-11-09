@@ -248,7 +248,7 @@
               },
               {
                 "name": "Owlan Crystals",
-                "item_count": 0,
+                "item_count": 1,
                 "access_rules": [
                   "$faron,bombs"
                 ],

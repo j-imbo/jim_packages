@@ -511,8 +511,7 @@ function dungeon_lf() -- dungeon entrance in lake floria
 end
 
 function dungeon_ss() -- dungeon entrance in sand sea
-  return (sea() and has("chart"))
-  --return (sea() and has("chart") and goddess())
+  return (sea() and has("chart") and goddess())
 end
 
 function dungeon_vs() -- dungeon entrance in volcano summit

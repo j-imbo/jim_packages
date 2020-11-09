@@ -961,7 +961,8 @@
             "name": "Map Chest",
             "item_count": 1,
             "visibility_rules": [
-              "op_dung_on"
+              "op_dung_on,op_race_on,sk_r",
+              "op_dung_on,op_race_off"
             ]
           },
           {
@@ -971,7 +972,8 @@
               "bellows,whip,bow,cs,ps"
             ],
             "visibility_rules": [
-              "op_dung_on"
+              "op_dung_on,op_race_on,sk_r",
+              "op_dung_on,op_race_off"
             ]
           }
         ],
