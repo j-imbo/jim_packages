@@ -727,7 +727,9 @@
             "visibility_rules": [
               "op_dung_on,op_race_off",
               "op_dung_on,op_race_on,ss_r"
-            ]
+            ],
+            "chest_unopened_img": "images/smallkey.png",
+            "chest_opened_img": "images/smallkey_gray.png"
           },
           {
             "name": "Boss Key Chest",
