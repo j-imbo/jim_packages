@@ -106,6 +106,9 @@
               {
                 "name": "Slingshot",
                 "item_count": 1,
+                "access_rules": [
+                  "$bokoblin"
+                ],
                 "visibility_rules": [
                   "op_mq_on"
                 ],
@@ -323,7 +326,7 @@
             "name": "Lower Volcano",
             "sections": [
               {
-                "name": "Mogma Hut Bombable Wall",
+                "name": "Mogma Huts Bombable Wall",
                 "item_count": 1,
                 "visibility_rules": [
                   "op_ow_on"

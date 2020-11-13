@@ -94,9 +94,10 @@
             "name": "Near Boss Door",
             "item_count": 1,
             "access_rules": [
-              "$skyview_first,skyviewsk:2,gs",
+              "$skyview_first,skyviewsk:2,gs,op_hero_on",
               "$skyview_first,skyviewsk:2,hook",
-              "$skyview_first,skyviewsk:2,bow"
+              "$skyview_first,skyviewsk:2,bow",
+              "$skyview_first,skyviewsk:2,ts"
             ],
             "visibility_rules": [
               "op_dung_on,op_race_off",
@@ -109,9 +110,10 @@
             "name": "Boss Key Chest",
             "item_count": 1,
             "access_rules": [
-              "$skyview_first,skyviewsk:2,gs",
+              "$skyview_first,skyviewsk:2,gs,op_hero_on",
               "$skyview_first,skyviewsk:2,hook",
-              "$skyview_first,skyviewsk:2,bow"
+              "$skyview_first,skyviewsk:2,bow",
+              "$skyview_first,skyviewsk:2,ts"
             ],
             "visibility_rules": [
               "op_dung_on,op_race_off",
@@ -124,9 +126,10 @@
             "name": "Skyview Heart Container",
             "item_count": 1,
             "access_rules": [
-              "$skyview_first,skyviewbk,skyviewsk:2,gs",
+              "$skyview_first,skyviewbk,skyviewsk:2,gs,op_hero_on",
               "$skyview_first,skyviewbk,skyviewsk:2,hook,ps",
-              "$skyview_first,skyviewbk,skyviewsk:2,bow,ps"
+              "$skyview_first,skyviewbk,skyviewsk:2,bow,ps",
+              "$skyview_first,skyviewbk,skyviewsk:2,ts"
             ],
             "visibility_rules": [
               "op_dung_on,op_race_off",
@@ -150,7 +153,10 @@
         "parent": "Skyview Temple",
         "color": "006400",
         "access_rules": [
-          "$skyview_first,skyviewbk,skyviewsk:2,gs"
+          "$skyview_first,skyviewbk,skyviewsk:2,gs,op_hero_on",
+          "$skyview_first,skyviewbk,skyviewsk:2,gs,hb",
+          "$skyview_first,skyviewbk,skyviewsk:2,gs,bow",
+          "$skyview_first,skyviewbk,skyviewsk:2,ts"
         ],
         "visibility_rules": [
           "op_dung_on,op_race_off",

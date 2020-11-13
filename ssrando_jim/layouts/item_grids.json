@@ -226,10 +226,9 @@
         "item_margin": "5",
         "item_size": 32,
         "rows": [
-          ["","op_tho",""],
-          ["op_dung_on","op_ow_on","op_gc_on"],
-          ["op_mq_on","op_race_off","op_sq_on"],
-          ["op_bat_on","op_sr_on","op_mini_on"]
+          ["","op_race_on","op_hero_on","op_tho",""],
+          ["op_dung_on","op_ow_on","op_gc_on","op_mq_on","op_sr_on"],
+          ["op_sq_on", "op_scrap_on","op_bat_on","op_mini_on", "op_peat_on"]
         ]
       }
     ]

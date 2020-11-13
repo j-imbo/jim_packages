@@ -430,6 +430,40 @@
     ]
   },
   {
+    "name": "Peatrice",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/op_peatrice_on.png",
+        "codes": "op_peat_on"
+      },
+      {
+        "img": "images/op_peatrice_off.png",
+        "codes": "op_peat_off",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Scrapper",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/op_scrapper_on.png",
+        "codes": "op_scrap_on"
+      },
+      {
+        "img": "images/op_scrapper_off.png",
+        "codes": "op_scrap_off",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
     "name": "Batreaux",
     "type": "progressive",
     "allow_disabled": false,
@@ -487,12 +521,29 @@
     "loop": true,
     "stages": [
       {
-        "img": "images/op_race_off.png",
-        "codes": "op_race_off"
+        "img": "images/op_race_on.png",
+        "codes": "op_race_on"
       },
       {
-        "img": "images/op_race_on.png",
-        "codes": "op_race_on",
+        "img": "images/op_race_off.png",
+        "codes": "op_race_off",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Hero Mode",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/op_hero_on.png",
+        "codes": "op_hero_off"
+      },
+      {
+        "img": "images/op_hero_off.png",
+        "codes": "op_hero_on",
         "inherit_codes": false
       }
     ]

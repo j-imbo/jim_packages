@@ -253,7 +253,7 @@
                   "$faron,bombs"
                 ],
                 "visibility_rules": [
-                  "op_sq_on"
+                  "op_scrap_on"
                 ],
                 "chest_unopened_img": "images/gratitude.png",
                 "chest_opened_img": "images/gratitude_gray.png"
@@ -288,18 +288,6 @@
                 "visibility_rules": [
                   "op_gc_on"
                 ]
-              },
-              {
-                "name": "Sparrot Crystals",
-                "item_count": 1,
-                "access_rules": [
-                  "$eldin2,cs"
-                ],
-                "visibility_rules": [
-                  "op_sq_on"
-                ],
-                "chest_unopened_img": "images/gratitude.png",
-                "chest_opened_img": "images/gratitude_gray.png"
               }
             ],
             "map_locations": [
@@ -458,7 +446,7 @@
                 "name": "Peater/Peatrice Crystals",
                 "item_count": 1,
                 "visibility_rules": [
-                  "op_sq_on"
+                  "op_peat_on"
                 ],
                 "chest_unopened_img": "images/gratitude.png",
                 "chest_opened_img": "images/gratitude_gray.png"
@@ -540,6 +528,18 @@
                 ],
                 "visibility_rules": [
                   "op_sq_on"
+                ],
+                "chest_unopened_img": "images/gratitude.png",
+                "chest_opened_img": "images/gratitude_gray.png"
+              },
+              {
+                "name": "Sparrot Crystals",
+                "item_count": 1,
+                "access_rules": [
+                  "$eldin2,cs"
+                ],
+                "visibility_rules": [
+                  "op_scrap_on"
                 ],
                 "chest_unopened_img": "images/gratitude.png",
                 "chest_opened_img": "images/gratitude_gray.png"
@@ -735,7 +735,7 @@
                   "$bottle,harp,$eldin1"
                 ],
                 "visibility_rules": [
-                  "op_sq_on,op_mini_on"
+                  "op_scrap_on,op_mini_on"
                 ],
                 "chest_unopened_img": "images/gratitude.png",
                 "chest_opened_img": "images/gratitude_gray.png"
@@ -840,7 +840,7 @@
                   "$wheel"
                 ],
                 "visibility_rules": [
-                  "op_mini_on"
+                  "op_mini_on,op_scrap_on"
                 ],
                 "chest_unopened_img": "images/hp.png",
                 "chest_opened_img": "images/hp_gray.png"
@@ -852,7 +852,7 @@
                   "$wheel"
                 ],
                 "visibility_rules": [
-                  "op_sq_on"
+                  "op_scrap_on"
                 ],
                 "chest_unopened_img": "images/gratitude.png",
                 "chest_opened_img": "images/gratitude_gray.png"

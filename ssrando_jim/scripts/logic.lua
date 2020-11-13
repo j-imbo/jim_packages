@@ -62,6 +62,14 @@ function goddess()
   return has("gs")
 end
 
+function tms()
+  return has("ts")
+end
+
+function hero()
+  return has("op_hero_on")
+end
+
 function ranged()
   return (sling() or cs() or btl() or bow() or bomb())
 end
@@ -205,7 +213,8 @@ end
 -- dungeon beatable macros
 
 function skyview()
-  return (skyview_acc() and goddess() and has("skyviewsk",2) and has("skyviewbk"))
+  return (skyview_acc() and goddess() and has("skyviewsk",2) and has("skyviewbk")
+    and has("op_hero_on" or hook() or bow() or tms()))
 end
 
 function skyview2()
@@ -368,7 +377,7 @@ function cube_es() --eldin slide
 end
 
 function cube_vs() --volcano summit
-  return (volcano() and goddess())
+  return (volcano() and ((goddess() and hero()) or tms()))
 end
 
 function cube_sw() --summit waterfall
@@ -396,7 +405,8 @@ function cube_sp() --desert secret passageway
 end
 
 function cube_hbf() --hook beetle flight
-  return (lanayru1() and (cs() or bomb() or hook()) and goddess())
+  return (lanayru1() and (cs() or bomb() or hook()) and
+    ((goddess() and (hero() or cs())) or tms()))
 end
 
 function cube_ah() --ancient harbour
