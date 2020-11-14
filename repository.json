@@ -1,34 +1,34 @@
 {
-  "name": "j_im Tracker Packages",
-  "packages": [
-    {
-      "name": "Skyward Sword Randomizer Map and Items Tracker",
-      "author": "j_im",
-      "game_name": "The Legend of Zelda: Skyward Sword",
-      "version": "1.0.2.4",
-      "flags": [ "map", "pins" ],
-      "required_app_version": "2.3.8.10",
-      "uid": "ssrando_jim",
-      "link": "https://j-imbo.github.io/jim_packages/ssrando_jim.zip",
-      "documentation_url": "https://github.com/j-imbo/jim_packages/ssrando_jim/README.md",
-      "variants": [
-        {
-          "name": "Map Tracker",
-          "flags": [ "map", "pins" ]
-        },
-        {
-          "name": "Map Tracker (Dungeon Shuffle)",
-          "flags": [ "map", "pins" ]
-        },
-        {
-          "name": "Item Tracker",
-          "flags": [ ]
-        },
-        {
-          "name": "Item Tracker (Dungeon Shuffle)",
-          "flags": [ ]
-        }
-      ]
-    }
-  ]
-}
+    "name": "j_im Tracker Packages",
+    "packages": [
+      {
+        "name": "Skyward Sword Randomizer Map and Items Tracker",
+        "author": "j_im",
+        "game_name": "The Legend of Zelda: Skyward Sword",
+        "version": "1.0.2.4.1",
+        "flags": [ "map", "pins" ],
+        "required_app_version": "2.3.8.10",
+        "uid": "ssrando_jim",
+        "link": "https://j-imbo.github.io/jim_packages/ssrando_jim.zip",
+        "documentation_url": "https://github.com/j-imbo/jim_packages/ssrando_jim/README.md",
+        "variants": [
+          {
+            "name": "Map Tracker",
+            "flags": [ "map", "pins" ]
+          },
+          {
+            "name": "Map Tracker (Dungeon Shuffle)",
+            "flags": [ "map", "pins" ]
+          },
+          {
+            "name": "Item Tracker",
+            "flags": [ ]
+          },
+          {
+            "name": "Item Tracker (Dungeon Shuffle)",
+            "flags": [ ]
+          }
+        ]
+      }
+    ]
+  }
