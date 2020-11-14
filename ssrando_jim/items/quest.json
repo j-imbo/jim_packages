@@ -539,11 +539,11 @@
     "stages": [
       {
         "img": "images/op_hero_on.png",
-        "codes": "op_hero_off"
+        "codes": "op_hero_on"
       },
       {
         "img": "images/op_hero_off.png",
-        "codes": "op_hero_on",
+        "codes": "op_hero_off",
         "inherit_codes": false
       }
     ]
