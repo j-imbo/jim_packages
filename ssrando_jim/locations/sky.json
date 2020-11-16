@@ -1297,6 +1297,30 @@
                 "y": 360
               }
             ]
+          },
+          {
+            "name": "Levias",
+            "sections": [
+              {
+                "name": "Bilocyte Fight",
+                "item_count": 1,
+                "access_rules": [
+                  "ps,spiral"
+                ],
+                "visibility_rules": [
+                  "op_scrap_on"
+                ],
+                "chest_unopened_img": "images/hatp_soh.png",
+                "chest_opened_img": "images/harp_soh_gray.png"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "sky",
+                "x": 520,
+                "y": 400
+              }
+            ]
           }
         ]
       }
