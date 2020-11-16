@@ -850,9 +850,7 @@
             "visibility_rules": [
               "op_dung_on,op_race_off",
               "op_dung_on,op_race_on,fs_r"
-            ],
-            "chest_unopened_img": "images/mitts_mogma.png",
-            "chest_opened_img": "images/mitts_mogma_gray.png"
+            ]
           },
           {
             "name": "Sanc Bottle",
