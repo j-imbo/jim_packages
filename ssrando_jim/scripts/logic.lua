@@ -307,7 +307,7 @@ function gorge() -- unused
 end
 
 function thunder() -- unused
-  return (gorge() and bomb() and cs() and hook() and whip())
+  return (gorge() and cs() and hook() and whip() and beamos())
 end
 
 function demise()
@@ -521,7 +521,7 @@ function dungeon_lf() -- dungeon entrance in lake floria
 end
 
 function dungeon_ss() -- dungeon entrance in sand sea
-  return (sea() and has("chart") and goddess())
+  return (sea() and has("chart") and sword())
 end
 
 function dungeon_vs() -- dungeon entrance in volcano summit
