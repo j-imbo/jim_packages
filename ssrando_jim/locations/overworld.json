@@ -34,7 +34,7 @@
                       "harp"
                     ],
                     "visibility_rules": [
-                      "op_faron,op_song"
+                      "op_faron,op_songs"
                     ],
                     "chest_unopened_img": "images/harp_bog.png",
                     "chest_opened_img": "images/harp_bog_gray.png"
