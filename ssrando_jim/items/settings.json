@@ -1,0 +1,286 @@
+[
+  {
+    "name": "Skyloft Progression",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/options/skyloft.png",
+    "codes": "op_skyloft",
+    "initial_active_state": true
+  },
+  {
+    "name": "The Sky Progression",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/options/thesky.png",
+    "codes": "op_sky",
+    "initial_active_state": true
+  },
+  {
+    "name": "Thunderhead Progression",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/options/thunderhead.png",
+    "codes": "op_thunderhead",
+    "initial_active_state": true
+  },
+  {
+    "name": "Faron Progression",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/options/faron.png",
+    "codes": "op_faron",
+    "initial_active_state": true
+  },
+  {
+    "name": "Eldin Progression",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/options/eldin.png",
+    "codes": "op_eldin",
+    "initial_active_state": true
+  },
+  {
+    "name": "Lanayru Progression",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/options/lanayru.png",
+    "codes": "op_lanayru",
+    "initial_active_state": true
+  },
+  {
+    "name": "Dungeon Progression",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/options/dungeons.png",
+    "codes": "op_dung",
+    "initial_active_state": true
+  },
+  {
+    "name": "Mini Dungeon Progression",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/options/minidungeons.png",
+    "codes": "op_minid",
+    "initial_active_state": true
+  },
+  {
+    "name": "Free Gift Progression",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/options/freegifts.png",
+    "codes": "op_gift",
+    "initial_active_state": true
+  },
+  {
+    "name": "Freestanding Item Progression",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/options/freestandingitems.png",
+    "codes": "op_freestand",
+    "initial_active_state": true
+  },
+  {
+    "name": "Miscellaneous Progression",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/options/miscellaneous.png",
+    "codes": "op_misc",
+    "initial_active_state": true
+  },
+  {
+    "name": "Silent Realm Progression",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/options/silentrealms.png",
+    "codes": "op_sr",
+    "initial_active_state": true
+  },
+  {
+    "name": "Digging Spot Progression",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/options/diggingspots.png",
+    "codes": "op_dig",
+    "initial_active_state": true
+  },
+  {
+    "name": "Bombable Wall Progression",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/options/bombablewalls.png",
+    "codes": "op_bomb",
+    "initial_active_state": true
+  },
+  {
+    "name": "Combat Reward Progression",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/options/combatrewards.png",
+    "codes": "op_combat",
+    "initial_active_state": true
+  },
+  {
+    "name": "Song Progression",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/options/songs.png",
+    "codes": "op_songs",
+    "initial_active_state": true
+  },
+  {
+    "name": "Spiral Charge Chest Progression",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/options/spiralchargechests.png",
+    "codes": "op_spiral",
+    "initial_active_state": true
+  },
+  {
+    "name": "Minigame Progression",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/options/minigames.png",
+    "codes": "op_minig",
+    "initial_active_state": true
+  },
+  {
+    "name": "Batreaux Progression",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/options/batreaux.png",
+    "codes": "op_bat",
+    "initial_active_state": true
+  },
+  {
+    "name": "Loose Crystal Progression",
+    "type": "static",
+    "img": "images/options/loosecrystals.png",
+    "codes": "op_loose"
+  },
+  {
+    "name": "Peatrice Progression",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/options/peatrice.png",
+    "codes": "op_peat",
+    "initial_active_state": true
+  },
+  {
+    "name": "Short Quest Progression",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/options/shortquests.png",
+    "codes": "op_short",
+    "initial_active_state": true
+  },
+  {
+    "name": "Long Quest Progression",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/options/longquests.png",
+    "codes": "op_long",
+    "initial_active_state": true
+  },
+  {
+    "name": "Fetch Quest Progression",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/options/fetchquests.png",
+    "codes": "op_fetch",
+    "initial_active_state": true
+  },
+  {
+    "name": "Crystal Quest Progression",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/options/crystalquests.png",
+    "codes": "op_crys",
+    "initial_active_state": true
+  },
+  {
+    "name": "Scrapper Quest Progression",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/options/scrapperquests.png",
+    "codes": "op_scrap",
+    "initial_active_state": true
+  },
+  {
+    "name": "Goddess Cube Progression",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/options/goddesscubes.png",
+    "codes": "op_cube",
+    "initial_active_state": true
+  },
+  {
+    "name": "Faron Woods Cubes",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/options/faronwoods.png",
+    "codes": "op_cube_fw",
+    "initial_active_state": true
+  },
+  {
+    "name": "Eldin Volcano Cubes",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/options/eldinvolcano.png",
+    "codes": "op_cube_ev",
+    "initial_active_state": true
+  },
+  {
+    "name": "Lanayru Desert Cubes",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/options/lanayrudesert.png",
+    "codes": "op_cube_ld",
+    "initial_active_state": true
+  },
+  {
+    "name": "Lake Floria Cubes",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/options/lakefloria.png",
+    "codes": "op_cube_lf",
+    "initial_active_state": true
+  },
+  {
+    "name": "Volcano Summit Cubes",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/options/volcanosummit.png",
+    "codes": "op_cube_vs",
+    "initial_active_state": true
+  },
+  {
+    "name": "Sand Sea Cubes",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/options/sandsea.png",
+    "codes": "op_cube_ss",
+    "initial_active_state": true
+  },
+  {
+    "name": "Race Mode",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/options/racemode.png",
+    "codes": "op_race"
+  },
+  {
+    "name": "Hero Mode",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/options/heromode.png",
+    "codes": "op_hero",
+    "initial_active_state": true
+  },
+  {
+    "name": "Closed Thunderhead",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/options/closedthunderhead.png",
+    "codes": "op_cth"
+  }
+]

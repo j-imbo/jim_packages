@@ -18,8 +18,8 @@
               "$skyview_high"
             ],
             "visibility_rules": [
-              "op_dung_on,op_race_off",
-              "op_dung_on,op_race_on,sv_r"
+              "op_faron,op_dung,$notrace",
+              "op_faron,op_dung,op_race,sv_r"
             ]
           },
           {
@@ -29,8 +29,8 @@
               "$skyview_left,$skyview_first,mitts,wds"
             ],
             "visibility_rules": [
-              "op_dung_on,op_race_off",
-              "op_dung_on,op_race_on,sv_r"
+              "op_faron,op_dung,$notrace,op_dig",
+              "op_faron,op_dung,op_race,sv_r,op_dig"
             ],
             "chest_unopened_img": "images/smallkey.png",
             "chest_opened_img": "images/smallkey_gray.png"
@@ -42,8 +42,8 @@
               "$skyview_first,$skyview_high,ps"
             ],
             "visibility_rules": [
-              "op_dung_on,op_race_off",
-              "op_dung_on,op_race_on,sv_r"
+              "op_faron,op_dung,$notrace",
+              "op_faron,op_dung,op_race,sv_r"
             ]
           },
           {
@@ -60,8 +60,8 @@
               "skyviewsk:1,wds,bombs,bow"
             ],
             "visibility_rules": [
-              "op_dung_on,op_race_off",
-              "op_dung_on,op_race_on,sv_r"
+              "op_faron,op_dung,$notrace",
+              "op_faron,op_dung,op_race,sv_r"
             ]
           },
           {
@@ -72,8 +72,8 @@
               "$skyview_first,whip,[beetle],skyviewsk:1"
             ],
             "visibility_rules": [
-              "op_dung_on,op_race_off",
-              "op_dung_on,op_race_on,sv_r"
+              "op_faron,op_dung,$notrace",
+              "op_faron,op_dung,op_race,sv_r"
             ],
             "capture_item": true,
             "chest_unopened_img": "images/hp.png",
@@ -86,22 +86,22 @@
               "$skyview_first,beetle,skyviewsk:1,ps"
             ],
             "visibility_rules": [
-              "op_dung_on,op_race_off",
-              "op_dung_on,op_race_on,sv_r"
+              "op_faron,op_dung,$notrace",
+              "op_faron,op_dung,op_race,sv_r"
             ]
           },
           {
             "name": "Near Boss Door",
             "item_count": 1,
             "access_rules": [
-              "$skyview_first,skyviewsk:2,gs,op_hero_on",
+              "$skyview_first,skyviewsk:2,gs,op_hero",
               "$skyview_first,skyviewsk:2,hook",
               "$skyview_first,skyviewsk:2,bow",
               "$skyview_first,skyviewsk:2,ts"
             ],
             "visibility_rules": [
-              "op_dung_on,op_race_off",
-              "op_dung_on,op_race_on,sv_r"
+              "op_faron,op_dung,$notrace",
+              "op_faron,op_dung,op_race,sv_r"
             ],
             "chest_unopened_img": "images/chestw.png",
             "chest_opened_img": "images/chestw_gray.png"
@@ -110,14 +110,14 @@
             "name": "Boss Key Chest",
             "item_count": 1,
             "access_rules": [
-              "$skyview_first,skyviewsk:2,gs,op_hero_on",
+              "$skyview_first,skyviewsk:2,gs,op_hero",
               "$skyview_first,skyviewsk:2,hook",
               "$skyview_first,skyviewsk:2,bow",
               "$skyview_first,skyviewsk:2,ts"
             ],
             "visibility_rules": [
-              "op_dung_on,op_race_off",
-              "op_dung_on,op_race_on,sv_r"
+              "op_faron,op_dung,$notrace",
+              "op_faron,op_dung,op_race,sv_r"
             ],
             "chest_unopened_img": "images/chestbk.png",
             "chest_opened_img": "images/chestbk_gray.png"
@@ -126,14 +126,14 @@
             "name": "Skyview Heart Container",
             "item_count": 1,
             "access_rules": [
-              "$skyview_first,skyviewbk,skyviewsk:2,gs,op_hero_on",
+              "$skyview_first,skyviewbk,skyviewsk:2,gs,op_hero",
               "$skyview_first,skyviewbk,skyviewsk:2,hook,ps",
               "$skyview_first,skyviewbk,skyviewsk:2,bow,ps",
               "$skyview_first,skyviewbk,skyviewsk:2,ts"
             ],
             "visibility_rules": [
-              "op_dung_on,op_race_off",
-              "op_dung_on,op_race_on,sv_r"
+              "op_faron,op_dung,$notrace",
+              "op_faron,op_dung,op_race,sv_r"
             ],
             "chest_unopened_img": "images/hc.png",
             "chest_opened_img": "images/hc_gray.png"
@@ -153,22 +153,18 @@
         "parent": "Skyview Temple",
         "color": "006400",
         "access_rules": [
-          "$skyview_first,skyviewbk,skyviewsk:2,gs,op_hero_on",
+          "$skyview_first,skyviewbk,skyviewsk:2,gs,op_hero",
           "$skyview_first,skyviewbk,skyviewsk:2,gs,hb",
           "$skyview_first,skyviewbk,skyviewsk:2,gs,bow",
           "$skyview_first,skyviewbk,skyviewsk:2,ts"
-        ],
-        "visibility_rules": [
-          "op_dung_on,op_race_off",
-          "op_dung_on,op_race_on,sv_r"
         ],
         "sections": [
           {
             "name": "Ruby Tablet",
             "item_count": 1,
             "visibility_rules": [
-              "op_dung_on,op_race_off",
-              "op_dung_on,op_race_on,sv_r"
+              "op_faron,op_dung,$notrace",
+              "op_faron,op_dung,op_race,sv_r"
             ],
             "chest_unopened_img": "images/tab_rb.png",
             "chest_opened_img": "images/tab_rb_gray.png"
@@ -180,8 +176,8 @@
               "$cube_svs"
             ],
             "visibility_rules": [
-              "op_gc_on,op_dung_on,op_race_off",
-              "op_gc_on,op_dung_on,op_race_on,sv_r"
+              "op_sky,op_cube,op_cube_fw,op_dung,$notrace",
+              "op_sky,op_cube,op_cube_fw,op_dung,op_race,sv_r"
             ]
           }
         ],
@@ -207,8 +203,8 @@
               "mitts"
             ],
             "visibility_rules": [
-              "op_dung_on,op_race_off",
-              "op_dung_on,op_race_on,et_r"
+              "op_eldin,op_dung,$notrace,op_dig",
+              "op_eldin,op_dung,op_race,et_r,op_dig"
             ],
             "chest_unopened_img": "images/chestw.png",
             "chest_opened_img": "images/chestw_gray.png"
@@ -220,8 +216,8 @@
               "$earth_bridge"
             ],
             "visibility_rules": [
-              "op_dung_on,op_race_off",
-              "op_dung_on,op_race_on,et_r"
+              "op_eldin,op_dung,$notrace",
+              "op_eldin,op_dung,op_race,et_r"
             ]
           },
           {
@@ -231,8 +227,8 @@
               "$earth_bridge,$lizalfos"
             ],
             "visibility_rules": [
-              "op_dung_on,op_race_off",
-              "op_dung_on,op_race_on,et_r"
+              "op_eldin,op_dung,$notrace",
+              "op_eldin,op_dung,op_race,et_r"
             ]
           },
           {
@@ -242,8 +238,8 @@
               "$earth_bridge,$lizalfos"
             ],
             "visibility_rules": [
-              "op_dung_on,op_race_off",
-              "op_dung_on,op_race_on,et_r"
+              "op_eldin,op_dung,$notrace",
+              "op_eldin,op_dung,op_race,et_r"
             ],
             "chest_unopened_img": "images/bombs.png",
             "chest_opened_img": "images/bombs_gray.png"
@@ -256,8 +252,8 @@
               "$earth_bridge,hook"
             ],
             "visibility_rules": [
-              "op_dung_on,op_race_off",
-              "op_dung_on,op_race_on,et_r"
+              "op_eldin,op_dung,$notrace",
+              "op_eldin,op_dung,op_race,et_r"
             ]
           },
           {
@@ -268,8 +264,8 @@
               "$earth_bridge,bombs,beetle"
             ],
             "visibility_rules": [
-              "op_dung_on,op_race_off",
-              "op_dung_on,op_race_on,et_r"
+              "op_eldin,op_dung,$notrace",
+              "op_eldin,op_dung,op_race,et_r"
             ],
             "chest_unopened_img": "images/chestw.png",
             "chest_opened_img": "images/chestw_gray.png"
@@ -282,8 +278,8 @@
               "$earth_bridge,bombs,beetle,mitts"
             ],
             "visibility_rules": [
-              "op_dung_on,op_race_off",
-              "op_dung_on,op_race_on,et_r"
+              "op_eldin,op_dung,$notrace",
+              "op_eldin,op_dung,op_race,et_r"
             ],
             "chest_unopened_img": "images/chestbk.png",
             "chest_opened_img": "images/chestbk_gray.png"
@@ -296,8 +292,8 @@
               "bombs,beetle,mitts,earthbk,ps"
             ],
             "visibility_rules": [
-              "op_dung_on,op_race_off",
-              "op_dung_on,op_race_on,et_r"
+              "op_eldin,op_dung,$notrace",
+              "op_eldin,op_dung,op_race,et_r"
             ],
             "chest_unopened_img": "images/hc.png",
             "chest_opened_img": "images/hc_gray.png"
@@ -325,8 +321,8 @@
             "name": "Amber Tablet",
             "item_count": 1,
             "visibility_rules": [
-              "op_dung_on,op_race_off",
-              "op_dung_on,op_race_on,et_r"
+              "op_eldin,op_dung,$notrace",
+              "op_eldin,op_dung,op_race,et_r"
             ],
             "chest_unopened_img": "images/tab_am.png",
             "chest_opened_img": "images/tab_am_gray.png"
@@ -351,8 +347,8 @@
             "name": "Behind Bars",
             "item_count": 1,
             "visibility_rules": [
-              "op_dung_on,op_race_off",
-              "op_dung_on,op_race_on,lmf_r"
+              "op_lanayru,op_dung,$notrace",
+              "op_lanayru,op_dung,op_race,lmf_r"
             ],
             "chest_unopened_img": "images/chestw.png",
             "chest_opened_img": "images/chestw_gray.png"
@@ -364,8 +360,8 @@
               "hook"
             ],
             "visibility_rules": [
-              "op_dung_on,op_race_off",
-              "op_dung_on,op_race_on,lmf_r"
+              "op_lanayru,op_dung,$notrace",
+              "op_lanayru,op_dung,op_race,lmf_r"
             ]
           },
           {
@@ -375,8 +371,8 @@
               "minesk:1,hook"
             ],
             "visibility_rules": [
-              "op_dung_on,op_race_off",
-              "op_dung_on,op_race_on,lmf_r"
+              "op_lanayru,op_dung,$notrace",
+              "op_lanayru,op_dung,op_race,lmf_r"
             ],
             "chest_unopened_img": "images/chestw.png",
             "chest_opened_img": "images/chestw_gray.png"
@@ -388,8 +384,8 @@
               "minesk:1,hook"
             ],
             "visibility_rules": [
-              "op_dung_on,op_race_off",
-              "op_dung_on,op_race_on,lmf_r"
+              "op_lanayru,op_dung,$notrace",
+              "op_lanayru,op_dung,op_race,lmf_r"
             ]
           },
           {
@@ -399,8 +395,8 @@
               "hook,bellows"
             ],
             "visibility_rules": [
-              "op_dung_on,op_race_off",
-              "op_dung_on,op_race_on,lmf_r"
+              "op_lanayru,op_dung,$notrace",
+              "op_lanayru,op_dung,op_race,lmf_r"
             ]
           },
           {
@@ -410,8 +406,8 @@
               "hook,bellows,ps,$mine_crystal"
             ],
             "visibility_rules": [
-              "op_dung_on,op_race_off",
-              "op_dung_on,op_race_on,lmf_r"
+              "op_lanayru,op_dung,$notrace",
+              "op_lanayru,op_dung,op_race,lmf_r"
             ]
           },
           {
@@ -421,8 +417,8 @@
               "hook,bellows,ps,$mine_crystal"
             ],
             "visibility_rules": [
-              "op_dung_on,op_race_off",
-              "op_dung_on,op_race_on,lmf_r"
+              "op_lanayru,op_dung,$notrace",
+              "op_lanayru,op_dung,op_race,lmf_r"
             ],
             "chest_unopened_img": "images/chestw.png",
             "chest_opened_img": "images/chestw_gray.png"
@@ -434,8 +430,8 @@
               "hook,bellows,ps,$mine_crystal"
             ],
             "visibility_rules": [
-              "op_dung_on,op_race_off",
-              "op_dung_on,op_race_on,lmf_r"
+              "op_lanayru,op_dung,$notrace",
+              "op_lanayru,op_dung,op_race,lmf_r"
             ],
             "chest_unopened_img": "images/chestw.png",
             "chest_opened_img": "images/chestw_gray.png"
@@ -447,8 +443,8 @@
               "hook,bellows,bombs,ps,$mine_crystal"
             ],
             "visibility_rules": [
-              "op_dung_on,op_race_off",
-              "op_dung_on,op_race_on,lmf_r"
+              "op_lanayru,op_dung,$notrace",
+              "op_lanayru,op_dung,op_race,lmf_r"
             ],
             "chest_unopened_img": "images/chestbk.png",
             "chest_opened_img": "images/chestbk_gray.png"
@@ -460,8 +456,8 @@
               "hook,bellows,bombs,ps,$mine_crystal"
             ],
             "visibility_rules": [
-              "op_dung_on,op_race_off",
-              "op_dung_on,op_race_on,lmf_r"
+              "op_lanayru,op_dung,$notrace",
+              "op_lanayru,op_dung,op_race,lmf_r"
             ],
             "chest_unopened_img": "images/chestw.png",
             "chest_opened_img": "images/chestw_gray.png"
@@ -473,8 +469,8 @@
               "hook,bellows,minebk,ps,$mine_crystal"
             ],
             "visibility_rules": [
-              "op_dung_on,op_race_off",
-              "op_dung_on,op_race_on,lmf_r"
+              "op_lanayru,op_dung,$notrace",
+              "op_lanayru,op_dung,op_race,lmf_r"
             ],
             "chest_unopened_img": "images/hc.png",
             "chest_opened_img": "images/hc_gray.png"
@@ -500,8 +496,8 @@
               "hook,bellows,minebk,ps,$mine_crystal"
             ],
             "visibility_rules": [
-              "op_dung_on,op_race_off",
-              "op_dung_on,op_race_on,lmf_r"
+              "op_lanayru,op_dung,$notrace",
+              "op_lanayru,op_dung,op_race,lmf_r"
             ],
             "chest_unopened_img": "images/harp.png",
             "chest_opened_img": "images/harp_gray.png"
@@ -513,7 +509,7 @@
                "$cube_tot"
             ],
             "visibility_rules": [
-              "op_gc_on"
+              "op_cube,op_cube_ld"
             ]
           }
         ],
@@ -539,8 +535,8 @@
               "wds,ps"
             ],
             "visibility_rules": [
-              "op_dung_on,op_race_off",
-              "op_dung_on,op_race_on,ac_r"
+              "op_faron,op_dung,$notrace",
+              "op_faron,op_dung,op_race,ac_r"
             ]
           },
           {
@@ -551,8 +547,8 @@
               "cisternsk:1,[cisternsk:2],$cistern_statue"
             ],
             "visibility_rules": [
-              "op_dung_on,op_race_off",
-              "op_dung_on,op_race_on,ac_r"
+              "op_faron,op_dung,$notrace",
+              "op_faron,op_dung,op_race,ac_r"
             ]
           },
           {
@@ -562,8 +558,8 @@
               "whip"
             ],
             "visibility_rules": [
-              "op_dung_on,op_race_off",
-              "op_dung_on,op_race_on,ac_r"
+              "op_faron,op_dung,$notrace",
+              "op_faron,op_dung,op_race,ac_r"
             ]
           },
           {
@@ -573,8 +569,8 @@
               "$cistern_statue"
             ],
             "visibility_rules": [
-              "op_dung_on,op_race_off",
-              "op_dung_on,op_race_on,ac_r"
+              "op_faron,op_dung,$notrace",
+              "op_faron,op_dung,op_race,ac_r"
             ],
             "chest_unopened_img": "images/chestw.png",
             "chest_opened_img": "images/chestw_gray.png"
@@ -586,8 +582,8 @@
               "wds,whip"
             ],
             "visibility_rules": [
-              "op_dung_on,op_race_off",
-              "op_dung_on,op_race_on,ac_r"
+              "op_faron,op_dung,$notrace",
+              "op_faron,op_dung,op_race,ac_r"
             ],
             "chest_unopened_img": "images/chestw.png",
             "chest_opened_img": "images/chestw_gray.png"
@@ -600,8 +596,8 @@
               "wds,whip,beetle"
             ],
             "visibility_rules": [
-              "op_dung_on,op_race_off",
-              "op_dung_on,op_race_on,ac_r"
+              "op_faron,op_dung,$notrace",
+              "op_faron,op_dung,op_race,ac_r"
             ],
             "chest_unopened_img": "images/smallkey.png",
             "chest_opened_img": "images/smallkey_gray.png"
@@ -614,8 +610,8 @@
               "$cistern_statue,hook"
             ],
             "visibility_rules": [
-              "op_dung_on,op_race_off",
-              "op_dung_on,op_race_on,ac_r"
+              "op_faron,op_dung,$notrace",
+              "op_faron,op_dung,op_race,ac_r"
             ],
             "chest_unopened_img": "images/chestbk.png",
             "chest_opened_img": "images/chestbk_gray.png"
@@ -628,8 +624,8 @@
               "whip,cisternbk,cisternsk:1,[cisternsk:2],$koloktos"
             ],
             "visibility_rules": [
-              "op_dung_on,op_race_off",
-              "op_dung_on,op_race_on,ac_r"
+              "op_faron,op_dung,$notrace",
+              "op_faron,op_dung,op_race,ac_r"
             ],
             "chest_unopened_img": "images/hc.png",
             "chest_opened_img": "images/hc_gray.png"
@@ -642,8 +638,8 @@
               "whip,cisternbk,cisternsk:1,[cisternsk:2],gs"
             ],
             "visibility_rules": [
-              "op_dung_on,op_race_off",
-              "op_dung_on,op_race_on,ac_r"
+              "op_faron,op_dung,$notrace",
+              "op_faron,op_dung,op_race,ac_r"
             ],
             "chest_unopened_img": "images/sword_long_.png",
             "chest_opened_img": "images/sword_long__gray.png"
@@ -675,8 +671,8 @@
               "gs,[bellows]"
             ],
             "visibility_rules": [
-              "op_dung_on,op_race_off",
-              "op_dung_on,op_race_on,ss_r"
+              "op_lanayru,op_dung,$notrace",
+              "op_lanayru,op_dung,op_race,ss_r"
             ]
           },
           {
@@ -686,8 +682,8 @@
               "shipsk:1,[shipsk:2],ps"
             ],
             "visibility_rules": [
-              "op_dung_on,op_race_off",
-              "op_dung_on,op_race_on,ss_r"
+              "op_lanayru,op_dung,$notrace",
+              "op_lanayru,op_dung,op_race,ss_r"
             ]
           },
           {
@@ -697,8 +693,8 @@
               "bow,cs"
             ],
             "visibility_rules": [
-              "op_dung_on,op_race_off",
-              "op_dung_on,op_race_on,ss_r"
+              "op_lanayru,op_dung,$notrace",
+              "op_lanayru,op_dung,op_race,ss_r"
             ]
           },
           {
@@ -709,8 +705,8 @@
               "bow,shipsk:1,[shipsk:2]"
             ],
             "visibility_rules": [
-              "op_dung_on,op_race_off",
-              "op_dung_on,op_race_on,ss_r"
+              "op_lanayru,op_dung,$notrace",
+              "op_lanayru,op_dung,op_race,ss_r"
             ]
           },
           {
@@ -720,8 +716,8 @@
               "bow,whip,ps"
             ],
             "visibility_rules": [
-              "op_dung_on,op_race_off",
-              "op_dung_on,op_race_on,ss_r"
+              "op_lanayru,op_dung,$notrace",
+              "op_lanayru,op_dung,op_race,ss_r"
             ]
           },
           {
@@ -731,8 +727,8 @@
               "bow,whip,ps"
             ],
             "visibility_rules": [
-              "op_dung_on,op_race_off",
-              "op_dung_on,op_race_on,ss_r"
+              "op_lanayru,op_dung,$notrace",
+              "op_lanayru,op_dung,op_race,ss_r"
             ],
             "chest_unopened_img": "images/smallkey.png",
             "chest_opened_img": "images/smallkey_gray.png"
@@ -744,8 +740,8 @@
               "bow,shipsk:1,[shipsk:2]"
             ],
             "visibility_rules": [
-              "op_dung_on,op_race_off",
-              "op_dung_on,op_race_on,ss_r"
+              "op_lanayru,op_dung,$notrace",
+              "op_lanayru,op_dung,op_race,ss_r"
             ],
             "chest_unopened_img": "images/chestbk.png",
             "chest_opened_img": "images/chestbk_gray.png"
@@ -758,8 +754,8 @@
               "bow,shipbk,shipsk:1,[shipsk:2]"
             ],
             "visibility_rules": [
-              "op_dung_on,op_race_off",
-              "op_dung_on,op_race_on,ss_r"
+              "op_lanayru,op_dung,$notrace",
+              "op_lanayru,op_dung,op_race,ss_r"
             ],
             "chest_unopened_img": "images/hc.png",
             "chest_opened_img": "images/hc_gray.png"
@@ -771,8 +767,8 @@
               "bow,shipbk,gs"
             ],
             "visibility_rules": [
-              "op_dung_on,op_race_off",
-              "op_dung_on,op_race_on,ss_r"
+              "op_lanayru,op_dung,$notrace",
+              "op_lanayru,op_dung,op_race,ss_r"
             ],
             "chest_unopened_img": "images/sword_white_.png",
             "chest_opened_img": "images/sword_white__gray.png"
@@ -801,8 +797,8 @@
               "$sanc_pods,$bokoblin"
             ],
             "visibility_rules": [
-              "op_dung_on,op_race_off",
-              "op_dung_on,op_race_on,fs_r"
+              "op_eldin,op_dung,$notrace",
+              "op_eldin,op_dung,op_race,fs_r"
             ]
           },
           {
@@ -812,8 +808,8 @@
               "$sanc_pods,sancsk:1,$bokoblin"
             ],
             "visibility_rules": [
-              "op_dung_on,op_race_off",
-              "op_dung_on,op_race_on,fs_r"
+              "op_eldin,op_dung,$notrace",
+              "op_eldin,op_dung,op_race,fs_r"
             ],
             "chest_unopened_img": "images/chestw.png",
             "chest_opened_img": "images/chestw_gray.png"
@@ -826,8 +822,8 @@
               "hook,cs,sancsk:1,$lizalfos"
             ],
             "visibility_rules": [
-              "op_dung_on,op_race_off",
-              "op_dung_on,op_race_on,fs_r"
+              "op_eldin,op_dung,$notrace",
+              "op_eldin,op_dung,op_race,fs_r"
             ]
           },
           {
@@ -837,8 +833,8 @@
               "hook,sancsk:2,$lizalfos"
             ],
             "visibility_rules": [
-              "op_dung_on,op_race_off",
-              "op_dung_on,op_race_on,fs_r"
+              "op_eldin,op_dung,$notrace",
+              "op_eldin,op_dung,op_race,fs_r"
             ]
           },
           {
@@ -848,8 +844,8 @@
               "hook,sancsk:2,ps"
             ],
             "visibility_rules": [
-              "op_dung_on,op_race_off",
-              "op_dung_on,op_race_on,fs_r"
+              "op_eldin,op_dung,$notrace",
+              "op_eldin,op_dung,op_race,fs_r"
             ]
           },
           {
@@ -859,8 +855,8 @@
               "$sanc_pods,sancsk:1,mogma,ps"
             ],
             "visibility_rules": [
-              "op_dung_on,op_race_off",
-              "op_dung_on,op_race_on,fs_r"
+              "op_eldin,op_dung,$notrace",
+              "op_eldin,op_dung,op_race,fs_r"
             ]
           },
           {
@@ -870,8 +866,8 @@
               "hook,cs,sancsk:2,mogma,bellows,ps"
             ],
             "visibility_rules": [
-              "op_dung_on,op_race_off",
-              "op_dung_on,op_race_on,fs_r"
+              "op_eldin,op_dung,$notrace",
+              "op_eldin,op_dung,op_race,fs_r"
             ]
           },
           {
@@ -881,8 +877,8 @@
               "hook,cs,sancsk:2,mogma,bellows,bombs,ps"
             ],
             "visibility_rules": [
-              "op_dung_on,op_race_off",
-              "op_dung_on,op_race_on,fs_r"
+              "op_eldin,op_dung,$notrace",
+              "op_eldin,op_dung,op_race,fs_r"
             ]
           },
           {
@@ -892,8 +888,8 @@
               "hook,sancsk:3,mogma,ps"
             ],
             "visibility_rules": [
-              "op_dung_on,op_race_off",
-              "op_dung_on,op_race_on,fs_r"
+              "op_eldin,op_dung,$notrace",
+              "op_eldin,op_dung,op_race,fs_r"
             ]
           },
           {
@@ -903,8 +899,8 @@
               "hook,cs,sancsk:3,mogma,ps"
             ],
             "visibility_rules": [
-              "op_dung_on,op_race_off",
-              "op_dung_on,op_race_on,fs_r"
+              "op_eldin,op_dung,$notrace",
+              "op_eldin,op_dung,op_race,fs_r"
             ]
           },
           {
@@ -914,8 +910,8 @@
               "hook,cs,sancsk:3,mogma,ps"
             ],
             "visibility_rules": [
-              "op_dung_on,op_race_off",
-              "op_dung_on,op_race_on,fs_r"
+              "op_eldin,op_dung,$notrace",
+              "op_eldin,op_dung,op_race,fs_r"
             ],
             "chest_unopened_img": "images/chestbk.png",
             "chest_opened_img": "images/chestbk_gray.png"
@@ -927,8 +923,8 @@
               "hook,sancsk:3,mogma,sancbk,ps"
             ],
             "visibility_rules": [
-              "op_dung_on,op_race_off",
-              "op_dung_on,op_race_on,fs_r"
+              "op_eldin,op_dung,$notrace",
+              "op_eldin,op_dung,op_race,fs_r"
             ],
             "chest_unopened_img": "images/hc.png",
             "chest_opened_img": "images/hc_gray.png"
@@ -940,8 +936,8 @@
               "hook,sancsk:3,mogma,sancbk,gs"
             ],
             "visibility_rules": [
-              "op_dung_on,op_race_off",
-              "op_dung_on,op_race_on,fs_r"
+              "op_eldin,op_dung,$notrace",
+              "op_eldin,op_dung,op_race,fs_r"
             ],
             "chest_unopened_img": "images/sword_master_.png",
             "chest_opened_img": "images/sword_master__gray.png"
@@ -967,8 +963,8 @@
             "name": "Map Chest",
             "item_count": 1,
             "visibility_rules": [
-              "op_dung_on,op_race_on,sk_r",
-              "op_dung_on,op_race_off"
+              "op_sky,op_dung,op_race,sk_r",
+              "op_sky,op_dung,$notrace"
             ]
           },
           {
@@ -978,8 +974,8 @@
               "bellows,whip,bow,cs,ps"
             ],
             "visibility_rules": [
-              "op_dung_on,op_race_on,sk_r",
-              "op_dung_on,op_race_off"
+              "op_sky,op_dung,op_race,sk_r",
+              "op_sky,op_dung,$notrace"
             ]
           }
         ],

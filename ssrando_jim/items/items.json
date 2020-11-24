@@ -87,22 +87,5 @@
     "type": "toggle",
     "img": "images/bottle.png",
     "codes": "bottlecapture"
-  },
-  {
-    "name": "Closed Thunderhead",
-    "type": "progressive",
-    "loop": true,
-    "allow_disabled": false,
-    "inherit_codes": false,
-    "stages": [
-      {
-        "img": "images/op_tho.png",
-        "codes": "op_tho"
-      },
-      {
-        "img": "images/op_thc.png",
-        "codes": "op_thc"
-      }
-    ]
   }
 ]

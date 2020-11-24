@@ -67,7 +67,7 @@ function tms()
 end
 
 function hero()
-  return has("op_hero_on")
+  return has("op_hero")
 end
 
 function ranged()
@@ -86,6 +86,9 @@ function walls() -- goddess walls
   return (skyview2_acc() and has("bog") and harp() and (sword() or bomb()))
 end
 
+function notrace()
+  return (not has("op_race"))
+end
 -- enemy macros
 
 function bokoblin()
@@ -127,7 +130,7 @@ end
 -- area macros
 
 function thunderhead() -- open/closed thunderhead
-  if has("op_thc") then
+  if has("op_cth") then
     return has("bog")
   else
     return 1
@@ -147,7 +150,7 @@ function deepwoods()
 end
 
 function floria()
-  return (faron() and wds() and yerbal())
+  return (faron() and wds() and yerbal() and goddess())
 end
 
 function eldin1()
@@ -214,7 +217,7 @@ end
 
 function skyview()
   return (skyview_acc() and goddess() and has("skyviewsk",2) and has("skyviewbk")
-    and has("op_hero_on" or hook() or bow() or tms()))
+    and (hero() or hook() or bow() or tms()))
 end
 
 function skyview2()
@@ -254,10 +257,6 @@ end
 
 function beedle()
   return ranged()
-end
-
-function batreaux()
-  return true
 end
 
 function yerbal()

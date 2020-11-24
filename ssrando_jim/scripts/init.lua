@@ -5,6 +5,7 @@ Tracker:AddItems("items/quest.json")
 Tracker:AddItems("items/equipment.json")
 Tracker:AddItems("items/items.json")
 Tracker:AddItems("items/dungeons.json")
+Tracker:AddItems("items/settings.json")
 
 ScriptHost:LoadScript("scripts/logic.lua")
 
@@ -17,6 +18,7 @@ end
 
 Tracker:AddLayouts("layouts/dungeon_grids.json")
 Tracker:AddLayouts("layouts/item_grids.json")
+Tracker:AddLayouts("layouts/settings.json")
 Tracker:AddLayouts("layouts/layouts.json")
 Tracker:AddLayouts("layouts/capture.json")
 Tracker:AddLayouts("layouts/tracker.json")

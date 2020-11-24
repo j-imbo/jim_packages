@@ -1,0 +1,30 @@
+{
+  "options": {
+    "type": "array",
+    "orientation": "vertical",
+    "content": [
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "5",
+        "item_height": 20,
+        "item_width": 160,
+        "rows": [
+          ["op_skyloft","op_sky","op_thunderhead"],
+          ["op_faron","op_eldin","op_lanayru"],
+          [""],
+          ["op_dung","op_minid","op_gift","op_freestand","op_misc"],
+          ["op_sr","op_dig","op_bomb","op_combat","op_songs"],
+          ["op_spiral","op_minig","op_bat","op_loose","op_peat"],
+          ["op_short","op_long","op_fetch","op_crys","op_scrap"],
+          [""],
+          ["op_cube"],
+          ["op_cube_fw","op_cube_ev","op_cube_ld"],
+          ["op_cube_lf","op_cube_vs","op_cube_ss"],
+          [""],
+          ["op_race","op_hero","op_cth"]
+        ]
+      }
+    ]
+  }
+}

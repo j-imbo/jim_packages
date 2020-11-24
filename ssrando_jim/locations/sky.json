@@ -9,160 +9,13 @@
         "color": "#696969",
         "children": [
           {
-            "name": "Skyloft Single Gratitudes",
-            "sections": [
-              {
-                "name": "Link's Room",
-                "item_count": 1,
-                "visibility_rules": [
-                  "op_bat_on"
-                ],
-                "chest_unopened_img": "images/gratitude.png",
-                "chest_opened_img": "images/gratitude_gray.png"
-              },
-              {
-                "name": "Zelda's Room",
-                "item_count": 1,
-                "access_rules": [
-                  "cs"
-                ],
-                "visibility_rules": [
-                  "op_bat_on"
-                ],
-                "chest_unopened_img": "images/gratitude.png",
-                "chest_opened_img": "images/gratitude_gray.png"
-              },
-              {
-                "name": "Sparring Hall",
-                "item_count": 1,
-                "access_rules": [
-                  "beetle"
-                ],
-                "visibility_rules": [
-                  "op_bat_on"
-                ],
-                "chest_unopened_img": "images/gratitude.png",
-                "chest_opened_img": "images/gratitude_gray.png"
-              },
-              {
-                "name": "Academy Plant",
-                "item_count": 1,
-                "visibility_rules": [
-                  "op_bat_on"
-                ],
-                "chest_unopened_img": "images/gratitude.png",
-                "chest_opened_img": "images/gratitude_gray.png"
-              },
-              {
-                "name": "West Cliff",
-                "item_count": 1,
-                "visibility_rules": [
-                  "op_bat_on"
-                ],
-                "chest_unopened_img": "images/gratitude.png",
-                "chest_opened_img": "images/gratitude_gray.png"
-              },
-              {
-                "name": "Parrow and Orielle's House",
-                "item_count": 1,
-                "visibility_rules": [
-                  "op_bat_on"
-                ],
-                "chest_unopened_img": "images/gratitude.png",
-                "chest_opened_img": "images/gratitude_gray.png"
-              },
-              {
-                "name": "Light Tower",
-                "item_count": 1,
-                "visibility_rules": [
-                  "op_bat_on"
-                ],
-                "chest_unopened_img": "images/gratitude.png",
-                "chest_opened_img": "images/gratitude_gray.png"
-              },
-              {
-                "name": "Pumpkin Patch",
-                "item_count": 1,
-                "visibility_rules": [
-                  "op_bat_on"
-                ],
-                "chest_unopened_img": "images/gratitude.png",
-                "chest_opened_img": "images/gratitude_gray.png"
-              },
-              {
-                "name": "Between Planks",
-                "item_count": 1,
-                "visibility_rules": [
-                  "op_bat_on"
-                ],
-                "chest_unopened_img": "images/gratitude.png",
-                "chest_opened_img": "images/gratitude_gray.png"
-              },
-              {
-                "name": "Waterfall Top",
-                "item_count": 1,
-                "access_rules": [
-                  "cs"
-                ],
-                "visibility_rules": [
-                  "op_bat_on"
-                ],
-                "chest_unopened_img": "images/gratitude.png",
-                "chest_opened_img": "images/gratitude_gray.png"
-              },
-              {
-                "name": "Waterfall Cave Exit",
-                "item_count": 1,
-                "access_rules": [
-                  "ps", "bombs", "beetle"
-                ],
-                "visibility_rules": [
-                  "op_bat_on"
-                ],
-                "chest_unopened_img": "images/gratitude.png",
-                "chest_opened_img": "images/gratitude_gray.png"
-              },
-              {
-                "name": "Loftwing Prison",
-                "item_count": 1,
-                "access_rules": [
-                  "ps", "bombs", "beetle"
-                ],
-                "visibility_rules": [
-                  "op_bat_on"
-                ],
-                "chest_unopened_img": "images/gratitude.png",
-                "chest_opened_img": "images/gratitude_gray.png"
-              },
-              {
-                "name": "Beedle's Ship",
-                "item_count": 1,
-                "access_rules": [
-                  "beetle"
-                ],
-                "visibility_rules": [
-                  "op_bat_on"
-                ],
-                "chest_unopened_img": "images/gratitude.png",
-                "chest_opened_img": "images/gratitude_gray.png"
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "sky",
-                "x": 1085,
-                "y": 790
-              }
-            ]
-          },
-          {
             "name": "Academy",
             "sections": [
               {
                 "name": "Fledge",
                 "item_count": 1,
                 "visibility_rules": [
-                  "op_mq_on"
+                  "op_skyloft,op_gift"
                 ],
                 "chest_unopened_img": "images/adventure.png",
                 "chest_opened_img": "images/adventure_gray.png"
@@ -171,7 +24,7 @@
                 "name": "Owlan",
                 "item_count": 1,
                 "visibility_rules": [
-                  "op_mq_on"
+                  "op_skyloft,op_gift"
                 ],
                 "chest_unopened_img": "images/shield_wooden.png",
                 "chest_opened_img": "images/shield_wooden_gray.png"
@@ -180,7 +33,7 @@
                 "name": "Sword Chest",
                 "item_count": 1,
                 "visibility_rules": [
-                  "op_ow_on"
+                  "op_skyloft,op_misc"
                 ],
                 "chest_unopened_img": "images/chestb.png",
                 "chest_opened_img": "images/chestb_gray.png"
@@ -192,7 +45,7 @@
                   "bow"
                 ],
                 "visibility_rules": [
-                  "op_mini_on"
+                  "op_skyloft,op_mini"
                 ],
                 "chest_unopened_img": "images/hp.png",
                 "chest_opened_img": "images/hp_gray.png"
@@ -204,7 +57,7 @@
                   "claw"
                 ],
                 "visibility_rules": [
-                  "op_ow_on"
+                  "op_skyloft,op_misc"
                 ],
                 "chest_unopened_img": "images/hp.png",
                 "chest_opened_img": "images/hp_gray.png"
@@ -216,7 +69,7 @@
                   "harp"
                 ],
                 "visibility_rules": [
-                  "op_sq_on"
+                  "op_skyloft,op_short"
                 ],
                 "chest_unopened_img": "images/letter.png",
                 "chest_opened_img": "images/letter_gray.png"
@@ -228,8 +81,8 @@
                   "mine,$bottle"
                 ],
                 "visibility_rules": [
-                  "op_sq_on,op_dung_on,op_race_off",
-                  "op_sq_on,op_dung_on,op_race_on,lmf_r"
+                  "op_skyloft,op_lanayru,op_short,op_crys,op_dungeon,$notrace",
+                  "op_skyloft,op_lanayru,op_short,op_crys,op_dungeon,op_race,lmf_r"
                 ],
                 "chest_unopened_img": "images/gratitude.png",
                 "chest_opened_img": "images/gratitude_gray.png"
@@ -241,7 +94,7 @@
                   "letter"
                 ],
                 "visibility_rules": [
-                  "op_sq_on"
+                  "op_skyloft,op_fetch,op_crys"
                 ],
                 "chest_unopened_img": "images/gratitude.png",
                 "chest_opened_img": "images/gratitude_gray.png"
@@ -253,7 +106,49 @@
                   "$faron,bombs"
                 ],
                 "visibility_rules": [
-                  "op_scrap_on"
+                  "op_skyloft,op_faron,op_long,op_scrap,op_crys"
+                ],
+                "chest_unopened_img": "images/gratitude.png",
+                "chest_opened_img": "images/gratitude_gray.png"
+              },
+              {
+                "name": "Link's Room Single",
+                "item_count": 1,
+                "visibility_rules": [
+                  "op_skyloft,op_bat"
+                ],
+                "chest_unopened_img": "images/gratitude.png",
+                "chest_opened_img": "images/gratitude_gray.png"
+              },
+              {
+                "name": "Zelda's Room Single",
+                "item_count": 1,
+                "access_rules": [
+                  "cs"
+                ],
+                "visibility_rules": [
+                  "op_skyloft,op_bat"
+                ],
+                "chest_unopened_img": "images/gratitude.png",
+                "chest_opened_img": "images/gratitude_gray.png"
+              },
+              {
+                "name": "Sparring Hall Single",
+                "item_count": 1,
+                "access_rules": [
+                  "beetle"
+                ],
+                "visibility_rules": [
+                  "op_skyloft,op_bat"
+                ],
+                "chest_unopened_img": "images/gratitude.png",
+                "chest_opened_img": "images/gratitude_gray.png"
+              },
+              {
+                "name": "Academy Plant Single",
+                "item_count": 1,
+                "visibility_rules": [
+                  "op_skyloft,op_bat"
                 ],
                 "chest_unopened_img": "images/gratitude.png",
                 "chest_opened_img": "images/gratitude_gray.png"
@@ -274,7 +169,7 @@
                 "name": "Potion Lady",
                 "item_count": 1,
                 "visibility_rules": [
-                  "op_mq_on"
+                  "op_skyloft,op_gift"
                 ],
                 "chest_unopened_img": "images/bottle.png",
                 "chest_opened_img": "images/bottle_gray.png"
@@ -286,7 +181,7 @@
                   "cube_AH"
                 ],
                 "visibility_rules": [
-                  "op_gc_on"
+                  "op_skyloft,op_cube,op_cube_ss"
                 ]
               }
             ],
@@ -309,7 +204,7 @@
                 ],
                 "item_count": 2,
                 "visibility_rules": [
-                  "op_ow_on"
+                  "op_skyloft,op_misc"
                 ],
                 "chest_unopened_img": "images/chestw.png",
                 "chest_opened_img": "images/chestw_gray.png"
@@ -321,7 +216,7 @@
                   "cs,cube_Fl"
                 ],
                 "visibility_rules": [
-                  "op_gc_on"
+                  "op_skyloft,op_cube,op_cube_lf"
                 ]
               },
               {
@@ -331,8 +226,44 @@
                   "cs,cube_PS"
                 ],
                 "visibility_rules": [
-                  "op_gc_on"
+                  "op_skyloft,op_cube,op_cube_ss"
                 ]
+              },
+              {
+                "name": "Waterfall Cave Exit Single",
+                "item_count": 1,
+                "access_rules": [
+                  "ps", "bombs", "beetle"
+                ],
+                "visibility_rules": [
+                  "op_skyloft,op_bat"
+                ],
+                "chest_unopened_img": "images/gratitude.png",
+                "chest_opened_img": "images/gratitude_gray.png"
+              },
+              {
+                "name": "Loftwing Prison Single",
+                "item_count": 1,
+                "access_rules": [
+                  "ps", "bombs", "beetle"
+                ],
+                "visibility_rules": [
+                  "op_skyloft,op_bat"
+                ],
+                "chest_unopened_img": "images/gratitude.png",
+                "chest_opened_img": "images/gratitude_gray.png"
+              },
+              {
+                "name": "Waterfall Top Single",
+                "item_count": 1,
+                "access_rules": [
+                  "cs"
+                ],
+                "visibility_rules": [
+                  "op_skyloft,op_bat"
+                ],
+                "chest_unopened_img": "images/gratitude.png",
+                "chest_opened_img": "images/gratitude_gray.png"
               }
             ],
             "map_locations": [
@@ -350,7 +281,7 @@
                 "name": "Goddess Sword",
                 "item_count": 1,
                 "visibility_rules": [
-                  "op_ow_on"
+                  "op_skyloft,op_misc"
                 ],
                 "chest_unopened_img": "images/chestw.png",
                 "chest_opened_img": "images/chestw_gray.png"
@@ -359,7 +290,7 @@
                 "name": "Chest near Statue",
                 "item_count": 1,
                 "visibility_rules": [
-                  "op_ow_on"
+                  "op_skyloft_misc"
                 ],
                 "chest_unopened_img": "images/chestw.png",
                 "chest_opened_img": "images/chestw_gray.png"
@@ -383,8 +314,17 @@
                   "cube_WGT"
                 ],
                 "visibility_rules": [
-                  "op_gc_on"
+                  "op_skyloft,op_cube,op_cube_fw"
                 ]
+              },
+              {
+                "name": "West Cliff Single",
+                "item_count": 1,
+                "visibility_rules": [
+                  "op_skyloft,op_bat"
+                ],
+                "chest_unopened_img": "images/gratitude.png",
+                "chest_opened_img": "images/gratitude_gray.png"
               }
             ],
             "map_locations": [
@@ -405,7 +345,7 @@
                   "wds"
                 ],
                 "visibility_rules": [
-                  "op_ow_on"
+                  "op_skyloft,op_misc"
                 ],
                 "chest_unopened_img": "images/chestb.png",
                 "chest_opened_img": "images/chestb_gray.png"
@@ -418,7 +358,7 @@
                   "gust,$beedle,[claw]"
                 ],
                 "visibility_rules": [
-                  "op_ow_on"
+                  "op_skyloft,op_freestand"
                 ],
                 "chest_unopened_img": "images/rattle.png",
                 "chest_opened_img": "images/rattle_gray.png"
@@ -430,14 +370,14 @@
                   "wds,cube_ES"
                 ],
                 "visibility_rules": [
-                  "op_gc_on"
+                  "op_skyloft,op_cube,op_cube_ev"
                 ]
               },
               {
                 "name": "Wyrna Crystals",
                 "item_count": 1,
                 "visibility_rules": [
-                  "op_sq_on"
+                  "op_skyloft,op_gift,op_crys"
                 ],
                 "chest_unopened_img": "images/gratitude.png",
                 "chest_opened_img": "images/gratitude_gray.png"
@@ -446,7 +386,16 @@
                 "name": "Peater/Peatrice Crystals",
                 "item_count": 1,
                 "visibility_rules": [
-                  "op_peat_on"
+                  "op_skyloft,op_long,op_crys,op_peat"
+                ],
+                "chest_unopened_img": "images/gratitude.png",
+                "chest_opened_img": "images/gratitude_gray.png"
+              },
+              {
+                "name": "Between Planks Single",
+                "item_count": 1,
+                "visibility_rules": [
+                  "op_skyloft,op_bat"
                 ],
                 "chest_unopened_img": "images/gratitude.png",
                 "chest_opened_img": "images/gratitude_gray.png"
@@ -467,7 +416,7 @@
                 "name": "Parrow Bottle",
                 "item_count": 1,
                 "visibility_rules": [
-                  "op_sq_on"
+                  "op_skyloft,op_gift,op_short"
                 ],
                 "chest_unopened_img": "images/bottle.png",
                 "chest_opened_img": "images/bottle_gray.png"
@@ -479,7 +428,7 @@
                   "$bottle"
                 ],
                 "visibility_rules": [
-                  "op_sq_on"
+                  "op_skyloft,op_short,op_crys"
                 ],
                 "chest_unopened_img": "images/gratitude.png",
                 "chest_opened_img": "images/gratitude_gray.png"
@@ -491,10 +440,28 @@
                   "$soth,harp"
                 ],
                 "visibility_rules": [
-                  "op_sr_on"
+                  "op_sr"
                 ],
                 "chest_unopened_img": "images/stone.png",
                 "chest_opened_img": "images/stone_gray.png"
+              },
+              {
+                "name": "Parrow and Orielle's House Single",
+                "item_count": 1,
+                "visibility_rules": [
+                  "op_skyloft,op_bat"
+                ],
+                "chest_unopened_img": "images/gratitude.png",
+                "chest_opened_img": "images/gratitude_gray.png"
+              },
+              {
+                "name": "Light Tower, Single",
+                "item_count": 1,
+                "visibility_rules": [
+                  "op_skyloft,op_bat"
+                ],
+                "chest_unopened_img": "images/gratitude.png",
+                "chest_opened_img": "images/gratitude_gray.png"
               }
             ],
             "map_locations": [
@@ -515,7 +482,7 @@
                   "gust"
                 ],
                 "visibility_rules": [
-                  "op_sq_on"
+                  "op_skyloft,op_short,op_crys"
                 ],
                 "chest_unopened_img": "images/gratitude.png",
                 "chest_opened_img": "images/gratitude_gray.png"
@@ -527,7 +494,7 @@
                   "rattle"
                 ],
                 "visibility_rules": [
-                  "op_sq_on"
+                  "op_skyloft,op_fetch,op_crys"
                 ],
                 "chest_unopened_img": "images/gratitude.png",
                 "chest_opened_img": "images/gratitude_gray.png"
@@ -539,7 +506,16 @@
                   "$eldin2,cs"
                 ],
                 "visibility_rules": [
-                  "op_scrap_on"
+                  "op_skyloft,op_eldin,op_long,op_scrap,op_crys"
+                ],
+                "chest_unopened_img": "images/gratitude.png",
+                "chest_opened_img": "images/gratitude_gray.png"
+              },
+              {
+                "name": "Pumpkin Patch Single",
+                "item_count": 1,
+                "visibility_rules": [
+                  "op_skyloft,op_bat"
                 ],
                 "chest_unopened_img": "images/gratitude.png",
                 "chest_opened_img": "images/gratitude_gray.png"
@@ -555,9 +531,6 @@
           },
           {
             "name": "Batreaux",
-            "access_rules": [
-              "$batreaux"
-            ],
             "sections": [
               {
                 "name": "5 Reward",
@@ -566,7 +539,7 @@
                   "gratitude:5"
                 ],
                 "visibility_rules": [
-                  "op_bat_on"
+                  "op_skyloft,op_bat"
                 ],
                 "chest_unopened_img": "images/wallet_medium.png",
                 "chest_opened_img": "images/wallet_medium_gray.png"
@@ -578,7 +551,7 @@
                   "gratitude:10"
                 ],
                 "visibility_rules": [
-                  "op_bat_on"
+                  "op_skyloft,op_bat"
                 ],
                 "chest_unopened_img": "images/hp.png",
                 "chest_opened_img": "images/hp_gray.png"
@@ -590,7 +563,7 @@
                   "gratitude:30"
                 ],
                 "visibility_rules": [
-                  "op_bat_on"
+                  "op_skyloft,op_bat"
                 ],
                 "chest_unopened_img": "images/wallet_big.png",
                 "chest_opened_img": "images/wallet_big_gray.png"
@@ -602,7 +575,7 @@
                   "gratitude:30"
                 ],
                 "visibility_rules": [
-                  "op_bat_on"
+                  "op_skyloft,op_bat"
                 ],
                 "chest_unopened_img": "images/chestb.png",
                 "chest_opened_img": "images/chestb_gray.png"
@@ -614,7 +587,7 @@
                   "gratitude:40"
                 ],
                 "visibility_rules": [
-                  "op_bat_on"
+                  "op_skyloft,op_bat"
                 ],
                 "chest_unopened_img": "images/rupee.png",
                 "chest_opened_img": "images/rupee_gray.png"
@@ -626,7 +599,7 @@
                   "gratitude:50"
                 ],
                 "visibility_rules": [
-                  "op_bat_on"
+                  "op_skyloft,op_bat"
                 ],
                 "chest_unopened_img": "images/wallet_giant.png",
                 "chest_opened_img": "images/wallet_giant_gray.png"
@@ -638,7 +611,7 @@
                   "gratitude:70"
                 ],
                 "visibility_rules": [
-                  "op_bat_on"
+                  "op_skyloft,op_bat"
                 ],
                 "chest_unopened_img": "images/rupee.png",
                 "chest_opened_img": "images/rupee_gray.png"
@@ -650,7 +623,7 @@
                   "gratitude:70"
                 ],
                 "visibility_rules": [
-                  "op_bat_on"
+                  "op_skyloft,op_bat"
                 ],
                 "chest_unopened_img": "images/rupee.png",
                 "chest_opened_img": "images/rupee_gray.png"
@@ -662,7 +635,7 @@
                   "gratitude:80"
                 ],
                 "visibility_rules": [
-                  "op_bat_on"
+                  "op_skyloft,op_bat"
                 ],
                 "chest_unopened_img": "images/wallet_tycoon.png",
                 "chest_opened_img": "images/wallet_tycoon_gray.png"
@@ -692,8 +665,8 @@
                   "cube_SVS"
                 ],
                 "visibility_rules": [
-                  "op_gc_on,op_dung_on,op_race_off",
-                  "op_gc_on,op_dung_on,op_race_on,sv_r"
+                  "op_sky,op_cube,op_cube_fw,op_dung,$notrace",
+                  "op_sky,op_cube,op_cube_fw,op_dung,op_race,sv_r"
                 ]
               },
               {
@@ -703,14 +676,14 @@
                   "cube_Initial"
                 ],
                 "visibility_rules": [
-                  "op_gc_on"
+                  "op_sky,op_cube,op_cube_fw"
                 ]
               },
               {
                 "name": "Chandelier HP",
                 "item_count": 1,
                 "visibility_rules": [
-                  "op_ow_on"
+                  "op_sky,op_freestand"
                 ],
                 "chest_unopened_img": "images/hp.png",
                 "chest_opened_img": "images/hp_gray.png",
@@ -723,7 +696,7 @@
                   "harp,$bottle"
                 ],
                 "visibility_rules": [
-                  "op_mini_on,op_sq_on"
+                  "op_sky,op_long,op_minig"
                 ],
                 "chest_unopened_img": "images/hp.png",
                 "chest_opened_img": "images/hp_gray.png"
@@ -735,7 +708,7 @@
                   "$bottle,harp,$eldin1"
                 ],
                 "visibility_rules": [
-                  "op_scrap_on,op_mini_on"
+                  "op_sky,op_eldin,op_scrap,op_minig,op_long,op_crys"
                 ],
                 "chest_unopened_img": "images/gratitude.png",
                 "chest_opened_img": "images/gratitude_gray.png"
@@ -756,7 +729,7 @@
                 "name": "Outside",
                 "item_count": 1,
                 "visibility_rules": [
-                  "op_bat_on"
+                  "op_skyloft,op_bat"
                 ],
                 "chest_unopened_img": "images/gratitude.png",
                 "chest_opened_img": "images/gratitude_gray.png"
@@ -765,7 +738,7 @@
                 "name": "Inside",
                 "item_count": 1,
                 "visibility_rules": [
-                  "op_bat_on"
+                  "op_skyloft,op_bat"
                 ],
                 "chest_unopened_img": "images/gratitude.png",
                 "chest_opened_img": "images/gratitude_gray.png"
@@ -796,7 +769,7 @@
                   "cube_ToT"
                 ],
                 "visibility_rules": [
-                  "op_gc_on,op_dung_on"
+                  "op_sky,op_cube,op_cube_ld"
                 ]
               },
               {
@@ -806,7 +779,7 @@
                   "$beedle,cube_SV"
                 ],
                 "visibility_rules": [
-                  "op_gc_on"
+                  "op_sky,op_cube,op_cube_fw"
                 ]
               },
               {
@@ -816,7 +789,19 @@
                   "$beedle,hcb"
                 ],
                 "visibility_rules": [
-                  "op_sq_on"
+                  "op_sky,op_fetch,op_crys"
+                ],
+                "chest_unopened_img": "images/gratitude.png",
+                "chest_opened_img": "images/gratitude_gray.png"
+              },
+              {
+                "name": "Beedle's Ship Single",
+                "item_count": 1,
+                "access_rules": [
+                  "beetle"
+                ],
+                "visibility_rules": [
+                  "op_skyloft,op_bat"
                 ],
                 "chest_unopened_img": "images/gratitude.png",
                 "chest_opened_img": "images/gratitude_gray.png"
@@ -840,7 +825,7 @@
                   "$wheel"
                 ],
                 "visibility_rules": [
-                  "op_mini_on,op_scrap_on"
+                  "op_sky,op_lanayru,op_minig,op_long,op_scrap"
                 ],
                 "chest_unopened_img": "images/hp.png",
                 "chest_opened_img": "images/hp_gray.png"
@@ -852,7 +837,7 @@
                   "$wheel"
                 ],
                 "visibility_rules": [
-                  "op_scrap_on"
+                  "op_sky,op_lanayru,op_long,op_scrap"
                 ],
                 "chest_unopened_img": "images/gratitude.png",
                 "chest_opened_img": "images/gratitude_gray.png"
@@ -864,7 +849,7 @@
                   "cube_FW"
                 ],
                 "visibility_rules": [
-                  "op_gc_on"
+                  "op_sky,op_cube,op_cube_lf"
                 ]
               }
             ],
@@ -886,7 +871,7 @@
                   "cube_ETW"
                 ],
                 "visibility_rules": [
-                  "op_gc_on"
+                  "op_sky,op_cube,op_cube_ev,op_bomb"
                 ]
               }
             ],
@@ -902,23 +887,23 @@
             "name": "Nearby Island",
             "sections": [
               {
-                "name": "Nearby Island Goddess Chest 1",
+                "name": "Outside Goddess Chest",
                 "item_count": 1,
                 "access_rules": [
                   "cube_MTE"
                 ],
                 "visibility_rules": [
-                  "op_gc_on"
+                  "op_sky,op_cube,op_cube_ev"
                 ]
               },
               {
-                "name": "Nearby Island Goddess Chest 2",
+                "name": "Cave Goddess Chest",
                 "item_count": 1,
                 "access_rules": [
                   "wds,cube_SP"
                 ],
                 "visibility_rules": [
-                  "op_gc_on"
+                  "op_sky,op_cube,op_cube_ld,op_bomb"
                 ]
               }
             ],
@@ -940,7 +925,7 @@
                   "cube_ETE"
                 ],
                 "visibility_rules": [
-                  "op_gc_on"
+                  "op_sky,op_cube,op_cube_ev"
                 ]
               },
               {
@@ -950,7 +935,7 @@
                   "cube_LME,bombs"
                 ],
                 "visibility_rules": [
-                  "op_gc_on"
+                  "op_sky,op_cube,op_cube_ld"
                 ]
               }
             ],
@@ -972,7 +957,7 @@
                   "cube_EGTcs"
                 ],
                 "visibility_rules": [
-                  "op_gc_on"
+                  "op_sky,op_cube,op_cube_fw"
                 ]
               },
               {
@@ -982,7 +967,7 @@
                   "cube_SO"
                 ],
                 "visibility_rules": [
-                  "op_gc_on"
+                  "op_sky,op_cube,op_cube_ld"
                 ]
               }
             ],
@@ -1004,7 +989,7 @@
                   "cube_DW"
                 ],
                 "visibility_rules": [
-                  "op_gc_on"
+                  "op_sky,op_cube,op_cube_fw"
                 ]
               }
             ],
@@ -1026,7 +1011,7 @@
                   "cube_EE"
                 ],
                 "visibility_rules": [
-                  "op_gc_on"
+                  "op_sky,op_cube,op_cube_ev"
                 ]
               },
               {
@@ -1036,7 +1021,7 @@
                   "cube_HBF"
                 ],
                 "visibility_rules": [
-                  "op_gc_on"
+                  "op_sky,op_cube,op_cube_ld"
                 ]
               },
               {
@@ -1046,7 +1031,7 @@
                   "claw,cube_SR"
                 ],
                 "visibility_rules": [
-                  "op_gc_on"
+                  "op_sky,op_cube,op_cube_ss"
                 ]
               }
             ],
@@ -1068,7 +1053,7 @@
                   "$bottle"
                 ],
                 "visibility_rules": [
-                  "op_sq_on"
+                  "op_sky,op_short,op_crys"
                 ],
                 "chest_unopened_img": "images/gratitude.png",
                 "chest_opened_img": "images/gratitude_gray.png"
@@ -1092,7 +1077,7 @@
                   "spiral"
                 ],
                 "visibility_rules": [
-                  "op_ow_on"
+                  "op_sky,op_spiral"
                 ],
                 "chest_unopened_img": "images/chestb.png",
                 "chest_opened_img": "images/chestb_gray.png"
@@ -1116,7 +1101,7 @@
                   "spiral"
                 ],
                 "visibility_rules": [
-                  "op_ow_on"
+                  "op_sky,op_spiral"
                 ],
                 "chest_unopened_img": "images/chestb.png",
                 "chest_opened_img": "images/chestb_gray.png"
@@ -1149,7 +1134,7 @@
                   "gs"
                 ],
                 "visibility_rules": [
-                  "op_ow_on"
+                  "op_thunderhead,op_songs"
                 ]
               },
               {
@@ -1159,7 +1144,7 @@
                   "ls"
                 ],
                 "visibility_rules": [
-                  "op_ow_on"
+                  "op_thunderhead,op_songs"
                 ]
               },
               {
@@ -1169,7 +1154,7 @@
                   "ws"
                 ],
                 "visibility_rules": [
-                  "op_ow_on"
+                  "op_thunderhead,op_songs"
                 ]
               },
               {
@@ -1179,7 +1164,7 @@
                   "cube_MT"
                 ],
                 "visibility_rules": [
-                  "op_gc_on"
+                  "op_thunderhead,op_cube,op_cube_ev"
                 ]
               },
               {
@@ -1189,7 +1174,7 @@
                   "cube_FSE"
                 ],
                 "visibility_rules": [
-                  "op_gc_on"
+                  "op_thunderhead,op_cube,op_cube_vs"
                 ]
               }
             ],
@@ -1208,7 +1193,7 @@
                 "name": "Arch Chest",
                 "item_count": 1,
                 "visibility_rules": [
-                  "op_ow_on"
+                  "op_thunderhead,op_misc"
                 ],
                 "chest_unopened_img": "images/chestb.png",
                 "chest_opened_img": "images/chestb_gray.png"
@@ -1220,7 +1205,7 @@
                   "cube_EGTr"
                 ],
                 "visibility_rules": [
-                  "op_gc_on"
+                  "op_thunderhead,op_cube,op_cube_fw"
                 ]
               }
             ],
@@ -1242,7 +1227,7 @@
                   "bugnet"
                 ],
                 "visibility_rules": [
-                  "op_mini_on"
+                  "op_thunderhead,op_minig"
                 ],
                 "chest_unopened_img": "images/hcb.png",
                 "chest_opened_img": "images/hcb_gray.png"
@@ -1254,7 +1239,7 @@
                   "cube_SW"
                 ],
                 "visibility_rules": [
-                  "op_gc_on"
+                  "op_thunderhead,op_cube,op_cube_vs"
                 ]
               }
             ],
@@ -1276,7 +1261,7 @@
                   "mogma,cube_VS"
                 ],
                 "visibility_rules": [
-                  "op_gc_on"
+                  "op_thunderhead,op_cube,op_cube_vs"
                 ]
               },
               {
@@ -1286,7 +1271,7 @@
                   "mitts,cube_LG"
                 ],
                 "visibility_rules": [
-                  "op_gc_on"
+                  "op_thunderhead,op_cube,op_cube_ld"
                 ]
               }
             ],
@@ -1308,7 +1293,7 @@
                   "ps,spiral"
                 ],
                 "visibility_rules": [
-                  "op_scrap_on"
+                  "op_thunderhead,op_sky,op_scrap,op_combat,op_songs"
                 ],
                 "chest_unopened_img": "images/hatp_soh.png",
                 "chest_opened_img": "images/harp_soh_gray.png"

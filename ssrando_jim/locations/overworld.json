@@ -22,7 +22,7 @@
                     "name": "Inside Temple",
                     "item_count": 1,
                     "visibility_rules": [
-                      "op_ow_on"
+                      "op_faron,op_misc"
                     ],
                     "chest_unopened_img": "images/chestw.png",
                     "chest_opened_img": "images/chestw_gray.png"
@@ -34,7 +34,7 @@
                       "harp"
                     ],
                     "visibility_rules": [
-                      "op_mq_on"
+                      "op_faron,op_song"
                     ],
                     "chest_unopened_img": "images/harp_bog.png",
                     "chest_opened_img": "images/harp_bog_gray.png"
@@ -46,20 +46,21 @@
                       "$walls,gs"
                     ],
                     "visibility_rules": [
-                      "op_mq_on,op_dung_on,op_race_off",
-                      "op_mq_on,op_dung_on,op_race_on,sv_r"
+                      "op_faron,op_long,op_dung,$notrace",
+                      "op_faron,op_long,op_dung,op_race,sv_r"
                     ],
                     "chest_unopened_img": "images/hp.png",
                     "chest_opened_img": "images/hp_gray.png"
                   },
                   {
-                    "name": "Behind Triforce on Wall",
+                    "name": "Gorko Triforce on Wall",
                     "item_count": 0,
                     "access_rules": [
                       "$walls,bow,bombs,$levias"
                     ],
                     "visibility_rules": [
-                      "op_mq_on,op_dung_on"
+                      "op_faron,op_long,op_dung,$notrace",
+                      "op_faron,op_long,op_dung,op_race,sv_r"
                     ],
                     "chest_unopened_img": "images/rupee.png",
                     "chest_opened_img": "images/rupee_gray.png"
@@ -71,7 +72,7 @@
                       "$past"
                     ],
                     "visibility_rules": [
-                      "op_mq_on"
+                      "op_faron"
                     ],
                     "chest_unopened_img": "images/sword_true_.png",
                     "chest_opened_img": "images/sword_true__gray.png"
@@ -97,7 +98,7 @@
                 "name": "Tree HP",
                 "item_count": 1,
                 "visibility_rules": [
-                  "op_ow_on"
+                  "op_faron,op_freestand"
                 ],
                 "chest_unopened_img": "images/hp.png",
                 "chest_opened_img": "images/hp_gray.png",
@@ -110,7 +111,7 @@
                   "$bokoblin"
                 ],
                 "visibility_rules": [
-                  "op_mq_on"
+                  "op_faron,op_long,op_combat"
                 ],
                 "chest_unopened_img": "images/slingshot.png",
                 "chest_opened_img": "images/slingshot_gray.png"
@@ -122,7 +123,7 @@
                   "bombs"
                 ],
                 "visibility_rules": [
-                  "op_ow_on"
+                  "op_faron,op_freestand,op_bomb"
                 ],
                 "chest_unopened_img": "images/hp.png",
                 "chest_opened_img": "images/hp_gray.png"
@@ -134,7 +135,7 @@
                   "bombs"
                 ],
                 "visibility_rules": [
-                  "op_ow_on"
+                  "op_faron,op_bomb"
                 ]
               },
               {
@@ -145,7 +146,7 @@
                   "cs,$moblin"
                 ],
                 "visibility_rules": [
-                  "op_ow_on"
+                  "op_faron,op_misc"
                 ]
               },
               {
@@ -155,7 +156,7 @@
                   "fc,harp"
                 ],
                 "visibility_rules": [
-                  "op_sr_on"
+                  "op_faron,op_sr"
                 ],
                 "chest_unopened_img": "images/scale.png",
                 "chest_opened_img": "images/scale_gray.png"
@@ -167,7 +168,7 @@
                   "$cube_wgt"
                 ],
                 "visibility_rules": [
-                  "op_gc_on"
+                  "op_skyloft,op_cube,op_cube_fw"
                 ]
               },
               {
@@ -177,7 +178,7 @@
                   "$cube_egtr"
                 ],
                 "visibility_rules": [
-                  "op_gc_on"
+                  "op_thunderhead,op_cube,op_cube_fw"
                 ]
               },
               {
@@ -187,7 +188,7 @@
                   "$cube_egtcs"
                 ],
                 "visibility_rules": [
-                  "op_gc_on"
+                  "op_sky,op_cube,op_cube_fw"
                 ]
               }
             ],
@@ -209,7 +210,7 @@
                 "name": "Deep Woods Chest",
                 "item_count": 1,
                 "visibility_rules": [
-                  "op_ow_on"
+                  "op_faron,op_misc"
                 ],
                 "chest_unopened_img": "images/chestw.png",
                 "chest_opened_img": "images/chestw_gray.png"
@@ -221,7 +222,7 @@
                   "$cube_initial"
                 ],
                 "visibility_rules": [
-                  "op_gc_on"
+                  "op_sky,op_cube,op_cube_fw"
                 ]
               },
               {
@@ -231,7 +232,7 @@
                   "$cube_dw"
                 ],
                 "visibility_rules": [
-                  "op_gc_on"
+                  "op_sky,op_cube,op_cube_fw"
                 ]
               },
               {
@@ -241,7 +242,7 @@
                   "$cube_sv"
                 ],
                 "visibility_rules": [
-                  "op_gc_on"
+                  "op_sky,op_cube,op_cube_fw"
                 ]
               }
             ],
@@ -261,28 +262,39 @@
             "color": "#6495ed",
             "sections": [
               {
-                "name": "Outside Cistern Chest",
+                "name": "Lake Floria Boulder Rupee",
                 "item_count": 0,
-                "access_rules": [
-                  "beetle"
-                ],
                 "visibility_rules": [
-                  "op_ow_on"
+                  "op_faron,op_freestand"
+                ],
+                "chest_unopened_img": "images/rupee.png",
+                "chest_opened_img": "images/rupee_gray.png"
+              },
+              {
+                "name": "Lake Floria Chest",
+                "item_count": 1,
+                "visibility_rules": [
+                  "op_faron,op_misc"
                 ]
               },
               {
                 "name": "Dragon Lair Chests",
                 "item_count": 2,
                 "visibility_rules": [
-                  "op_ow_on"
+                  "op_faron,op_misc"
                 ]
               },
               {
-                "name": "Lake Floria Chest",
-                "item_count": 1,
+                "name": "Outside Cistern Rupee",
+                "item_count": 0,
+                "access_rules": [
+                  "beetle"
+                ],
                 "visibility_rules": [
-                  "op_ow_on"
-                ]
+                  "op_faron,op_freestand"
+                ],
+                "chest_unopened_img": "images/rupee.png",
+                "chest_opened_img": "images/rupee_gray.png"
               },
               {
                 "name": "Cube: Lake Floria",
@@ -291,7 +303,7 @@
                   "$cube_fl"
                 ],
                 "visibility_rules": [
-                  "op_gc_on"
+                  "op_skyloft,op_cube,op_cube_lf"
                 ]
               },
               {
@@ -301,7 +313,7 @@
                   "$cube_fw"
                 ],
                 "visibility_rules": [
-                  "op_gc_on"
+                  "op_sky,op_cube,op_cube_lf"
                 ]
               }
             ],
@@ -329,7 +341,7 @@
                 "name": "Mogma Huts Bombable Wall",
                 "item_count": 1,
                 "visibility_rules": [
-                  "op_ow_on"
+                  "op_eldin,op_bomb"
                 ],
                 "chest_unopened_img": "images/chestw.png",
                 "chest_opened_img": "images/chestw_gray.png"
@@ -338,7 +350,7 @@
                 "name": "Crawlspace Chest",
                 "item_count": 1,
                 "visibility_rules": [
-                  "op_ow_on"
+                  "op_eldin,op_bomb"
                 ],
                 "chest_unopened_img": "images/chestw.png",
                 "chest_opened_img": "images/chestw_gray.png"
@@ -347,7 +359,7 @@
                 "name": "Cliff Behind Bombable Wall",
                 "item_count": 1,
                 "visibility_rules": [
-                  "op_ow_on"
+                  "op_eldin,op_bomb"
                 ],
                 "chest_unopened_img": "images/chestw.png",
                 "chest_opened_img": "images/chestw_gray.png"
@@ -356,7 +368,7 @@
                 "name": "Cliff HP",
                 "item_count": 1,
                 "visibility_rules": [
-                  "op_ow_on"
+                  "op_eldin,op_freestand"
                 ],
                 "chest_unopened_img": "images/hp.png",
                 "chest_opened_img": "images/hp_gray.png",
@@ -369,7 +381,7 @@
                   "$cube_ee"
                 ],
                 "visibility_rules": [
-                  "op_gc_on"
+                  "op_sky,op_cube,op_cube_ev"
                 ]
               },
               {
@@ -379,7 +391,7 @@
                   "$cube_mte"
                 ],
                 "visibility_rules": [
-                  "op_gc_on"
+                  "op_sky,op_cube,op_cube_ev"
                 ]
               }
             ],
@@ -401,7 +413,7 @@
                 ],
                 "item_count": 1,
                 "visibility_rules": [
-                  "op_ow_on"
+                  "op_eldin,op_bomb"
                 ],
                 "chest_unopened_img": "images/chestw.png",
                 "chest_opened_img": "images/chestw_gray.png"
@@ -413,7 +425,7 @@
                   "mitts"
                 ],
                 "visibility_rules": [
-                  "op_ow_on"
+                  "op_eldin,op_dig"
                 ],
                 "chest_unopened_img": "images/keypiece.png",
                 "chest_opened_img": "images/keypiece_gray.png"
@@ -425,7 +437,7 @@
                   "mitts"
                 ],
                 "visibility_rules": [
-                  "op_ow_on"
+                  "op_eldin,op_dig"
                 ],
                 "chest_unopened_img": "images/keypiece.png",
                 "chest_opened_img": "images/keypiece_gray.png"
@@ -437,7 +449,7 @@
                   "mitts"
                 ],
                 "visibility_rules": [
-                  "op_ow_on"
+                  "op_eldin,op_dig"
                 ],
                 "chest_unopened_img": "images/keypiece.png",
                 "chest_opened_img": "images/keypiece_gray.png"
@@ -449,7 +461,7 @@
                   "mitts"
                 ],
                 "visibility_rules": [
-                  "op_ow_on"
+                  "op_eldin,op_dig"
                 ],
                 "chest_unopened_img": "images/keypiece.png",
                 "chest_opened_img": "images/keypiece_gray.png"
@@ -461,7 +473,7 @@
                   "mitts"
                 ],
                 "visibility_rules": [
-                  "op_ow_on"
+                  "op_eldin,op_dig"
                 ],
                 "chest_unopened_img": "images/keypiece.png",
                 "chest_opened_img": "images/keypiece_gray.png"
@@ -473,7 +485,7 @@
                   "dp,harp"
                 ],
                 "visibility_rules": [
-                  "op_sr_on"
+                  "op_eldin,op_sr"
                 ],
                 "chest_unopened_img": "images/earring.png",
                 "chest_opened_img": "images/earring_gray.png"
@@ -485,7 +497,7 @@
                   "$cube_etw"
                 ],
                 "visibility_rules": [
-                  "op_gc_on"
+                  "op_sky,op_cube,op_cube_ev,op_bomb"
                 ]
               },
               {
@@ -495,7 +507,7 @@
                   "$cube_ete"
                 ],
                 "visibility_rules": [
-                  "op_gc_on"
+                  "op_sky,op_cube,op_cube_ev"
                 ]
               },
               {
@@ -505,7 +517,7 @@
                   "$cube_es"
                 ],
                 "visibility_rules": [
-                  "op_gc_on"
+                  "op_skyloft,op_cube,op_cube_ev"
                 ]
               }
             ],
@@ -524,14 +536,14 @@
                 "name": "Free Fall Chest",
                 "item_count": 1,
                 "visibility_rules": [
-                  "op_ow_on"
+                  "op_eldin,op_misc"
                 ]
               },
               {
                 "name": "Behind Bomb Wall",
                 "item_count": 1,
                 "visibility_rules": [
-                  "op_ow_on"
+                  "op_eldin,op_bomb"
                 ]
               },
               {
@@ -541,7 +553,7 @@
                   "mitts"
                 ],
                 "visibility_rules": [
-                  "op_ow_on"
+                  "op_eldin,op_misc"
                 ]
               },
               {
@@ -551,7 +563,7 @@
                 ],
                 "item_count": 1,
                 "visibility_rules": [
-                  "op_mq_on"
+                  "op_eldin,op_combat"
                 ],
                 "chest_unopened_img": "images/mitts_digging.png",
                 "chest_opened_img": "images/mitts_digging_gray.png"
@@ -563,7 +575,7 @@
                   "mitts"
                 ],
                 "visibility_rules": [
-                  "op_ow_on"
+                  "op_eldin,op_bomb"
                 ]
               },
               {
@@ -573,7 +585,7 @@
                   "$cube_mt"
                 ],
                 "visibility_rules": [
-                  "op_gc_on"
+                  "op_thunderhead,op_cube,op_cube_ev"
                 ]
               }
             ],
@@ -599,7 +611,7 @@
                   "$bottle,mogma"
                 ],
                 "visibility_rules": [
-                  "op_ow_on"
+                  "op_eldin,op_freestand"
                 ],
                 "chest_unopened_img": "images/hp.png",
                 "chest_opened_img": "images/hp_gray.png"
@@ -611,7 +623,7 @@
                   "cs"
                 ],
                 "visibility_rules": [
-                  "op_ow_on"
+                  "op_eldin,op_bomb"
                 ]
               },
               {
@@ -621,7 +633,7 @@
                   "$cube_vs"
                 ],
                 "visibility_rules": [
-                  "op_gc_on"
+                  "op_thunderhead,op_cube,op_cube_vs"
                 ]
               },
               {
@@ -631,7 +643,7 @@
                   "$cube_sw"
                 ],
                 "visibility_rules": [
-                  "op_gc_on"
+                  "op_thunderhead,op_cube,op_cube_vs"
                 ]
               },
               {
@@ -641,7 +653,7 @@
                   "$cube_fse"
                 ],
                 "visibility_rules": [
-                  "op_gc_on"
+                  "op_thunderhead,op_cube,op_cube_vs"
                 ]
               }
             ],
@@ -672,14 +684,14 @@
                   "cs"
                 ],
                 "visibility_rules": [
-                  "op_ow_on"
+                  "op_lanayru,op_misc"
                 ]
               },
               {
                 "name": "First Timeshift Chest",
                 "item_count": 1,
                 "visibility_rules": [
-                  "op_ow_on"
+                  "op_lanayru,op_misc"
                 ],
                 "chest_unopened_img": "images/chestw.png",
                 "chest_opened_img": "images/chestw_gray.png"
@@ -692,7 +704,7 @@
                   "hook"
                 ],
                 "visibility_rules": [
-                  "op_ow_on"
+                  "op_lanayru,op_bomb"
                 ],
                 "chest_unopened_img": "images/chestw.png",
                 "chest_opened_img": "images/chestw_gray.png"
@@ -705,7 +717,7 @@
                   "hook"
                 ],
                 "visibility_rules": [
-                  "op_ow_on"
+                  "op_lanayru,op_bomb"
                 ]
               },
               {
@@ -715,7 +727,7 @@
                   "$cube_lme"
                 ],
                 "visibility_rules": [
-                  "op_gc_on"
+                  "op_sky,op_cube,op_cube_ld"
                 ]
               }
             ],
@@ -737,7 +749,7 @@
                   "bombs"
                 ],
                 "visibility_rules": [
-                  "op_ow_on"
+                  "op_lanayru,op_misc"
                 ]
               },
               {
@@ -749,7 +761,7 @@
                   "hook"
                 ],
                 "visibility_rules": [
-                  "op_ow_on"
+                  "op_lanayru,op_misc"
                 ]
               },
               {
@@ -760,7 +772,7 @@
                   "hook"
                 ],
                 "visibility_rules": [
-                  "op_mq_on"
+                  "op_lanayru,op_combat"
                 ],
                 "chest_unopened_img": "images/beetle_hook.png",
                 "chest_opened_img": "images/beetle_hook_gray.png"
@@ -772,7 +784,7 @@
                   "$lanayru2,bombs"
                 ],
                 "visibility_rules": [
-                  "op_ow_on"
+                  "op_lanayru,op_bomb"
                 ]
               },
               {
@@ -782,7 +794,7 @@
                   "$dungeon_ld"
                 ],
                 "visibility_rules": [
-                  "op_ow_on"
+                  "op_lanayru,op_misc"
                 ]
               },
               {
@@ -792,7 +804,7 @@
                   "$lanayru2,cs"
                 ],
                 "visibility_rules": [
-                  "op_ow_on"
+                  "op_lanayru,op_misc"
                 ]
               },
               {
@@ -802,7 +814,7 @@
                   "cs"
                 ],
                 "visibility_rules": [
-                  "op_ow_on"
+                  "op_lanayru,op_misc"
                 ],
                 "chest_unopened_img": "images/chestw.png",
                 "chest_opened_img": "images/chestw_gray.png"
@@ -814,7 +826,7 @@
                   "cs"
                 ],
                 "visibility_rules": [
-                  "op_ow_on"
+                  "op_lanayru,op_misc"
                 ],
                 "chest_unopened_img": "images/chestw.png",
                 "chest_opened_img": "images/chestw_gray.png"
@@ -826,7 +838,7 @@
                   "$lanayru2,nw,harp"
                 ],
                 "visibility_rules": [
-                  "op_sr_on"
+                  "op_lanayru,op_sr"
                 ],
                 "chest_unopened_img": "images/clawshots.png",
                 "chest_opened_img": "images/clawshots_gray.png"
@@ -838,7 +850,7 @@
                   "$cube_so"
                 ],
                 "visibility_rules": [
-                  "op_gc_on"
+                  "op_sky,op_cube,op_cube_ld"
                 ]
               },
               {
@@ -848,7 +860,7 @@
                   "$cube_sp"
                 ],
                 "visibility_rules": [
-                  "op_gc_on"
+                  "op_sky,op_cube,op_cube_ld,op_bomb"
                 ]
               },
               {
@@ -858,7 +870,7 @@
                   "$cube_hbf"
                 ],
                 "visibility_rules": [
-                  "op_gc_on"
+                  "op_sky,op_cube,op_cube_ld"
                 ]
               }
             ],
@@ -880,7 +892,7 @@
                 "name": "Maze Chests",
                 "item_count": 2,
                 "visibility_rules": [
-                  "op_ow_on"
+                  "op_lanayru,op_minid"
                 ],
                 "chest_unopened_img": "images/chestw.png",
                 "chest_opened_img": "images/chestw_gray.png"
@@ -889,7 +901,7 @@
                 "name": "End Chest",
                 "item_count": 1,
                 "visibility_rules": [
-                  "op_ow_on"
+                  "op_lanayru,op_minid"
                 ]
               }
             ],
@@ -914,7 +926,7 @@
                   "$ampilus"
                 ],
                 "visibility_rules": [
-                  "op_ow_on"
+                  "op_lanayru,op_minid"
                 ]
               },
               {
@@ -924,7 +936,7 @@
                   "bombs"
                 ],
                 "visibility_rules": [
-                  "op_ow_on"
+                  "op_lanayru,op_minid"
                 ],
                 "chest_unopened_img": "images/chestw.png",
                 "chest_opened_img": "images/chestw_gray.png"
@@ -936,7 +948,7 @@
                   "bombs,hook"
                 ],
                 "visibility_rules": [
-                  "op_ow_on"
+                  "op_lanayru,op_minid"
                 ]
               }
             ],
@@ -959,14 +971,14 @@
                 "name": "Caves Chest",
                 "item_count": 1,
                 "visibility_rules": [
-                  "op_ow_on"
+                  "op_lanayru,op_misc"
                 ]
               },
               {
                 "name": "Golo",
                 "item_count": 1,
                 "visibility_rules": [
-                  "op_mq_on"
+                  "op_lanayru,op_gift"
                 ],
                 "chest_unopened_img": "images/smallkey.png",
                 "chest_opened_img": "images/smallkey_gray.png"
@@ -997,7 +1009,7 @@
                       "$cube_ah"
                     ],
                     "visibility_rules": [
-                      "op_gc_on"
+                      "op_skyloft,op_cube,op_cube_ss"
                     ]
                   }
                 ],
@@ -1021,7 +1033,7 @@
                       "whip,sling"
                     ],
                     "visibility_rules": [
-                      "op_ow_on"
+                      "op_lanayru,op_misc"
                     ]
                   },
                   {
@@ -1033,7 +1045,7 @@
                       "whip"
                     ],
                     "visibility_rules": [
-                      "op_ow_on"
+                      "op_lanayru,op_misc"
                     ],
                     "chest_unopened_img": "images/chestw.png",
                     "chest_opened_img": "images/chestw_gray.png"
@@ -1047,7 +1059,7 @@
                       "whip,sling"
                     ],
                     "visibility_rules": [
-                      "op_ow_on"
+                      "op_lanayru,op_misc"
                     ]
                   },
                   {
@@ -1059,7 +1071,7 @@
                       "whip,sling,bellows"
                     ],
                     "visibility_rules": [
-                      "op_ow_on"
+                      "op_lanayru,op_misc"
                     ]
                   },
                   {
@@ -1069,7 +1081,7 @@
                       "$cube_sr"
                     ],
                     "visibility_rules": [
-                      "op_gc_on"
+                      "op_sky,op_cube,op_cube_ss"
                     ]
                   }
                 ],
@@ -1091,7 +1103,7 @@
                       "$molderach"
                     ],
                     "visibility_rules": [
-                      "op_mini_on"
+                      "op_lanayru,op_minig,op_combat"
                     ],
                     "chest_unopened_img": "images/hp.png",
                     "chest_opened_img": "images/hp_gray.png"
@@ -1112,7 +1124,7 @@
                     "name": "Pirates' Chests",
                     "item_count": 3,
                     "visibility_rules": [
-                      "op_ow_on"
+                      "op_lanayru,op_minid"
                     ]
                   },
                   {
@@ -1122,7 +1134,7 @@
                       "$cube_ps"
                     ],
                     "visibility_rules": [
-                      "op_gc_on"
+                      "op_skyloft,op_cube,op_cube_ss"
                     ]
                   }
                 ],
