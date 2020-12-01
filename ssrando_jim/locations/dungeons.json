@@ -419,9 +419,7 @@
             "visibility_rules": [
               "op_lanayru,op_dung,$notrace",
               "op_lanayru,op_dung,op_race,lmf_r"
-            ],
-            "chest_unopened_img": "images/chestw.png",
-            "chest_opened_img": "images/chestw_gray.png"
+            ]
           },
           {
             "name": "Dust Maze Chest",

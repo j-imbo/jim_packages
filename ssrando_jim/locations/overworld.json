@@ -1134,7 +1134,7 @@
                       "$cube_ps"
                     ],
                     "visibility_rules": [
-                      "op_skyloft,op_cube,op_cube_ss"
+                      "op_skyloft,op_cube,op_cube_ss,op_minid"
                     ]
                   }
                 ],

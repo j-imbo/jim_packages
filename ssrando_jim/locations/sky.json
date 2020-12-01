@@ -106,7 +106,7 @@
                   "$faron,bombs"
                 ],
                 "visibility_rules": [
-                  "op_skyloft,op_faron,op_long,op_scrap,op_crys"
+                  "op_skyloft,op_faron,op_long,op_scrap,op_crys,op_combat"
                 ],
                 "chest_unopened_img": "images/gratitude.png",
                 "chest_opened_img": "images/gratitude_gray.png"
@@ -226,7 +226,7 @@
                   "cs,cube_PS"
                 ],
                 "visibility_rules": [
-                  "op_skyloft,op_cube,op_cube_ss"
+                  "op_skyloft,op_cube,op_cube_ss,op_minid"
                 ]
               },
               {
@@ -428,7 +428,7 @@
                   "$bottle"
                 ],
                 "visibility_rules": [
-                  "op_skyloft,op_short,op_crys"
+                  "op_skyloft,op_sky,op_short,op_crys"
                 ],
                 "chest_unopened_img": "images/gratitude.png",
                 "chest_opened_img": "images/gratitude_gray.png"
