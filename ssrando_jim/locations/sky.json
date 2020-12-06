@@ -45,7 +45,7 @@
                   "bow"
                 ],
                 "visibility_rules": [
-                  "op_skyloft,op_mini"
+                  "op_skyloft,op_minig"
                 ],
                 "chest_unopened_img": "images/hp.png",
                 "chest_opened_img": "images/hp_gray.png"
