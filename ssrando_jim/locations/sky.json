@@ -440,7 +440,7 @@
                   "$soth,harp"
                 ],
                 "visibility_rules": [
-                  "op_sr"
+                  "op_skyloft,op_sr"
                 ],
                 "chest_unopened_img": "images/stone.png",
                 "chest_opened_img": "images/stone_gray.png"

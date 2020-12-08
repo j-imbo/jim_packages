@@ -794,7 +794,7 @@
                   "$dungeon_ld"
                 ],
                 "visibility_rules": [
-                  "op_lanayru,op_misc"
+                  "op_lanayru,op_misc,op_minid"
                 ]
               },
               {
