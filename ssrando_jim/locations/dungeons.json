@@ -15,7 +15,7 @@
             "name": "Map Chest",
             "item_count": 1,
             "access_rules": [
-              "$skyview_high"
+              "$skyview_first,$skyview_left"
             ],
             "visibility_rules": [
               "op_faron,op_dung,$notrace",
@@ -26,7 +26,7 @@
             "name": "Small Key Digspot",
             "item_count": 1,
             "access_rules": [
-              "$skyview_left,$skyview_first,mitts,wds"
+              "$skyview_first,$skyview_high,mitts,wds"
             ],
             "visibility_rules": [
               "op_faron,op_dung,$notrace,op_dig",

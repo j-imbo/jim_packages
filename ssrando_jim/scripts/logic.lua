@@ -184,7 +184,7 @@ function skyview_high() -- entrance of skyview
 end
 
 function skyview_left() -- digspot in skyview
-  return (skyview_high() or goddess() or wds())
+  return (skyview_high() or goddess() or whip())
 end
 
 function skyview_first() -- first room of skyview
