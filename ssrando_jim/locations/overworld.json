@@ -482,7 +482,7 @@
                 "name": "Eldin Silent Realm",
                 "item_count": 1,
                 "access_rules": [
-                  "dp,harp"
+                  "$eldin2,dp,harp"
                 ],
                 "visibility_rules": [
                   "op_eldin,op_sr"

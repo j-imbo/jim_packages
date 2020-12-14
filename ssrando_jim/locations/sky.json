@@ -769,7 +769,7 @@
                   "cube_ToT"
                 ],
                 "visibility_rules": [
-                  "op_sky,op_cube,op_cube_ld"
+                  "op_sky,op_cube,op_cube_ld,op_combat"
                 ]
               },
               {

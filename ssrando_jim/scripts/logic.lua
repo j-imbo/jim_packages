@@ -183,7 +183,7 @@ function skyview_high() -- entrance of skyview
   return ranged()
 end
 
-function skyview_left() -- digspot in skyview
+function skyview_left() -- map chest in skyview
   return (skyview_high() or goddess() or whip())
 end
 
