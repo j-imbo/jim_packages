@@ -31,6 +31,12 @@
     ]
   },
   {
+    "name": "Sailcloth",
+    "type": "static",
+    "img": "images/sailcloth.png",
+    "codes": "sailcloth"
+  },
+  {
     "name": "Wooden Shield",
     "type": "toggle",
     "img": "images/shield_wooden.png",

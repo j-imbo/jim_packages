@@ -2,7 +2,6 @@
   "tracker_broadcast": {
     "type": "array",
     "orientation": "vertical",
-    "margin": "0",
     "content": [
       {
         "type": "array",
@@ -23,29 +22,29 @@
                     "sword0",
                     "shield2",
                     "spiral",
-                    "beetle",
-                    "mitts"
+                    "pouch",
+                    "bottle"
                   ],
                   [
                     "sling",
+                    "beetle",
                     "bombs",
                     "bellows",
-                    "whip",
-                    "bow"
+                    "stone"
                   ],
                   [
-                    "wds",
-                    "fse",
+                    "whip",
                     "cs",
-                    "stone",
+                    "bow",
+                    "bugnet",
                     "chart"
                   ],
                   [
-                    "rattle",
-                    "letter",
-                    "hcb",
-                    "pouch",
-                    "bottle"
+                    "sailcloth",
+                    "wds",
+                    "fse",
+                    "mitts",
+                    "wallet"
                   ]
                 ]
               }, 
@@ -55,17 +54,17 @@
                 "margin": "0,-10",
                 "content": [
                   {
-                      "type": "itemgrid",
-                      "h_alignment": "left",
-                      "item_margin": "1,2",
-                      "rows": [
-                        [
-                          "bugnet",
-                          "grat",
-                          "kp",
-                          "wallet"
-                        ]  
-                      ]              
+                    "type": "itemgrid",
+                    "h_alignment": "left",
+                    "item_margin": "1,2",
+                    "rows": [
+                      [
+                        "letter",
+                        "hcb",
+                        "rattle",
+                        "grat"
+                      ]
+                    ]
                   },
                   {
                     "type": "canvas",
@@ -224,7 +223,7 @@
           {
             "type": "array",
             "orientation": "horizontal",
-            "margin": "5,-5",
+            "margin": "5,-5,5,0",
             "content": [
               {
                 "type": "canvas",
@@ -274,9 +273,17 @@
                   },
                   {
                     "type": "item",
+                    "item": "kp",
+                    "canvas_depth": 1,
+                    "canvas_top": 16,
+                    "width": 16,
+                    "height": 16
+                  },
+                  {
+                    "type": "item",
                     "item": "earthbk",
                     "canvas_depth": 1,
-                    "canvas_left": 8,
+                    "canvas_left": 16,
                     "canvas_top": 16,
                     "width": 16,
                     "height": 16

@@ -88,7 +88,7 @@
                 "chest_opened_img": "images/gratitude_gray.png"
               },
               {
-                "name": "Ghost/Pipit Crystals",
+                "name": "Ghost-Pipit Crystals",
                 "item_count": 1,
                 "access_rules": [
                   "letter"
@@ -355,7 +355,7 @@
                 "item_count": 1,
                 "access_rules": [
                   "gust,claw",
-                  "gust,$beedle,[claw]"
+                  "gust,beetle,[claw]"
                 ],
                 "visibility_rules": [
                   "op_skyloft,op_freestand"
@@ -383,7 +383,7 @@
                 "chest_opened_img": "images/gratitude_gray.png"
               },
               {
-                "name": "Peater/Peatrice Crystals",
+                "name": "Peater-Peatrice Crystals",
                 "item_count": 1,
                 "visibility_rules": [
                   "op_skyloft,op_long,op_crys,op_peat"
@@ -455,7 +455,7 @@
                 "chest_opened_img": "images/gratitude_gray.png"
               },
               {
-                "name": "Light Tower, Single",
+                "name": "Light Tower Single",
                 "item_count": 1,
                 "visibility_rules": [
                   "op_skyloft,op_bat"
@@ -606,19 +606,7 @@
               },
               {
                 "name": "70 Reward",
-                "item_count": 1,
-                "access_rules": [
-                  "gratitude:70"
-                ],
-                "visibility_rules": [
-                  "op_skyloft,op_bat"
-                ],
-                "chest_unopened_img": "images/rupee.png",
-                "chest_opened_img": "images/rupee_gray.png"
-              },
-              {
-                "name": "70 Reward 2",
-                "item_count": 1,
+                "item_count": 2,
                 "access_rules": [
                   "gratitude:70"
                 ],

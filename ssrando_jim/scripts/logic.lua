@@ -276,12 +276,12 @@ function gate()
 end
 
 function past()
-  return (has("ms") and sealedtemple()
+  return (has("ms") and sealedtemple() and harp()
     and not (has("sv_r") and not has("skyview"))
     and not (has("et_r") and not has("earth"))
     and not (has("lmf_r") and not has("mine"))
     and not (has("ac_r") and not has("cistern"))
-    and not (has("ss_r") and not has("skyship"))
+    and not (has("ss_r") and not has("sandship"))
     and not (has("fs_r") and not has("sanc")))
 end
 

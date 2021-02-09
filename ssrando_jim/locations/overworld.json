@@ -356,7 +356,7 @@
                 "chest_opened_img": "images/chestw_gray.png"
               },
               {
-                "name": "Cliff Behind Bombable Wall",
+                "name": "Behind Cliff HP Bombable Wall",
                 "item_count": 1,
                 "visibility_rules": [
                   "op_eldin,op_bomb"

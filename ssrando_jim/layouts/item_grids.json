@@ -22,29 +22,29 @@
                     "sword0",
                     "shield2",
                     "spiral",
-                    "beetle",
-                    "mitts"
+                    "pouch",
+                    "bottle"
                   ],
                   [
                     "sling",
+                    "beetle",
                     "bombs",
                     "bellows",
-                    "whip",
-                    "bow"
+                    "stone"
                   ],
                   [
-                    "wds",
-                    "fse",
+                    "whip",
                     "cs",
-                    "stone",
+                    "bow",
+                    "bugnet",
                     "chart"
                   ],
                   [
-                    "rattle",
-                    "letter",
-                    "hcb",
-                    "pouch",
-                    "bottle"
+                    "sailcloth",
+                    "wds",
+                    "fse",
+                    "mitts",
+                    "wallet"
                   ]
                 ]
               }, 
@@ -54,17 +54,17 @@
                 "margin": "0,-10",
                 "content": [
                   {
-                      "type": "itemgrid",
-                      "h_alignment": "left",
-                      "item_margin": "1,2",
-                      "rows": [
-                        [
-                          "bugnet",
-                          "grat",
-                          "kp",
-                          "wallet"
-                        ]  
-                      ]              
+                    "type": "itemgrid",
+                    "h_alignment": "left",
+                    "item_margin": "1,2",
+                    "rows": [
+                      [
+                        "letter",
+                        "hcb",
+                        "rattle",
+                        "grat"
+                      ]
+                    ]
                   },
                   {
                     "type": "canvas",

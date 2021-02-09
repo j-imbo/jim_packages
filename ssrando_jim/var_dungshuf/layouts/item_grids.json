@@ -22,32 +22,32 @@
                     "sword0",
                     "shield2",
                     "spiral",
-                    "beetle",
-                    "mitts"
+                    "pouch",
+                    "bottle"
                   ],
                   [
                     "sling",
+                    "beetle",
                     "bombs",
                     "bellows",
-                    "whip",
-                    "bow"
+                    "stone"
                   ],
                   [
-                    "wds",
-                    "fse",
+                    "whip",
                     "cs",
-                    "stone",
+                    "bow",
+                    "bugnet",
                     "chart"
                   ],
                   [
-                    "rattle",
-                    "letter",
-                    "hcb",
-                    "pouch",
-                    "bottle"
+                    "sailcloth",
+                    "wds",
+                    "fse",
+                    "mitts",
+                    "wallet"
                   ]
                 ]
-              },
+              }, 
               {
                 "type": "array",
                 "orientation": "horizontal",
@@ -59,10 +59,10 @@
                     "item_margin": "1,2",
                     "rows": [
                       [
-                        "bugnet",
-                        "grat",
-                        "kp",
-                        "wallet"
+                        "letter",
+                        "hcb",
+                        "rattle",
+                        "grat"
                       ]
                     ]
                   },
