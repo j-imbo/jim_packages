@@ -264,6 +264,9 @@
               {
                 "name": "Lake Floria Boulder Rupee",
                 "item_count": 0,
+		"access_rules": [
+		  "wds"
+		],
                 "visibility_rules": [
                   "op_faron,op_freestand"
                 ],
@@ -273,17 +276,30 @@
               {
                 "name": "Lake Floria Chest",
                 "item_count": 1,
+		"access_rules": [
+		  "wds"
+		],
                 "visibility_rules": [
                   "op_faron,op_misc"
                 ]
               },
               {
-                "name": "Dragon Lair Chests",
-                "item_count": 2,
+                "name": "Dragon Lair First Chest",
+                "item_count": 1,
                 "visibility_rules": [
                   "op_faron,op_misc"
                 ]
               },
+	      {
+		"name": "Dragon Lair Second Chest",
+		"item_count": 1,
+		"access_rules": [
+		  "wds"
+		],
+		"visibility_rules": [
+                  "op_faron,op_misc"
+		]
+	      },
               {
                 "name": "Outside Cistern Rupee",
                 "item_count": 0,
@@ -608,7 +624,8 @@
                 "name": "Digging HP",
                 "item_count": 1,
                 "access_rules": [
-                  "$bottle,mogma"
+                  "$bottle,mogma",
+		  "gust,mogma,[$bottle]"
                 ],
                 "visibility_rules": [
                   "op_eldin,op_freestand"
@@ -713,7 +730,7 @@
                 "name": "End of Mines Chest",
                 "item_count": 1,
                 "access_rules": [
-                  "bomb",
+                  "[bomb]",
                   "hook"
                 ],
                 "visibility_rules": [
@@ -757,7 +774,7 @@
                 "item_count": 1,
                 "access_rules": [
                   "cs",
-                  "bombs",
+                  "[bombs]",
                   "hook"
                 ],
                 "visibility_rules": [
@@ -801,7 +818,7 @@
                 "name": "Chest near Trial",
                 "item_count": 1,
                 "access_rules": [
-                  "$lanayru2,cs"
+                  "$lanayru2,[cs]"
                 ],
                 "visibility_rules": [
                   "op_lanayru,op_misc"
@@ -923,7 +940,7 @@
                 "name": "Shortcut Chest",
                 "item_count": 1,
                 "access_rules": [
-                  "$ampilus"
+                  "[$ampilus]"
                 ],
                 "visibility_rules": [
                   "op_lanayru,op_minid"
@@ -1030,7 +1047,9 @@
                     "access_rules": [
                       "whip,bow",
                       "whip,beetle",
-                      "whip,sling"
+                      "whip,sling",
+		      "[whip],bombs",
+		      "[whip],hook"
                     ],
                     "visibility_rules": [
                       "op_lanayru,op_misc"
@@ -1056,7 +1075,9 @@
                     "access_rules": [
                       "whip,bow",
                       "whip,beetle",
-                      "whip,sling"
+                      "whip,sling",
+		      "[whip],bombs",
+		      "[whip],hook"
                     ],
                     "visibility_rules": [
                       "op_lanayru,op_misc"
@@ -1068,7 +1089,9 @@
                     "access_rules": [
                       "whip,bow,bellows",
                       "whip,beetle,bellows",
-                      "whip,sling,bellows"
+                      "whip,sling,bellows",
+		      "[whip],bombs,bellows",
+		      "[whip],hook,bellows"
                     ],
                     "visibility_rules": [
                       "op_lanayru,op_misc"

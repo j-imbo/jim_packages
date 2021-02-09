@@ -150,7 +150,15 @@ function deepwoods()
 end
 
 function floria()
-  return (faron() and wds() and yerbal() and goddess())
+  if (faron()) then
+    if (wds() and yerbal() and goddess()) then
+      return true
+    elseif (sword()) then
+      return true, AccessibilityLevel.SequenceBreak
+    end
+  else
+    return false
+  end
 end
 
 function eldin1()
@@ -170,7 +178,13 @@ function lanayru1()
 end
 
 function lanayru2()
-  return (lanayru1() and (cs() or hook()))
+  if (lanayru1() and (cs() or hook())) then
+    return true
+  elseif (lanayru1()) then
+    return true, AccessibilityLevel.SequenceBreak
+  else
+    return false
+  end
 end
 
 function sea()
@@ -192,7 +206,13 @@ function skyview_first() -- first room of skyview
 end
 
 function earth_bridge() -- drawbridge in earth
-  return (bow() or (btl() and (lizalfos() or sling() or cs())))
+  if (bow() or (btl() and (lizalfos() or sling() or cs()))) then
+    return true
+  elseif (goddess()) then -- keese yeet
+    return true, AccessibilityLevel.SequenceBreak
+  else
+    return false
+  end
 end
 
 function mine_crystal() -- crystal in map room
@@ -203,6 +223,8 @@ function cistern_statue() -- lower statue
   if (whip() and (cs() or (wds() and (bow() or btl()) and has("cisternsk",2)))) then
     return true
   elseif (whip() and (wds() and (bow() or btl()) and has("cisternsk",1))) then
+    return true, AccessibilityLevel.SequenceBreak
+  elseif (wds() and sword()) then -- cistern clip
     return true, AccessibilityLevel.SequenceBreak
   else 
     return false
@@ -216,8 +238,15 @@ end
 -- dungeon beatable macros
 
 function skyview()
-  return (skyview_acc() and goddess() and has("skyviewsk",2) and has("skyviewbk")
-    and (hero() or hook() or bow() or tms()))
+  if (skyview_acc() and goddess() and has("skyviewsk",2) and has("skyviewbk")
+      and (hero() or hook() or bow() or tms())) then
+    return true
+  elseif (skyview_acc() and goddess() and has("skyviewbk")
+      and (hero() or hook() or bow() or tms())) then
+    return true, AccessibilityLevel.SequenceBreak
+  else
+    return false
+  end
 end
 
 function skyview2()
@@ -344,7 +373,7 @@ function cube_svs() --skyview spring
 end
 
 function cube_fl() --floria
-  return (floria() and goddess())
+  return (floria() and wds() and goddess())
 end
 
 function cube_fw() --floria waterfall
@@ -384,7 +413,13 @@ function cube_sw() --summit waterfall
 end
 
 function cube_fse() --sanc entrance
-  return (volcano() and bottle() and cs()) and goddess()
+  if ((volcano() and bottle() and cs()) and goddess()) then
+    return true
+  elseif ((volcano() and gust() and cs()) and goddess()) then
+    return true, AccessibilityLevel.SequenceBreak
+  else
+    return false
+  end
 end
 
 function cube_lme() --mine entrance
@@ -392,11 +427,19 @@ function cube_lme() --mine entrance
 end
 
 function cube_so() --sand oasis
-  return (lanayru2() and goddess())
+  if (goddess()) then
+    return lanayru2()
+  else
+    return false
+  end
 end
 
 function cube_tot() --ride in tot
-  return (lanayru2() and hook() and goddess())
+  if (hook() and goddess()) then
+    return lanayru2()
+  else
+    return false
+  end
 end
 
 function cube_sp() --desert secret passageway
@@ -404,8 +447,15 @@ function cube_sp() --desert secret passageway
 end
 
 function cube_hbf() --hook beetle flight
-  return (lanayru1() and (cs() or bomb() or hook()) and
-    ((goddess() and (hero() or cs())) or tms()))
+  if (lanayru1() and ((goddess() and (hero() or cs())) or tms())) then
+    if (cs() or bomb() or hook()) then
+      return true
+    else
+      return true, AccessibilityLevel.SequenceBreak
+    end
+  else
+    return false
+  end
 end
 
 function cube_ah() --ancient harbour
@@ -508,7 +558,13 @@ function dungeon_dw() -- dungeon entrance in deep woods
 end
 
 function dungeon_ev() -- dungeon entrance in eldin volcano
-  return (eldin2() and has("kp",5))
+  if (eldin2() and has("kp",5)) then
+    return true
+  elseif (eldin2()) then
+    return true, AccessibilityLevel.SequenceBreak
+  else
+    return false
+  end
 end
 
 function dungeon_ld() -- dungeon entrance in lanayru desert
@@ -516,7 +572,11 @@ function dungeon_ld() -- dungeon entrance in lanayru desert
 end
 
 function dungeon_lf() -- dungeon entrance in lake floria
-  return floria()
+  if (wds()) then
+    return floria()
+  else
+    return false
+  end
 end
 
 function dungeon_ss() -- dungeon entrance in sand sea
@@ -524,7 +584,13 @@ function dungeon_ss() -- dungeon entrance in sand sea
 end
 
 function dungeon_vs() -- dungeon entrance in volcano summit
-  return (volcano() and bottle() and cs())
+  if (volcano() and bottle() and cs()) then
+    return true
+  elseif (volcano() and (bottle() or gust())) then
+    return true, AccessibilityLevel.SequenceBreak -- village windmill + shiekah stone rbms
+  else
+    return false
+  end
 end
 
 function dungeon_sl() -- dungeon entrance in skyloft
