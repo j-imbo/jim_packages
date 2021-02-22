@@ -159,6 +159,7 @@
                 "visibility_rules": [
                   "op_faron,op_sr"
                 ],
+                "capture_item": true,
                 "chest_unopened_img": "images/scale.png",
                 "chest_opened_img": "images/scale_gray.png"
               },
@@ -505,6 +506,7 @@
                 "visibility_rules": [
                   "op_eldin,op_sr"
                 ],
+                "capture_item": true,
                 "chest_unopened_img": "images/earring.png",
                 "chest_opened_img": "images/earring_gray.png"
               },
@@ -815,6 +817,7 @@
                 "access_rules": [
                   "$dungeon_ld"
                 ],
+                "capture_item": true,
                 "visibility_rules": [
                   "op_lanayru,op_misc,op_minid"
                 ]
@@ -863,6 +866,7 @@
                 "visibility_rules": [
                   "op_lanayru,op_sr"
                 ],
+                "capture_item": true,
                 "chest_unopened_img": "images/clawshots.png",
                 "chest_opened_img": "images/clawshots_gray.png"
               },
@@ -1136,6 +1140,7 @@
                     "visibility_rules": [
                       "op_lanayru,op_minig,op_combat"
                     ],
+                    "capture_item": true,
                     "chest_unopened_img": "images/hp.png",
                     "chest_opened_img": "images/hp_gray.png"
                   }

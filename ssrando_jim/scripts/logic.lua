@@ -315,6 +315,16 @@ function lanayru2()
   end
 end
 
+function lanayru2_acc()
+  if (lanayru1() and (cs() or hook())) then
+    return AccessibilityLevel.Normal
+  elseif (lanayru1() and (has("t_brakeslide") or has("t_bit"))) then -- desert brakeslide or UA BiTWarp
+    return AccessibilityLevel.SequenceBreak
+  else
+    return AccessibilityLevel.None
+  end
+end
+
 function sea()
   return (lanayru1() and cs() and has("cavessk"))
 end
@@ -378,6 +388,19 @@ function skyview()
     end
   else
     return false
+  end
+end
+
+function skyviewb_acc()
+  if (skyview_acc() and goddess() and has ("skyviewbk")
+      and (hero() or hook() or bow() or tms())) then
+    if (has("skyviewsk",2)) then
+      return AccessibilityLevel.Normal
+    else -- UA BiTWarp
+      return AccessibilityLevel.SequenceBreak
+    end
+  else
+    return AccessibilityLevel.None
   end
 end
 
@@ -477,7 +500,16 @@ end
 --goddess cubes macros
 
 function cube_initial() -- initial cube
-  return (deepwoods() and goddess())
+  -- return (deepwoods() and goddess())
+  if (goddess()) then
+    if (deepwoods_acc() ~= AccessibilityLevel.None) then
+      return true, deepwoods_acc()
+    else
+      return false
+    end
+  else
+    return false
+  end
 end
 
 function cube_wgt() --west great tree
@@ -515,23 +547,60 @@ function cube_egtcs() --east great tree claw
 end
 
 function cube_dw() -- deepwoods
-  return (deepwoods() and goddess())
+  -- return (deepwoods() and goddess())
+  if (goddess()) then
+    if (deepwoods_acc() ~= AccessibilityLevel.None) then
+      return true, deepwoods_acc()
+    else
+      return false
+    end
+  else
+    return false
+  end
 end
 
 function cube_sv() --skyview
-  return (deepwoods() and cs() and goddess())
+  -- return (deepwoods() and cs() and goddess())
+  if (goddess() and cs()) then
+    if (deepwoods_acc() ~= AccessibilityLevel.None) then
+      return true, deepwoods_acc()
+    else
+      return false
+    end
+  else
+    return false
+  end
 end
 
 function cube_svs() --skyview spring
-  return (skyview() and goddess())
+  -- return (skyview() and goddess())
+  if (goddess()) then
+    if (skyviewb_acc() ~= AccessibilityLevel.None) then
+      return true, skyviewb_acc()
+    else
+      return false
+    end
+  else
+    return false
+  end
 end
 
 function cube_fl() --floria
-  return (floria() and wds() and goddess())
+  local acc = and_accessibility(floria_acc(), has_acc("wds"), has_acc("gs"))
+  if (acc ~= AccessibilityLevel.None) then
+    return true, acc
+  else
+    return false
+  end
 end
 
 function cube_fw() --floria waterfall
-  return (floria() and cs() and goddess())
+  local acc = and_accessibility(floria_acc(), has_acc("cs"), has_acc("gs"))
+  if (acc ~= AccessibilityLevel.None) then
+    return true, acc
+  else
+    return false
+  end
 end
 
 function cube_ee() --eldin entrance
@@ -547,31 +616,61 @@ function cube_mt() --mogma turf
 end
 
 function cube_etw() --west of et
-  return (eldin2() and dig() and goddess())
+  local acc = and_accessibility(eldin2_acc(), has_acc("mitts"), has_acc("gs"))
+  if (acc ~= AccessibilityLevel.None) then
+    return true, acc
+  else
+    return false
+  end
 end
 
 function cube_ete() --east of et
-  return (eldin2() and goddess())
+  local acc = and_accessibility(eldin2_acc(), has_acc("gs"))
+  if (acc ~= AccessibilityLevel.None) then
+    return true, acc
+  else
+    return false
+  end
 end
 
 function cube_es() --eldin slide
-  return (eldin2() and goddess())
+  local acc = and_accessibility(eldin2_acc(), has_acc("gs"))
+  if (acc ~= AccessibilityLevel.None) then
+    return true, acc
+  else
+    return false
+  end
 end
 
 function cube_vs() --volcano summit
-  return (volcano() and ((goddess() and hero()) or tms()))
+  local acc = and_accessibility(volcano_acc(), or_accessibility(and_accessibility(has_acc("gs"), has_acc("op_hero")), has_acc("tms")))
+  if (acc ~= AccessibilityLevel.None) then
+    return true, acc
+  else
+    return false
+  end
 end
 
 function cube_sw() --summit waterfall
-  return (volcano() and goddess())
+  local acc = and_accessibility(volcano_acc(), has_acc("gs"))
+  if (acc ~= AccessibilityLevel.None) then
+    return true, acc
+  else
+    return false
+  end
 end
 
 function cube_fse() --sanc entrance
   -- return (volcano() and bottle() and cs() and goddess())
-  if (volcano() and bottle() and cs() and goddess()) then
-    return true
-  elseif (volcano() and gust() and cs() and goddess() and has("t_bit")) then -- RBMs Dx04 and Dx08
-    return true, AccessibilityLevel.SequenceBreak
+  local acc = volcano_acc()
+  if (acc ~= AccessibilityLevel.None) then
+    if (bottle() and cs() and goddess()) then
+      return true
+    elseif (gust() and cs() and goddess() and has("t_bit")) then -- RBMs Dx04 and Dx08
+      return true, AccessibilityLevel.SequenceBreak
+    else
+      return false
+    end
   else
     return false
   end
@@ -584,7 +683,12 @@ end
 function cube_so() --sand oasis
   -- return (lanayru2() and goddess())
   if (goddess()) then
-    return (lanayru2())
+    local acc = lanayru2_acc()
+    if (acc ~= AccessibilityLevel.None) then
+      return true, acc
+    else
+      return false
+    end
   else
     return false
   end
@@ -593,14 +697,28 @@ end
 function cube_tot() --ride in tot
   -- return (lanayru2() and hook() and goddess())
   if (hook() and goddess()) then
-    return lanayru2()
+    local acc = lanayru2_acc()
+    if (acc ~= AccessibilityLevel.None) then
+      return true, acc
+    else
+      return false
+    end
   else
     return false
   end
 end
 
 function cube_sp() --desert secret passageway
-  return (lanayru2() and bomb() and cs() and goddess())
+  if (bomb() and cs() and goddess()) then
+    local acc = lanayru2_acc()
+    if (acc ~= AccessibilityLevel.None) then
+      return true, acc
+    else
+      return false
+    end
+  else
+    return false
+  end
 end
 
 function cube_hbf() --hook beetle fight

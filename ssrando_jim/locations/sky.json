@@ -44,6 +44,7 @@
                 "access_rules": [
                   "bow"
                 ],
+                "capture_item": true,
                 "visibility_rules": [
                   "op_skyloft,op_minig"
                 ],
@@ -108,6 +109,7 @@
                 "visibility_rules": [
                   "op_skyloft,op_faron,op_long,op_scrap,op_crys,op_combat"
                 ],
+                "capture_item": true,
                 "chest_unopened_img": "images/gratitude.png",
                 "chest_opened_img": "images/gratitude_gray.png"
               },
@@ -388,6 +390,7 @@
                 "visibility_rules": [
                   "op_skyloft,op_long,op_crys,op_peat"
                 ],
+                "capture_item": true,
                 "chest_unopened_img": "images/gratitude.png",
                 "chest_opened_img": "images/gratitude_gray.png"
               },
@@ -442,6 +445,7 @@
                 "visibility_rules": [
                   "op_skyloft,op_sr"
                 ],
+                "capture_item": true,
                 "chest_unopened_img": "images/stone.png",
                 "chest_opened_img": "images/stone_gray.png"
               },
@@ -505,6 +509,7 @@
                 "access_rules": [
                   "$eldin2,cs"
                 ],
+                "capture_item": true,
                 "visibility_rules": [
                   "op_skyloft,op_eldin,op_long,op_scrap,op_crys"
                 ],
@@ -601,15 +606,30 @@
                 "visibility_rules": [
                   "op_skyloft,op_bat"
                 ],
+                "capture_item": true,
                 "chest_unopened_img": "images/wallet_giant.png",
                 "chest_opened_img": "images/wallet_giant_gray.png"
               },
               {
                 "name": "70 Reward",
-                "item_count": 2,
+                "item_count": 1,
                 "access_rules": [
                   "gratitude:70"
                 ],
+                "capture_item": true,
+                "visibility_rules": [
+                  "op_skyloft,op_bat"
+                ],
+                "chest_unopened_img": "images/rupee.png",
+                "chest_opened_img": "images/rupee_gray.png"
+              },
+              {
+                "name": "70 Reward 2",
+                "item_count": 1,
+                "access_rules": [
+                  "gratitude:70"
+                ],
+                "capture_item": true,
                 "visibility_rules": [
                   "op_skyloft,op_bat"
                 ],
@@ -622,6 +642,7 @@
                 "access_rules": [
                   "gratitude:80"
                 ],
+                "capture_item": true,
                 "visibility_rules": [
                   "op_skyloft,op_bat"
                 ],
@@ -683,6 +704,7 @@
                 "access_rules": [
                   "harp,$bottle"
                 ],
+                "capture_item": true,
                 "visibility_rules": [
                   "op_sky,op_long,op_minig"
                 ],
@@ -695,6 +717,7 @@
                 "access_rules": [
                   "$bottle,harp,$eldin1"
                 ],
+                "capture_item": true,
                 "visibility_rules": [
                   "op_sky,op_eldin,op_scrap,op_minig,op_long,op_crys"
                 ],
@@ -812,6 +835,7 @@
                 "access_rules": [
                   "$wheel"
                 ],
+                "capture_item": true,
                 "visibility_rules": [
                   "op_sky,op_lanayru,op_minig,op_long,op_scrap"
                 ],
@@ -1217,6 +1241,7 @@
                 "visibility_rules": [
                   "op_thunderhead,op_minig"
                 ],
+                "capture_item": true,
                 "chest_unopened_img": "images/hcb.png",
                 "chest_opened_img": "images/hcb_gray.png"
               },
@@ -1283,6 +1308,7 @@
                 "visibility_rules": [
                   "op_thunderhead,op_sky,op_scrap,op_combat,op_songs"
                 ],
+                "capture_item": true,
                 "chest_unopened_img": "images/hatp_soh.png",
                 "chest_opened_img": "images/harp_soh_gray.png"
               }
