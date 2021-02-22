@@ -103,7 +103,7 @@
                 "name": "Owlan Crystals",
                 "item_count": 1,
                 "access_rules": [
-                  "$faron,bombs"
+                  "$faron,[bombs]"
                 ],
                 "visibility_rules": [
                   "op_skyloft,op_faron,op_long,op_scrap,op_crys,op_combat"
@@ -355,7 +355,7 @@
                 "item_count": 1,
                 "access_rules": [
                   "gust,claw",
-                  "gust,beetle,[claw]"
+                  "gust,beetle,[claw],t_beedle"
                 ],
                 "visibility_rules": [
                   "op_skyloft,op_freestand"
@@ -1256,7 +1256,7 @@
                 "name": "Caged Goddess Chest",
                 "item_count": 0,
                 "access_rules": [
-                  "mitts,cube_LG"
+                  "mogma,cube_LG"
                 ],
                 "visibility_rules": [
                   "op_thunderhead,op_cube,op_cube_ld"

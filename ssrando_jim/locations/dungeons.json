@@ -15,7 +15,7 @@
             "name": "Map Chest",
             "item_count": 1,
             "access_rules": [
-              "$skyview_first,$skyview_left"
+              "$skyview_first,[$skyview_left]"
             ],
             "visibility_rules": [
               "op_faron,op_dung,$notrace",
@@ -26,7 +26,7 @@
             "name": "Small Key Digspot",
             "item_count": 1,
             "access_rules": [
-              "$skyview_first,$skyview_high,mitts,wds"
+              "$skyview_first,$skyview_high,mitts,[wds]"
             ],
             "visibility_rules": [
               "op_faron,op_dung,$notrace,op_dig",
@@ -57,7 +57,15 @@
               "skyviewsk:1,wds,bombs,sling",
               "skyviewsk:1,wds,bombs,cs",
               "skyviewsk:1,wds,bombs,beetle",
-              "skyviewsk:1,wds,bombs,bow"
+              "skyviewsk:1,wds,bombs,bow",
+              "[skyviewsk:1],ps,sling,t_bit",
+              "[skyviewsk:1],ps,cs,t_bit",
+              "[skyviewsk:1],ps,beetle,t_bit",
+              "[skyviewsk:1],ps,bow,t_bit",
+              "[skyviewsk:1],wds,bombs,sling,t_bit",
+              "[skyviewsk:1],wds,bombs,cs,t_bit",
+              "[skyviewsk:1],wds,bombs,beetle,t_bit",
+              "[skyviewsk:1],wds,bombs,bow,t_bit"
             ],
             "visibility_rules": [
               "op_faron,op_dung,$notrace",
@@ -69,7 +77,10 @@
             "item_count": 1,
             "access_rules": [
               "$skyview_first,beetle,skyviewsk:1",
-              "$skyview_first,whip,[beetle],skyviewsk:1"
+              "$skyview_first,whip,[beetle],skyviewsk:1",
+              "$skyview_first,slingshot,[beetle],skyviewsk:1,t_trickshot",
+              "$skyview_first,slingshot,[beetle],[skyviewsk:1],t_trickshot,t_bit",
+              "$skyview_first,whip,[beetle],[skyviewsk:1],t_bit"
             ],
             "visibility_rules": [
               "op_faron,op_dung,$notrace",
@@ -83,7 +94,8 @@
             "name": "Behind Three Eyes",
             "item_count": 1,
             "access_rules": [
-              "$skyview_first,beetle,skyviewsk:1,ps"
+              "$skyview_first,beetle,skyviewsk:1,ps",
+              "$skyview_first,beetle,[skyviewsk:1],ps,t_bit"
             ],
             "visibility_rules": [
               "op_faron,op_dung,$notrace",
@@ -97,7 +109,11 @@
               "$skyview_first,skyviewsk:2,gs,op_hero",
               "$skyview_first,skyviewsk:2,hook",
               "$skyview_first,skyviewsk:2,bow",
-              "$skyview_first,skyviewsk:2,ts"
+              "$skyview_first,skyviewsk:2,ts",
+              "$skyview_first,[skyviewsk:2],gs,op_hero,t_bit",
+              "$skyview_first,[skyviewsk:2],hook,t_bit",
+              "$skyview_first,[skyviewsk:2],bow,t_bit",
+              "$skyview_first,[skyviewsk:2],ts,t_bit"
             ],
             "visibility_rules": [
               "op_faron,op_dung,$notrace",
@@ -113,7 +129,11 @@
               "$skyview_first,skyviewsk:2,gs,op_hero",
               "$skyview_first,skyviewsk:2,hook",
               "$skyview_first,skyviewsk:2,bow",
-              "$skyview_first,skyviewsk:2,ts"
+              "$skyview_first,skyviewsk:2,ts",
+              "$skyview_first,[skyviewsk:2],gs,op_hero,t_bit",
+              "$skyview_first,[skyviewsk:2],hook,t_bit",
+              "$skyview_first,[skyviewsk:2],bow,t_bit",
+              "$skyview_first,[skyviewsk:2],ts,t_bit"
             ],
             "visibility_rules": [
               "op_faron,op_dung,$notrace",
@@ -129,7 +149,11 @@
               "$skyview_first,skyviewbk,skyviewsk:2,gs,op_hero",
               "$skyview_first,skyviewbk,skyviewsk:2,hook,ps",
               "$skyview_first,skyviewbk,skyviewsk:2,bow,ps",
-              "$skyview_first,skyviewbk,skyviewsk:2,ts"
+              "$skyview_first,skyviewbk,skyviewsk:2,ts",
+              "$skyview_first,skyviewbk,[skyviewsk:2],gs,op_hero,t_bit",
+              "$skyview_first,skyviewbk,[skyviewsk:2],hook,t_bit",
+              "$skyview_first,skyviewbk,[skyviewsk:2],bow,t_bit",
+              "$skyview_first,skyviewbk,[skyviewsk:2],ts,t_bit"
             ],
             "visibility_rules": [
               "op_faron,op_dung,$notrace",
@@ -156,7 +180,11 @@
           "$skyview_first,skyviewbk,skyviewsk:2,gs,op_hero",
           "$skyview_first,skyviewbk,skyviewsk:2,gs,hb",
           "$skyview_first,skyviewbk,skyviewsk:2,gs,bow",
-          "$skyview_first,skyviewbk,skyviewsk:2,ts"
+          "$skyview_first,skyviewbk,skyviewsk:2,ts",
+          "$skyview_first,skyviewbk,[skyviewsk:2],gs,op_hero,t_bit",
+          "$skyview_first,skyviewbk,[skyviewsk:2],gs,hb,t_bit",
+          "$skyview_first,skyviewbk,[skyviewsk:2],gs,bow,t_bit",
+          "$skyview_first,skyviewbk,[skyviewsk:2],ts,t_bit"
         ],
         "sections": [
           {
@@ -261,7 +289,8 @@
             "item_count": 1,
             "access_rules": [
               "$earth_bridge,hook",
-              "$earth_bridge,bombs,beetle"
+              "$earth_bridge,bombs,beetle",
+              "$earth_bridge,[hook],t_bit"
             ],
             "visibility_rules": [
               "op_eldin,op_dung,$notrace",
@@ -275,7 +304,9 @@
             "item_count": 1,
             "access_rules": [
               "$earth_bridge,hook",
-              "$earth_bridge,bombs,beetle,mitts"
+              "$earth_bridge,bombs,beetle,mitts",
+              "$earth_bridge,[hook],t_bit",
+              "$earth_bridge,[hook],t_etstut"
             ],
             "visibility_rules": [
               "op_eldin,op_dung,$notrace",
@@ -289,7 +320,10 @@
             "item_count": 1,
             "access_rules": [
               "bombs,hook,earthbk,ps",
-              "bombs,beetle,mitts,earthbk,ps"
+              "bombs,beetle,mitts,earthbk,ps",
+              "[bombs],hook,earthbk,$strike,t_scal",
+              "[bombs],beetle,mitts,earthbk,$strike,t_scal",
+              "[bombs],[hook],earthbk,$strike,t_etstut,t_scal"
             ],
             "visibility_rules": [
               "op_eldin,op_dung,$notrace",
@@ -312,8 +346,11 @@
         "name": "Earth Spring",
         "parent": "Earth Temple",
         "access_rules": [
-          "bombs,hook,earthbk,gs",
-          "bombs,beetle,mitts,earthbk,gs"
+          "bombs,hook,earthbk,ps",
+          "bombs,beetle,mitts,earthbk,gs",
+          "[bombs],hook,earthbk,gs,t_scal",
+          "[bombs],[beetle],[mitts],earthbk,gs,t_etstut,t_scal",
+          "[bombs],beetle,mitts,earthbk,gs,t_scal"
         ],
         "color": "#dc143c",
         "sections": [
@@ -357,7 +394,8 @@
             "name": "First Hub Chest",
             "item_count": 1,
             "access_rules": [
-              "hook"
+              "hook",
+              "[hook],whip"
             ],
             "visibility_rules": [
               "op_lanayru,op_dung,$notrace",
@@ -368,7 +406,8 @@
             "name": "Chest Behind Locked Door",
             "item_count": 1,
             "access_rules": [
-              "minesk:1,hook"
+              "minesk:1,hook",
+              "minesk:1,[hook],whip"
             ],
             "visibility_rules": [
               "op_lanayru,op_dung,$notrace",
@@ -381,7 +420,10 @@
             "name": "Bellows Room Chests",
             "item_count": 2,
             "access_rules": [
-              "minesk:1,hook"
+              "minesk:1,hook",
+              "minesk:1,[hook],whip",
+              "[minesk:1],hook,t_bit",
+              "[minesk:1],[hook],whip,t_bit"
             ],
             "visibility_rules": [
               "op_lanayru,op_dung,$notrace",
@@ -392,7 +434,8 @@
             "name": "First West Room",
             "item_count": 1,
             "access_rules": [
-              "hook,bellows"
+              "hook,bellows",
+              "[hook],whip,bellows"
             ],
             "visibility_rules": [
               "op_lanayru,op_dung,$notrace",
@@ -403,7 +446,10 @@
             "name": "Map Chest",
             "item_count": 1,
             "access_rules": [
-              "hook,bellows,ps,$mine_crystal"
+              "hook,bellows,ps,$mine_crystal",
+              "[hook],whip,bellows,ps,$mine_crystal",
+              "hook,[bellows],ps,$mine_crystal,t_bit",
+              "[hook],whip,[bellows],ps,$mine_crystal,t_bit"
             ],
             "visibility_rules": [
               "op_lanayru,op_dung,$notrace",
@@ -414,7 +460,8 @@
             "name": "First Crawlspace",
             "item_count": 1,
             "access_rules": [
-              "hook,bellows,ps,$mine_crystal"
+              "hook,bellows,ps,$mine_crystal",
+              "[hook],whip,bellows,ps,$mine_crystal"
             ],
             "visibility_rules": [
               "op_lanayru,op_dung,$notrace",
@@ -425,7 +472,8 @@
             "name": "Dust Maze Chest",
             "item_count": 1,
             "access_rules": [
-              "hook,bellows,ps,$mine_crystal"
+              "hook,bellows,ps,$mine_crystal",
+              "[hook],whip,bellows,ps,$mine_crystal"
             ],
             "visibility_rules": [
               "op_lanayru,op_dung,$notrace",
@@ -438,7 +486,8 @@
             "name": "Boss Key Chest",
             "item_count": 1,
             "access_rules": [
-              "hook,bellows,bombs,ps,$mine_crystal"
+              "hook,bellows,bombs,ps,$mine_crystal",
+              "[hook],whip,bellows,bombs,ps,$mine_crystal"
             ],
             "visibility_rules": [
               "op_lanayru,op_dung,$notrace",
@@ -451,7 +500,8 @@
             "name": "Chest After Boss Key Chest",
             "item_count": 1,
             "access_rules": [
-              "hook,bellows,bombs,ps,$mine_crystal"
+              "hook,bellows,bombs,ps,$mine_crystal",
+              "[hook],whip,bellows,bombs,ps,$mine_crystal"
             ],
             "visibility_rules": [
               "op_lanayru,op_dung,$notrace",
@@ -464,7 +514,10 @@
             "name": "Facility Heart Container",
             "item_count": 1,
             "access_rules": [
-              "hook,bellows,minebk,ps,$mine_crystal"
+              "hook,bellows,minebk,ps,$mine_crystal",
+              "[hook],whip,bellows,minebk,ps,$mine_crystal",
+              "hook,bellows,minebk,ps,$mine_crystal,t_bit",
+              "[hook],whip,[bellows],minebk,ps,$mine_crystal,t_bit"
             ],
             "visibility_rules": [
               "op_lanayru,op_dung,$notrace",
@@ -472,6 +525,22 @@
             ],
             "chest_unopened_img": "images/hc.png",
             "chest_opened_img": "images/hc_gray.png"
+          },
+          {
+            "name": "Goddess Harp",
+            "item_count": 1,
+            "access_rules": [
+              "hook,[bellows],minebk,ps,$mine_crystal",
+              "[hook],whip,[bellows],minebk,ps,$mine_crystal",
+              "hook,bellows,minebk,ps,$mine_crystal,t_bit",
+              "[hook],whip,[bellows],minebk,ps,$mine_crystal,t_bit"
+            ],
+            "visibility_rules": [
+              "op_lanayru,op_dung,$notrace",
+              "op_lanayru,op_dung,op_race,lmf_r"
+            ],
+            "chest_unopened_img": "images/harp.png",
+            "chest_opened_img": "images/harp_gray.png"
           }
         ],
         "map_locations": [
@@ -488,19 +557,6 @@
         "color": "#cd853f",
         "sections": [
           {
-            "name": "Goddess Harp",
-            "item_count": 1,
-            "access_rules": [
-              "hook,bellows,minebk,ps,$mine_crystal"
-            ],
-            "visibility_rules": [
-              "op_lanayru,op_dung,$notrace",
-              "op_lanayru,op_dung,op_race,lmf_r"
-            ],
-            "chest_unopened_img": "images/harp.png",
-            "chest_opened_img": "images/harp_gray.png"
-          },
-          {
             "name": "Cube: Temple of Time",
             "hosted_item": "cube_ToT",
             "access_rules": [
@@ -512,11 +568,11 @@
           }
         ],
         "map_locations": [
-          {
-            "map": "overworld",
-            "x": 115,
-            "y": 135
-          }
+              {
+                "map": "overworld",
+                "x": 115,
+                "y": 135
+              }
             ]
           },
       {
@@ -542,7 +598,8 @@
             "item_count": 1,
             "access_rules": [
               "cisternsk:1,[cisternsk:2],ps",
-              "cisternsk:1,[cisternsk:2],$cistern_statue"
+              "cisternsk:1,[cisternsk:2],$cistern_statue",
+              "[cisternsk:2],[ps],wds,t_cc"
             ],
             "visibility_rules": [
               "op_faron,op_dung,$notrace",
@@ -605,7 +662,8 @@
             "item_count": 1,
             "access_rules": [
               "$cistern_statue,cs",
-              "$cistern_statue,hook"
+              "$cistern_statue,hook",
+              "$cistern_statue,[hook],t_cc"
             ],
             "visibility_rules": [
               "op_faron,op_dung,$notrace",
@@ -619,7 +677,9 @@
             "item_count": 1,
             "access_rules": [
               "whip,cisternbk,cs,$koloktos",
-              "whip,cisternbk,cisternsk:1,[cisternsk:2],$koloktos"
+              "whip,cisternbk,cisternsk:1,[cisternsk:2],$koloktos",
+              "whip,[cisternbk],cs,$koloktos,t_bit",
+              "whip,[cisternbk],cisternsk:1,[cisternsk:2],$koloktos,t_bit"
             ],
             "visibility_rules": [
               "op_faron,op_dung,$notrace",
@@ -633,7 +693,9 @@
             "item_count": 1,
             "access_rules": [
               "whip,cisternbk,cs,gs",
-              "whip,cisternbk,cisternsk:1,[cisternsk:2],gs"
+              "whip,cisternbk,cisternsk:1,[cisternsk:2],gs",
+              "whip,[cisternbk],cs,gs,t_bit",
+              "whip,[cisternbk],cisternsk:1,[cisternsk:2],gs,t_bit"
             ],
             "visibility_rules": [
               "op_faron,op_dung,$notrace",
@@ -749,7 +811,8 @@
             "item_count": 1,
             "access_rules": [
               "bow,shipbk,ps",
-              "bow,shipbk,shipsk:1,[shipsk:2]"
+              "bow,shipbk,shipsk:2",
+              "bow,[skipbk],ps,t_bit"
             ],
             "visibility_rules": [
               "op_lanayru,op_dung,$notrace",
@@ -762,7 +825,8 @@
             "name": "Nayru's Flame",
             "item_count": 1,
             "access_rules": [
-              "bow,shipbk,gs"
+              "bow,shipbk,gs",
+              "[bow],shipbk,gs,t_bit"
             ],
             "visibility_rules": [
               "op_lanayru,op_dung,$notrace",
@@ -850,7 +914,8 @@
             "name": "Sanc Bottle",
             "item_count": 1,
             "access_rules": [
-              "$sanc_pods,sancsk:1,mogma,ps"
+              "$sanc_pods,sancsk:1,mogma,ps",
+              "[$sanc_pods],[sancsk:1],[mogma],ps,t_bit"
             ],
             "visibility_rules": [
               "op_eldin,op_dung,$notrace",
@@ -861,7 +926,8 @@
             "name": "Map Chest",
             "item_count": 1,
             "access_rules": [
-              "hook,cs,sancsk:2,mogma,bellows,ps"
+              "hook,cs,sancsk:2,mogma,bellows,ps",
+              "$sanc_pods,[hook],[cs],[sancsk:2],[mogma],[bellows],ps,t_bit"
             ],
             "visibility_rules": [
               "op_eldin,op_dung,$notrace",
@@ -872,7 +938,8 @@
             "name": "Third Small Key",
             "item_count": 1,
             "access_rules": [
-              "hook,cs,sancsk:2,mogma,bellows,bombs,ps"
+              "hook,cs,sancsk:2,mogma,bellows,bombs,ps",
+              "$sanc_pods,[hook],[cs],[sancsk:2],mogma,[bellows],bombs,ps,t_bit"
             ],
             "visibility_rules": [
               "op_eldin,op_dung,$notrace",
@@ -883,7 +950,8 @@
             "name": "Plats Chest",
             "item_count": 1,
             "access_rules": [
-              "hook,sancsk:3,mogma,ps"
+              "hook,sancsk:3,mogma,ps",
+              "$sanc_pods,[hook],[sancsk:3],[mogma],[ps],t_bit"
             ],
             "visibility_rules": [
               "op_eldin,op_dung,$notrace",
@@ -894,7 +962,8 @@
             "name": "Staircase Room",
             "item_count": 1,
             "access_rules": [
-              "hook,cs,sancsk:3,mogma,ps"
+              "hook,cs,sancsk:3,mogma,ps",
+              "[hook],cs,[sancsk:3],[mogma],[ps],$lizalfos,t_bit"
             ],
             "visibility_rules": [
               "op_eldin,op_dung,$notrace",
@@ -905,7 +974,8 @@
             "name": "Boss Key Chest",
             "item_count": 1,
             "access_rules": [
-              "hook,cs,sancsk:3,mogma,ps"
+              "hook,cs,sancsk:3,mogma,ps",
+              "$sanc_pods,[hook],[cs],[sancsk:3],[mogma],[ps],t_bit"
             ],
             "visibility_rules": [
               "op_eldin,op_dung,$notrace",
@@ -918,7 +988,8 @@
             "name": "Sanctuary Heart Container",
             "item_count": 1,
             "access_rules": [
-              "hook,sancsk:3,mogma,sancbk,ps"
+              "hook,sancsk:3,mogma,sancbk,ps",
+              "$sanc_pods,[hook],[sancsk:3],[mogma],sancbk,ps,t_bit"
             ],
             "visibility_rules": [
               "op_eldin,op_dung,$notrace",
@@ -931,7 +1002,8 @@
             "name": "Din's Flame",
             "item_count": 1,
             "access_rules": [
-              "hook,sancsk:3,mogma,sancbk,gs"
+              "hook,sancsk:3,mogma,sancbk,gs",
+              "$sanc_pods,[hook],[sancsk:3],[mogma],sancbk,gs,t_bit"
             ],
             "visibility_rules": [
               "op_eldin,op_dung,$notrace",

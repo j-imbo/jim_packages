@@ -282,5 +282,61 @@
     "loop": true,
     "img": "images/options/closedthunderhead.png",
     "codes": "op_cth"
+  },
+  {
+    "name": "Back in Time",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/tricks/bit.png",
+    "codes": "t_bit"
+  },
+  {
+    "name": "Trickshots",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/tricks/trickshot.png",
+    "codes": "t_trickshot"
+  },
+  {
+    "name": "Early Floria",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/tricks/elf.png",
+    "codes": "t_elf"
+  },
+  {
+    "name": "Desert Brakeslides",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/tricks/brakeslide.png",
+    "codes": "t_brakeslide"
+  },
+  {
+    "name": "Beedle Rattle",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/tricks/beedle.png",
+    "codes": "t_beedle"
+  },
+  {
+    "name": "ET Stuttersprint",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/tricks/stutter.png",
+    "codes": "t_etstut"
+  },
+  {
+    "name": "Bombless Scaldera",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/tricks/scaldera.png",
+    "codes": "t_scal"
+  },
+  {
+    "name": "Cistern Clip",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/tricks/cistern.png",
+    "codes": "t_cc"
   }
 ]

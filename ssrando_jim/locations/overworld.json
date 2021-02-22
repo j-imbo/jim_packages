@@ -153,7 +153,8 @@
                 "name": "Faron Silent Realm",
                 "item_count": 1,
                 "access_rules": [
-                  "fc,harp"
+                  "fc,harp",
+                  "[fc],[harp],t_bit"
                 ],
                 "visibility_rules": [
                   "op_faron,op_sr"
@@ -264,6 +265,9 @@
               {
                 "name": "Lake Floria Boulder Rupee",
                 "item_count": 0,
+                "access_rules": [
+                  "wds"
+                ],
                 "visibility_rules": [
                   "op_faron,op_freestand"
                 ],
@@ -273,17 +277,30 @@
               {
                 "name": "Lake Floria Chest",
                 "item_count": 1,
+                "access_rules": [
+                  "wds"
+                ],
                 "visibility_rules": [
                   "op_faron,op_misc"
                 ]
               },
               {
-                "name": "Dragon Lair Chests",
-                "item_count": 2,
+                "name": "Dragon Lair First Chest",
+                "item_count": 1,
                 "visibility_rules": [
                   "op_faron,op_misc"
                 ]
               },
+                {
+                  "name": "Dragon Lair Second Chest",
+                  "item_count": 1,
+                  "access_rules": [
+                    "wds"
+                  ],
+                  "visibility_rules": [
+                    "op_faron,op_misc"
+                  ]
+                },
               {
                 "name": "Outside Cistern Rupee",
                 "item_count": 0,
@@ -482,7 +499,8 @@
                 "name": "Eldin Silent Realm",
                 "item_count": 1,
                 "access_rules": [
-                  "$eldin2,dp,harp"
+                  "$eldin2,dp,harp",
+                  "$eldin2,[dp],[harp],t_bit"
                 ],
                 "visibility_rules": [
                   "op_eldin,op_sr"
@@ -608,7 +626,8 @@
                 "name": "Digging HP",
                 "item_count": 1,
                 "access_rules": [
-                  "$bottle,mogma"
+                  "$bottle,mogma",
+                  "[$bottle],gust,mogma,t_bit"
                 ],
                 "visibility_rules": [
                   "op_eldin,op_freestand"
@@ -681,7 +700,8 @@
                 "name": "Landing Chest",
                 "item_count": 1,
                 "access_rules": [
-                  "cs"
+                  "cs",
+                  "[cs],t_bit"
                 ],
                 "visibility_rules": [
                   "op_lanayru,op_misc"
@@ -714,7 +734,8 @@
                 "item_count": 1,
                 "access_rules": [
                   "bomb",
-                  "hook"
+                  "hook",
+                  "[bomb],t_bit"
                 ],
                 "visibility_rules": [
                   "op_lanayru,op_bomb"
@@ -758,7 +779,8 @@
                 "access_rules": [
                   "cs",
                   "bombs",
-                  "hook"
+                  "hook",
+                  "[bombs],t_bit"
                 ],
                 "visibility_rules": [
                   "op_lanayru,op_misc"
@@ -801,7 +823,8 @@
                 "name": "Chest near Trial",
                 "item_count": 1,
                 "access_rules": [
-                  "$lanayru2,cs"
+                  "$lanayru2,cs",
+                  "$lanayru2,[cs],t_bit"
                 ],
                 "visibility_rules": [
                   "op_lanayru,op_misc"
@@ -923,7 +946,8 @@
                 "name": "Shortcut Chest",
                 "item_count": 1,
                 "access_rules": [
-                  "$ampilus"
+                  "$ampilus",
+                  "[$ampilus],t_brakeslide"
                 ],
                 "visibility_rules": [
                   "op_lanayru,op_minid"
@@ -963,7 +987,8 @@
           {
             "name": "Lanayru Caves",
             "access_rules": [
-              "$lanayru1,cs"
+              "$lanayru1,cs",
+              "$lanayru1,[cs],t_bit"
             ],
             "color": "#d2961e",
             "sections": [
@@ -1030,7 +1055,9 @@
                     "access_rules": [
                       "whip,bow",
                       "whip,beetle",
-                      "whip,sling"
+                      "whip,sling",
+                      "[whip],bombs,t_bit",
+                      "[whip],hook,t_bit"
                     ],
                     "visibility_rules": [
                       "op_lanayru,op_misc"
@@ -1056,7 +1083,9 @@
                     "access_rules": [
                       "whip,bow",
                       "whip,beetle",
-                      "whip,sling"
+                      "whip,sling",
+                      "[whip],bombs,t_bit",
+                      "[whip],hook,t_bit"
                     ],
                     "visibility_rules": [
                       "op_lanayru,op_misc"
@@ -1068,7 +1097,9 @@
                     "access_rules": [
                       "whip,bow,bellows",
                       "whip,beetle,bellows",
-                      "whip,sling,bellows"
+                      "whip,sling,bellows",
+                      "[whip],bombs,bellows,t_bit",
+                      "[whip],hook,bellows,t_bit"
                     ],
                     "visibility_rules": [
                       "op_lanayru,op_misc"

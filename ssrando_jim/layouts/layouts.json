@@ -27,6 +27,7 @@
               "content": {
                 "type": "recentpins",
                 "style": "wrap",
+                "width": 300,
                 "h_alignment": "stretch",
                 "v_alignment": "stretch",
                 "orientation": "vertical",
@@ -66,8 +67,23 @@
                   "title": "Settings",
                   "icon": "images/settings.png",
                   "content": {
-                    "type": "layout",
-                    "key": "options"
+                    "type": "tabbed",
+                    "tabs": [
+                      {
+                        "title": "Options",
+                        "content": {
+                          "type": "layout",
+                          "key": "options"
+                        }
+                      },
+                      {
+                        "title": "Tricks",
+                        "content": {
+                          "type": "layout",
+                          "key": "tricks"
+                        }
+                      }
+                    ]
                   }
                 }
               ]
@@ -144,8 +160,23 @@
               "title": "Settings",
               "icon": "images/settings.png",
               "content": {
-                "type": "layout",
-                "key": "options"
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Options",
+                    "content": {
+                      "type": "layout",
+                      "key": "options"
+                    }
+                  },
+                  {
+                    "title": "Tricks",
+                    "content": {
+                      "type": "layout",
+                      "key": "tricks"
+                    }
+                  }
+                ]
               }
             }
           ]

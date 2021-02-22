@@ -26,5 +26,23 @@
         ]
       }
     ]
+  },
+  "tricks": {
+    "type": "array",
+    "orientation": "vertical",
+    "content": [
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "5",
+        "item_height": 20,
+        "item_width": 160,
+        "rows": [
+          ["t_bit","t_trickshot"],
+          ["t_elf","t_brakeslide","t_beedle"],
+          ["t_etstut","t_scal","t_cc"]
+        ]
+      }
+    ]
   }
 }
