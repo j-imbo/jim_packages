@@ -284,6 +284,13 @@
     "codes": "op_cth"
   },
   {
+    "name": "Gossip Stones (Hints)",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/options/hints.png",
+    "codes": "op_gs"
+  },
+  {
     "name": "Back in Time",
     "type": "toggle",
     "loop": true,

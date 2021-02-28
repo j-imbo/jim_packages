@@ -59,9 +59,9 @@
                     "item_margin": "1,2",
                     "rows": [
                       [
-                        "letter",
-                        "hcb",
-                        "rattle",
+                        "lettercheck",
+                        "hcbcheck",
+                        "rattlecheck",
                         "grat"
                       ]
                     ]

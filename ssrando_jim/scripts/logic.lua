@@ -41,6 +41,10 @@ function or_accessibility(...)
   return level
 end
 
+function dungshuf()
+  return (Tracker.ActiveVariantUID == "var_dungshuf")
+end
+
 -- item functions to make file cleaner/more readable
 
 function bomb()
@@ -180,7 +184,12 @@ function thunderhead() -- open/closed thunderhead
   if has("op_cth") then
     if has("bog") then
       return true
-    elseif has("t_bit") then -- RBM 2x20
+    elseif (has("t_bit") and
+        (dungeon_dw() or eldin2() or (flora() and wds()) or lanayru1() or earth_bridge()
+        or Tracker:FindObjectForCode("@Sealed Temple/Ballad of the Goddess").AccessibilityLevel ~= AccessibilityLevel.None
+        or Tracker:FindObjectForCode("@Skyview Temple/Behind Bars in Hub").AccessibilityLevel ~= AccessibilityLevel.None
+        or Tracker:FindObjectForCode("@Lanayru Mining Facility/Boss Key Chest").AccessibilityLevel ~= AccessibilityLevel.None
+        or Tracker:FindObjectForCode("@Fire Sanctuary/Map Chest").AccessibilityLevel ~= AccessibilityLevel.None)) then -- RBM 2x20
       return true, AccessibilityLevel.SequenceBreak
     else
       return false
@@ -293,11 +302,20 @@ function eldin2_acc()
 end
 
 function volcano()
-  return (eldin2() and has("fse"))
+  -- return (eldin2() and has("fse"))
+  if has("fse") then
+    if (eldin2_acc() ~= AccessibilityLevel.None) then
+      return true, eldin2_acc()
+    else
+      return false
+    end
+  else
+    return false
+  end
 end
 
 function volcano_acc()
-  return and_accessibility(eldin2(), has_acc("fse"))
+  return and_accessibility(eldin2_acc(), has_acc("fse"))
 end
 
 function lanayru1()
@@ -930,6 +948,15 @@ function dungeon_dw() -- dungeon entrance in deep woods
   end
 end
 
+function ent_dw()
+  local acc = dungeon_dw()
+  if (acc ~= AccessibilityLevel.None) then
+    return true, acc
+  else
+    return false
+  end
+end
+
 function dungeon_ev() -- dungeon entrance in eldin volcano
   -- return (eldin2() and has("kp",5))
   if (eldin2()) then
@@ -945,6 +972,15 @@ function dungeon_ev() -- dungeon entrance in eldin volcano
   end
 end
 
+function ent_ev()
+  local acc = dungeon_ev()
+  if (acc ~= AccessibilityLevel.None) then
+    return true, acc
+  else
+    return false
+  end
+end
+
 function dungeon_ld() -- dungeon entrance in lanayru desert
   if (lanayru1() and bomb() and hook() and sword()) then
     return AccessibilityLevel.Normal
@@ -953,8 +989,26 @@ function dungeon_ld() -- dungeon entrance in lanayru desert
   end
 end
 
+function ent_ld()
+  local acc = dungeon_ld()
+  if (acc ~= AccessibilityLevel.None) then
+    return true, acc
+  else
+    return false
+  end
+end
+
 function dungeon_lf() -- dungeon entrance in lake floria
   return and_accessibility(floria_acc(), has_acc("wds"))
+end
+
+function ent_lf()
+  local acc = dungeon_lf()
+  if (acc ~= AccessibilityLevel.None) then
+    return true, acc
+  else
+    return false
+  end
 end
 
 function dungeon_ss() -- dungeon entrance in sand sea
@@ -969,6 +1023,15 @@ function dungeon_ss() -- dungeon entrance in sand sea
     end
   else
     return AccessibilityLevel.None
+  end
+end
+
+function ent_ss()
+  local acc = dungeon_ss()
+  if (acc ~= AccessibilityLevel.None) then
+    return true, acc
+  else
+    return false
   end
 end
 
@@ -987,6 +1050,15 @@ function dungeon_vs() -- dungeon entrance in volcano summit
   end
 end
 
+function ent_vs()
+  local acc = dungeon_vs()
+  if (acc ~= AccessibilityLevel.None) then
+    return true, acc
+  else
+    return false
+  end
+end
+
 function dungeon_sl() -- dungeon entrance in skyloft
   -- return (has("trials") and cs())
   if (has("trials")) then
@@ -999,5 +1071,14 @@ function dungeon_sl() -- dungeon entrance in skyloft
     end
   else
     return AccessibilityLevel.None
+  end
+end
+
+function ent_sl()
+  local acc = dungeon_sl()
+  if (acc ~= AccessibilityLevel.None) then
+    return true, acc
+  else
+    return false
   end
 end

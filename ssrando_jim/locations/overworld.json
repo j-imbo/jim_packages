@@ -14,13 +14,13 @@
             "children": [
               {
                 "name": "Sealed Temple",
-                "access_rules": [
-                  "$sealedtemple"
-                ],
                 "sections": [
                   {
                     "name": "Inside Temple",
                     "item_count": 1,
+                    "access_rules": [
+                      "$sealedtemple"
+                    ],
                     "visibility_rules": [
                       "op_faron,op_misc"
                     ],
@@ -31,7 +31,7 @@
                     "name": "Ballad of the Goddess",
                     "item_count": 1,
                     "access_rules": [
-                      "harp"
+                      "$sealedtemple,harp"
                     ],
                     "visibility_rules": [
                       "op_faron,op_songs"
@@ -43,7 +43,7 @@
                     "name": "Gorko Goddess Wall Reward",
                     "item_count": 1,
                     "access_rules": [
-                      "$walls,gs"
+                      "$sealedtemple,$walls,gs"
                     ],
                     "visibility_rules": [
                       "op_faron,op_long,op_dung,$notrace",
@@ -56,7 +56,7 @@
                     "name": "Gorko Triforce on Wall",
                     "item_count": 0,
                     "access_rules": [
-                      "$walls,bow,bombs,$levias"
+                      "$sealedtemple,$walls,bow,bombs,$levias"
                     ],
                     "visibility_rules": [
                       "op_faron,op_long,op_dung,$notrace",
@@ -69,13 +69,25 @@
                     "name": "True Master Sword",
                     "item_count": 1,
                     "access_rules": [
-                      "$past"
+                      "$sealedtemple,$past"
                     ],
                     "visibility_rules": [
                       "op_faron"
                     ],
                     "chest_unopened_img": "images/sword_true_.png",
                     "chest_opened_img": "images/sword_true__gray.png"
+                  },
+                  {
+                    "name": "Behind the Temple Gossip Stone",
+                    "item_count": 1,
+                    "access_rules": [
+                      "$sealedtemple"
+                    ],
+                    "chest_unopened_img": "images/gossip.png",
+                    "chest_opened_img": "images/gossip_gray.png",
+                    "visibility_rules": [
+                      "op_gs"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -90,25 +102,24 @@
           },
           {
             "name": "Faron Woods",
-            "access_rules": [
-              "$faron"
-            ],
             "sections": [
               {
                 "name": "Tree HP",
+                "access_rules": [
+                  "$faron"
+                ],
                 "item_count": 1,
                 "visibility_rules": [
                   "op_faron,op_freestand"
                 ],
                 "chest_unopened_img": "images/hp.png",
-                "chest_opened_img": "images/hp_gray.png",
-                "capture_item": true
+                "chest_opened_img": "images/hp_gray.png"
               },
               {
                 "name": "Slingshot",
                 "item_count": 1,
                 "access_rules": [
-                  "$bokoblin"
+                  "$faron,$bokoblin"
                 ],
                 "visibility_rules": [
                   "op_faron,op_long,op_combat"
@@ -120,7 +131,7 @@
                 "name": "HP behind Boulder",
                 "item_count": 1,
                 "access_rules": [
-                  "bombs"
+                  "$faron,bombs"
                 ],
                 "visibility_rules": [
                   "op_faron,op_freestand,op_bomb"
@@ -132,7 +143,7 @@
                 "name": "Rock Wall Treasure",
                 "item_count": 1,
                 "access_rules": [
-                  "bombs"
+                  "$faron,bombs"
                 ],
                 "visibility_rules": [
                   "op_faron,op_bomb"
@@ -142,8 +153,8 @@
                 "name": "Great Tree Chest",
                 "item_count": 1,
                 "access_rules": [
-                  "bellows,wds",
-                  "cs,$moblin"
+                  "$faron,bellows,wds",
+                  "$faron,cs,$moblin"
                 ],
                 "visibility_rules": [
                   "op_faron,op_misc"
@@ -153,8 +164,9 @@
                 "name": "Faron Silent Realm",
                 "item_count": 1,
                 "access_rules": [
-                  "fc,harp",
-                  "[fc],[harp],t_bit"
+                  "$faron,fc,harp",
+                  "$faron,[fc],[harp],t_bit",
+                  "{op_gs}"
                 ],
                 "visibility_rules": [
                   "op_faron,op_sr"
@@ -204,13 +216,13 @@
           },
           {
             "name": "Deep Woods",
-            "access_rules": [
-              "$deepwoods"
-            ],
             "sections": [
               {
                 "name": "Deep Woods Chest",
                 "item_count": 1,
+                "access_rules": [
+                  "$deepwoods"
+                ],
                 "visibility_rules": [
                   "op_faron,op_misc"
                 ],
@@ -246,6 +258,18 @@
                 "visibility_rules": [
                   "op_sky,op_cube,op_cube_fw"
                 ]
+              },
+              {
+                "name": "Deep Woods Gossip Stone",
+                "item_count": 1,
+                "access_rules": [
+                  "$deepwoods"
+                ],
+                "chest_unopened_img": "images/gossip.png",
+                "chest_opened_img": "images/gossip_gray.png",
+                "visibility_rules": [
+                  "op_gs"
+                ]
               }
             ],
             "map_locations": [
@@ -258,16 +282,13 @@
           },
           {
             "name": "Lake Floria",
-            "access_rules": [
-              "$floria"
-            ],
             "color": "#6495ed",
             "sections": [
               {
                 "name": "Lake Floria Boulder Rupee",
                 "item_count": 0,
                 "access_rules": [
-                  "wds"
+                  "$floria,wds"
                 ],
                 "visibility_rules": [
                   "op_faron,op_freestand"
@@ -279,7 +300,7 @@
                 "name": "Lake Floria Chest",
                 "item_count": 1,
                 "access_rules": [
-                  "wds"
+                  "$floria,wds"
                 ],
                 "visibility_rules": [
                   "op_faron,op_misc"
@@ -288,25 +309,28 @@
               {
                 "name": "Dragon Lair First Chest",
                 "item_count": 1,
+                "access_rules": [
+                  "$floria"
+                ],
                 "visibility_rules": [
                   "op_faron,op_misc"
                 ]
               },
-                {
-                  "name": "Dragon Lair Second Chest",
-                  "item_count": 1,
-                  "access_rules": [
-                    "wds"
-                  ],
-                  "visibility_rules": [
-                    "op_faron,op_misc"
-                  ]
-                },
+              {
+                "name": "Dragon Lair Second Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "$floria,wds"
+                ],
+                "visibility_rules": [
+                  "op_faron,op_misc"
+                ]
+              },
               {
                 "name": "Outside Cistern Rupee",
                 "item_count": 0,
                 "access_rules": [
-                  "beetle"
+                  "$floria,beetle"
                 ],
                 "visibility_rules": [
                   "op_faron,op_freestand"
@@ -333,6 +357,18 @@
                 "visibility_rules": [
                   "op_sky,op_cube,op_cube_lf"
                 ]
+              },
+              {
+                "name": "Cistern Gossip Stone",
+                "item_count": 1,
+                "access_rules": [
+                  "$floria"
+                ],
+                "chest_unopened_img": "images/gossip.png",
+                "chest_opened_img": "images/gossip_gray.png",
+                "visibility_rules": [
+                  "op_gs"
+                ]
               }
             ],
             "map_locations": [
@@ -347,9 +383,6 @@
       },
       {
         "name": "Eldin",
-        "access_rules": [
-          "$eldin1"
-        ],
         "color": "#8b0000",
         "children": [
           {
@@ -358,6 +391,9 @@
               {
                 "name": "Mogma Huts Bombable Wall",
                 "item_count": 1,
+                "access_rules": [
+                  "$eldin1"
+                ],
                 "visibility_rules": [
                   "op_eldin,op_bomb"
                 ],
@@ -367,6 +403,9 @@
               {
                 "name": "Crawlspace Chest",
                 "item_count": 1,
+                "access_rules": [
+                  "$eldin1"
+                ],
                 "visibility_rules": [
                   "op_eldin,op_bomb"
                 ],
@@ -376,6 +415,9 @@
               {
                 "name": "Behind Cliff HP Bombable Wall",
                 "item_count": 1,
+                "access_rules": [
+                  "$eldin1"
+                ],
                 "visibility_rules": [
                   "op_eldin,op_bomb"
                 ],
@@ -385,12 +427,14 @@
               {
                 "name": "Cliff HP",
                 "item_count": 1,
+                "access_rules": [
+                  "$eldin1"
+                ],
                 "visibility_rules": [
                   "op_eldin,op_freestand"
                 ],
                 "chest_unopened_img": "images/hp.png",
-                "chest_opened_img": "images/hp_gray.png",
-                "capture_item": true
+                "chest_opened_img": "images/hp_gray.png"
               },
               {
                 "name": "Cube: Eldin Entrance",
@@ -440,7 +484,7 @@
                 "name": "Digging Spot near ET",
                 "item_count": 1,
                 "access_rules": [
-                  "mitts"
+                  "$eldin2,mitts"
                 ],
                 "visibility_rules": [
                   "op_eldin,op_dig"
@@ -452,7 +496,7 @@
                 "name": "Digging Spot under Tower",
                 "item_count": 1,
                 "access_rules": [
-                  "mitts"
+                  "$eldin2,mitts"
                 ],
                 "visibility_rules": [
                   "op_eldin,op_dig"
@@ -464,7 +508,7 @@
                 "name": "Digging Spot on Sandy Slopes",
                 "item_count": 1,
                 "access_rules": [
-                  "mitts"
+                  "$eldin2,mitts"
                 ],
                 "visibility_rules": [
                   "op_eldin,op_dig"
@@ -476,7 +520,7 @@
                 "name": "Digging Spot after Vents",
                 "item_count": 1,
                 "access_rules": [
-                  "mitts"
+                  "$eldin2,mitts"
                 ],
                 "visibility_rules": [
                   "op_eldin,op_dig"
@@ -488,7 +532,7 @@
                 "name": "Digging Spot after Draining Cave",
                 "item_count": 1,
                 "access_rules": [
-                  "mitts"
+                  "$eldin2,mitts"
                 ],
                 "visibility_rules": [
                   "op_eldin,op_dig"
@@ -501,7 +545,8 @@
                 "item_count": 1,
                 "access_rules": [
                   "$eldin2,dp,harp",
-                  "$eldin2,[dp],[harp],t_bit"
+                  "$eldin2,[dp],[harp],t_bit",
+                  "{op_gs}"
                 ],
                 "visibility_rules": [
                   "op_eldin,op_sr"
@@ -539,6 +584,30 @@
                 "visibility_rules": [
                   "op_skyloft,op_cube,op_cube_ev"
                 ]
+              },
+              {
+                "name": "Thrill Digger Gossip Stone",
+                "item_count": 1,
+                "access_rules": [
+                  "$eldin2"
+                ],
+                "chest_unopened_img": "images/gossip.png",
+                "chest_opened_img": "images/gossip_gray.png",
+                "visibility_rules": [
+                  "op_gs"
+                ]
+              },
+              {
+                "name": "Earth Temple Gossip Stone",
+                "item_count": 1,
+                "access_rules": [
+                  "$eldin2,mitts"
+                ],
+                "chest_unopened_img": "images/gossip.png",
+                "chest_opened_img": "images/gossip_gray.png",
+                "visibility_rules": [
+                  "op_gs"
+                ]
               }
             ],
             "map_locations": [
@@ -555,6 +624,9 @@
               {
                 "name": "Free Fall Chest",
                 "item_count": 1,
+                "access_rules": [
+                  "$eldin1"
+                ],
                 "visibility_rules": [
                   "op_eldin,op_misc"
                 ]
@@ -562,6 +634,9 @@
               {
                 "name": "Behind Bomb Wall",
                 "item_count": 1,
+                "access_rules": [
+                  "$eldin1"
+                ],
                 "visibility_rules": [
                   "op_eldin,op_bomb"
                 ]
@@ -570,7 +645,7 @@
                 "name": "Sand Slide Chest",
                 "item_count": 1,
                 "access_rules": [
-                  "mitts"
+                  "$eldin1,mitts"
                 ],
                 "visibility_rules": [
                   "op_eldin,op_misc"
@@ -579,7 +654,7 @@
               {
                 "name": "Digging Mitts",
                 "access_rules": [
-                  "$bokoblin"
+                  "$eldin1,$bokoblin"
                 ],
                 "item_count": 1,
                 "visibility_rules": [
@@ -592,7 +667,7 @@
                 "name": "Pyrup Maze Bomb Wall",
                 "item_count": 1,
                 "access_rules": [
-                  "mitts"
+                  "$eldin1,mitts"
                 ],
                 "visibility_rules": [
                   "op_eldin,op_bomb"
@@ -619,17 +694,14 @@
           },
           {
             "name": "Volcano Summit",
-            "access_rules": [
-              "$volcano"
-            ],
             "color": "#a52a2a",
             "sections": [
               {
                 "name": "Digging HP",
                 "item_count": 1,
                 "access_rules": [
-                  "$bottle,mogma",
-                  "[$bottle],gust,mogma,t_bit"
+                  "$volcano,$bottle,mogma",
+                  "$volcano,[$bottle],gust,mogma,t_bit"
                 ],
                 "visibility_rules": [
                   "op_eldin,op_freestand"
@@ -641,7 +713,7 @@
                 "name": "Bombable Wall Waterfall",
                 "item_count": 1,
                 "access_rules": [
-                  "cs"
+                  "$volcano,cs"
                 ],
                 "visibility_rules": [
                   "op_eldin,op_bomb"
@@ -676,6 +748,19 @@
                 "visibility_rules": [
                   "op_thunderhead,op_cube,op_cube_vs"
                 ]
+              },
+              {
+                "name": "Fire Sanctuary Gossip Stone",
+                "item_count": 1,
+                "access_rules": [
+                  "$volcano,$bottle",
+                  "$volcano,[$bottle],gust,t_bit"
+                ],
+                "chest_unopened_img": "images/gossip.png",
+                "chest_opened_img": "images/gossip_gray.png",
+                "visibility_rules": [
+                  "op_gs"
+                ]
               }
             ],
             "map_locations": [
@@ -690,9 +775,6 @@
       },
       {
         "name": "Lanayru",
-        "access_rules": [
-          "$lanayru1"
-        ],
         "color": "#daa520",
         "children": [
           {
@@ -702,8 +784,8 @@
                 "name": "Landing Chest",
                 "item_count": 1,
                 "access_rules": [
-                  "cs",
-                  "[cs],t_bit"
+                  "$lanayru1,cs",
+                  "$lanayru1,[cs],t_bit"
                 ],
                 "visibility_rules": [
                   "op_lanayru,op_misc"
@@ -712,6 +794,9 @@
               {
                 "name": "First Timeshift Chest",
                 "item_count": 1,
+                "access_rules": [
+                  "$lanayru1"
+                ],
                 "visibility_rules": [
                   "op_lanayru,op_misc"
                 ],
@@ -722,8 +807,8 @@
                 "name": "Statue Chest",
                 "item_count": 1,
                 "access_rules": [
-                  "bomb",
-                  "hook"
+                  "$lanayru1,bomb",
+                  "$lanayru1,hook"
                 ],
                 "visibility_rules": [
                   "op_lanayru,op_bomb"
@@ -735,9 +820,9 @@
                 "name": "End of Mines Chest",
                 "item_count": 1,
                 "access_rules": [
-                  "bomb",
-                  "hook",
-                  "[bomb],t_bit"
+                  "$lanayru1,bomb",
+                  "$lanayru1,hook",
+                  "$lanayru1,[bomb],t_bit"
                 ],
                 "visibility_rules": [
                   "op_lanayru,op_bomb"
@@ -769,7 +854,7 @@
                 "name": "Party Wheel Chest",
                 "item_count": 1,
                 "access_rules": [
-                  "bombs"
+                  "$lanayru1,bombs"
                 ],
                 "visibility_rules": [
                   "op_lanayru,op_misc"
@@ -779,10 +864,10 @@
                 "name": "Chest before Hook Beetle",
                 "item_count": 1,
                 "access_rules": [
-                  "cs",
-                  "bombs",
-                  "hook",
-                  "[bombs],t_bit"
+                  "$lanayru1,cs",
+                  "$lanayru1,bombs",
+                  "$lanayru1,hook",
+                  "$lanayru1,[bombs],t_bit"
                 ],
                 "visibility_rules": [
                   "op_lanayru,op_misc"
@@ -792,8 +877,8 @@
                 "name": "Hook Beetle",
                 "item_count": 1,
                 "access_rules": [
-                  "bombs",
-                  "hook"
+                  "$lanayru1,bombs",
+                  "$lanayru1,hook"
                 ],
                 "visibility_rules": [
                   "op_lanayru,op_combat"
@@ -815,7 +900,8 @@
                 "name": "Chest atop LMF",
                 "item_count": 1,
                 "access_rules": [
-                  "$dungeon_ld"
+                  "$dungeon_ld",
+                  "{op_gs}"
                 ],
                 "capture_item": true,
                 "visibility_rules": [
@@ -837,7 +923,7 @@
                 "name": "Chest Near Fire Node",
                 "item_count": 1,
                 "access_rules": [
-                  "cs"
+                  "$lanayru1,cs"
                 ],
                 "visibility_rules": [
                   "op_lanayru,op_misc"
@@ -849,7 +935,7 @@
                 "name": "Sand Oasis Chest",
                 "item_count": 1,
                 "access_rules": [
-                  "cs"
+                  "$lanayru1,cs"
                 ],
                 "visibility_rules": [
                   "op_lanayru,op_misc"
@@ -861,7 +947,8 @@
                 "name": "Lanayru Silent Realm",
                 "item_count": 1,
                 "access_rules": [
-                  "$lanayru2,nw,harp"
+                  "$lanayru2,nw,harp",
+                  "{op_gs}"
                 ],
                 "visibility_rules": [
                   "op_lanayru,op_sr"
@@ -910,14 +997,49 @@
             ]
           },
           {
-            "name": "Lightning Node",
-            "access_rules": [
-              "$lanayru2,bombs"
+            "name": "Temple of Time",
+            "color": "#cd853f",
+            "sections": [
+              {
+                "name": "Cube: Temple of Time",
+                "hosted_item": "cube_ToT",
+                "access_rules": [
+                   "$cube_tot"
+                ],
+                "visibility_rules": [
+                  "op_sky,op_cube,op_cube_ld,op_combat"
+                ]
+              },
+              {
+                "name": "Temple of Time Gossip Stone",
+                "item_count": 1,
+                "access_rules": [
+                  "hook,$lanayru2"
+                ],
+                "chest_unopened_img": "images/gossip.png",
+                "chest_opened_img": "images/gossip_gray.png",
+                "visibility_rules": [
+                  "op_gs"
+                ]
+              }
             ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 115,
+                "y": 135
+              }
+            ]
+          },
+          {
+            "name": "Lightning Node",
             "sections": [
               {
                 "name": "Maze Chests",
                 "item_count": 2,
+                "access_rules": [
+                  "$lanayru2,bombs"
+                ],
                 "visibility_rules": [
                   "op_lanayru,op_minid"
                 ],
@@ -927,6 +1049,9 @@
               {
                 "name": "End Chest",
                 "item_count": 1,
+                "access_rules": [
+                  "$lanayru2,bombs"
+                ],
                 "visibility_rules": [
                   "op_lanayru,op_minid"
                 ]
@@ -942,16 +1067,13 @@
           },
           {
             "name": "Fire Node",
-            "access_rules": [
-              "$lanayru2"
-            ],
             "sections": [
               {
                 "name": "Shortcut Chest",
                 "item_count": 1,
                 "access_rules": [
-                  "$ampilus",
-                  "[$ampilus],t_brakeslide"
+                  "$lanayru2,$ampilus",
+                  "$lanayru2,[$ampilus],t_brakeslide"
                 ],
                 "visibility_rules": [
                   "op_lanayru,op_minid"
@@ -961,7 +1083,7 @@
                 "name": "Maze Chests",
                 "item_count": 2,
                 "access_rules": [
-                  "bombs"
+                  "$lanayru2,bombs"
                 ],
                 "visibility_rules": [
                   "op_lanayru,op_minid"
@@ -973,7 +1095,7 @@
                 "name": "End Chests",
                 "item_count": 2,
                 "access_rules": [
-                  "bombs,hook"
+                  "$lanayru2,bombs,hook"
                 ],
                 "visibility_rules": [
                   "op_lanayru,op_minid"
@@ -990,15 +1112,15 @@
           },
           {
             "name": "Lanayru Caves",
-            "access_rules": [
-              "$lanayru1,cs",
-              "$lanayru1,[cs],t_bit"
-            ],
             "color": "#d2961e",
             "sections": [
               {
                 "name": "Caves Chest",
                 "item_count": 1,
+                "access_rules": [
+                  "$lanayru1,cs",
+                  "$lanayru1,[cs],t_bit"
+                ],
                 "visibility_rules": [
                   "op_lanayru,op_misc"
                 ]
@@ -1006,11 +1128,28 @@
               {
                 "name": "Golo",
                 "item_count": 1,
+                "access_rules": [
+                  "$lanayru1,cs",
+                  "$lanayru1,[cs],t_bit"
+                ],
                 "visibility_rules": [
                   "op_lanayru,op_gift"
                 ],
                 "chest_unopened_img": "images/smallkey.png",
                 "chest_opened_img": "images/smallkey_gray.png"
+              },
+              {
+                "name": "Lanayru Caves Gossip Stone",
+                "item_count": 1,
+                "access_rules": [
+                  "$lanayru1,cs",
+                  "$lanayru1,[cs],t_bit"
+                ],
+                "chest_unopened_img": "images/gossip.png",
+                "chest_opened_img": "images/gossip_gray.png",
+                "visibility_rules": [
+                  "op_gs"
+                ]
               }
             ],
             "map_locations": [
@@ -1023,9 +1162,6 @@
           },
           {
             "name": "Sand Sea",
-            "access_rules": [
-              "$sea"
-            ],
             "color": "#ff8c00",
             "children": [
               {
@@ -1057,11 +1193,11 @@
                     "name": "Skydive Chest",
                     "item_count": 1,
                     "access_rules": [
-                      "whip,bow",
-                      "whip,beetle",
-                      "whip,sling",
-                      "[whip],bombs,t_bit",
-                      "[whip],hook,t_bit"
+                      "$sea,whip,bow",
+                      "$sea,whip,beetle",
+                      "$sea,whip,sling",
+                      "$sea,[whip],bombs,t_bit",
+                      "$sea,[whip],hook,t_bit"
                     ],
                     "visibility_rules": [
                       "op_lanayru,op_misc"
@@ -1071,9 +1207,9 @@
                     "name": "Moblin Chest",
                     "item_count": 1,
                     "access_rules": [
-                      "bombs",
-                      "hook",
-                      "whip"
+                      "$sea,bombs",
+                      "$sea,hook",
+                      "$sea,whip"
                     ],
                     "visibility_rules": [
                       "op_lanayru,op_misc"
@@ -1085,11 +1221,11 @@
                     "name": "Ruin Pillar",
                     "item_count": 1,
                     "access_rules": [
-                      "whip,bow",
-                      "whip,beetle",
-                      "whip,sling",
-                      "[whip],bombs,t_bit",
-                      "[whip],hook,t_bit"
+                      "$sea,whip,bow",
+                      "$sea,whip,beetle",
+                      "$sea,whip,sling",
+                      "$sea,[whip],bombs,t_bit",
+                      "$sea,[whip],hook,t_bit"
                     ],
                     "visibility_rules": [
                       "op_lanayru,op_misc"
@@ -1099,11 +1235,11 @@
                     "name": "Skipper's Shack Chest",
                     "item_count": 1,
                     "access_rules": [
-                      "whip,bow,bellows",
-                      "whip,beetle,bellows",
-                      "whip,sling,bellows",
-                      "[whip],bombs,bellows,t_bit",
-                      "[whip],hook,bellows,t_bit"
+                      "$sea,whip,bow,bellows",
+                      "$sea,whip,beetle,bellows",
+                      "$sea,whip,sling,bellows",
+                      "$sea,[whip],bombs,bellows,t_bit",
+                      "$sea,[whip],hook,bellows,t_bit"
                     ],
                     "visibility_rules": [
                       "op_lanayru,op_misc"
@@ -1135,7 +1271,8 @@
                     "name": "Rollercoaster Minigame",
                     "item_count": 1,
                     "access_rules": [
-                      "$molderach"
+                      "$sea,$molderach",
+                      "{op_gs}"
                     ],
                     "visibility_rules": [
                       "op_lanayru,op_minig,op_combat"
@@ -1143,6 +1280,18 @@
                     "capture_item": true,
                     "chest_unopened_img": "images/hp.png",
                     "chest_opened_img": "images/hp_gray.png"
+                  },
+                  {
+                    "name": "Shipyard Gossip Stone",
+                    "item_count": 1,
+                    "access_rules": [
+                      "$sea"
+                    ],
+                    "chest_unopened_img": "images/gossip.png",
+                    "chest_opened_img": "images/gossip_gray.png",
+                    "visibility_rules": [
+                      "op_gs"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -1159,6 +1308,9 @@
                   {
                     "name": "Pirates' Chests",
                     "item_count": 3,
+                    "access_rules": [
+                      "$sea"
+                    ],
                     "visibility_rules": [
                       "op_lanayru,op_minid"
                     ]

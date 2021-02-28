@@ -65,9 +65,11 @@ Thanks to patrickmacarthur for the basis of the logic work on the glitches.*
 
 **Other Tricks/Logic:** *(no option, just shown)*
 * Key logic in Cistern and Sandship
-* Walking around Skulltulas in Skyview Left room to get to Map Chest
+* Walking around Skulltulas in Skyview left room to get to Map Chest
 * Getting Skyview digging spot without the logically required Water Dragon Scale
 * Using Whip to flip lever in first room of Lanayru Mining Facility, skipping Hook Beetle
 * Fighting Moldarach without Gust Bellows, doing Phase 2 in one cycle (LMF and Rollercoaster minigame)
+* Skipping Spume to get to combination lock chest in Sandship
 * Bellows or Bow logically required to view hint for combination lock chest in Sandship
+* Access Heart Piece chest in Sandship using a jump to skip Clawshots
 * Pushing the log after Lopsa (Kikwi in tree) to avoid necessity for bombs to bring Oolo to Owlan

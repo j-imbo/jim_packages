@@ -42,7 +42,8 @@
                 "name": "Pumpkin Archery",
                 "item_count": 1,
                 "access_rules": [
-                  "bow"
+                  "bow,",
+                  "{op_gs}"
                 ],
                 "capture_item": true,
                 "visibility_rules": [
@@ -104,7 +105,8 @@
                 "name": "Owlan Crystals",
                 "item_count": 1,
                 "access_rules": [
-                  "$faron,[bombs]"
+                  "$faron,[bombs]",
+                  "{op_gs}"
                 ],
                 "visibility_rules": [
                   "op_skyloft,op_faron,op_long,op_scrap,op_crys,op_combat"
@@ -266,6 +268,18 @@
                 ],
                 "chest_unopened_img": "images/gratitude.png",
                 "chest_opened_img": "images/gratitude_gray.png"
+              },
+              {
+                "name": "Floating Island Gossip Stone",
+                "item_count": 1,
+                "access_rules": [
+                  "cs"
+                ],
+                "chest_unopened_img": "images/gossip.png",
+                "chest_opened_img": "images/gossip_gray.png",
+                "visibility_rules": [
+                  "op_gs"
+                ]
               }
             ],
             "map_locations": [
@@ -440,7 +454,8 @@
                 "name": "Skyloft Silent Realm",
                 "item_count": 1,
                 "access_rules": [
-                  "$soth,harp"
+                  "$soth,harp",
+                  "{op_gs}"
                 ],
                 "visibility_rules": [
                   "op_skyloft,op_sr"
@@ -507,7 +522,8 @@
                 "name": "Sparrot Crystals",
                 "item_count": 1,
                 "access_rules": [
-                  "$eldin2,cs"
+                  "$eldin2,cs",
+                  "{op_gs}"
                 ],
                 "capture_item": true,
                 "visibility_rules": [
@@ -601,7 +617,8 @@
                 "name": "50 Reward",
                 "item_count": 1,
                 "access_rules": [
-                  "gratitude:50"
+                  "gratitude:50",
+                  "{op_gs}"
                 ],
                 "visibility_rules": [
                   "op_skyloft,op_bat"
@@ -614,7 +631,8 @@
                 "name": "70 Reward",
                 "item_count": 1,
                 "access_rules": [
-                  "gratitude:70"
+                  "gratitude:70",
+                  "{op_gs}"
                 ],
                 "capture_item": true,
                 "visibility_rules": [
@@ -627,7 +645,8 @@
                 "name": "70 Reward 2",
                 "item_count": 1,
                 "access_rules": [
-                  "gratitude:70"
+                  "gratitude:70",
+                  "{op_gs}"
                 ],
                 "capture_item": true,
                 "visibility_rules": [
@@ -640,7 +659,8 @@
                 "name": "80 Reward",
                 "item_count": 1,
                 "access_rules": [
-                  "gratitude:80"
+                  "gratitude:80",
+                  "{op_gs}"
                 ],
                 "capture_item": true,
                 "visibility_rules": [
@@ -695,14 +715,14 @@
                   "op_sky,op_freestand"
                 ],
                 "chest_unopened_img": "images/hp.png",
-                "chest_opened_img": "images/hp_gray.png",
-                "capture_item": true
+                "chest_opened_img": "images/hp_gray.png"
               },
               {
                 "name": "Harp Minigame",
                 "item_count": 1,
                 "access_rules": [
-                  "harp,$bottle"
+                  "harp,$bottle",
+                  "{op_gs}"
                 ],
                 "capture_item": true,
                 "visibility_rules": [
@@ -715,7 +735,8 @@
                 "name": "Kina Crystals",
                 "item_count": 1,
                 "access_rules": [
-                  "$bottle,harp,$eldin1"
+                  "$bottle,harp,$eldin1",
+                  "{op_gs}"
                 ],
                 "capture_item": true,
                 "visibility_rules": [
@@ -723,6 +744,15 @@
                 ],
                 "chest_unopened_img": "images/gratitude.png",
                 "chest_opened_img": "images/gratitude_gray.png"
+              },
+              {
+                "name": "Lumpy Pumpkin Gossip Stone",
+                "item_count": 1,
+                "chest_unopened_img": "images/gossip.png",
+                "chest_opened_img": "images/gossip_gray.png",
+                "visibility_rules": [
+                  "op_gs"
+                ]
               }
             ],
             "map_locations": [
@@ -833,7 +863,8 @@
                 "name": "Fun Fun Minigame",
                 "item_count": 1,
                 "access_rules": [
-                  "$wheel"
+                  "$wheel",
+                  "{op_gs}"
                 ],
                 "capture_item": true,
                 "visibility_rules": [
@@ -884,6 +915,15 @@
                 ],
                 "visibility_rules": [
                   "op_sky,op_cube,op_cube_ev,op_bomb"
+                ]
+              },
+              {
+                "name": "Bamboo Island Gossip Stone",
+                "item_count": 1,
+                "chest_unopened_img": "images/gossip.png",
+                "chest_opened_img": "images/gossip_gray.png",
+                "visibility_rules": [
+                  "op_gs"
                 ]
               }
             ],
@@ -980,6 +1020,15 @@
                 ],
                 "visibility_rules": [
                   "op_sky,op_cube,op_cube_ld"
+                ]
+              },
+              {
+                "name": "Volcanic Island Gossip Stone",
+                "item_count": 1,
+                "chest_unopened_img": "images/gossip.png",
+                "chest_opened_img": "images/gossip_gray.png",
+                "visibility_rules": [
+                  "op_gs"
                 ]
               }
             ],
@@ -1132,9 +1181,6 @@
       {
         "name": "Thunderhead",
         "color": "#002366",
-        "access_rules": [
-          "$thunderhead"
-        ],
         "children": [
           {
             "name": "Isle of Song",
@@ -1143,7 +1189,7 @@
                 "name": "Farore's Courage",
                 "item_count": 1,
                 "access_rules": [
-                  "gs"
+                  "$thunderhead,gs"
                 ],
                 "visibility_rules": [
                   "op_thunderhead,op_songs"
@@ -1153,7 +1199,7 @@
                 "name": "Nayru's Wisdom",
                 "item_count": 1,
                 "access_rules": [
-                  "ls"
+                  "$thunderhead,ls"
                 ],
                 "visibility_rules": [
                   "op_thunderhead,op_songs"
@@ -1163,7 +1209,7 @@
                 "name": "Din's Power",
                 "item_count": 1,
                 "access_rules": [
-                  "ws"
+                  "$thunderhead,ws"
                 ],
                 "visibility_rules": [
                   "op_thunderhead,op_songs"
@@ -1173,7 +1219,7 @@
                 "name": "Outside Goddess Chest",
                 "item_count": 1,
                 "access_rules": [
-                  "cube_MT"
+                  "$thunderhead,cube_MT"
                 ],
                 "visibility_rules": [
                   "op_thunderhead,op_cube,op_cube_ev"
@@ -1183,7 +1229,7 @@
                 "name": "Top Goddess Chest",
                 "item_count": 1,
                 "access_rules": [
-                  "cube_FSE"
+                  "$thunderhead,cube_FSE"
                 ],
                 "visibility_rules": [
                   "op_thunderhead,op_cube,op_cube_vs"
@@ -1204,6 +1250,9 @@
               {
                 "name": "Arch Chest",
                 "item_count": 1,
+                "access_rules": [
+                  "$thunderhead"
+                ],
                 "visibility_rules": [
                   "op_thunderhead,op_misc"
                 ],
@@ -1214,7 +1263,7 @@
                 "name": "Arch Goddess Chest",
                 "item_count": 1,
                 "access_rules": [
-                  "cube_EGTr"
+                  "$thunderhead,cube_EGTr"
                 ],
                 "visibility_rules": [
                   "op_thunderhead,op_cube,op_cube_fw"
@@ -1230,13 +1279,14 @@
             ]
           },
           {
-            "name": "Bug Rock",
+            "name": "Bug Haven",
             "sections": [
               {
                 "name": "Bug Minigame",
                 "item_count": 1,
                 "access_rules": [
-                  "bugnet"
+                  "$thunderhead,bugnet",
+                  "{op_gs}"
                 ],
                 "visibility_rules": [
                   "op_thunderhead,op_minig"
@@ -1249,10 +1299,22 @@
                 "name": "Bug Goddess Chest",
                 "item_count": 1,
                 "access_rules": [
-                  "cube_SW"
+                  "$thunderhead,cube_SW"
                 ],
                 "visibility_rules": [
                   "op_thunderhead,op_cube,op_cube_vs"
+                ]
+              },
+              {
+                "name": "Bug Haven Gossip Stone",
+                "item_count": 1,
+                "access_rules": [
+                  "$thunderhead"
+                ],
+                "chest_unopened_img": "images/gossip.png",
+                "chest_opened_img": "images/gossip_gray.png",
+                "visibility_rules": [
+                  "op_gs"
                 ]
               }
             ],
@@ -1271,7 +1333,7 @@
                 "name": "Vines Goddess Chest",
                 "item_count": 1,
                 "access_rules": [
-                  "mogma,cube_VS"
+                  "$thunderhead,mogma,cube_VS"
                 ],
                 "visibility_rules": [
                   "op_thunderhead,op_cube,op_cube_vs"
@@ -1281,7 +1343,7 @@
                 "name": "Caged Goddess Chest",
                 "item_count": 0,
                 "access_rules": [
-                  "mogma,cube_LG"
+                  "$thunderhead,mogma,cube_LG"
                 ],
                 "visibility_rules": [
                   "op_thunderhead,op_cube,op_cube_ld"
@@ -1303,13 +1365,14 @@
                 "name": "Bilocyte Fight",
                 "item_count": 1,
                 "access_rules": [
-                  "ps,spiral"
+                  "$thunderhead,ps,spiral",
+                  "{op_gs}"
                 ],
                 "visibility_rules": [
                   "op_thunderhead,op_sky,op_scrap,op_combat,op_songs"
                 ],
                 "capture_item": true,
-                "chest_unopened_img": "images/hatp_soh.png",
+                "chest_unopened_img": "images/harp_soh.png",
                 "chest_opened_img": "images/harp_soh_gray.png"
               }
             ],

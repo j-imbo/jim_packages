@@ -87,5 +87,17 @@
     "type": "toggle",
     "img": "images/bottle.png",
     "codes": "bottlecapture"
+  },
+  {
+    "name": "Check",
+    "type": "static",
+    "img": "images/check.png",
+    "codes": "check"
+  },
+  {
+    "name": "X",
+    "type": "static",
+    "img": "images/x.png",
+    "codes": "x"
   }
 ]

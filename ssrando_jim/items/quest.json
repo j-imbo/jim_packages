@@ -34,11 +34,23 @@
     "max_quantity": 24
   },
   {
+    "name": "Heart Pieces",
+    "type": "toggle",
+    "img": "images/hp.png",
+    "codes": "HPcapture"
+  },
+  {
     "name": "Heart Containers",
     "type": "consumable",
     "img": "images/hc.png",
     "codes": "HC",
     "max_quantity": 6
+  },
+  {
+    "name": "Heart Containers",
+    "type": "toggle",
+    "img": "images/hc.png",
+    "codes": "HCcapture"
   },
   {
     "name": "Rupee",
@@ -77,16 +89,37 @@
     "codes": "rattle"
   },
   {
+    "name": "Baby Rattle w/Check",
+    "type": "toggle_badged",
+    "base_item": "rattle",
+    "img": "images/check_b.png",
+    "codes": "rattlecheck"
+  },
+  {
     "name": "Cawlin's Letter",
     "type": "toggle",
     "img": "images/letter.png",
     "codes": "cawlin,letter"
   },
   {
-    "name": "Hornet Colossus Beetle",
+    "name": "Cawlin's Letter w/Check",
+    "type": "toggle_badged",
+    "base_item": "cawlin",
+    "img": "images/check_b.png",
+    "codes": "cawlincheck,lettercheck"
+  },
+  {
+    "name": "Horned Colossus Beetle",
     "type": "toggle",
     "img": "images/hcb.png",
     "codes": "hcb"
+  },
+  {
+    "name": "HCB w/Check",
+    "type": "toggle_badged",
+    "base_item": "hcb",
+    "img": "images/check_b.png",
+    "codes": "hbccheck"
   },
   {
     "name": "Stone of Trials",
@@ -162,11 +195,23 @@
     "codes": "soh"
   },
   {
+    "name": "Song of the Hero",
+    "type": "toggle",
+    "img": "images/harp_soh.png",
+    "codes": "sohcapture"
+  },
+  {
     "name": "Key Piece",
     "type": "consumable",
     "max_quantity": 5,
     "img": "images/keypiece.png",
     "codes": "kp"
+  },
+  {
+    "name": "Key Piece",
+    "type": "consumable",
+    "img": "images/keypiece.png",
+    "codes": "kpcapture"
   },
   {
     "name": "Gratitude Crystals",
@@ -175,6 +220,12 @@
     "img": "images/gratitude.png",
     "codes": "grat,gratitude",
     "increment": 5
+  },
+  {
+    "name": "Gratitude Crystals",
+    "type": "toggle",
+    "img": "images/gratitude.png",
+    "codes": "gratcapture"
   },
   {
     "name": "Spiral Charge",

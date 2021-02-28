@@ -10,46 +10,55 @@
           "sword0",
           "shield2",
           "spiral",
-          "beetle",
-          "mitts",
-          "amber",
-          "emerald"
+          "pouch",
+          "bottlecapture"
         ],
         [
           "slingshot",
+          "beetle",
           "bombs",
           "bellows",
+          "stone"
+        ],
+        [
           "whip",
-          "bow",
-          "harp",
-          "ruby"
-        ],
-        [
-          "wds",
-          "fe",
           "cs",
-          "stone",
-          "chart",
-          "bog",
-          "soh"
+          "bow",
+          "bugnet",
+          "chart"
         ],
         [
-          "rattle",
+          "kpcapture",
+          "wds",
+          "fse",
+          "mitts",
+          "wallet"
+        ],
+        [
           "letter",
-          "hbc",
-          "pouch",
-          "bottle",
-          "fc",
-          "nw"
+          "hcb",
+          "rattle",
+          "gratcapture"
         ],
         [
-          "gratitude",
-          "keypiece",
-          "wallet",
-          "hp",
-          "hc",
-          "rupee",
+          "amber",
+          "ruby",
+          "emerald",
+          "harp"
+        ],
+        [
+          "bog",
+          "sohcapture",
+          "fc",
+          "nw",
           "dp"
+        ],
+        [
+          "hpcapture",
+          "hccapture",
+          "rupee",
+          "check",
+          "x"
         ]
       ]
     }

@@ -22,7 +22,7 @@
           ["op_cube_fw","op_cube_ev","op_cube_ld"],
           ["op_cube_lf","op_cube_vs","op_cube_ss"],
           [""],
-          ["op_race","op_hero","op_cth"]
+          ["op_race","op_hero","op_cth","op_gs"]
         ]
       }
     ]
