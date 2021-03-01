@@ -119,7 +119,7 @@
     "type": "toggle_badged",
     "base_item": "hcb",
     "img": "images/check_b.png",
-    "codes": "hbccheck"
+    "codes": "hcbcheck"
   },
   {
     "name": "Stone of Trials",
