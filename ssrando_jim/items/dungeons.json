@@ -204,7 +204,8 @@
     "name": "Lanayru Caves Small Key",
     "type": "toggle",
     "img": "images/smallkey.png",
-    "codes": "cavesk,cavessk"
+    "codes": "cavesk,cavessk",
+    "initial_active_state": true
   },
   {
     "name": "Map Capture",

@@ -750,6 +750,18 @@
                 ]
               },
               {
+                "name": "Waterfall Gossip Stone",
+                "item_count": 1,
+                "access_rules": [
+                  "$volcano,cs"
+                ],
+                "chest_unopened_img": "images/gossip.png",
+                "chest_opened_img": "images/gossip_gray.png",
+                "visibility_rules": [
+                  "op_gs"
+                ]
+              },
+              {
                 "name": "Fire Sanctuary Gossip Stone",
                 "item_count": 1,
                 "access_rules": [

@@ -86,7 +86,8 @@
     "name": "Baby Rattle",
     "type": "toggle",
     "img": "images/rattle.png",
-    "codes": "rattle"
+    "codes": "rattle",
+    "loop": true
   },
   {
     "name": "Baby Rattle w/Check",
@@ -99,7 +100,8 @@
     "name": "Cawlin's Letter",
     "type": "toggle",
     "img": "images/letter.png",
-    "codes": "cawlin,letter"
+    "codes": "cawlin,letter",
+    "loop": true
   },
   {
     "name": "Cawlin's Letter w/Check",
@@ -112,7 +114,8 @@
     "name": "Horned Colossus Beetle",
     "type": "toggle",
     "img": "images/hcb.png",
-    "codes": "hcb"
+    "codes": "hcb",
+    "loop": true
   },
   {
     "name": "HCB w/Check",
