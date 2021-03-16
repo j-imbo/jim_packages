@@ -206,6 +206,42 @@
     "initial_active_state": true
   },
   {
+    "name": "Beedle's Airshop Progression",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/options/beedle.png",
+    "codes": "op_beedle",
+    "initial_active_state": false
+  },
+  {
+    "name": "Shop Shuffle Strictness",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "name": "No Shop Items",
+        "img": "images/options/shop_none.png",
+        "codes": "op_shop_none"
+      },
+      {
+        "name": "Cheap Shop Items",
+        "img": "images/options/shop_cheap.png",
+        "codes": "op_shop_cheap"
+      },
+      {
+        "name": "Medium Shop Items",
+        "img": "images/options/shop_medium.png",
+        "codes": "op_shop_medium"
+      },
+      {
+        "name": "Expensive Shop Items",
+        "img": "images/options/shop_expensive.png",
+        "codes": "op_shop_expensive"
+      }
+    ]
+  },
+  {
     "name": "Goddess Cube Progression",
     "type": "toggle",
     "loop": true,

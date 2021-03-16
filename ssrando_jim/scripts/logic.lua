@@ -131,6 +131,29 @@ function strike() -- fully upgraded skyward strike
   return ((goddess() and hero()) or tms())
 end
 
+function wex(quantity)
+  if not quantity then
+    return has("wallet_ex",300)
+  else
+    return has("wallet_ex",quantity*300)
+  end
+end
+
+function wmed()
+  return has("wallet_med")
+end
+
+function wbig()
+  return has("wallet_big")
+end
+
+function wgia()
+  return has("wallet_giant")
+end
+
+function wtyc()
+  return has("wallet_tycoon")
+end
 -- enemy macros
 
 function bokoblin()
@@ -1081,4 +1104,41 @@ function ent_sl()
   else
     return false
   end
+end
+
+-- shopsanity
+function farm()
+  return wheel()
+end
+
+function shop50()
+  return true
+end
+
+function shop100()
+  return true
+end
+
+function shop300()
+  return true
+end
+
+function shop600()
+  return (wex(1) or wmed())
+end
+
+function shop800()
+  return (wex(2) or (wmed() and wex(1)) or wbig())
+end
+
+function shop1000()
+  return (wex(3) or (wmed() and wex(2) or wbig()))
+end
+
+function shop1200()
+  return (wex(3) or (wmed() and wex(3) or (wbig() and wex(1) or wgia())))
+end
+
+function shop1600()
+  return ((wbig() and wex(2)) or wgia())
 end

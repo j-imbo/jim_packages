@@ -27,6 +27,20 @@
     ]
   },
   {
+    "name": "Extra Wallets",
+    "type": "consumable",
+    "max_quantity": 900,
+    "increment": 300,
+    "img": "images/wallet_ex.png",
+    "codes": "wallet_ex,ex"
+  },
+  {
+    "name": "Extra Wallet Capture",
+    "type": "toggle",
+    "img": "images/wallet_ex.png",
+    "codes": "ewalletcap"
+  },
+  {
     "name": "Heart Pieces",
     "type": "consumable",
     "img": "images/hp.png",

@@ -797,11 +797,124 @@
             "name": "Beedle's Island",
             "sections": [
               {
-                "name": "Bug Net",
-                "hosted_item": "bugnet",
+                "name": "50 Rupee Item",
+                "item_count": 1,
                 "access_rules": [
-                  "$beedle"
-                ]
+                  "$beedle,$shop50"
+                ],
+                "visibility_rules": [
+                  "op_skyloft,op_beedle,op_shop_cheap"
+                ],
+                "chest_unopened_img": "images/bugnet.png",
+                "chest_opened_img": "images/bugnet_gray.png"
+              },
+              {
+                "name": "First 100 Rupee Item",
+                "item_count": 1,
+                "access_rules": [
+                  "$beedle,$shop100"
+                ],
+                "visibility_rules": [
+                  "op_skyloft,op_beedle,op_shop_cheap"
+                ],
+                "chest_unopened_img": "images/wallet_ex.png",
+                "chest_opened_img": "images/wallet_ex_gray.png"
+              },
+              {
+                "name": "Second 100 Rupee Item",
+                "item_count": 1,
+                "access_rules": [
+                  "$beedle,$shop100"
+                ],
+                "visibility_rules": [
+                  "op_skyloft,op_beedle,op_shop_cheap"
+                ],
+                "chest_unopened_img": "images/wallet_ex.png",
+                "chest_opened_img": "images/wallet_ex_gray.png"
+              },
+              {
+                "name": "Third 100 Rupee Item",
+                "item_count": 1,
+                "access_rules": [
+                  "$beedle,$shop100"
+                ],
+                "visibility_rules": [
+                  "op_skyloft,op_beedle,op_shop_cheap"
+                ],
+                "chest_unopened_img": "images/wallet_ex.png",
+                "chest_opened_img": "images/wallet_ex_gray.png"
+              },
+              {
+                "name": "300 Rupee Item",
+                "item_count": 1,
+                "access_rules": [
+                  "$beedle,$shop300"
+                ],
+                "visibility_rules": [
+                  "op_skyloft,op_beedle,op_shop_cheap"
+                ],
+                "chest_unopened_img": "images/adventure.png",
+                "chest_opened_img": "images/adventure_gray.png"
+              },
+              {
+                "name": "600 Rupee Item",
+                "item_count": 1,
+                "access_rules": [
+                  "$beedle,[$farm],$shop600"
+                ],
+                "visibility_rules": [
+                  "op_skyloft,op_beedle,op_shop_medium"
+                ],
+                "chest_unopened_img": "images/adventure.png",
+                "chest_opened_img": "images/adventure_gray.png"
+              },
+              {
+                "name": "800 Rupee Item",
+                "item_count": 1,
+                "access_rules": [
+                  "$beedle,[$farm],$shop800"
+                ],
+                "visibility_rules": [
+                  "op_skyloft,op_beedle,op_shop_medium"
+                ],
+                "chest_unopened_img": "images/medal_life.png",
+                "chest_opened_img": "images/medal_life_gray.png"
+              },
+              {
+                "name": "1000 Rupee Item",
+                "item_count": 1,
+                "access_rules": [
+                  "$beedle,[$farm],$shop1000"
+                ],
+                "visibility_rules": [
+                  "op_skyloft,op_beedle,op_shop_medium"
+                ],
+                "chest_unopened_img": "images/medal_bug.png",
+                "chest_opened_img": "images/medal_bug_gray.png"
+              },
+              {
+                "name": "1200 Rupee Item",
+                "item_count": 1,
+                "access_rules": [
+                  "$beedle,[$farm],$shop1200"
+                ],
+                "visibility_rules": [
+                  "op_skyloft,op_beedle,op_shop_expensive"
+                ],
+                "chest_unopened_img": "images/adventure.png",
+                "chest_opened_img": "images/adventure_gray.png"
+              },
+              {
+                "name": "1600 Rupee Item",
+                "item_count": 1,
+                "access_rules": [
+                  "$beedle,[$farm],$shop1600"
+                ],
+                "visibility_rules": [
+                  "op_skyloft,op_beedle,op_shop_expensive"
+                ],
+                "chest_unopened_img": "images/hp.png",
+                "chest_opened_img": "images/hp_gray.png"
               },
               {
                 "name": "Beedle Goddess Chest",
@@ -817,7 +930,7 @@
                 "name": "Caged Goddess Chest",
                 "item_count": 1,
                 "access_rules": [
-                  "$beedle,cube_SV"
+                  "[$beedle],cube_SV"
                 ],
                 "visibility_rules": [
                   "op_sky,op_cube,op_cube_fw"
