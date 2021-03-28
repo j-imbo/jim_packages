@@ -250,7 +250,7 @@
               "$earth_acc,$earth_bridge"
             ],
             "visibility_rules": [
-              "op_eldin,op_dung,$notrace,et_nr",
+              "op_eldin,op_dung,$notrace",
               "et_r"
             ]
           },
