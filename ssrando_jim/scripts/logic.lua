@@ -478,6 +478,34 @@ function skykeep()
     and has("skykeepsk") and sword())
 end
 
+function laydesreq() -- lanayru desert dungeon required
+  if (Tracker.ActiveVariantUID ~= "var_dungshuf") then
+    return has("lmf_r")
+  else
+    return (( has("sv_r")  and has("sv_ld") ) or
+            ( has("et_r")  and has("et_ld") ) or
+            ( has("lmf_r") and has("lmf_ld")) or
+            ( has("ac_r")  and has("ac_ld") ) or
+            ( has("ss_r")  and has("ss_ld") ) or
+            ( has("fs_r")  and has("fs_ld") ) or
+            ( has("sk_r")  and has("sk_ld") ) )
+  end
+end
+
+function laydesbeat() -- lanayru desert dungeon beaten
+  if (Tracker.ActiveVariantUID ~= "var_dungshuf") then
+    return has("lmf_r")
+  else
+    return (( has("skyview")  and has("sv_ld") ) or
+            ( has("earth")    and has("et_ld") ) or
+            ( has("mine")     and has("lmf_ld")) or
+            ( has("cistern")  and has("ac_ld") ) or
+            ( has("sandship") and has("ss_ld") ) or
+            ( has("sanc")     and has("fs_ld") ) or
+            ( has("skykeep")  and has("sk_ld") ) )
+  end
+end
+
 -- story/npc macros
 
 function beedle()
