@@ -406,7 +406,7 @@ function cistern_statue() -- lower statue
     return true, AccessibilityLevel.SequenceBreak
   elseif (wds() and sword() and has("t_cc")) then -- cistern clip
     return true, AccessibilityLevel.SequenceBreak
-  else 
+  else
     return false
   end
 end
@@ -1011,7 +1011,7 @@ end
 function dungeon_ev() -- dungeon entrance in eldin volcano
   -- return (eldin2() and has("kp",5))
   if (eldin2()) then
-    if (has("kp",5)) then
+    if (has("kp",5) or not has("op_cet")) then
       return AccessibilityLevel.Normal
     elseif (has("t_bit")) then -- RBM 5x02
       return AccessibilityLevel.SequenceBreak
@@ -1033,7 +1033,7 @@ function ent_ev()
 end
 
 function dungeon_ld() -- dungeon entrance in lanayru desert
-  if (lanayru1() and bomb() and hook() and sword()) then
+  if (lanayru1() and ((bomb() and hook() and sword()) or (not has("op_clmf")))) then
     return AccessibilityLevel.Normal
   else
     return AccessibilityLevel.None

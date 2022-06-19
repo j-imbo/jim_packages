@@ -43,12 +43,14 @@
                     "name": "Gorko Goddess Wall Reward",
                     "item_count": 1,
                     "access_rules": [
-                      "$sealedtemple,$walls,gs"
+                      "$sealedtemple,$walls,gs",
+                      "{op_gs}"
                     ],
                     "visibility_rules": [
                       "op_faron,op_long,op_dung,$notrace",
                       "op_faron,op_long,op_dung,op_race,sv_r"
                     ],
+                    "capture_item": true,
                     "chest_unopened_img": "images/hp.png",
                     "chest_opened_img": "images/hp_gray.png"
                   },
@@ -69,11 +71,13 @@
                     "name": "True Master Sword",
                     "item_count": 1,
                     "access_rules": [
-                      "$sealedtemple,$past"
+                      "$sealedtemple,$past",
+                      "{op_gs}"
                     ],
                     "visibility_rules": [
                       "op_faron"
                     ],
+                    "capture_item": true,
                     "chest_unopened_img": "images/sword_true_.png",
                     "chest_opened_img": "images/sword_true__gray.png"
                   },
@@ -697,15 +701,39 @@
             "color": "#a52a2a",
             "sections": [
               {
+                "name": "Small Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "$volcano"
+                ],
+                "visibility_rules": [
+                  "op_eldin"
+                ],
+                "chest_unopened_img": "images/chestw.png",
+                "chest_opened_img": "images/chestw_gray.png"
+              },
+              {
+                "name": "Alcove Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "$volcano"
+                ],
+                "visibility_rules": [
+                  "op_eldin"
+                ]
+              },
+              {
                 "name": "Digging HP",
                 "item_count": 1,
                 "access_rules": [
                   "$volcano,$bottle,mogma",
-                  "$volcano,[$bottle],gust,mogma,t_bit"
+                  "$volcano,[$bottle],gust,mogma,t_bit",
+                  "{op_gs}"
                 ],
                 "visibility_rules": [
                   "op_eldin,op_freestand"
                 ],
+                "capture_item": true,
                 "chest_unopened_img": "images/hp.png",
                 "chest_opened_img": "images/hp_gray.png"
               },
@@ -1251,11 +1279,13 @@
                       "$sea,whip,beetle,bellows",
                       "$sea,whip,sling,bellows",
                       "$sea,[whip],bombs,bellows,t_bit",
-                      "$sea,[whip],hook,bellows,t_bit"
+                      "$sea,[whip],hook,bellows,t_bit",
+                      "{op_gs}"
                     ],
                     "visibility_rules": [
-                      "op_lanayru,op_misc"
-                    ]
+                      "op_lanayru,op_misc",
+                    ],
+                    "capture_item": true
                   },
                   {
                     "name": "Cube: Skipper's Retreat",

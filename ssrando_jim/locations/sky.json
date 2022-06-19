@@ -227,11 +227,13 @@
                 "name": "Waterfall Goddess Chest",
                 "item_count": 1,
                 "access_rules": [
-                  "cs,cube_PS"
+                  "cs,cube_PS",
+                  "{op_gs}"
                 ],
                 "visibility_rules": [
                   "op_skyloft,op_cube,op_cube_ss,op_minid"
-                ]
+                ],
+                "capture_item": true
               },
               {
                 "name": "Waterfall Cave Exit Single",
@@ -294,8 +296,8 @@
             "name": "Goddess Statue",
             "sections": [
               {
-                "name": "Goddess Sword",
-                "item_count": 1,
+                "name": "Inside the Statue Chests",
+                "item_count": 2,
                 "visibility_rules": [
                   "op_skyloft,op_misc"
                 ],
@@ -940,11 +942,13 @@
                 "name": "Beedle Crystals",
                 "item_count": 1,
                 "access_rules": [
-                  "$beedle,hcb"
+                  "$beedle,hcb",
+                  "{op_gs}"
                 ],
                 "visibility_rules": [
                   "op_sky,op_fetch,op_crys"
                 ],
+                "capture_item": true,
                 "chest_unopened_img": "images/gratitude.png",
                 "chest_opened_img": "images/gratitude_gray.png"
               },
@@ -1322,11 +1326,13 @@
                 "name": "Din's Power",
                 "item_count": 1,
                 "access_rules": [
-                  "$thunderhead,ws"
+                  "$thunderhead,ws",
+                  "{op_gs}"
                 ],
                 "visibility_rules": [
                   "op_thunderhead,op_songs"
-                ]
+                ],
+                "capture_item": true
               },
               {
                 "name": "Outside Goddess Chest",

@@ -320,6 +320,22 @@
     "codes": "op_cth"
   },
   {
+    "name": "Closed Earth Temple",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/options/closedearthtemple.png",
+    "codes": "op_cet",
+    "initial_active_state": true
+  },
+  {
+    "name": "Closed Lanayru Mining Facility",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/options/closedminingfacility.png",
+    "codes": "op_clmf",
+    "initial_active_state": true
+  },
+  {
     "name": "Gossip Stones (Hints)",
     "type": "toggle",
     "loop": true,

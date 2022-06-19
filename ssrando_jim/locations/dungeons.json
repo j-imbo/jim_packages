@@ -92,12 +92,14 @@
             "item_count": 1,
             "access_rules": [
               "$skyview_acc,$skyview_first,beetle,skyviewsk:1,ps",
-              "$skyview_acc,$skyview_first,beetle,[skyviewsk:1],ps,t_bit"
+              "$skyview_acc,$skyview_first,beetle,[skyviewsk:1],ps,t_bit",
+              "{op_gs}"
             ],
             "visibility_rules": [
               "op_faron,op_dung,$notrace",
               "sv_r"
-            ]
+            ],
+            "capture_item": true,
           },
           {
             "name": "Near Boss Door",
@@ -505,7 +507,8 @@
             "item_count": 1,
             "access_rules": [
               "$mine_acc,hook,bellows,bombs,ps,$mine_crystal",
-              "$mine_acc,[hook],whip,bellows,bombs,ps,$mine_crystal"
+              "$mine_acc,[hook],whip,bellows,bombs,ps,$mine_crystal",
+              "{op_gs}"
             ],
             "visibility_rules": [
               "op_lanayru,op_dung,$notrace",
@@ -780,12 +783,14 @@
             "name": "Bow",
             "item_count": 1,
             "access_rules": [
-              "$sandship_acc,shipsk:1,[shipsk:2],ps"
+              "$sandship_acc,shipsk:1,[shipsk:2],ps",
+              "{op_gs}"
             ],
             "visibility_rules": [
               "op_lanayru,op_dung,$notrace",
               "ss_r"
-            ]
+            ],
+            "capture_item": true,
           },
           {
             "name": "Heart Piece Chest",
@@ -838,12 +843,14 @@
             "name": "Boss Key Chest",
             "item_count": 1,
             "access_rules": [
-              "$sandship_acc,bow,shipsk:1,[shipsk:2]"
+              "$sandship_acc,bow,shipsk:1,[shipsk:2]",
+              "{op_gs}"
             ],
             "visibility_rules": [
               "op_lanayru,op_dung,$notrace",
               "ss_r"
             ],
+            "capture_item": true,
             "chest_unopened_img": "images/chestbk.png",
             "chest_opened_img": "images/chestbk_gray.png"
           },
@@ -1003,12 +1010,14 @@
             "item_count": 1,
             "access_rules": [
               "$sanc_acc,hook,cs,sancsk:2,mogma,bellows,bombs,ps",
-              "$sanc_acc,$sanc_pods,[hook],[cs],[sancsk:2],mogma,[bellows],bombs,ps,t_bit"
+              "$sanc_acc,$sanc_pods,[hook],[cs],[sancsk:2],mogma,[bellows],bombs,ps,t_bit",
+              "{op_gs}"
             ],
             "visibility_rules": [
               "op_eldin,op_dung,$notrace",
               "fs_r"
-            ]
+            ],
+            "capture_item": true
           },
           {
             "name": "Plats Chest",
