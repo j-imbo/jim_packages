@@ -347,7 +347,7 @@ end
 
 function lanayru2()
   -- return (lanayru1() and (cs() or hook())) original
-  if (lanayru1() and (cs() or hook())) then
+  if (lanayru1() and (cs() or hook() or not has("op_clmf"))) then
     return true
   elseif (lanayru1() and (has("t_brakeslide") or has("t_bit"))) then -- desert brakeslide or UA BiTWarp
     return true, AccessibilityLevel.SequenceBreak
@@ -1033,7 +1033,7 @@ function ent_ev()
 end
 
 function dungeon_ld() -- dungeon entrance in lanayru desert
-  if (lanayru1() and ((bomb() and hook() and sword()) or (not has("op_clmf")))) then
+  if (lanayru1() and ((bomb() and hook() and sword()) or (not has("op_clmf") and bomb() or hook() or cs()))) then
     return AccessibilityLevel.Normal
   else
     return AccessibilityLevel.None

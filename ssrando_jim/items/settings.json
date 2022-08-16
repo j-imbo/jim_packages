@@ -141,7 +141,7 @@
     "loop": true,
     "img": "images/options/minigames.png",
     "codes": "op_minig",
-    "initial_active_state": true
+    "initial_active_state": false
   },
   {
     "name": "Batreaux Progression",
@@ -163,7 +163,7 @@
     "loop": true,
     "img": "images/options/peatrice.png",
     "codes": "op_peat",
-    "initial_active_state": true
+    "initial_active_state": false
   },
   {
     "name": "Short Quest Progression",
@@ -211,7 +211,7 @@
     "loop": true,
     "img": "images/options/beedle.png",
     "codes": "op_beedle",
-    "initial_active_state": false
+    "initial_active_state": true
   },
   {
     "name": "Shop Shuffle Strictness",
@@ -302,7 +302,8 @@
     "type": "toggle",
     "loop": true,
     "img": "images/options/racemode.png",
-    "codes": "op_race"
+    "codes": "op_race",
+    "initial_active_state": true
   },
   {
     "name": "Hero Mode",
@@ -317,7 +318,8 @@
     "type": "toggle",
     "loop": true,
     "img": "images/options/closedthunderhead.png",
-    "codes": "op_cth"
+    "codes": "op_cth",
+    "initial_active_state": true
   },
   {
     "name": "Closed Earth Temple",
@@ -325,7 +327,7 @@
     "loop": true,
     "img": "images/options/closedearthtemple.png",
     "codes": "op_cet",
-    "initial_active_state": true
+    "initial_active_state": false
   },
   {
     "name": "Closed Lanayru Mining Facility",
@@ -333,14 +335,15 @@
     "loop": true,
     "img": "images/options/closedminingfacility.png",
     "codes": "op_clmf",
-    "initial_active_state": true
+    "initial_active_state": false
   },
   {
     "name": "Gossip Stones (Hints)",
     "type": "toggle",
     "loop": true,
     "img": "images/options/hints.png",
-    "codes": "op_gs"
+    "codes": "op_gs",
+    "initial_active_state": true
   },
   {
     "name": "Back in Time",

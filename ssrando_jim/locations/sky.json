@@ -737,12 +737,12 @@
                 "name": "Kina Crystals",
                 "item_count": 1,
                 "access_rules": [
-                  "$bottle,harp,$eldin1",
+                  "$bottle,$eldin1",
                   "{op_gs}"
                 ],
                 "capture_item": true,
                 "visibility_rules": [
-                  "op_sky,op_eldin,op_scrap,op_minig,op_long,op_crys"
+                  "op_sky,op_eldin,op_scrap,op_crys"
                 ],
                 "chest_unopened_img": "images/gratitude.png",
                 "chest_opened_img": "images/gratitude_gray.png"
