@@ -88,6 +88,20 @@
             "chest_opened_img": "images/hp_gray.png"
           },
           {
+            "name": "Rupee Tunnels",
+            "item_count": 3,
+            "access_rules": [
+              "$skyview_acc,$skyview_first,beetle,skyviewsk:1",
+              "$skyview_acc,$skyview_first,beetle,[skyviewsk:1],t_bit",
+            ],
+            "visibility_rules": [
+              "op_faron,op_dung,$notrace,op_rupeesanity",
+              "sv_r,op_rupeesanity"
+            ],
+            "chest_unopened_img": "images/freestanding_red.png",
+            "chest_opened_img": "images/freestanding_gray.png"
+          },
+          {
             "name": "Behind Three Eyes",
             "item_count": 1,
             "access_rules": [
@@ -182,6 +196,26 @@
             "chest_opened_img": "images/tab_rb_gray.png"
           },
           {
+            "name": "Rupee on Spring Pillar",
+            "item_count": 1,
+            "access_rules": [
+              "$skyview_acc,$skyview_first,skyviewbk,skyviewsk:2,gs,op_hero",
+              "$skyview_acc,$skyview_first,skyviewbk,skyviewsk:2,gs,hb",
+              "$skyview_acc,$skyview_first,skyviewbk,skyviewsk:2,gs,bow",
+              "$skyview_acc,$skyview_first,skyviewbk,skyviewsk:2,ts",
+              "$skyview_acc,$skyview_first,skyviewbk,[skyviewsk:2],gs,op_hero,t_bit",
+              "$skyview_acc,$skyview_first,skyviewbk,[skyviewsk:2],gs,hb,t_bit",
+              "$skyview_acc,$skyview_first,skyviewbk,[skyviewsk:2],gs,bow,t_bit",
+              "$skyview_acc,$skyview_first,skyviewbk,[skyviewsk:2],ts,t_bit"
+            ],
+            "visibility_rules": [
+              "op_faron,op_dung,$notrace,op_rupeesanity",
+              "sv_r,op_rupeesanity"
+            ],
+            "chest_unopened_img": "images/freestanding_red.png",
+            "chest_opened_img": "images/freestanding_gray.png"
+          },
+          {
             "name": "Cube: Skyview Spring",
             "hosted_item": "cube_SVS",
             "access_rules": [
@@ -246,6 +280,19 @@
             "chest_opened_img": "images/chestw_gray.png"
           },
           {
+            "name": "Rupee above Drawbridge",
+            "item_count": 1,
+            "access_rules": [
+              "$earth_acc,beetle"
+            ],
+            "visibility_rules": [
+              "op_eldin,op_dung,$notrace,op_rupeesanity",
+              "et_r,op_rupeesanity"
+            ],
+            "chest_unopened_img": "images/freestanding_red.png",
+            "chest_opened_img": "images/freestanding_gray.png"
+          },
+          {
             "name": "Boulder Room",
             "item_count": 2,
             "access_rules": [
@@ -291,6 +338,21 @@
               "op_eldin,op_dung,$notrace",
               "et_r"
             ]
+          },
+          {
+            "name": "Rupee in Lava Tunnel",
+            "item_count": 1,
+            "access_rules": [
+              "$earth_acc,$earth_bridge,hook",
+              "$earth_acc,$earth_bridge,bombs,beetle",
+              "$earth_acc,$earth_bridge,[hook],t_bit"
+            ],
+            "visibility_rules": [
+              "op_eldin,op_dung,$notrace,op_rupeesanity",
+              "et_r,op_rupeesanity"
+            ],
+            "chest_unopened_img": "images/freestanding_silver.png",
+            "chest_opened_img": "images/freestanding_gray.png"
           },
           {
             "name": "Lizalfos Chest",
@@ -604,10 +666,42 @@
         "color": "#c71585",
         "sections": [
           {
+            "name": "Hand Rupees",
+            "item_count": 2,
+            "access_rules": [
+              "$cistern_acc,wds"
+            ],
+            "visibility_rules": [
+              "op_faron,op_dung,$notrace,op_rupeesanity",
+              "ac_r,op_rupeesanity"
+            ],
+            "chest_unopened_img": "images/freestanding_silver.png",
+            "chest_opened_img": "images/freestanding_gray.png"
+          },
+          {
+            "name": "East Room Rupees",
+            "item_count": 5,
+            "access_rules": [
+              "$cistern_acc,wds,ps",
+              "$cistern_acc,wds,whip",
+              "$cistern_acc,wds,cs",
+              "$cistern_acc,wds,bow"
+            ],
+            "visibility_rules": [
+              "op_faron,op_dung,$notrace,op_rupeesanity",
+              "ac_r,op_rupeesanity"
+            ],
+            "chest_unopened_img": "images/freestanding_green.png",
+            "chest_opened_img": "images/freestanding_gray.png"
+          },
+          {
             "name": "Small Key Chest",
             "item_count": 1,
             "access_rules": [
-              "$cistern_acc,wds,ps"
+              "$cistern_acc,wds,ps",
+              "$cistern_acc,wds,whip",
+              "$cistern_acc,wds,cs",
+              "$cistern_acc,wds,bow"
             ],
             "visibility_rules": [
               "op_faron,op_dung,$notrace",
@@ -1137,6 +1231,19 @@
             ]
           },
           {
+            "name": "Power Room Alcove Rupee",
+            "item_count": 1,
+            "access_rules": [
+              "$skykeep_acc,bellows,whip,bow,cs,beetle"
+            ],
+            "visibility_rules": [
+              "sk_r,op_rupeesanity",
+              "op_sky,op_dung,$notrace,op_rupeesanity"
+            ],
+            "chest_unopened_img": "images/freestanding_silver.png",
+            "chest_opened_img": "images/freestanding_gray.png"
+          },
+          {
             "name": "Small Key Chest",
             "item_count": 1,
             "access_rules": [
@@ -1146,6 +1253,45 @@
               "sk_r",
               "op_sky,op_dung,$notrace"
             ]
+          },
+          {
+            "name": "Triforce of Courage",
+            "item_count": 1,
+            "access_rules": [
+              "$skykeep_acc,bellows,whip,bow,cs,ps,skykeepsk"
+            ],
+            "visibility_rules": [
+              "op_triforceshuffle,sk_r",
+              "op_sky,op_dung,$notrace,op_triforceshuffle"
+            ],
+            "chest_unopened_img": "images/triforce_piece.png",
+            "chest_opened_img": "images/triforce_piece_gray.png"
+          },
+          {
+            "name": "Triforce of Wisdom",
+            "item_count": 1,
+            "access_rules": [
+              "$skykeep_acc,bellows,whip,bow,cs,ps"
+            ],
+            "visibility_rules": [
+              "op_triforceshuffle,sk_r",
+              "op_sky,op_dung,$notrace,op_triforceshuffle"
+            ],
+            "chest_unopened_img": "images/triforce_piece.png",
+            "chest_opened_img": "images/triforce_piece_gray.png"
+          },
+          {
+            "name": "Triforce of Power",
+            "item_count": 1,
+            "access_rules": [
+              "$skykeep_acc,bellows,whip,bow,cs,ps"
+            ],
+            "visibility_rules": [
+              "op_triforceshuffle,sk_r",
+              "op_sky,op_dung,$notrace,op_triforceshuffle"
+            ],
+            "chest_unopened_img": "images/triforce_piece.png",
+            "chest_opened_img": "images/triforce_piece_gray.png"
           }
         ],
         "map_locations": [

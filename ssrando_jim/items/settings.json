@@ -346,6 +346,22 @@
     "initial_active_state": true
   },
   {
+    "name": "Triforce Shuffle",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/options/triforceshuffle.png",
+    "codes": "op_triforceshuffle",
+    "initial_active_state": false
+  },
+  {
+    "name": "Rupeesanity",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/options/rupeesanity.png",
+    "codes": "op_rupeesanity",
+    "initial_active_state": false
+  },
+  {
     "name": "Back in Time",
     "type": "toggle",
     "loop": true,

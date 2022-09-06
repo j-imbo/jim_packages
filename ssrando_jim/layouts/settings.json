@@ -24,7 +24,9 @@
           ["op_cube_lf","op_cube_vs","op_cube_ss"],
           [""],
           ["op_race","op_hero","op_gs"],
-          ["op_cth", "op_cet", "op_clmf"]
+          ["op_cth", "op_cet", "op_clmf"],
+          [""],
+          ["op_triforceshuffle","op_rupeesanity"]
         ],
       }
     ]

@@ -80,11 +80,10 @@
                 "name": "Fledge Crystals",
                 "item_count": 1,
                 "access_rules": [
-                  "$laydesbeat,$bottle"
+                  "$bottle"
                 ],
                 "visibility_rules": [
-                  "op_skyloft,op_lanayru,op_short,op_crys,op_dung,$notrace",
-                  "op_skyloft,op_lanayru,op_short,op_crys,op_dung,op_race,$laydesreq"
+                  "op_skyloft,op_short,op_crys",
                 ],
                 "chest_unopened_img": "images/gratitude.png",
                 "chest_opened_img": "images/gratitude_gray.png"
@@ -212,6 +211,19 @@
                 ],
                 "chest_unopened_img": "images/chestw.png",
                 "chest_opened_img": "images/chestw_gray.png"
+              },
+              {
+                "name": "Cave Rupee",
+                "access_rules": [
+                  "ps",
+                  "bombs"
+                ],
+                "item_count": 1,
+                "visibility_rules": [
+                  "op_skyloft,op_misc,op_rupeesanity"
+                ],
+                "chest_unopened_img": "images/freestanding_red.png",
+                "chest_opened_img": "images/freestanding_gray.png"
               },
               {
                 "name": "Floating Island Goddess Chest",
