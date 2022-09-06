@@ -25,6 +25,11 @@
         "name": "Hook Beetle",
         "codes": "beetle,hookbeetle,hb,hook",
         "img": "images/beetle_hook.png"
+      },
+      {
+        "name": "Quick Beetle",
+        "codes": "beetle,hookbeetle,hb,hook,quickbeetle",
+        "img": "images/beetle_quick.png"
       }
     ]
   },

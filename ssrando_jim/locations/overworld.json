@@ -43,12 +43,14 @@
                     "name": "Gorko Goddess Wall Reward",
                     "item_count": 1,
                     "access_rules": [
-                      "$sealedtemple,$walls,gs"
+                      "$sealedtemple,$walls,gs",
+                      "{op_gs}"
                     ],
                     "visibility_rules": [
                       "op_faron,op_long,op_dung,$notrace",
                       "op_faron,op_long,op_dung,op_race,sv_r"
                     ],
+                    "capture_item": true,
                     "chest_unopened_img": "images/hp.png",
                     "chest_opened_img": "images/hp_gray.png"
                   },
@@ -69,11 +71,13 @@
                     "name": "True Master Sword",
                     "item_count": 1,
                     "access_rules": [
-                      "$sealedtemple,$past"
+                      "$sealedtemple,$past",
+                      "{op_gs}"
                     ],
                     "visibility_rules": [
                       "op_faron"
                     ],
+                    "capture_item": true,
                     "chest_unopened_img": "images/sword_true_.png",
                     "chest_opened_img": "images/sword_true__gray.png"
                   },
@@ -128,6 +132,42 @@
                 "chest_opened_img": "images/slingshot_gray.png"
               },
               {
+                "name": "Hollow Tree Root",
+                "access_rules": [
+                  "$faron"
+                ],
+                "item_count": 1,
+                "visibility_rules": [
+                  "op_faron,op_rupeesanity"
+                ],
+                "chest_unopened_img": "images/freestanding_blue.png",
+                "chest_opened_img": "images/freestanding_gray.png"
+              },
+              {
+                "name": "Hollow Tree Branch",
+                "access_rules": [
+                  "$faron,beetle"
+                ],
+                "item_count": 1,
+                "visibility_rules": [
+                  "op_faron,op_rupeesanity"
+                ],
+                "chest_unopened_img": "images/freestanding_red.png",
+                "chest_opened_img": "images/freestanding_gray.png"
+              },
+              {
+                "name": "Platform Rupee",
+                "access_rules": [
+                  "$faron,beetle"
+                ],
+                "item_count": 1,
+                "visibility_rules": [
+                  "op_faron,op_rupeesanity"
+                ],
+                "chest_unopened_img": "images/freestanding_red.png",
+                "chest_opened_img": "images/freestanding_gray.png"
+              },
+              {
                 "name": "HP behind Boulder",
                 "item_count": 1,
                 "access_rules": [
@@ -159,6 +199,19 @@
                 "visibility_rules": [
                   "op_faron,op_misc"
                 ]
+              },
+              {
+                "name": "Great Tree Rupees",
+                "item_count": 2,
+                "access_rules": [
+                  "$faron,bellows,wds,$moblin,beetle",
+                  "$faron,cs,$moblin,beetle"
+                ],
+                "visibility_rules": [
+                  "op_faron,op_rupeesanity"
+                ],
+                "chest_unopened_img": "images/freestanding_blue.png",
+                "chest_opened_img": "images/freestanding_gray.png"
               },
               {
                 "name": "Faron Silent Realm",
@@ -285,16 +338,40 @@
             "color": "#6495ed",
             "sections": [
               {
-                "name": "Lake Floria Boulder Rupee",
-                "item_count": 0,
+                "name": "Center Boulder Rupee",
+                "item_count": 1,
                 "access_rules": [
                   "$floria,wds"
                 ],
                 "visibility_rules": [
-                  "op_faron,op_freestand"
+                  "op_faron,op_rupeesanity"
                 ],
-                "chest_unopened_img": "images/rupee.png",
-                "chest_opened_img": "images/rupee_gray.png"
+                "chest_unopened_img": "images/freestanding_silver.png",
+                "chest_opened_img": "images/freestanding_gray.png"
+              },
+              {
+                "name": "Southeast Boulder Rupee",
+                "item_count": 1,
+                "access_rules": [
+                  "$floria,wds"
+                ],
+                "visibility_rules": [
+                  "op_faron,op_rupeesanity"
+                ],
+                "chest_unopened_img": "images/freestanding_blue.png",
+                "chest_opened_img": "images/freestanding_gray.png"
+              },
+              {
+                "name": "Northeast Boulder Rupees",
+                "item_count": 2,
+                "access_rules": [
+                  "$floria,wds"
+                ],
+                "visibility_rules": [
+                  "op_faron,op_rupeesanity"
+                ],
+                "chest_unopened_img": "images/freestanding_red.png",
+                "chest_opened_img": "images/freestanding_gray.png"
               },
               {
                 "name": "Lake Floria Chest",
@@ -328,15 +405,15 @@
               },
               {
                 "name": "Outside Cistern Rupee",
-                "item_count": 0,
+                "item_count": 1,
                 "access_rules": [
                   "$floria,beetle"
                 ],
                 "visibility_rules": [
                   "op_faron,op_freestand"
                 ],
-                "chest_unopened_img": "images/rupee.png",
-                "chest_opened_img": "images/rupee_gray.png"
+                "chest_unopened_img": "images/freestanding_gold.png",
+                "chest_opened_img": "images/freestanding_gray.png"
               },
               {
                 "name": "Cube: Lake Floria",
@@ -389,6 +466,18 @@
             "name": "Lower Volcano",
             "sections": [
               {
+                "name": "Before Cave Rupee",
+                "item_count": 1,
+                "access_rules": [
+                  "$eldin1"
+                ],
+                "visibility_rules": [
+                  "op_eldin,op_rupeesanity"
+                ],
+                "chest_unopened_img": "images/freestanding_red.png",
+                "chest_opened_img": "images/freestanding_gray.png"
+              },
+              {
                 "name": "Mogma Huts Bombable Wall",
                 "item_count": 1,
                 "access_rules": [
@@ -399,6 +488,30 @@
                 ],
                 "chest_unopened_img": "images/chestw.png",
                 "chest_opened_img": "images/chestw_gray.png"
+              },
+              {
+                "name": "Mogma Huts Crawlspace Rupee",
+                "item_count": 1,
+                "access_rules": [
+                  "$eldin1"
+                ],
+                "visibility_rules": [
+                  "op_eldin,op_rupeesanity"
+                ],
+                "chest_unopened_img": "images/freestanding_blue.png",
+                "chest_opened_img": "images/freestanding_gray.png"
+              },
+              {
+                "name": "Mogma Huts Ledge Rupee",
+                "item_count": 1,
+                "access_rules": [
+                  "$eldin1"
+                ],
+                "visibility_rules": [
+                  "op_eldin,op_rupeesanity"
+                ],
+                "chest_unopened_img": "images/freestanding_blue.png",
+                "chest_opened_img": "images/freestanding_gray.png"
               },
               {
                 "name": "Crawlspace Chest",
@@ -435,6 +548,30 @@
                 ],
                 "chest_unopened_img": "images/hp.png",
                 "chest_opened_img": "images/hp_gray.png"
+              },
+              {
+                "name": "Above Turf Entrance Southeast",
+                "item_count": 1,
+                "access_rules": [
+                  "$eldin1,beetle"
+                ],
+                "visibility_rules": [
+                  "op_eldin,op_rupeesanity"
+                ],
+                "chest_unopened_img": "images/freestanding_blue.png",
+                "chest_opened_img": "images/freestanding_gray.png"
+              },
+              {
+                "name": "Above Turf Entrance North",
+                "item_count": 1,
+                "access_rules": [
+                  "$eldin1,beetle"
+                ],
+                "visibility_rules": [
+                  "op_eldin,op_rupeesanity"
+                ],
+                "chest_unopened_img": "images/freestanding_red.png",
+                "chest_opened_img": "images/freestanding_gray.png"
               },
               {
                 "name": "Cube: Eldin Entrance",
@@ -479,6 +616,18 @@
                 ],
                 "chest_unopened_img": "images/chestw.png",
                 "chest_opened_img": "images/chestw_gray.png"
+              },
+              {
+                "name": "Bombable Wall Past First Slope",
+                "access_rules": [
+                  "$eldin2"
+                ],
+                "item_count": 2,
+                "visibility_rules": [
+                  "op_eldin,op_bomb"
+                ],
+                "chest_unopened_img": "images/freestanding_red.png",
+                "chest_opened_img": "images/freestanding_gray.png"
               },
               {
                 "name": "Digging Spot near ET",
@@ -697,15 +846,39 @@
             "color": "#a52a2a",
             "sections": [
               {
+                "name": "Small Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "$volcano"
+                ],
+                "visibility_rules": [
+                  "op_eldin"
+                ],
+                "chest_unopened_img": "images/chestw.png",
+                "chest_opened_img": "images/chestw_gray.png"
+              },
+              {
+                "name": "Alcove Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "$volcano"
+                ],
+                "visibility_rules": [
+                  "op_eldin"
+                ]
+              },
+              {
                 "name": "Digging HP",
                 "item_count": 1,
                 "access_rules": [
                   "$volcano,$bottle,mogma",
-                  "$volcano,[$bottle],gust,mogma,t_bit"
+                  "$volcano,[$bottle],gust,mogma,t_bit",
+                  "{op_gs}"
                 ],
                 "visibility_rules": [
                   "op_eldin,op_freestand"
                 ],
+                "capture_item": true,
                 "chest_unopened_img": "images/hp.png",
                 "chest_opened_img": "images/hp_gray.png"
               },
@@ -1188,6 +1361,30 @@
                     "visibility_rules": [
                       "op_skyloft,op_cube,op_cube_ss"
                     ]
+                  },
+                  {
+                    "name": "Pillar Rupee",
+                    "item_count": 1,
+                    "access_rules": [
+                      "$sea,beetle",
+                    ],
+                    "visibility_rules": [
+                      "op_lanayru,op_rupeesanity"
+                    ],
+                    "chest_unopened_img": "images/freestanding_red.png",
+                    "chest_opened_img": "images/freestanding_gray.png"
+                  },
+                  {
+                    "name": "Crown Rupees",
+                    "item_count": 2,
+                    "access_rules": [
+                      "$sea,quickbeetle",
+                    ],
+                    "visibility_rules": [
+                      "op_lanayru,op_rupeesanity"
+                    ],
+                    "chest_unopened_img": "images/freestanding_silver.png",
+                    "chest_opened_img": "images/freestanding_gray.png"
                   }
                 ],
                 "map_locations": [
@@ -1251,11 +1448,13 @@
                       "$sea,whip,beetle,bellows",
                       "$sea,whip,sling,bellows",
                       "$sea,[whip],bombs,bellows,t_bit",
-                      "$sea,[whip],hook,bellows,t_bit"
+                      "$sea,[whip],hook,bellows,t_bit",
+                      "{op_gs}"
                     ],
                     "visibility_rules": [
-                      "op_lanayru,op_misc"
-                    ]
+                      "op_lanayru,op_misc",
+                    ],
+                    "capture_item": true
                   },
                   {
                     "name": "Cube: Skipper's Retreat",
@@ -1317,6 +1516,30 @@
               {
                 "name": "Pirate Stronghold",
                 "sections": [
+                  {
+                    "name": "Pillar Rupees",
+                    "item_count": 2,
+                    "access_rules": [
+                      "$sea,quickbeetle",
+                    ],
+                    "visibility_rules": [
+                      "op_lanayru,op_rupeesanity"
+                    ],
+                    "chest_unopened_img": "images/freestanding_silver.png",
+                    "chest_opened_img": "images/freestanding_gray.png"
+                  },
+                  {
+                    "name": "Nose Rupee",
+                    "item_count": 1,
+                    "access_rules": [
+                      "$sea,beetle",
+                    ],
+                    "visibility_rules": [
+                      "op_lanayru,op_rupeesanity"
+                    ],
+                    "chest_unopened_img": "images/freestanding_silver.png",
+                    "chest_opened_img": "images/freestanding_gray.png"
+                  },
                   {
                     "name": "Pirates' Chests",
                     "item_count": 3,

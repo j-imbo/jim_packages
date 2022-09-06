@@ -80,11 +80,10 @@
                 "name": "Fledge Crystals",
                 "item_count": 1,
                 "access_rules": [
-                  "$laydesbeat,$bottle"
+                  "$bottle"
                 ],
                 "visibility_rules": [
-                  "op_skyloft,op_lanayru,op_short,op_crys,op_dung,$notrace",
-                  "op_skyloft,op_lanayru,op_short,op_crys,op_dung,op_race,$laydesreq"
+                  "op_skyloft,op_short,op_crys",
                 ],
                 "chest_unopened_img": "images/gratitude.png",
                 "chest_opened_img": "images/gratitude_gray.png"
@@ -214,6 +213,19 @@
                 "chest_opened_img": "images/chestw_gray.png"
               },
               {
+                "name": "Cave Rupee",
+                "access_rules": [
+                  "ps",
+                  "bombs"
+                ],
+                "item_count": 1,
+                "visibility_rules": [
+                  "op_skyloft,op_misc,op_rupeesanity"
+                ],
+                "chest_unopened_img": "images/freestanding_red.png",
+                "chest_opened_img": "images/freestanding_gray.png"
+              },
+              {
                 "name": "Floating Island Goddess Chest",
                 "item_count": 1,
                 "access_rules": [
@@ -227,11 +239,13 @@
                 "name": "Waterfall Goddess Chest",
                 "item_count": 1,
                 "access_rules": [
-                  "cs,cube_PS"
+                  "cs,cube_PS",
+                  "{op_gs}"
                 ],
                 "visibility_rules": [
                   "op_skyloft,op_cube,op_cube_ss,op_minid"
-                ]
+                ],
+                "capture_item": true
               },
               {
                 "name": "Waterfall Cave Exit Single",
@@ -294,8 +308,8 @@
             "name": "Goddess Statue",
             "sections": [
               {
-                "name": "Goddess Sword",
-                "item_count": 1,
+                "name": "Inside the Statue Chests",
+                "item_count": 2,
                 "visibility_rules": [
                   "op_skyloft,op_misc"
                 ],
@@ -735,12 +749,12 @@
                 "name": "Kina Crystals",
                 "item_count": 1,
                 "access_rules": [
-                  "$bottle,harp,$eldin1",
+                  "$bottle,$eldin1",
                   "{op_gs}"
                 ],
                 "capture_item": true,
                 "visibility_rules": [
-                  "op_sky,op_eldin,op_scrap,op_minig,op_long,op_crys"
+                  "op_sky,op_eldin,op_scrap,op_crys"
                 ],
                 "chest_unopened_img": "images/gratitude.png",
                 "chest_opened_img": "images/gratitude_gray.png"
@@ -940,11 +954,13 @@
                 "name": "Beedle Crystals",
                 "item_count": 1,
                 "access_rules": [
-                  "$beedle,hcb"
+                  "$beedle,hcb",
+                  "{op_gs}"
                 ],
                 "visibility_rules": [
                   "op_sky,op_fetch,op_crys"
                 ],
+                "capture_item": true,
                 "chest_unopened_img": "images/gratitude.png",
                 "chest_opened_img": "images/gratitude_gray.png"
               },
@@ -1322,11 +1338,13 @@
                 "name": "Din's Power",
                 "item_count": 1,
                 "access_rules": [
-                  "$thunderhead,ws"
+                  "$thunderhead,ws",
+                  "{op_gs}"
                 ],
                 "visibility_rules": [
                   "op_thunderhead,op_songs"
-                ]
+                ],
+                "capture_item": true
               },
               {
                 "name": "Outside Goddess Chest",
